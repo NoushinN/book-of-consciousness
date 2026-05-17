@@ -1,0 +1,53 @@
+# Which Problems Are Actually Solved? {#problems-solved}
+
+## Chapter Overview
+
+This chapter asks which problems of consciousness have been substantially clarified and which remain open.
+
+## Problems with Significant Progress
+
+There has been meaningful progress on:
+
+- neural correlates of conscious perception;
+- differences between wakefulness and unconsciousness;
+- attention and reportability;
+- perceptual masking;
+- anesthesia-induced loss of responsiveness;
+- disorders-of-consciousness diagnostics;
+- metacognition and confidence;
+- global availability of information;
+- recurrent processing in visual awareness.
+
+## Problems Partially Explained
+
+Several problems are partially explained but not settled:
+
+- unity of consciousness;
+- self-consciousness;
+- bodily ownership;
+- dream consciousness;
+- emotional consciousness;
+- animal consciousness;
+- infant consciousness;
+- altered states;
+- artificial consciousness.
+
+## Problems Not Yet Solved
+
+The following remain deeply unresolved:
+
+- the hard problem;
+- the explanatory gap;
+- the relation between physical structure and qualitative character;
+- the measurement of consciousness without report;
+- the boundary between unconscious intelligence and conscious awareness;
+- the criteria for machine consciousness;
+- the metaphysical status of subjective experience.
+
+## Why Partial Explanations Matter
+
+A theory need not solve every problem to be useful. Global Workspace Theory may clarify cognitive access even if it does not solve qualia. Recurrent Processing Theory may explain perceptual awareness without explaining selfhood. Panpsychism may address the hard problem while offering less guidance for experimental neuroscience.
+
+## Conclusion
+
+The field has made real progress, but the deepest questions remain open. Theories should be judged according to their stated explanatory target rather than against every possible interpretation of consciousness.

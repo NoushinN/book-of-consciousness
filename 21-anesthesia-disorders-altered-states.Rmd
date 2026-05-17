@@ -1,0 +1,43 @@
+# Anesthesia, Disorders of Consciousness, and Altered States {#altered-states}
+
+## Chapter Overview
+
+Theories of consciousness must account not only for ordinary waking experience but also for transitions, disruptions, and altered forms of consciousness. These include sleep, dreaming, anesthesia, coma, vegetative state, minimally conscious state, seizures, meditation, psychedelic states, and pathological dissociation.
+
+## Why These Cases Matter
+
+Altered and impaired states are theoretically important because they separate components that usually occur together. Wakefulness, reportability, responsiveness, memory, and subjective experience can dissociate. A patient may be awake but not aware; a dreamer may be conscious but disconnected from the external environment; an anesthetized patient may show residual processing without reportable experience.
+
+## Anesthesia
+
+Anesthesia provides a controlled method for studying loss and recovery of consciousness. Different theories make different predictions:
+
+- Global Workspace Theory predicts breakdown of global broadcasting.
+- Integrated Information Theory predicts reduction in integrated causal structure.
+- Recurrent Processing Theory predicts disruption of feedback loops.
+- Predictive Processing emphasizes altered hierarchical inference and precision.
+- Higher-Order theories emphasize disruption of metacognitive access.
+
+## Disorders of Consciousness
+
+Disorders of consciousness challenge reliance on verbal report. Patients may be unable to communicate despite some preserved awareness. This creates ethical and methodological problems.
+
+Relevant diagnostic categories include:
+
+- coma;
+- unresponsive wakefulness syndrome;
+- vegetative state;
+- minimally conscious state;
+- locked-in syndrome.
+
+## Dreaming
+
+Dreaming shows that consciousness can occur without ordinary sensory input or behavioural responsiveness. This challenges theories that strongly identify consciousness with external report or environmental engagement.
+
+## Psychedelic and Meditative States
+
+Altered states may reveal dimensions of consciousness such as self-boundary, time perception, bodily ownership, emotional salience, and sensory integration. These states are relevant for theories emphasizing predictive modeling, self-modeling, and neural integration.
+
+## Comparative Evaluation
+
+No theory is complete unless it explains both the presence and absence of consciousness across these cases. Altered states are therefore not peripheral examples. They are central tests of theory.

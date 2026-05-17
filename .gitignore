@@ -1,0 +1,13 @@
+_book/
+_bookdown_files/
+*.log
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.tex
+.Rhistory
+.RData
+.DS_Store
+.Rproj.user

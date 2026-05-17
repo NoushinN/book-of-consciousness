@@ -1,0 +1,10 @@
+flowchart TB
+  H[Higher-Level Predictions] --> M[Mid-Level Predictions]
+  M --> L[Lower-Level Sensory Predictions]
+  L --> S[Sensory Input]
+  S --> E1[Prediction Error]
+  E1 --> L
+  L --> E2[Higher Prediction Error]
+  E2 --> M
+  M --> E3[Abstract Prediction Error]
+  E3 --> H

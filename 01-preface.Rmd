@@ -1,0 +1,34 @@
+# Preface {-}
+
+This book is intended as an academic introduction and comparative review of major theories of consciousness. It is written for readers who want more than a brief survey, but who may not yet be specialists in philosophy of mind, cognitive neuroscience, computational theory, or phenomenology.
+
+The aim is not to declare one theory the final answer. Rather, the aim is to create a structured framework for asking what different theories are trying to explain, what evidence supports them, and what remains unresolved.
+
+The book is organized around a simple but demanding principle: each theory should be evaluated not only by what it explains, but also by what it cannot explain.
+
+## Guiding Questions
+
+The following questions guide the book:
+
+- What is consciousness?
+- What distinguishes conscious from unconscious mental activity?
+- How are subjective experience and objective brain activity related?
+- Can consciousness be explained scientifically?
+- Can a machine be conscious?
+- Do non-human animals have consciousness?
+- What happens to consciousness during sleep, anesthesia, coma, or altered states?
+- Which theories explain access, and which attempt to explain experience itself?
+
+## Scope
+
+The book covers neuroscientific, philosophical, computational, informational, physical, and embodied approaches. It includes classical theories such as dualism and physicalism, contemporary neuroscientific theories such as Global Workspace Theory and Recurrent Processing Theory, formal approaches such as Integrated Information Theory, radical metaphysical proposals such as panpsychism, and skeptical views such as illusionism.
+
+## How to Use This Book
+
+Readers may use the book in three ways:
+
+1. As a chapter-by-chapter introduction to individual theories.
+2. As a comparative framework for evaluating theories of consciousness.
+3. As a starting point for research, teaching, or seminar discussion.
+
+Each chapter includes sections on strengths, weaknesses, explanatory gaps, what the theory can answer, and what it cannot yet answer.

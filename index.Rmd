@@ -1,0 +1,38 @@
+---
+title: "Theories of Consciousness: Neuroscientific, Philosophical, Computational, and Physical Perspectives"
+author: "Noushin Nabavi"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+description: "An academic bookdown project comparing major theories of consciousness."
+---
+
+# About this Book {-}
+
+This book introduces, explains, and critically evaluates major theories of consciousness. It is designed for an academic audience and is organized around the central question: *How, if at all, can consciousness be explained scientifically, philosophically, computationally, or physically?*
+
+The book dedicates one major chapter to each theory or family of theories. Each theory is evaluated in relation to its historical development, core assumptions, explanatory framework, empirical support, strengths, weaknesses, unresolved gaps, and its ability to address central problems such as subjective experience, reportability, selfhood, attention, neural correlates, altered states, animal consciousness, and artificial intelligence.
+
+The book also includes comparative chapters that examine how the theories relate to one another and which problems they can or cannot solve.
+
+## How to Render
+
+In RStudio, run:
+
+```r
+bookdown::render_book("index.Rmd", "bookdown::gitbook")
+```
+
+For PDF output, install TinyTeX if needed:
+
+```r
+tinytex::install_tinytex()
+bookdown::render_book("index.Rmd", "bookdown::pdf_book")
+```
+
+## Suggested Citation Style
+
+The default bibliography uses an author-date academic style. You may replace it with APA 7, Chicago Author-Date, or another CSL style if desired.

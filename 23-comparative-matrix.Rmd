@@ -1,0 +1,128 @@
+# Comparative Matrix of Theories {#comparative-matrix}
+
+## Chapter Overview
+
+This chapter compares the major theories of consciousness across shared criteria. The goal is not to rank theories simplistically, but to identify what each theory explains well and where each faces unresolved difficulties.
+
+```{r comparative-table, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+
+comparison <- data.frame(
+  Theory = c(
+    "Dualism",
+    "Physicalism",
+    "Functionalism",
+    "Emergentism",
+    "Global Workspace Theory",
+    "Integrated Information Theory",
+    "Higher-Order Thought",
+    "Predictive Processing",
+    "Recurrent Processing",
+    "Attention Schema Theory",
+    "Computationalism",
+    "Bayesian Brain",
+    "Panpsychism",
+    "Quantum Theories",
+    "Illusionism",
+    "Embodied/Enactive"
+  ),
+  Main_Target = c(
+    "Mind-body distinction",
+    "Physical basis",
+    "Functional organization",
+    "Complexity-based emergence",
+    "Conscious access",
+    "Integrated experience",
+    "Metacognitive awareness",
+    "Perceptual inference",
+    "Feedback-based perception",
+    "Model of attention",
+    "Computational mind",
+    "Probabilistic inference",
+    "Fundamental consciousness",
+    "Physical foundations",
+    "Illusion of qualia",
+    "Embodied experience"
+  ),
+  Strength = c(
+    "Takes subjectivity seriously",
+    "Scientifically parsimonious",
+    "Substrate flexibility",
+    "Captures complexity",
+    "Strong cognitive-neuroscience fit",
+    "Formal and phenomenology-oriented",
+    "Explains introspective awareness",
+    "Broad unifying framework",
+    "Neurally plausible for perception",
+    "Mechanistic self-model account",
+    "Connects mind and AI",
+    "Handles uncertainty",
+    "Addresses hard problem directly",
+    "Explores physical limits",
+    "Dissolves hard problem",
+    "Connects mind, body, world"
+  ),
+  Major_Gap = c(
+    "Interaction problem",
+    "Explanatory gap",
+    "Qualia problem",
+    "Vague emergence mechanism",
+    "Phenomenology may be underexplained",
+    "Measurement and implications",
+    "Animal and infant consciousness",
+    "Experience not fully explained",
+    "Limited beyond perception",
+    "May explain belief, not experience",
+    "Simulation vs experience",
+    "Phenomenology not central",
+    "Combination problem",
+    "Limited evidence",
+    "May deny what it explains",
+    "Neural specificity"
+  ),
+  AI_Implication = c(
+    "Usually skeptical",
+    "Depends on physical substrate",
+    "Potentially possible",
+    "Possible if complexity sufficient",
+    "Possible with workspace architecture",
+    "Depends on causal integration",
+    "Requires metacognition",
+    "Requires generative world model",
+    "Requires recurrent architecture",
+    "Requires attention schema",
+    "Potentially possible",
+    "Possible with inference architecture",
+    "Depends on fundamental properties",
+    "Unknown",
+    "May focus on self-representation",
+    "Requires embodiment"
+  )
+)
+
+kable(comparison, caption = "Comparative matrix of major consciousness theories.")
+```
+
+## Interpretive Notes
+
+Theories differ partly because they target different explananda. For example, Global Workspace Theory is strong on access consciousness and reportability, while panpsychism targets the metaphysical origin of experience. Integrated Information Theory attempts to bridge phenomenology and formal structure, while illusionism challenges whether phenomenal consciousness needs to be explained in the traditional way.
+
+## Comparative Criteria
+
+The main criteria used throughout this book are:
+
+- explanatory target;
+- empirical support;
+- testability;
+- neural plausibility;
+- mathematical precision;
+- account of subjective experience;
+- ability to address the hard problem;
+- applicability to non-human animals;
+- applicability to artificial systems;
+- treatment of altered states;
+- philosophical cost.
+
+## Main Comparative Conclusion
+
+No theory currently explains all dimensions of consciousness. Some theories are empirically productive but philosophically incomplete. Others address the hard problem more directly but are difficult to test. A mature science of consciousness may require theoretical pluralism, integration, or a future framework that combines neural, computational, phenomenological, and metaphysical insights.

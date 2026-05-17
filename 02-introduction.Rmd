@@ -1,0 +1,63 @@
+# Introduction to Consciousness Studies {#intro}
+
+Consciousness is among the most difficult topics in contemporary science and philosophy. It is immediately familiar, because every experience occurs through it, yet it remains extremely difficult to define, measure, or explain. A person can describe being awake, seeing colour, feeling pain, remembering an event, imagining a future, or reflecting on the self. However, explaining why and how physical processes in the brain produce these first-person experiences remains controversial.
+
+Consciousness research sits at the intersection of neuroscience, psychology, philosophy, computer science, information theory, physics, biology, and phenomenology. Different disciplines emphasize different aspects of the problem. Neuroscience often asks which brain processes correlate with conscious awareness. Philosophy asks how subjective experience can fit into a physical world. Cognitive science asks what consciousness does for perception, action, attention, memory, and decision-making. Artificial intelligence raises the question of whether consciousness might arise in non-biological systems.
+
+## Defining Consciousness
+
+There is no single universally accepted definition of consciousness. Common uses of the term include:
+
+- **Wakefulness:** being awake rather than asleep or comatose.
+- **Awareness:** having access to information about the environment or oneself.
+- **Subjective experience:** there being something it is like to undergo a state.
+- **Self-consciousness:** awareness of oneself as the subject of experience.
+- **Reflective consciousness:** the ability to think about one's own mental states.
+- **Phenomenal consciousness:** qualitative experience, such as pain, colour, sound, or emotion.
+- **Access consciousness:** information availability for reasoning, report, memory, and action [@block1995].
+
+These meanings overlap but should not be treated as identical. A central source of confusion in consciousness studies is the tendency to move between them without clarification.
+
+## Easy Problems and Hard Problems
+
+David Chalmers distinguished the so-called **easy problems** of consciousness from the **hard problem** [@chalmers1995; @chalmers1996]. Easy problems are not necessarily easy scientifically; rather, they are problems that appear tractable using conventional cognitive science. They include explaining discrimination, attention, reportability, information integration, behavioural control, and wakefulness.
+
+The hard problem asks why any physical or functional process should be accompanied by subjective experience at all. Why should neural activity feel like anything from the inside? Why is there something it is like to see red, taste bitterness, feel anxiety, or hear music?
+
+## Neural Correlates of Consciousness
+
+A major scientific program seeks the **neural correlates of consciousness** (NCC): the minimal neural mechanisms sufficient for a specific conscious percept or experience [@koch2016]. This approach does not necessarily solve the hard problem, but it provides an empirical route for studying when and where consciousness appears in the brain.
+
+NCC research commonly uses paradigms such as:
+
+- binocular rivalry;
+- visual masking;
+- inattentional blindness;
+- change blindness;
+- anesthesia;
+- sleep and dreaming;
+- disorders of consciousness;
+- metacognitive reporting.
+
+## Why Theories Differ
+
+Theories of consciousness differ because they do not always explain the same target. Some explain conscious access, some explain subjective experience, some explain self-modeling, and others propose metaphysical foundations. A theory may be strong in one domain and weak in another.
+
+For example, Global Workspace Theory is powerful for explaining reportable access and cognitive availability, while Integrated Information Theory aims to explain why consciousness is unified and structured. Higher-Order Thought theories emphasize awareness of one's own mental states, while embodied and enactive approaches emphasize organism-environment interaction.
+
+## Academic Approach Used in This Book
+
+Each theory is evaluated according to the following criteria:
+
+- explanatory target;
+- conceptual clarity;
+- empirical support;
+- neural plausibility;
+- mathematical or computational precision;
+- treatment of phenomenal experience;
+- testability and falsifiability;
+- applicability to animals, infants, machines, and altered states;
+- philosophical cost;
+- unresolved explanatory gaps.
+
+The purpose of this book is not to reduce all theories to one winner. Instead, it aims to clarify the explanatory landscape.

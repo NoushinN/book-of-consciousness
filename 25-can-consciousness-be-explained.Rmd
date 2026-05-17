@@ -1,0 +1,49 @@
+# Can Consciousness Be Scientifically Explained? {#scientific-explanation}
+
+## Chapter Overview
+
+This chapter considers whether consciousness can be explained scientifically and what kind of explanation would count as adequate.
+
+## Levels of Explanation
+
+Scientific explanation may occur at several levels:
+
+- molecular and cellular mechanisms;
+- neural circuits;
+- brain networks;
+- computational processes;
+- organism-environment dynamics;
+- phenomenological structures;
+- information-theoretic organization;
+- physical or metaphysical foundations.
+
+A complete theory may need to connect several levels rather than reduce all of consciousness to only one.
+
+## Reduction and Explanation
+
+Some researchers believe consciousness will eventually be reduced to brain mechanisms. Others argue that reduction leaves out the subjective character of experience. Still others argue that the hard problem is not a legitimate scientific problem but a conceptual confusion.
+
+## What Would Count as Success?
+
+A successful theory may need to:
+
+- predict when consciousness is present;
+- distinguish conscious from unconscious processing;
+- explain changes in conscious level and content;
+- account for subjective quality;
+- apply across humans, animals, and possibly machines;
+- be empirically testable;
+- avoid ad hoc assumptions;
+- connect first-person and third-person data.
+
+## The Role of Phenomenology
+
+A science of consciousness may require disciplined study of experience itself. First-person reports are not perfect, but eliminating them entirely risks eliminating the phenomenon to be explained.
+
+## The Role of Neuroscience
+
+Neuroscience is indispensable but may not be sufficient by itself. Brain data can identify correlates and mechanisms, but interpreting those mechanisms requires theory.
+
+## Conclusion
+
+Consciousness may be scientifically explainable, but the required science may need to be broader than conventional third-person measurement alone. A mature account may need to integrate neuroscience, computation, embodiment, phenomenology, and philosophy.

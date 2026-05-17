@@ -1,0 +1,3 @@
+# References {-}
+
+The references are generated automatically from `references.bib` when the book is rendered.

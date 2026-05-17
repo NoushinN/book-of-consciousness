@@ -1,0 +1,46 @@
+# The Hard Problem of Consciousness {#hard-problem}
+
+The hard problem of consciousness is the problem of explaining why physical processes give rise to subjective experience. It asks why there is something it is like to be a conscious system. The problem is closely associated with David Chalmers, although related concerns appear throughout the history of philosophy [@chalmers1995; @chalmers1996].
+
+## Easy Problems
+
+The easy problems include explaining how organisms:
+
+- discriminate stimuli;
+- integrate information;
+- report mental states;
+- focus attention;
+- control behaviour;
+- access memories;
+- monitor internal states;
+- transition between sleep and wakefulness.
+
+These problems are "easy" only in the philosophical sense that they appear compatible with standard scientific explanation. They may be extremely difficult empirically, but they do not seem conceptually mysterious in the same way as subjective experience.
+
+## The Hard Problem
+
+The hard problem is different. It asks why all this processing is accompanied by experience. A complete map of neural events might show which brain areas are active when someone sees red, but the hard problem asks why that activity is experienced as redness.
+
+This creates an explanatory gap between objective description and subjective presence. Scientific descriptions are third-personal, public, measurable, and structural. Conscious experience is first-personal, private, qualitative, and lived.
+
+## Why It Matters
+
+The hard problem matters because theories of consciousness can appear successful while explaining only functions associated with consciousness. A theory may explain reportability, memory access, attention, or behaviour without explaining why those functions are accompanied by experience.
+
+This distinction becomes especially important in debates about artificial intelligence. A system may report internal states, process information, and behave intelligently. But does that imply that it feels anything? The hard problem makes this question difficult.
+
+## Responses to the Hard Problem
+
+Major responses include:
+
+- **Reductionism:** consciousness will eventually be explained by neuroscience.
+- **Functionalism:** consciousness is a functional organization, not a special substance.
+- **Dualism:** consciousness is not reducible to physical processes.
+- **Panpsychism:** consciousness is a fundamental feature of reality.
+- **Illusionism:** phenomenal consciousness, as commonly understood, is a cognitive illusion.
+- **Integrated Information Theory:** consciousness is identical to integrated information structure.
+- **Global Workspace Theory:** consciousness is global availability of information, though critics argue this explains access more than phenomenology.
+
+## Evaluation
+
+The hard problem remains a central dividing line in consciousness research. Some researchers see it as a genuine conceptual challenge. Others consider it misleading, poorly formulated, or scientifically unproductive. Regardless of one's position, any academic theory of consciousness must clarify whether it aims to solve the hard problem, dissolve it, bypass it, or restrict itself to the easier empirical problems.

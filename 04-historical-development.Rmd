@@ -1,0 +1,42 @@
+# Historical Development of Consciousness Research {#history}
+
+The study of consciousness has moved through several major phases: classical philosophy, early psychology, behaviourism, cognitive science, neuroscience, computational theory, and contemporary interdisciplinary research.
+
+## Classical Philosophy
+
+Ancient and early modern philosophy treated consciousness through questions about soul, mind, reason, perception, and selfhood. René Descartes is often associated with mind-body dualism, the view that mind and matter are fundamentally different. Although contemporary science rarely accepts Cartesian substance dualism, the mind-body problem remains central.
+
+## Empiricism and Introspection
+
+Early psychology used introspection to study conscious experience. Researchers attempted to describe sensations, feelings, images, and thoughts from a first-person perspective. However, introspection was criticized for being subjective and unreliable.
+
+## Behaviourism
+
+In the early twentieth century, behaviourism rejected consciousness as a scientific object and focused instead on observable behaviour. This made psychology more experimentally rigorous, but at the cost of excluding subjective experience from scientific explanation.
+
+## Cognitive Revolution
+
+The cognitive revolution reintroduced mental processes into scientific psychology. Attention, memory, language, perception, and problem-solving became legitimate research topics. However, many cognitive models still treated consciousness indirectly.
+
+## Neuroscience and Neural Correlates
+
+Modern neuroscience made consciousness research experimentally tractable. Brain imaging, electrophysiology, lesion studies, anesthesia research, and disorders-of-consciousness research allowed scientists to investigate neural correlates of conscious experience [@koch2016; @seth2018].
+
+## Contemporary Theories
+
+Contemporary consciousness studies include several major theoretical families:
+
+- workspace and broadcasting theories;
+- integrated information theories;
+- recurrent processing theories;
+- higher-order theories;
+- predictive processing models;
+- attention schema models;
+- embodied and enactive theories;
+- panpsychist and dualist theories;
+- illusionist and eliminativist approaches;
+- quantum theories.
+
+## Current State of the Field
+
+The field remains pluralistic. There is no single accepted theory of consciousness. However, the diversity of theories is not necessarily a weakness. Different theories may explain different aspects of consciousness: wakefulness, access, perceptual awareness, selfhood, affect, embodiment, reportability, or phenomenal character.
