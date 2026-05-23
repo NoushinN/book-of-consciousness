@@ -2,52 +2,493 @@
 
 ## Chapter Overview
 
-This chapter asks which problems of consciousness have been substantially clarified and which remain open.
+Consciousness research has made substantial scientific and philosophical progress over the past several decades. Researchers now possess far more sophisticated tools for studying:
+
+- neural activity;
+- conscious report;
+- altered states;
+- attention;
+- perception;
+- self-monitoring;
+- and disorders of consciousness.
+
+At the same time, many foundational questions remain deeply unresolved.
+
+This chapter examines which problems of consciousness have been:
+
+- substantially clarified;
+- partially explained;
+- or remain fundamentally open.
+
+Importantly, theories should not necessarily be judged according to whether they solve *every* aspect of consciousness simultaneously. Different theories often target different explanatory problems.
+
+Some theories explain:
+
+- conscious access;
+- reportability;
+- attention;
+- or neural dynamics.
+
+Others focus on:
+
+- phenomenology;
+- selfhood;
+- embodiment;
+- or the metaphysical origin of experience itself.
+
+This chapter therefore evaluates progress across multiple dimensions rather than asking whether consciousness has been “fully solved.”
+
+## Learning Objectives
+
+After reading this chapter, the reader should be able to:
+
+- Distinguish solved, partially solved, and unresolved problems
+- Explain why some problems are easier to study experimentally
+- Analyze the distinction between easy and hard problems
+- Compare empirical versus philosophical progress
+- Explain why theories target different explanatory goals
+- Evaluate current limitations in consciousness science
+- Understand why partial explanations remain scientifically valuable
+
+## Core Idea in One Picture
+
+Figure \@ref(fig:fig-problems-solved) summarizes the current state of progress across major problems of consciousness.
+
+```{r fig-problems-solved, echo=FALSE, fig.cap="Progress across major problems of consciousness. Panel 1 distinguishes substantially clarified, partially explained, and unresolved problems. Panel 2 compares empirical and philosophical progress. Panel 3 illustrates easy versus hard problems. Panel 4 maps theories to their primary explanatory targets. Panel 5 compares neural, computational, phenomenological, and metaphysical levels of explanation. Panel 6 illustrates why partial explanations remain scientifically valuable.", out.width="100%", fig.align="center"}
+knitr::include_graphics("figures/24_problems_solved.png")
+```
+
+As shown in Figure \@ref(fig:fig-problems-solved), consciousness research has achieved important progress in several empirical domains while many foundational philosophical questions remain unresolved.
+
+## Why Consciousness Problems Differ
+
+Not all problems of consciousness are equally difficult.
+
+Some questions involve:
+
+- observable behaviour;
+- neural activity;
+- information processing;
+- or measurable cognitive functions.
+
+These are often more accessible experimentally.
+
+Other questions concern:
+
+- subjective feeling;
+- phenomenology;
+- qualitative character;
+- and the metaphysical nature of experience.
+
+These problems are considerably harder because subjective experience cannot be directly observed externally.
+
+Figure \@ref(fig:fig-problems-solved) Panel 3 illustrates this distinction between relatively tractable “easy problems” and deeper unresolved problems.
 
 ## Problems with Significant Progress
 
-There has been meaningful progress on:
+Several important areas of consciousness research have seen substantial scientific progress.
 
-- neural correlates of conscious perception;
-- differences between wakefulness and unconsciousness;
-- attention and reportability;
-- perceptual masking;
-- anesthesia-induced loss of responsiveness;
-- disorders-of-consciousness diagnostics;
-- metacognition and confidence;
-- global availability of information;
-- recurrent processing in visual awareness.
+Figure \@ref(fig:fig-problems-solved) Panel 1 categorizes these advances.
+
+### Neural Correlates of Consciousness
+
+Researchers have identified many neural correlates associated with conscious perception, including:
+
+- thalamocortical dynamics;
+- recurrent processing;
+- large-scale integration;
+- and frontoparietal activity.
+
+Although correlation does not equal explanation, important regularities have been identified.
+
+### Wakefulness and Unconsciousness
+
+There is now substantial understanding of differences between:
+
+- wakefulness;
+- sleep;
+- anesthesia;
+- coma;
+- and certain disorders of consciousness.
+
+Neural integration and large-scale coordination appear especially important.
+
+### Attention and Reportability
+
+Research has clarified relationships among:
+
+- attention;
+- reportability;
+- working memory;
+- and conscious access.
+
+Theories such as Global Workspace Theory have been especially influential in this domain.
+
+### Perceptual Masking
+
+Experiments involving masking and binocular rivalry have helped identify conditions under which information becomes consciously accessible.
+
+### Anesthesia and Consciousness Suppression
+
+Anesthesia research has significantly improved understanding of how:
+
+- large-scale neural communication;
+- recurrent processing;
+- and global integration
+
+change during loss of consciousness.
+
+### Disorders of Consciousness
+
+Clinical neuroscience has made major progress in diagnosing:
+
+- coma;
+- vegetative state;
+- minimally conscious state;
+- and covert awareness.
+
+Neuroimaging and EEG techniques have revealed cases of preserved awareness in behaviourally unresponsive patients.
+
+### Metacognition and Confidence
+
+Research on metacognition has clarified mechanisms underlying:
+
+- confidence estimation;
+- self-monitoring;
+- uncertainty tracking;
+- and introspective reporting.
+
+### Global Information Availability
+
+There is substantial evidence that conscious processing often involves:
+
+- widespread information availability;
+- flexible access;
+- and large-scale neural coordination.
+
+### Recurrent Processing
+
+Recurrent Processing Theory has contributed important insights concerning:
+
+- feedback loops;
+- recurrent signaling;
+- and visual awareness.
+
+These findings are among the strongest examples of empirical progress in consciousness science.
 
 ## Problems Partially Explained
 
-Several problems are partially explained but not settled:
+Many problems have received partial but incomplete explanations.
 
-- unity of consciousness;
-- self-consciousness;
+Figure \@ref(fig:fig-problems-solved) Panel 1 places these in an intermediate category.
+
+### Unity of Consciousness
+
+Researchers partially understand how information becomes integrated into coherent experience.
+
+However:
+
+> why experience appears unified rather than fragmented remains unresolved.
+
+### Self-Consciousness
+
+Progress has been made concerning:
+
+- self-modeling;
 - bodily ownership;
-- dream consciousness;
-- emotional consciousness;
-- animal consciousness;
-- infant consciousness;
-- altered states;
-- artificial consciousness.
+- autobiographical memory;
+- and metacognition.
+
+Yet the nature of the subjective self remains controversial.
+
+### Bodily Ownership
+
+Research involving:
+
+- rubber-hand illusions;
+- virtual embodiment;
+- and multisensory integration
+
+has clarified mechanisms underlying bodily ownership.
+
+However, philosophical questions concerning embodiment and selfhood remain open.
+
+### Dream Consciousness
+
+Researchers understand many neural features of dreaming, especially REM sleep.
+
+Yet questions remain concerning:
+
+- internally generated worlds;
+- dream selfhood;
+- and altered logic during dreams.
+
+### Emotional Consciousness
+
+Neuroscience has clarified relationships among:
+
+- affect;
+- bodily regulation;
+- and emotional processing.
+
+However, the qualitative nature of emotional feeling remains difficult to explain.
+
+### Animal Consciousness
+
+Comparative neuroscience increasingly suggests that many animals possess varying forms of conscious experience.
+
+However:
+
+- precise criteria;
+- levels of consciousness;
+- and phenomenological differences
+
+remain uncertain.
+
+### Infant Consciousness
+
+Research suggests that infants likely possess some form of conscious awareness earlier than once assumed.
+
+Yet developmental transitions remain incompletely understood.
+
+### Altered States
+
+Psychedelics, meditation, dissociation, and altered states have revealed important dimensions of consciousness involving:
+
+- self-boundary;
+- perception;
+- and salience.
+
+However, unified explanations remain incomplete.
+
+### Artificial Consciousness
+
+Artificial intelligence research has clarified distinctions among:
+
+- intelligence;
+- language;
+- self-report;
+- and consciousness.
+
+Yet no scientific consensus exists concerning whether machines could genuinely possess subjective experience.
 
 ## Problems Not Yet Solved
 
-The following remain deeply unresolved:
+Several foundational problems remain deeply unresolved.
 
-- the hard problem;
-- the explanatory gap;
-- the relation between physical structure and qualitative character;
-- the measurement of consciousness without report;
-- the boundary between unconscious intelligence and conscious awareness;
-- the criteria for machine consciousness;
-- the metaphysical status of subjective experience.
+Figure \@ref(fig:fig-problems-solved) Panel 1 places these within the unresolved category.
+
+## The Hard Problem
+
+The hard problem asks:
+
+> Why should physical or computational processes produce subjective experience at all?
+
+No existing theory commands consensus on this issue.
+
+## The Explanatory Gap
+
+Researchers still lack a clear explanation connecting:
+
+- physical structure;
+and:
+- qualitative subjective character.
+
+Why neural activity should feel like anything remains mysterious.
+
+## Qualitative Character
+
+The nature of:
+
+- qualia;
+- phenomenal properties;
+- and subjective feeling
+
+remains deeply contested.
+
+### Measurement Without Report
+
+It remains difficult to determine consciousness objectively in systems unable to communicate directly, including:
+
+- infants;
+- non-human animals;
+- severely impaired patients;
+- and artificial systems.
+
+### Conscious vs Unconscious Intelligence
+
+Researchers still struggle to identify the boundary between:
+
+- unconscious processing;
+and:
+- genuinely conscious awareness.
+
+Many sophisticated cognitive processes may occur unconsciously.
+
+### Machine Consciousness Criteria
+
+No agreed-upon criteria currently exist for determining whether an artificial system is conscious.
+
+### Metaphysical Status of Experience
+
+Major unresolved questions remain concerning whether consciousness is:
+
+- reducible;
+- emergent;
+- fundamental;
+- computational;
+- embodied;
+- or physically irreducible.
+
+## Easy Problems vs Hard Problems
+
+Figure \@ref(fig:fig-problems-solved) Panel 3 compares relatively tractable problems with deeper philosophical challenges.
+
+### Easier Problems
+
+These include explaining:
+
+- attention;
+- reportability;
+- memory access;
+- sensory integration;
+- decision-making;
+- and behavioural coordination.
+
+These problems are difficult scientifically but generally accessible to experimental investigation.
+
+### Harder Problems
+
+These include explaining:
+
+- why subjective experience exists;
+- why experience has qualitative character;
+- why physical processes feel like anything at all.
+
+These problems remain philosophically controversial.
+
+Importantly:
+
+> solving all easy problems may still not fully resolve the hard problem.
 
 ## Why Partial Explanations Matter
 
-A theory need not solve every problem to be useful. Global Workspace Theory may clarify cognitive access even if it does not solve qualia. Recurrent Processing Theory may explain perceptual awareness without explaining selfhood. Panpsychism may address the hard problem while offering less guidance for experimental neuroscience.
+Figure \@ref(fig:fig-problems-solved) Panel 6 illustrates why partial explanations remain scientifically valuable.
 
-## Conclusion
+A theory need not solve every dimension of consciousness to contribute meaningfully.
 
-The field has made real progress, but the deepest questions remain open. Theories should be judged according to their stated explanatory target rather than against every possible interpretation of consciousness.
+For example:
+
+- Global Workspace Theory may clarify conscious access;
+- Recurrent Processing Theory may explain perceptual awareness;
+- Predictive Processing may explain inference and expectation;
+- Higher-Order theories may explain introspective awareness;
+- Embodied theories may explain situated experience;
+- Panpsychism may address the metaphysical origin of consciousness;
+- Illusionism may reinterpret the hard problem itself.
+
+Different theories therefore contribute different explanatory strengths.
+
+## Theories and Explanatory Targets
+
+Figure \@ref(fig:fig-problems-solved) Panel 4 maps theories onto their primary explanatory targets.
+
+Some theories focus on:
+
+- neural dynamics;
+- cognitive access;
+- and reportability.
+
+Others focus on:
+
+- phenomenology;
+- selfhood;
+- embodiment;
+- or metaphysical foundations.
+
+This helps explain why:
+
+> theories sometimes appear to disagree while actually addressing different explanatory levels.
+
+## Multiple Levels of Explanation
+
+Figure \@ref(fig:fig-problems-solved) Panel 5 illustrates multiple explanatory levels involved in consciousness research.
+
+These include:
+
+### Neural Level
+
+- brain activity;
+- connectivity;
+- neural dynamics.
+
+### Computational Level
+
+- information processing;
+- inference;
+- self-modeling;
+- computation.
+
+### Phenomenological Level
+
+- subjective feeling;
+- lived experience;
+- selfhood.
+
+### Metaphysical Level
+
+- the fundamental nature of consciousness;
+- mind-matter relations;
+- ontological status.
+
+A complete understanding of consciousness may ultimately require integration across several levels simultaneously.
+
+## Why Consensus Remains Difficult
+
+Consensus remains difficult partly because consciousness involves:
+
+- neuroscience;
+- psychology;
+- philosophy;
+- computation;
+- phenomenology;
+- and metaphysics.
+
+Different disciplines prioritize different standards of explanation.
+
+For example:
+
+- neuroscientists may emphasize measurable mechanisms;
+- philosophers may emphasize phenomenological coherence;
+- AI researchers may emphasize computation and functionality.
+
+Thus disagreements often reflect differing explanatory priorities rather than simple empirical conflict.
+
+## Main Comparative Conclusion
+
+The field of consciousness research has made genuine and important progress.
+
+Researchers now possess far more sophisticated understanding of:
+
+- neural correlates;
+- altered states;
+- conscious access;
+- self-monitoring;
+- and large-scale integration.
+
+At the same time, foundational questions concerning:
+
+- subjective experience;
+- qualia;
+- the explanatory gap;
+- and the hard problem
+
+remain unresolved.
+
+Theories should therefore be evaluated according to their stated explanatory goals rather than according to whether they solve every possible aspect of consciousness simultaneously.
+
+Consciousness research may ultimately require:
+
+- theoretical pluralism;
+- multi-level integration;
+- and continued collaboration across neuroscience, philosophy, cognitive science, and artificial intelligence.

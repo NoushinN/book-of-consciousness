@@ -2,133 +2,445 @@
 
 ## Chapter Overview
 
-Quantum theories propose that non-classical physical processes may be relevant to consciousness.
+Quantum theories of consciousness propose that classical neural computation alone may be insufficient to explain conscious experience. According to these approaches, non-classical quantum processes may contribute to consciousness, subjective awareness, or the unity of experience [@penrose1989; @penrose1996].
 
-This chapter examines quantum theories of consciousness as a theory or family of theories of consciousness. The discussion considers historical background, conceptual assumptions, mechanisms, empirical support, philosophical significance, explanatory strengths, weaknesses, unresolved gaps, and implications for artificial intelligence and altered states of consciousness. [@penrose1989] [@penrose1996]
+Unlike mainstream neuroscientific theories that primarily explain consciousness through neural signaling, information processing, or large-scale brain dynamics, quantum theories investigate whether phenomena such as:
+
+- quantum coherence,
+- superposition,
+- entanglement,
+- indeterminacy,
+- and state collapse
+
+may play a meaningful role in conscious experience.
+
+Quantum consciousness theories remain highly controversial. Most mainstream neuroscientific models do not require quantum explanations. Nevertheless, quantum approaches continue to attract interest because they attempt to address several persistent problems in consciousness research, including:
+
+- the hard problem of consciousness;
+- the unity of conscious experience;
+- the limits of classical computation;
+- and the relationship between mind and fundamental physics.
+
+This chapter examines the historical development, conceptual foundations, proposed mechanisms, strengths, criticisms, empirical challenges, and philosophical implications of quantum theories of consciousness.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Define the central claims of quantum theories of consciousness.
-- Explain the problem of consciousness that this theory is attempting to solve.
-- Distinguish between what the theory explains well and what remains unresolved.
-- Evaluate the theory against competing explanations.
-- Identify how the theory handles subjective experience, reportability, selfhood, neural mechanisms, and empirical testability.
+- Define the central claims of quantum theories of consciousness
+- Explain why quantum mechanisms were proposed in consciousness research
+- Describe basic quantum concepts relevant to consciousness theories
+- Explain the Orch-OR model
+- Distinguish classical and quantum computational approaches
+- Analyze major criticisms of quantum consciousness theories
+- Evaluate the scientific status of quantum approaches
+- Explain implications for artificial intelligence and subjective experience
+
+## Core Idea in One Picture
+
+Figure \@ref(fig:fig-quantum) summarizes the major conceptual structure of quantum theories of consciousness.
+
+```{r fig-quantum, echo=FALSE, fig.cap="Quantum theories of consciousness. Panel A compares classical and quantum brain models. Panel B illustrates the Orch-OR model. Panel C explains quantum superposition and collapse. Panel D explores quantum entanglement and unified consciousness. Panel E compares classical and quantum computation. Panel F summarizes the scientific status of quantum theories. Panel G outlines major criticisms and challenges.", out.width="100%", fig.align="center"}
+knitr::include_graphics("figures/18_quantum_theory.png")
+```
+
+As shown in Figure \@ref(fig:fig-quantum), quantum theories propose that non-classical physical processes may contribute to conscious experience beyond standard neural computation.
+
+## Why Quantum Theories Exist
+
+Quantum theories of consciousness emerged partly from dissatisfaction with purely classical explanations of mind.
+
+Some researchers argue that consciousness possesses features that may not be fully explained through standard neural computation alone, including:
+
+- subjective experience;
+- unity of awareness;
+- apparent indeterminacy;
+- non-computability;
+- and the hard problem of consciousness.
+
+According to these theorists:
+
+> Consciousness may involve physical processes beyond classical information processing.
+
+Figure \@ref(fig:fig-quantum) Panel A illustrates this distinction.
+
+As shown in Panel A:
+
+- classical neuroscience explains cognition through neural signaling and computation;
+- quantum approaches propose that additional quantum-level dynamics may contribute to conscious events.
+
+Importantly, quantum theories do not reject neuroscience. Instead, they attempt to supplement classical neural explanations with additional physical mechanisms.
+
+## Basic Quantum Concepts
+
+Quantum consciousness theories rely on several concepts from quantum mechanics.
+
+### Superposition
+
+Quantum systems may exist in multiple possible states simultaneously.
+
+Figure \@ref(fig:fig-quantum) Panel C illustrates this principle.
+
+Before measurement or collapse:
+
+```text
+multiple possible states coexist
+```
+
+After collapse:
+
+```text
+one outcome becomes actualized
+```
+
+Some theorists speculate that conscious experience may relate to this transition from possibility to definite experience.
+
+### Quantum Coherence
+
+Quantum coherence refers to ordered quantum relationships maintained across a system.
+
+Some theories propose that coherent quantum states may occur temporarily within neural structures.
+
+### Entanglement
+
+Quantum entanglement involves non-classical correlations between systems.
+
+Figure \@ref(fig:fig-quantum) Panel D illustrates this idea.
+
+Some researchers speculate that quantum entanglement could potentially contribute to the unified nature of conscious experience.
+
+### Objective Reduction
+
+Some theories propose that quantum state collapse itself may contribute to conscious moments.
+
+This idea is especially important within Orch-OR theory.
 
 ## Historical Development
 
-The intellectual background of this theory should be understood in relation to broader debates about mind, matter, cognition, subjectivity, and scientific explanation. Consciousness research has often moved between two poles: one pole emphasizes measurable cognitive and neural mechanisms, while the other emphasizes first-person experience and the difficulty of reducing subjectivity to objective processes.
+Quantum approaches to consciousness developed through interactions between:
 
-In its modern form, quantum theories of consciousness responds to dissatisfaction with purely behavioural accounts of mind. It attempts to explain why certain mental states are conscious while others remain unconscious, why experience appears unified, and how conscious states relate to brain activity, cognition, language, memory, action, and self-monitoring.
+- physics;
+- philosophy of mind;
+- neuroscience;
+- mathematics;
+- and computational theory.
 
-## Core Assumptions
+Early discussions emerged partly from attempts to understand whether:
 
-Key assumptions include:
+- consciousness influences measurement;
+- quantum mechanics requires observers;
+- or mind and matter possess deeper connections.
 
-- Classical computation may be insufficient.
-- Quantum processes may contribute to conscious events.
-- Microphysical processes could matter for subjective experience.
+Modern quantum consciousness theories became especially associated with:
 
-These assumptions shape what the theory treats as central evidence and what it may leave unexplained.
+- Roger Penrose;
+- Stuart Hameroff;
+- Henry Stapp;
+- David Bohm;
+- and others exploring relationships between physics and subjective experience.
 
-## Conceptual Framework
+Roger Penrose argued that human understanding may involve non-computable processes that cannot be fully captured through classical algorithms [@penrose1989].
 
-The theory can be interpreted as a response to several linked questions:
+This became one of the major motivations for later quantum models.
 
-1. What makes a mental state conscious rather than unconscious?
-2. Is consciousness primarily a biological, informational, functional, phenomenological, or metaphysical property?
-3. Does the theory explain access consciousness, phenomenal consciousness, or both?
-4. Can the theory identify necessary and sufficient conditions for consciousness?
-5. Does it apply to infants, non-human animals, artificial systems, and altered states?
+## Penrose and Non-Computability
 
-A useful academic distinction is between **access consciousness** and **phenomenal consciousness**. Access consciousness concerns information that is available for reasoning, report, memory, and action. Phenomenal consciousness concerns the qualitative character of experience: what it is like to see red, feel pain, hear music, or experience oneself as a subject.
+Penrose proposed that consciousness may involve forms of understanding that exceed classical computation.
 
-## Mechanism or Explanatory Model
+According to Penrose:
 
-The explanatory mechanism proposed by this theory should be analyzed at multiple levels:
+- formal algorithms may not fully capture human insight;
+- consciousness may involve non-computable physical processes.
 
-- **Phenomenological level:** What kind of experience is being explained?
-- **Cognitive level:** What mental operations are involved?
-- **Computational level:** What information-processing structure is proposed?
-- **Neural level:** What brain systems or dynamics are implicated?
-- **Metaphysical level:** What does the theory assume about the relation between mind and matter?
+This argument partly drew on Gödelian ideas concerning mathematical incompleteness.
 
-This multi-level analysis prevents the theory from being judged only by one standard. A theory may be neuroscientifically useful but philosophically incomplete, or philosophically powerful but empirically difficult to test.
+Penrose therefore questioned whether:
 
-## Empirical Support
+```text
+classical computation alone = consciousness
+```
 
-Evidence relevant to this theory may come from:
+This motivated the search for additional physical mechanisms potentially linked to conscious awareness.
 
-- neuroimaging studies;
-- electrophysiology;
-- visual masking;
-- binocular rivalry;
-- anesthesia;
-- sleep and dreaming;
-- disorders of consciousness;
-- split-brain research;
-- attention and working memory studies;
-- metacognition and confidence judgments;
-- artificial intelligence and computational modeling.
+## The Orch-OR Theory
 
-A complete evaluation requires asking whether the evidence supports the theory specifically, or whether the same evidence could be explained equally well by competing theories.
+The most influential quantum theory of consciousness is the **Orchestrated Objective Reduction (Orch-OR)** model proposed by Roger Penrose and Stuart Hameroff [@penrose1996].
 
-## Strengths
+Figure \@ref(fig:fig-quantum) Panel B illustrates this framework.
 
-The major strengths of this theory include:
+According to Orch-OR:
 
-- It provides a structured vocabulary for analyzing consciousness.
-- It connects consciousness to broader debates in philosophy of mind and cognitive science.
-- It clarifies at least some aspects of conscious access, awareness, reportability, or subjective experience.
-- It can be compared systematically with alternative theories.
-- It helps identify empirical predictions or conceptual boundaries.
+1. quantum coherence occurs within neuronal microtubules;
+2. coherent quantum states become organized;
+3. objective reduction (collapse) occurs;
+4. conscious moments emerge.
 
-## Weaknesses
+### Microtubules
 
-The main weaknesses include:
+Microtubules are structural components within neurons.
 
-- It may explain cognitive access without fully explaining phenomenal experience.
-- It may rely on concepts that are difficult to operationalize.
-- It may not specify clear neural mechanisms.
-- It may not provide decisive criteria for consciousness in animals or machines.
-- It may not fully address the hard problem of consciousness.
+Hameroff proposed that they may support quantum coherence under certain conditions.
 
-## Explanatory Gaps
+### Objective Reduction
 
-Important unresolved questions include:
+Penrose proposed that quantum state reduction may occur through objective physical processes linked to spacetime geometry.
 
-- Does the theory explain why consciousness exists at all?
-- Does it explain why experience has qualitative character?
-- Does it identify a measurable marker of consciousness?
-- Does it distinguish consciousness from intelligence, attention, memory, and self-report?
-- Can it explain unconscious perception and blindsight?
-- Can it account for dream consciousness and altered states?
-- Can it distinguish simulated consciousness from genuine consciousness?
+According to Orch-OR:
 
-## What the Theory Can Answer
+> conscious moments correspond to orchestrated quantum state reductions.
 
-This theory is especially useful for answering questions such as:
+This remains highly controversial but historically influential.
 
-- Which cognitive or neural processes are associated with conscious awareness?
-- How does conscious information differ from unconscious information?
-- What functional role might consciousness play?
-- How can consciousness be investigated empirically?
+## Quantum Superposition and Conscious Experience
 
-## What the Theory Cannot Yet Answer
+Figure \@ref(fig:fig-quantum) Panel C illustrates quantum superposition and collapse.
 
-The theory is less successful at answering questions such as:
+Some theorists speculate that:
 
-- Why should the proposed mechanism produce subjective feeling?
-- What exactly makes experience first-personal?
-- How can consciousness be measured without relying on verbal report?
-- Can consciousness exist in artificial systems?
-- Is consciousness fundamental, emergent, biological, computational, or relational?
+- conscious awareness may relate to the transition from multiple possibilities to a single experienced outcome.
 
-## Implications for Artificial Intelligence
+According to these interpretations:
 
-The theory has important implications for AI consciousness. If consciousness depends primarily on functional organization or information processing, then artificial consciousness may be possible in principle. If consciousness depends on biological embodiment, neural dynamics, or fundamental physical properties, then current AI systems may lack consciousness even when they display intelligent behaviour.
+```text
+superposition → collapse → conscious moment
+```
+
+However, this relationship remains speculative and lacks strong empirical confirmation.
+
+Importantly:
+
+> Even if quantum collapse occurs in the brain, it does not automatically explain subjective experience.
+
+This remains a major philosophical challenge.
+
+## Quantum Entanglement and the Unity of Consciousness
+
+One persistent question in consciousness research concerns:
+
+> Why does conscious experience appear unified?
+
+Figure \@ref(fig:fig-quantum) Panel D explores this issue.
+
+Some theorists speculate that quantum entanglement could potentially contribute to:
+
+- global integration;
+- unified awareness;
+- synchronized cognition;
+- or coherent conscious states.
+
+However, evidence for large-scale quantum entanglement in neural systems remains limited.
+
+Most neuroscientific theories explain unity through large-scale neural integration rather than quantum entanglement.
+
+## Quantum vs Classical Computation
+
+Figure \@ref(fig:fig-quantum) Panel E compares classical and quantum computation.
+
+### Classical Computation
+
+Classical systems typically involve:
+
+- bits;
+- deterministic or probabilistic operations;
+- local computation;
+- sequential processing.
+
+### Quantum Computation
+
+Quantum systems may involve:
+
+- qubits;
+- superposition;
+- interference;
+- entanglement;
+- quantum parallelism.
+
+Some theorists argue that these properties may provide computational capacities unavailable to purely classical systems.
+
+However, it remains unclear whether brains actually exploit such quantum computational mechanisms in meaningful ways.
+
+## Quantum Theories and Artificial Intelligence
+
+Quantum theories have important implications for AI consciousness.
+
+If consciousness depends critically on:
+
+- quantum coherence;
+- biological quantum structures;
+- or non-classical physical processes,
+
+then current classical AI systems may lack essential ingredients for genuine consciousness.
+
+Figure \@ref(fig:fig-quantum) Panel A highlights this contrast.
+
+According to some quantum theorists:
+
+```text
+intelligence ≠ consciousness
+```
+
+A system might simulate intelligent behaviour without possessing genuine subjective experience.
+
+Quantum approaches therefore often challenge strong computationalist views of machine consciousness.
+
+## Scientific Status of Quantum Theories
+
+Figure \@ref(fig:fig-quantum) Panel F summarizes the scientific status of quantum theories of consciousness.
+
+At present:
+
+- quantum consciousness theories remain speculative;
+- they are not part of mainstream consensus neuroscience;
+- and empirical support remains limited.
+
+Some quantum effects are well-established in biology, including:
+
+- photosynthesis;
+- avian magnetoreception;
+- and molecular quantum effects.
+
+However:
+
+> Evidence directly linking quantum states to conscious experience remains weak.
+
+Most mainstream consciousness theories continue to rely primarily on:
+
+- neural networks;
+- large-scale integration;
+- recurrent processing;
+- predictive inference;
+- and information processing.
+
+## Strengths of Quantum Theories
+
+Major strengths include:
+
+- engagement with foundational physics;
+- direct confrontation with the hard problem;
+- exploration of non-classical mechanisms;
+- integration of physics and consciousness research;
+- challenge to simplistic computational reductionism;
+- novel approaches to unity and subjectivity.
+
+Quantum theories also stimulate interdisciplinary dialogue between:
+
+- neuroscience;
+- philosophy;
+- physics;
+- mathematics;
+- and cognitive science.
+
+## Weaknesses and Criticisms
+
+Figure \@ref(fig:fig-quantum) Panel G summarizes major criticisms.
+
+### Decoherence Problem
+
+One of the strongest criticisms concerns **decoherence**.
+
+Critics argue that:
+
+- the warm, noisy environment of the brain
+may destroy:
+- delicate quantum states too rapidly.
+
+This could prevent meaningful large-scale quantum computation.
+
+### Lack of Empirical Evidence
+
+Currently, no direct evidence demonstrates that:
+
+- quantum coherence in the brain
+causes:
+- conscious experience.
+
+### Explanatory Gap Remains
+
+Even if quantum effects occur in the brain:
+
+> Why should quantum collapse generate subjective feeling?
+
+Quantum theories may relocate the hard problem without fully solving it.
+
+### Scaling Problem
+
+It remains unclear how microscopic quantum events would scale into:
+
+- cognition;
+- language;
+- selfhood;
+- memory;
+- and unified awareness.
+
+### Risk of Quantum Mysticism
+
+Critics caution against using quantum terminology vaguely or metaphorically without rigorous physical grounding.
+
+## Relation to the Hard Problem
+
+Quantum theories are often motivated by the hard problem of consciousness.
+
+Some theorists argue that:
+
+- classical neural mechanisms explain behaviour and cognition;
+but fail to explain:
+- why subjective experience exists.
+
+Quantum approaches attempt to introduce deeper physical mechanisms potentially connected to consciousness itself.
+
+However, unresolved questions remain:
+
+- Why should quantum processes feel like anything?
+- Why should collapse generate experience?
+- Why should quantum indeterminacy produce subjectivity?
+
+Thus quantum theories may extend physical explanation without fully resolving phenomenology.
+
+## Explanatory Scope
+
+Quantum theories attempt to explain:
+
+- unity of consciousness;
+- subjective awareness;
+- non-classical cognition;
+- conscious moments;
+- indeterminacy;
+- and potentially the limits of computation.
+
+However, unresolved questions remain:
+
+- Do meaningful quantum states occur in brains?
+- Is consciousness quantum or merely neural?
+- Can AI become conscious without quantum processes?
+- Are quantum effects necessary or incidental?
+- Can quantum theories be experimentally verified?
 
 ## Summary
 
-Quantum Theories of Consciousness contributes an important perspective to consciousness studies, but it does not settle the field. Its value depends on whether it is being used to explain neural correlates, cognitive access, subjective experience, self-awareness, or metaphysical foundations. The comparative chapters later in this book return to these criteria systematically.
+Quantum theories of consciousness propose that non-classical physical processes may contribute to conscious experience beyond standard neural computation.
+
+These approaches explore possible roles for:
+
+- superposition;
+- coherence;
+- entanglement;
+- collapse;
+- and quantum computation.
+
+The most influential proposal, Orch-OR, suggests that orchestrated quantum state reductions within neuronal microtubules may contribute to conscious moments.
+
+Quantum theories remain highly speculative and controversial. Most mainstream neuroscientific models of consciousness do not require quantum explanations.
+
+Nevertheless, quantum approaches remain philosophically important because they directly confront:
+
+- the hard problem;
+- the limits of classical computation;
+- and the relationship between consciousness and fundamental physics.
+
+At the same time, major challenges remain concerning:
+
+- empirical evidence;
+- decoherence;
+- neural plausibility;
+- explanatory power;
+- and the relationship between quantum processes and subjective experience.

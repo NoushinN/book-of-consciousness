@@ -2,133 +2,478 @@
 
 ## Chapter Overview
 
-Illusionism argues that phenomenal consciousness, as commonly conceived, is a cognitive illusion.
+Illusionism argues that phenomenal consciousness, as traditionally conceived, may be a cognitive illusion rather than a fundamental feature of reality [@dennett1991; @frankish2016].
 
-This chapter examines illusionism as a theory or family of theories of consciousness. The discussion considers historical background, conceptual assumptions, mechanisms, empirical support, philosophical significance, explanatory strengths, weaknesses, unresolved gaps, and implications for artificial intelligence and altered states of consciousness. [@dennett1991] [@frankish2016]
+Importantly, illusionism does **not** deny that humans:
+
+- perceive;
+- think;
+- feel pain;
+- report experiences;
+- possess emotions;
+- or maintain self-models.
+
+Instead, illusionism challenges the idea that conscious experience contains irreducible, ineffable phenomenal properties often referred to as **qualia**.
+
+According to illusionists, consciousness appears mysterious because the brain represents its own internal processes in a misleading way. The apparent “inner glow” of subjective experience may arise from introspective self-modeling rather than from non-physical or irreducible phenomenal properties.
+
+This chapter examines illusionism as a radical and influential response to the hard problem of consciousness. The discussion explores its historical background, conceptual assumptions, introspective mechanisms, relation to qualia, explanatory strengths, criticisms, empirical implications, and connections to artificial intelligence and self-modeling theories.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Define the central claims of illusionism.
-- Explain the problem of consciousness that this theory is attempting to solve.
-- Distinguish between what the theory explains well and what remains unresolved.
-- Evaluate the theory against competing explanations.
-- Identify how the theory handles subjective experience, reportability, selfhood, neural mechanisms, and empirical testability.
+- Define the central claims of illusionism
+- Explain what illusionism does and does not deny
+- Distinguish phenomenal consciousness from access consciousness
+- Explain the illusionist interpretation of qualia
+- Describe introspection as self-modeling
+- Explain the meta-problem of consciousness
+- Compare illusionism with competing theories
+- Evaluate major criticisms of illusionism
+
+## Core Idea in One Picture
+
+Figure \@ref(fig:fig-illusionism) summarizes the major conceptual structure of illusionism.
+
+```{r fig-illusionism, echo=FALSE, fig.cap="Illusionism and introspective self-modeling. Panel A contrasts subjective appearance with illusionist interpretation. Panel B reinterprets the hard problem. Panel C illustrates introspection as self-modeling. Panel D compares illusionism with competing theories. Panel E presents the user-interface analogy. Panel F distinguishes what illusionism affirms from what it denies.", out.width="100%", fig.align="center"}
+knitr::include_graphics("figures/19_illusionism.png")
+```
+
+As shown in Figure \@ref(fig:fig-illusionism), illusionism proposes that the apparent mystery of consciousness may arise from how cognitive systems represent themselves rather than from irreducible phenomenal properties themselves.
+
+## The Hard Problem and Illusionism
+
+Illusionism emerged partly in response to the hard problem of consciousness.
+
+The hard problem asks:
+
+> Why do physical brain processes produce subjective experience at all?
+
+Many theories attempt to explain:
+
+- neural activity;
+- information processing;
+- cognition;
+- and behavioural reportability.
+
+However, critics argue that these explanations fail to explain:
+
+- subjective feeling itself;
+- the “what-it-is-like” aspect of experience;
+- or phenomenal consciousness.
+
+Illusionism responds in a radically different way.
+
+Rather than solving the hard problem directly, illusionism attempts to reinterpret or dissolve it.
+
+Figure \@ref(fig:fig-illusionism) Panel B illustrates this shift.
+
+As shown in Panel B:
+
+### Traditional View
+
+```text
+brain activity → unexplained qualia
+```
+
+### Illusionist View
+
+```text
+brain activity → introspective self-model → illusion of qualia
+```
+
+According to illusionists:
+
+> The hard problem may arise from a misleading model of experience itself.
+
+## What Illusionism Does Not Deny
+
+A major misunderstanding about illusionism is the belief that it denies consciousness entirely.
+
+Illusionism does **not** deny:
+
+- cognition;
+- perception;
+- pain behaviour;
+- emotional states;
+- self-awareness;
+- or conscious reportability.
+
+Figure \@ref(fig:fig-illusionism) Panel F clarifies this distinction.
+
+Illusionists generally affirm that:
+
+- humans genuinely process information;
+- subjective reports are real;
+- awareness-related cognition exists;
+- introspective self-models operate continuously.
+
+What illusionists reject is the existence of:
+
+- irreducible phenomenal properties;
+- mysterious intrinsic qualia;
+- or non-physical “inner essences.”
+
+This distinction is essential.
+
+## Qualia and Phenomenal Properties
+
+Traditional theories often describe consciousness using the concept of **qualia**.
+
+Qualia refer to the allegedly:
+
+- intrinsic;
+- ineffable;
+- private;
+- subjective qualities of experience.
+
+Examples include:
+
+- the redness of red;
+- the painfulness of pain;
+- the taste of coffee;
+- or the feeling of sadness.
+
+Illusionists argue that belief in qualia may itself be generated by introspective cognitive processes.
+
+Figure \@ref(fig:fig-illusionism) Panel A contrasts:
+
+- subjective appearance,
+with:
+- illusionist interpretation.
+
+According to illusionists:
+
+> Experiences seem to possess ineffable inner properties because the brain represents them that way.
+
+The illusion therefore concerns:
+
+- how experience is represented,
+not:
+- whether cognition exists.
 
 ## Historical Development
 
-The intellectual background of this theory should be understood in relation to broader debates about mind, matter, cognition, subjectivity, and scientific explanation. Consciousness research has often moved between two poles: one pole emphasizes measurable cognitive and neural mechanisms, while the other emphasizes first-person experience and the difficulty of reducing subjectivity to objective processes.
+Illusionist themes appeared historically in:
 
-In its modern form, illusionism responds to dissatisfaction with purely behavioural accounts of mind. It attempts to explain why certain mental states are conscious while others remain unconscious, why experience appears unified, and how conscious states relate to brain activity, cognition, language, memory, action, and self-monitoring.
+- behaviourism;
+- eliminative materialism;
+- functionalism;
+- and skeptical critiques of introspection.
 
-## Core Assumptions
+However, modern illusionism became especially associated with philosophers such as:
 
-Key assumptions include:
+- Daniel Dennett;
+- Keith Frankish;
+- and related cognitive theories of consciousness.
 
-- The brain represents itself as having ineffable inner qualities.
-- The hard problem may arise from misleading introspection.
-- Explaining the illusion may replace explaining qualia.
+Daniel Dennett challenged traditional assumptions about qualia and argued that consciousness should be studied through:
 
-These assumptions shape what the theory treats as central evidence and what it may leave unexplained.
+- behaviour;
+- cognition;
+- reportability;
+- and information processing
 
-## Conceptual Framework
+rather than through assumptions about ineffable inner properties [@dennett1991].
 
-The theory can be interpreted as a response to several linked questions:
+Keith Frankish later developed modern illusionism more explicitly by arguing that phenomenal consciousness may be a powerful introspective illusion generated through cognitive self-modeling [@frankish2016].
 
-1. What makes a mental state conscious rather than unconscious?
-2. Is consciousness primarily a biological, informational, functional, phenomenological, or metaphysical property?
-3. Does the theory explain access consciousness, phenomenal consciousness, or both?
-4. Can the theory identify necessary and sufficient conditions for consciousness?
-5. Does it apply to infants, non-human animals, artificial systems, and altered states?
+## Dennett and Heterophenomenology
 
-A useful academic distinction is between **access consciousness** and **phenomenal consciousness**. Access consciousness concerns information that is available for reasoning, report, memory, and action. Phenomenal consciousness concerns the qualitative character of experience: what it is like to see red, feel pain, hear music, or experience oneself as a subject.
+Dennett proposed a method called **heterophenomenology**.
 
-## Mechanism or Explanatory Model
+According to this approach:
 
-The explanatory mechanism proposed by this theory should be analyzed at multiple levels:
+- subjective reports should be studied scientifically;
+- but reports should not automatically be treated as direct evidence for irreducible qualia.
 
-- **Phenomenological level:** What kind of experience is being explained?
-- **Cognitive level:** What mental operations are involved?
-- **Computational level:** What information-processing structure is proposed?
-- **Neural level:** What brain systems or dynamics are implicated?
-- **Metaphysical level:** What does the theory assume about the relation between mind and matter?
+Dennett argued that:
 
-This multi-level analysis prevents the theory from being judged only by one standard. A theory may be neuroscientifically useful but philosophically incomplete, or philosophically powerful but empirically difficult to test.
+> consciousness should be explained through cognitive architecture rather than mysterious intrinsic properties.
 
-## Empirical Support
+This became foundational for later illusionist theories.
 
-Evidence relevant to this theory may come from:
+## Introspection and Self-Modeling
 
-- neuroimaging studies;
-- electrophysiology;
-- visual masking;
-- binocular rivalry;
-- anesthesia;
-- sleep and dreaming;
-- disorders of consciousness;
+A central claim of illusionism is that introspection does not provide direct access to consciousness itself.
+
+Instead:
+
+> introspection provides access to internal self-models generated by cognitive systems.
+
+Figure \@ref(fig:fig-illusionism) Panel C illustrates this process.
+
+As shown in Panel C:
+
+1. sensory processing occurs;
+2. higher-order monitoring systems interpret internal states;
+3. self-representations are constructed;
+4. the brain forms beliefs about possessing qualia.
+
+According to illusionism:
+
+- the brain models itself as conscious;
+- introspective access is indirect;
+- phenomenology reflects representational structure.
+
+This perspective strongly overlaps with theories emphasizing:
+
+- metacognition;
+- higher-order representation;
+- predictive self-modeling;
+- and attention schemas.
+
+## The Meta-Problem of Consciousness
+
+Modern illusionism often focuses on the **meta-problem of consciousness**.
+
+The meta-problem asks:
+
+> Why do humans believe consciousness is mysterious?
+
+Rather than explaining irreducible phenomenal properties directly, illusionists attempt to explain:
+
+- why consciousness feels special;
+- why people believe in qualia;
+- why introspection appears compelling;
+- and why the hard problem seems so difficult.
+
+According to illusionists:
+
+> solving the meta-problem may dissolve much of the hard problem itself.
+
+## The User Interface Analogy
+
+Figure \@ref(fig:fig-illusionism) Panel E presents one of the most important analogies used in illusionist thinking.
+
+Some illusionists compare consciousness to a graphical computer interface.
+
+For example:
+
+- desktop icons appear simple and intuitive;
+- but they do not literally reveal underlying machine code.
+
+Similarly:
+
+- introspective experience may provide a useful interface for cognition;
+- while hiding underlying neural complexity.
+
+According to this analogy:
+
+```text
+subjective appearance ≠ underlying mechanism
+```
+
+The interface is useful and functionally important, but it may not accurately represent underlying physical processes.
+
+## Access Consciousness vs Phenomenal Consciousness
+
+A major distinction in illusionist theory concerns:
+
+- access consciousness;
+versus:
+- phenomenal consciousness.
+
+### Access Consciousness
+
+Access consciousness involves information that is available for:
+
+- reasoning;
+- verbal report;
+- decision-making;
+- memory;
+- and behavioural control.
+
+Illusionists generally accept access consciousness as real and scientifically tractable.
+
+### Phenomenal Consciousness
+
+Phenomenal consciousness refers to:
+
+- allegedly intrinsic subjective qualities;
+- ineffable “what-it-is-like” properties.
+
+Illusionists challenge whether such properties exist independently of introspective representation.
+
+Figure \@ref(fig:fig-illusionism) Panel F summarizes these distinctions.
+
+## Illusionism and Artificial Intelligence
+
+Illusionism has important implications for AI consciousness.
+
+If consciousness depends primarily on:
+
+- self-modeling;
+- introspective representation;
+- cognitive access;
+- and information-processing architecture,
+
+then sufficiently advanced artificial systems might potentially generate similar introspective illusions.
+
+According to illusionism:
+
+```text
+self-modeling + cognitive representation
+may produce apparent consciousness
+```
+
+This differs significantly from theories requiring:
+
+- biological embodiment;
+- quantum processes;
+- or fundamental phenomenal properties.
+
+Illusionism therefore tends to support stronger possibilities for machine consciousness than many competing theories.
+
+## Relation to Other Theories
+
+Figure \@ref(fig:fig-illusionism) Panel D compares illusionism with competing theories.
+
+### Relation to Physicalism
+
+Illusionism is usually compatible with physicalism and naturalism.
+
+### Relation to Functionalism
+
+Illusionism often overlaps strongly with functionalist approaches emphasizing cognitive organization.
+
+### Relation to Attention Schema Theory
+
+Illusionism shares important similarities with Attention Schema Theory because both emphasize internal models of awareness rather than irreducible phenomenal properties.
+
+### Relation to Predictive Processing
+
+Some researchers suggest predictive self-models may contribute to introspective illusions concerning consciousness.
+
+### Relation to Panpsychism
+
+Illusionism sharply contrasts with panpsychism.
+
+- Panpsychism treats consciousness as fundamental.
+- Illusionism treats phenomenal consciousness as representationally constructed.
+
+## Empirical Relevance
+
+Evidence relevant to illusionism may come from:
+
+- metacognition studies;
+- introspective error;
+- cognitive biases;
 - split-brain research;
-- attention and working memory studies;
-- metacognition and confidence judgments;
-- artificial intelligence and computational modeling.
+- attention studies;
+- self-modeling;
+- predictive processing;
+- confidence judgments;
+- and cognitive neuroscience.
 
-A complete evaluation requires asking whether the evidence supports the theory specifically, or whether the same evidence could be explained equally well by competing theories.
+Illusionists argue that:
 
-## Strengths
+- many features traditionally attributed to phenomenal consciousness
+may instead reflect:
+- cognitive access and self-representation.
 
-The major strengths of this theory include:
+However, critics argue that illusionism explains:
 
-- It provides a structured vocabulary for analyzing consciousness.
-- It connects consciousness to broader debates in philosophy of mind and cognitive science.
-- It clarifies at least some aspects of conscious access, awareness, reportability, or subjective experience.
-- It can be compared systematically with alternative theories.
-- It helps identify empirical predictions or conceptual boundaries.
+- reports about experience,
+without fully explaining:
+- experience itself.
 
-## Weaknesses
+## Strengths of Illusionism
 
-The main weaknesses include:
+Major strengths include:
 
-- It may explain cognitive access without fully explaining phenomenal experience.
-- It may rely on concepts that are difficult to operationalize.
-- It may not specify clear neural mechanisms.
-- It may not provide decisive criteria for consciousness in animals or machines.
-- It may not fully address the hard problem of consciousness.
+- strong naturalistic framework;
+- compatibility with neuroscience;
+- avoidance of metaphysical dualism;
+- integration with cognitive science;
+- explanatory focus on introspection and self-modeling;
+- engagement with the meta-problem of consciousness;
+- relevance to AI and computational theories.
 
-## Explanatory Gaps
+Illusionism also provides one of the clearest attempts to reinterpret the hard problem within a scientific framework.
 
-Important unresolved questions include:
+## Weaknesses and Criticisms
 
-- Does the theory explain why consciousness exists at all?
-- Does it explain why experience has qualitative character?
-- Does it identify a measurable marker of consciousness?
-- Does it distinguish consciousness from intelligence, attention, memory, and self-report?
-- Can it explain unconscious perception and blindsight?
-- Can it account for dream consciousness and altered states?
-- Can it distinguish simulated consciousness from genuine consciousness?
+Despite its strengths, illusionism faces major criticisms.
 
-## What the Theory Can Answer
+### “Illusion Requires Experience”
 
-This theory is especially useful for answering questions such as:
+The most famous criticism asks:
 
-- Which cognitive or neural processes are associated with conscious awareness?
-- How does conscious information differ from unconscious information?
-- What functional role might consciousness play?
-- How can consciousness be investigated empirically?
+> How can there be an illusion of consciousness without consciousness itself?
 
-## What the Theory Cannot Yet Answer
+Critics argue that:
 
-The theory is less successful at answering questions such as:
+- illusions themselves are experiences;
+- therefore some form of phenomenology must already exist.
 
-- Why should the proposed mechanism produce subjective feeling?
-- What exactly makes experience first-personal?
-- How can consciousness be measured without relying on verbal report?
-- Can consciousness exist in artificial systems?
-- Is consciousness fundamental, emergent, biological, computational, or relational?
+### Denial of Direct Experience
 
-## Implications for Artificial Intelligence
+Many philosophers argue that phenomenal consciousness is the most certain aspect of existence.
 
-The theory has important implications for AI consciousness. If consciousness depends primarily on functional organization or information processing, then artificial consciousness may be possible in principle. If consciousness depends on biological embodiment, neural dynamics, or fundamental physical properties, then current AI systems may lack consciousness even when they display intelligent behaviour.
+Critics therefore claim illusionism contradicts immediate introspective reality.
+
+### Explanatory Substitution
+
+Some critics argue illusionism explains:
+
+- why people talk about consciousness,
+without explaining:
+- subjective experience itself.
+
+### Introspective Skepticism
+
+Critics question whether introspection is truly as unreliable as illusionists suggest.
+
+### Hard Problem Remains
+
+Some philosophers argue illusionism merely re-labels the hard problem rather than dissolving it.
+
+## Relation to the Hard Problem
+
+Illusionism attempts to dissolve rather than solve the hard problem.
+
+According to illusionists:
+
+- the hard problem may arise from misleading assumptions about qualia;
+- introspection may distort how experience is represented;
+- phenomenal properties may not exist as traditionally conceived.
+
+Thus illusionism attempts to replace:
+
+```text
+Why do qualia exist?
+```
+
+with:
+
+```text
+Why do humans believe in qualia?
+```
+
+This shift is one of the defining features of the theory.
+
+## Explanatory Scope
+
+Illusionism attempts to explain:
+
+- introspective beliefs;
+- self-modeling;
+- access consciousness;
+- cognitive awareness;
+- reportability;
+- metacognition;
+- and the apparent mystery of consciousness.
+
+However, unresolved questions remain:
+
+- Does illusionism eliminate phenomenology or explain it?
+- Can introspective illusion exist without experience?
+- Are qualia fully reducible?
+- Can AI systems generate introspective self-models?
+- Is phenomenal consciousness genuinely illusory?
 
 ## Summary
 
-Illusionism contributes an important perspective to consciousness studies, but it does not settle the field. Its value depends on whether it is being used to explain neural correlates, cognitive access, subjective experience, self-awareness, or metaphysical foundations. The comparative chapters later in this book return to these criteria systematically.
+Illusionism argues that phenomenal consciousness, as traditionally conceived, may be an introspective illusion generated through cognitive self-modeling.

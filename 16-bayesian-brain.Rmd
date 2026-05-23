@@ -1,134 +1,538 @@
-# Bayesian Brain Approaches {#bayesian-brain}
+# Bayesian Brain and Predictive Inference {#bayesian-brain}
 
 ## Chapter Overview
 
-Bayesian brain theories model perception and cognition as probabilistic inference under uncertainty.
+Bayesian brain theories propose that perception and cognition operate through probabilistic inference under conditions of uncertainty. According to this framework, the brain does not passively record reality. Instead, it actively predicts the causes of sensory input and continuously updates those predictions in response to incoming evidence [@friston2010; @clark2016].
 
-This chapter examines bayesian brain approaches as a theory or family of theories of consciousness. The discussion considers historical background, conceptual assumptions, mechanisms, empirical support, philosophical significance, explanatory strengths, weaknesses, unresolved gaps, and implications for artificial intelligence and altered states of consciousness. [@friston2010] [@clark2016]
+Bayesian approaches have become highly influential in neuroscience, cognitive science, artificial intelligence, and contemporary theories of consciousness because they provide a unified computational framework for understanding:
+
+- perception,
+- learning,
+- prediction,
+- uncertainty,
+- attention,
+- action,
+- and conscious experience.
+
+Some Bayesian theories propose that conscious perception reflects the brain’s best current predictive model of the world, body, and self.
+
+This chapter examines the conceptual foundations, historical development, predictive mechanisms, empirical evidence, philosophical implications, strengths, criticisms, and unresolved questions associated with Bayesian approaches to consciousness.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Define the central claims of bayesian brain approaches.
-- Explain the problem of consciousness that this theory is attempting to solve.
-- Distinguish between what the theory explains well and what remains unresolved.
-- Evaluate the theory against competing explanations.
-- Identify how the theory handles subjective experience, reportability, selfhood, neural mechanisms, and empirical testability.
+- Define the core claims of Bayesian brain theories
+- Explain Bayesian inference intuitively
+- Describe prediction error and hierarchical prediction
+- Explain the role of uncertainty and precision weighting
+- Analyze the relationship between prediction and conscious perception
+- Describe hallucinations and altered states within Bayesian frameworks
+- Compare Bayesian approaches with competing theories
+- Evaluate the strengths and criticisms of Bayesian approaches to consciousness
+
+## Core Idea in One Picture
+
+Figure \@ref(fig:fig-bayesian) summarizes the major conceptual structure of Bayesian approaches to consciousness.
+
+```{r fig-bayesian, echo=FALSE, fig.cap="Bayesian brain and predictive inference. Panel A illustrates the Bayesian perception loop. Panel B shows hierarchical predictive processing. Panel C demonstrates perception under uncertainty. Panel D illustrates precision weighting and attention. Panel E shows hallucinations as overweighted priors. Panel F compares Bayesian approaches with other theories of consciousness.", out.width="100%", fig.align="center"}
+knitr::include_graphics("figures/16_bayesian_theory.png")
+```
+
+As shown in Figure \@ref(fig:fig-bayesian), Bayesian approaches propose that perception and cognition emerge through continuous interaction between predictions, sensory input, uncertainty, and prediction-error minimization.
 
 ## Historical Development
 
-The intellectual background of this theory should be understood in relation to broader debates about mind, matter, cognition, subjectivity, and scientific explanation. Consciousness research has often moved between two poles: one pole emphasizes measurable cognitive and neural mechanisms, while the other emphasizes first-person experience and the difficulty of reducing subjectivity to objective processes.
+Bayesian approaches emerged from developments in:
 
-In its modern form, bayesian brain approaches responds to dissatisfaction with purely behavioural accounts of mind. It attempts to explain why certain mental states are conscious while others remain unconscious, why experience appears unified, and how conscious states relate to brain activity, cognition, language, memory, action, and self-monitoring.
+- probability theory;
+- statistics;
+- cybernetics;
+- information theory;
+- computational neuroscience;
+- and cognitive science.
 
-## Core Assumptions
+The broader intellectual background involves longstanding debates concerning:
 
-Key assumptions include:
+- perception,
+- uncertainty,
+- representation,
+- cognition,
+- and scientific explanation.
 
-- The brain estimates causes of sensory input.
-- Perception is probabilistic and model-based.
-- Conscious experience may reflect inference, precision, and uncertainty.
+Traditional models often treated perception as largely passive:
 
-These assumptions shape what the theory treats as central evidence and what it may leave unexplained.
+```text
+world → sensory input → perception
+```
 
-## Conceptual Framework
+Bayesian theories instead propose:
 
-The theory can be interpreted as a response to several linked questions:
+```text
+prediction + sensory evidence → perceptual inference
+```
 
-1. What makes a mental state conscious rather than unconscious?
-2. Is consciousness primarily a biological, informational, functional, phenomenological, or metaphysical property?
-3. Does the theory explain access consciousness, phenomenal consciousness, or both?
-4. Can the theory identify necessary and sufficient conditions for consciousness?
-5. Does it apply to infants, non-human animals, artificial systems, and altered states?
+In modern neuroscience, Bayesian frameworks became especially influential through the work of researchers such as:
 
-A useful academic distinction is between **access consciousness** and **phenomenal consciousness**. Access consciousness concerns information that is available for reasoning, report, memory, and action. Phenomenal consciousness concerns the qualitative character of experience: what it is like to see red, feel pain, hear music, or experience oneself as a subject.
+- Karl Friston,
+- Andy Clark,
+- Geoffrey Hinton,
+- and others associated with predictive processing and computational neuroscience.
 
-## Mechanism or Explanatory Model
+Karl Friston’s Free Energy Principle became particularly influential because it proposed a broad unifying framework linking prediction, perception, action, learning, and biological self-organization [@friston2010].
 
-The explanatory mechanism proposed by this theory should be analyzed at multiple levels:
+## Bayesian Inference
 
-- **Phenomenological level:** What kind of experience is being explained?
-- **Cognitive level:** What mental operations are involved?
-- **Computational level:** What information-processing structure is proposed?
-- **Neural level:** What brain systems or dynamics are implicated?
-- **Metaphysical level:** What does the theory assume about the relation between mind and matter?
+At the center of Bayesian approaches is the concept of **Bayesian inference**.
 
-This multi-level analysis prevents the theory from being judged only by one standard. A theory may be neuroscientifically useful but philosophically incomplete, or philosophically powerful but empirically difficult to test.
+Bayesian inference involves updating beliefs or predictions in response to new evidence.
+
+According to Bayesian theories:
+
+> The brain continuously estimates the most probable causes of sensory input under conditions of uncertainty.
+
+Figure \@ref(fig:fig-bayesian) Panel A illustrates this predictive cycle.
+
+As shown in Panel A:
+
+1. the brain generates predictions;
+2. sensory input arrives;
+3. prediction errors are computed;
+4. internal models are updated;
+5. new predictions emerge.
+
+This cycle operates continuously and dynamically.
+
+Importantly:
+
+> Perception is not simply received from the world.  
+> Perception is inferred.
+
+## The Brain as a Prediction Machine
+
+A central idea in Bayesian approaches is that the brain functions as a prediction-generating system.
+
+Rather than waiting passively for information, the brain actively anticipates:
+
+- sensory events;
+- environmental structure;
+- bodily states;
+- behavioural consequences;
+- and social interactions.
+
+According to this framework:
+
+- perception,
+- cognition,
+- and even selfhood
+
+may depend heavily on predictive modeling.
+
+This predictive perspective strongly influenced modern theories such as:
+
+- predictive processing;
+- active inference;
+- and hierarchical Bayesian cognition.
+
+## Hierarchical Predictive Processing
+
+Bayesian theories often propose that the brain is organized hierarchically.
+
+Figure \@ref(fig:fig-bayesian) Panel B illustrates this hierarchical structure.
+
+As shown in Panel B:
+
+- higher cortical levels generate broad predictions;
+- lower levels process detailed sensory information;
+- prediction errors travel upward;
+- predictions travel downward.
+
+### Higher Levels
+
+Higher levels may encode:
+
+- concepts;
+- expectations;
+- goals;
+- contextual interpretations.
+
+### Lower Levels
+
+Lower levels process:
+
+- edges;
+- colours;
+- sounds;
+- textures;
+- sensory detail.
+
+Conscious perception may emerge through interaction between these hierarchical layers.
+
+## Prediction Error
+
+Prediction error refers to the mismatch between:
+
+- predicted sensory input,
+and:
+- actual sensory input.
+
+Prediction errors are critically important because they drive learning and model updating.
+
+When predictions fail:
+
+- internal models adjust;
+- expectations change;
+- future predictions improve.
+
+Bayesian approaches therefore propose that brains continuously minimize prediction error through ongoing inference.
+
+Figure \@ref(fig:fig-bayesian) Panel A illustrates this updating process.
+
+## Perception Under Uncertainty
+
+One of the most important contributions of Bayesian approaches is the treatment of perception as inference under uncertainty.
+
+Figure \@ref(fig:fig-bayesian) Panel C illustrates this principle using ambiguous perception.
+
+As shown in Panel C:
+
+- sensory input may be incomplete or ambiguous;
+- prior expectations influence interpretation;
+- different observers may perceive different outcomes.
+
+For example:
+
+- ambiguous images;
+- noisy environments;
+- visual illusions;
+- and uncertain stimuli
+
+may generate multiple possible interpretations.
+
+Bayesian approaches propose that perception reflects:
+
+> the brain’s best probabilistic estimate of reality.
+
+## Precision Weighting and Attention
+
+Modern Bayesian theories emphasize the importance of **precision weighting**.
+
+Figure \@ref(fig:fig-bayesian) Panel D illustrates this mechanism.
+
+Precision refers to the estimated reliability or certainty of information.
+
+According to Bayesian theories:
+
+- highly reliable signals receive stronger weighting;
+- uncertain signals receive weaker weighting.
+
+This influences:
+
+- attention;
+- salience;
+- conscious access;
+- perceptual confidence;
+- and behavioural prioritization.
+
+Precision weighting therefore helps determine:
+
+- what enters conscious awareness;
+- what remains background information;
+- and which signals dominate perception.
+
+Some researchers interpret attention itself as a form of precision control.
+
+## Free Energy Principle
+
+Karl Friston’s **Free Energy Principle** extends Bayesian inference into a broader biological framework [@friston2010].
+
+According to this theory:
+
+- biological systems minimize surprise;
+- prediction error is continuously reduced;
+- organisms maintain adaptive internal models of the environment.
+
+This framework attempts to unify:
+
+- perception,
+- action,
+- learning,
+- attention,
+- and self-organization.
+
+Predictive processing models can often be interpreted as computational implementations of Bayesian inference within neural systems.
+
+## Consciousness and Predictive Models
+
+Some Bayesian approaches propose that conscious experience reflects:
+
+- the brain’s best current predictive model of reality.
+
+According to this view:
+
+- perception is controlled hallucination constrained by sensory input;
+- consciousness reflects probabilistic inference;
+- conscious content depends on prediction, precision, and updating.
+
+This perspective suggests that:
+
+> conscious experience may be fundamentally model-based.
+
+Bayesian frameworks may also extend to predictive models of:
+
+- the body;
+- emotion;
+- agency;
+- and selfhood.
+
+## Hallucinations and Altered States
+
+Bayesian approaches are particularly powerful for explaining hallucinations and altered states.
+
+Figure \@ref(fig:fig-bayesian) Panel E illustrates this process.
+
+According to Bayesian models:
+
+- hallucinations may occur when internally generated predictions overpower sensory evidence.
+
+In normal perception:
+
+```text
+prediction + sensory input → balanced inference
+```
+
+In hallucination:
+
+```text
+overweighted prior expectations → distorted perception
+```
+
+This framework has been applied to:
+
+- psychosis;
+- dreaming;
+- psychedelic states;
+- auditory hallucinations;
+- and delusional perception.
+
+Bayesian approaches therefore provide a strong computational framework for understanding altered conscious experience.
+
+## Bayesian Brain and Other Theories
+
+Figure \@ref(fig:fig-bayesian) Panel F compares Bayesian approaches with other theories of consciousness.
+
+### Relation to Global Workspace Theory
+
+Bayesian inference may help determine:
+
+- which information gains global access;
+- which signals dominate conscious processing.
+
+### Relation to Integrated Information Theory
+
+Both theories emphasize integration, though Bayesian approaches focus more on:
+
+- probabilistic inference;
+- prediction;
+- and uncertainty minimization.
+
+### Relation to Recurrent Processing Theory
+
+Prediction and prediction-error loops are inherently recurrent and interactive.
+
+### Relation to Predictive Processing
+
+Predictive processing can be interpreted as a neural implementation of Bayesian inference.
+
+### Relation to Attention Schema Theory
+
+Precision weighting may influence attentional allocation and awareness modeling.
+
+As shown in Panel F, Bayesian inference functions less as a single isolated theory and more as a computational framework that intersects with multiple consciousness theories.
 
 ## Empirical Support
 
-Evidence relevant to this theory may come from:
+Evidence supporting Bayesian approaches comes from:
 
-- neuroimaging studies;
+- visual illusions;
+- perceptual ambiguity studies;
+- sensory expectation experiments;
+- predictive coding research;
 - electrophysiology;
-- visual masking;
-- binocular rivalry;
-- anesthesia;
-- sleep and dreaming;
-- disorders of consciousness;
-- split-brain research;
-- attention and working memory studies;
-- metacognition and confidence judgments;
-- artificial intelligence and computational modeling.
+- hallucination studies;
+- neuroimaging;
+- and computational modeling.
 
-A complete evaluation requires asking whether the evidence supports the theory specifically, or whether the same evidence could be explained equally well by competing theories.
+Important evidence includes findings that:
 
-## Strengths
+- expectations influence perception;
+- prediction errors alter conscious awareness;
+- sensory uncertainty changes perceptual interpretation;
+- predictive models shape conscious experience.
 
-The major strengths of this theory include:
+Bayesian frameworks have also become increasingly influential in machine learning and AI systems operating under uncertainty.
 
-- It provides a structured vocabulary for analyzing consciousness.
-- It connects consciousness to broader debates in philosophy of mind and cognitive science.
-- It clarifies at least some aspects of conscious access, awareness, reportability, or subjective experience.
-- It can be compared systematically with alternative theories.
-- It helps identify empirical predictions or conceptual boundaries.
+## Bayesian Approaches and Artificial Intelligence
 
-## Weaknesses
+Bayesian inference is central to many modern AI systems.
 
-The main weaknesses include:
+Figure \@ref(fig:fig-bayesian) connects Bayesian approaches to broader computational theories of cognition.
 
-- It may explain cognitive access without fully explaining phenomenal experience.
-- It may rely on concepts that are difficult to operationalize.
-- It may not specify clear neural mechanisms.
-- It may not provide decisive criteria for consciousness in animals or machines.
-- It may not fully address the hard problem of consciousness.
+Bayesian principles influence:
 
-## Explanatory Gaps
+- robotics;
+- machine learning;
+- predictive modeling;
+- probabilistic reasoning;
+- and adaptive decision systems.
 
-Important unresolved questions include:
+This raises important questions concerning artificial consciousness:
 
-- Does the theory explain why consciousness exists at all?
-- Does it explain why experience has qualitative character?
-- Does it identify a measurable marker of consciousness?
-- Does it distinguish consciousness from intelligence, attention, memory, and self-report?
-- Can it explain unconscious perception and blindsight?
-- Can it account for dream consciousness and altered states?
-- Can it distinguish simulated consciousness from genuine consciousness?
+- Could predictive AI systems become conscious?
+- Is probabilistic inference sufficient for awareness?
+- Does consciousness require embodiment?
+- Can predictive systems possess genuine subjective experience?
 
-## What the Theory Can Answer
+At present, no consensus exists.
 
-This theory is especially useful for answering questions such as:
+## Strengths of Bayesian Approaches
 
-- Which cognitive or neural processes are associated with conscious awareness?
-- How does conscious information differ from unconscious information?
-- What functional role might consciousness play?
-- How can consciousness be investigated empirically?
+Major strengths include:
 
-## What the Theory Cannot Yet Answer
+- strong mathematical framework;
+- powerful explanation of uncertainty;
+- integration with neuroscience;
+- explanatory value for perception;
+- strong computational relevance;
+- compatibility with AI systems;
+- usefulness for altered-state research;
+- strong predictive structure.
 
-The theory is less successful at answering questions such as:
+Bayesian theories also provide a highly unified language connecting:
 
-- Why should the proposed mechanism produce subjective feeling?
-- What exactly makes experience first-personal?
-- How can consciousness be measured without relying on verbal report?
-- Can consciousness exist in artificial systems?
-- Is consciousness fundamental, emergent, biological, computational, or relational?
+- perception;
+- cognition;
+- action;
+- attention;
+- learning;
+- and conscious experience.
 
-## Implications for Artificial Intelligence
+## Weaknesses and Criticisms
 
-The theory has important implications for AI consciousness. If consciousness depends primarily on functional organization or information processing, then artificial consciousness may be possible in principle. If consciousness depends on biological embodiment, neural dynamics, or fundamental physical properties, then current AI systems may lack consciousness even when they display intelligent behaviour.
+Despite their strengths, Bayesian approaches face important criticisms.
+
+### Overgeneralization
+
+Critics argue Bayesian theories sometimes become too broad and flexible.
+
+Almost any result may potentially be interpreted within a Bayesian framework.
+
+### Mathematical Idealization
+
+Brains may not literally perform formal Bayesian calculations.
+
+Some researchers argue Bayesian models function more as useful abstractions than literal neural mechanisms.
+
+### Hard Problem
+
+Prediction and inference may explain:
+
+- cognition,
+- behaviour,
+- and reportability,
+
+without explaining:
+
+- subjective feeling itself.
+
+### Prediction Without Consciousness
+
+Many unconscious systems also perform predictive computations.
+
+Critics therefore ask:
+
+> Why should prediction generate consciousness?
+
+### Excessive Computationalism
+
+Some critics argue Bayesian approaches underemphasize:
+
+- embodiment;
+- affect;
+- phenomenology;
+- biological constraints;
+- and lived experience.
+
+## Relation to the Hard Problem
+
+Bayesian approaches are often highly successful at explaining:
+
+- perceptual organization;
+- uncertainty management;
+- cognitive integration;
+- predictive control;
+- and behavioural adaptation.
+
+However, critics argue these explanations may still leave the hard problem unresolved.
+
+Even if conscious experience reflects predictive inference, important questions remain:
+
+- Why does prediction feel like anything?
+- Why should probabilistic inference generate subjectivity?
+- Why does experience possess qualitative character?
+
+Thus Bayesian approaches may explain:
+
+- how perception is constructed,
+without fully explaining:
+- why subjective experience exists at all.
+
+## Explanatory Scope
+
+Bayesian approaches attempt to explain:
+
+- perception;
+- uncertainty;
+- predictive cognition;
+- hallucinations;
+- expectation;
+- attention;
+- learning;
+- and conscious inference.
+
+However, unresolved questions remain:
+
+- Is prediction sufficient for consciousness?
+- Can unconscious systems perform the same computations?
+- How does selfhood emerge?
+- Can AI systems become conscious?
+- What distinguishes prediction from phenomenology?
+- How should conscious inference be measured empirically?
 
 ## Summary
 
-Bayesian Brain Approaches contributes an important perspective to consciousness studies, but it does not settle the field. Its value depends on whether it is being used to explain neural correlates, cognitive access, subjective experience, self-awareness, or metaphysical foundations. The comparative chapters later in this book return to these criteria systematically.
+Bayesian brain theories propose that perception and cognition emerge through probabilistic inference under uncertainty.
+
+The brain continuously:
+
+- generates predictions;
+- compares them with sensory input;
+- computes prediction errors;
+- and updates internal models.
+
+These frameworks emphasize:
+
+- prediction;
+- uncertainty;
+- precision weighting;
+- hierarchical inference;
+- and model updating.
+
+Bayesian approaches have become highly influential in neuroscience, predictive processing, artificial intelligence, and computational theories of consciousness.
+
+At the same time, important philosophical questions remain concerning:
+
+- subjective experience;
+- phenomenology;
+- embodiment;
+- and whether predictive inference alone can fully explain consciousness.
