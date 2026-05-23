@@ -1,8 +1,26 @@
 # Introduction to Consciousness Studies {#intro}
 
+Consciousness is both the most intimate and the most mysterious aspect of human existence. Every perception, thought, emotion, memory, and scientific observation occurs within conscious awareness, yet the nature of consciousness itself remains deeply contested. Although modern science has achieved extraordinary success in explaining physical systems, biological evolution, and neural mechanisms, explaining subjective experience continues to present unique conceptual and scientific difficulties.
+
 Consciousness is among the most difficult topics in contemporary science and philosophy. It is immediately familiar, because every experience occurs through it, yet it remains extremely difficult to define, measure, or explain. A person can describe being awake, seeing colour, feeling pain, remembering an event, imagining a future, or reflecting on the self. However, explaining why and how physical processes in the brain produce these first-person experiences remains controversial.
 
 Consciousness research sits at the intersection of neuroscience, psychology, philosophy, computer science, information theory, physics, biology, and phenomenology. Different disciplines emphasize different aspects of the problem. Neuroscience often asks which brain processes correlate with conscious awareness. Philosophy asks how subjective experience can fit into a physical world. Cognitive science asks what consciousness does for perception, action, attention, memory, and decision-making. Artificial intelligence raises the question of whether consciousness might arise in non-biological systems.
+
+Figure \@ref(fig:fig-interdisciplinary-map-intro) illustrates the interdisciplinary structure of contemporary consciousness research and highlights the diversity of explanatory frameworks involved in the study of conscious experience.
+
+```{r fig-interdisciplinary-map-intro, echo=FALSE, fig.cap="An interdisciplinary conceptual map of consciousness research. Contemporary approaches to consciousness emerge from neuroscience, philosophy, psychology, artificial intelligence, phenomenology, physics, biology, and information theory. Each discipline emphasizes different explanatory targets, methods, and assumptions regarding the nature of conscious experience.", out.width="95%", fig.align="center"}
+knitr::include_graphics("figures/0_interdisciplinary_map_of_consciousness.png")
+```
+
+As shown in Figure \@ref(fig:fig-interdisciplinary-map-intro), consciousness studies extend across multiple domains of inquiry, ranging from empirical neuroscience and cognitive science to phenomenology, metaphysics, computational theory, and physics. Some approaches focus primarily on neural mechanisms and cognitive functions, while others emphasize subjective experience, embodiment, information integration, or the fundamental nature of reality itself. The diversity of these perspectives reflects one of the central challenges of consciousness research: different theories often attempt to explain different dimensions of conscious experience using fundamentally different conceptual assumptions and explanatory strategies.
+
+## Why Consciousness Is Difficult to Study
+
+Consciousness presents unusual methodological challenges because it involves both subjective and objective dimensions. Scientific investigation typically depends on publicly observable measurements, whereas conscious experience is inherently first-personal. Researchers therefore face the challenge of relating subjective reports to neural activity, behavioural data, and computational models without reducing consciousness entirely to any one of these domains.
+
+Additional difficulties arise because consciousness is not a single phenomenon. Wakefulness, perception, self-awareness, emotion, attention, memory, and reflective thought can dissociate under different conditions, including dreaming, anesthesia, neurological injury, psychiatric disorders, meditation, and psychedelic states. As a result, different theories often target different dimensions of consciousness rather than a single unified phenomenon.
+
+A further complication arises because consciousness cannot be observed directly in the same way as many physical phenomena. Researchers must infer conscious states from behavioural reports, neural activity, physiological measures, and computational models. This creates continuing debates concerning which indicators genuinely reflect conscious experience and whether subjective awareness can ever be measured independently of self-report.
 
 ## Defining Consciousness
 
@@ -16,17 +34,37 @@ There is no single universally accepted definition of consciousness. Common uses
 - **Phenomenal consciousness:** qualitative experience, such as pain, colour, sound, or emotion.
 - **Access consciousness:** information availability for reasoning, report, memory, and action [@block1995].
 
-These meanings overlap but should not be treated as identical. A central source of confusion in consciousness studies is the tendency to move between them without clarification.
+These meanings overlap but should not be treated as identical. A central source of confusion in consciousness studies is the tendency to move between them without clarification. Some theorists emphasize cognition and information access, whereas others focus primarily on subjective feeling, selfhood, embodiment, or phenomenological structure.
+
+Some researchers also emphasize the unified and structured nature of conscious experience. Consciousness does not normally appear as isolated sensations, but rather as a coherent field of awareness in which perception, memory, bodily sensation, emotion, and self-representation interact dynamically.
 
 ## Easy Problems and Hard Problems
 
-David Chalmers distinguished the so-called **easy problems** of consciousness from the **hard problem** [@chalmers1995; @chalmers1996]. Easy problems are not necessarily easy scientifically; rather, they are problems that appear tractable using conventional cognitive science. They include explaining discrimination, attention, reportability, information integration, behavioural control, and wakefulness.
+A major development in contemporary consciousness studies was David Chalmers’ distinction between the so-called **easy problems** of consciousness and the **hard problem** [@chalmers1995; @chalmers1996]. The easy problems are not necessarily easy in practice; many remain scientifically and computationally difficult. However, they appear conceptually compatible with conventional scientific explanation because they concern cognitive functions and behavioural mechanisms.
 
-The hard problem asks why any physical or functional process should be accompanied by subjective experience at all. Why should neural activity feel like anything from the inside? Why is there something it is like to see red, taste bitterness, feel anxiety, or hear music?
+Examples of the easy problems include explaining:
+
+- attention and selective awareness;
+- information integration;
+- perceptual discrimination;
+- behavioural reportability;
+- memory access;
+- wakefulness and state transitions;
+- cognitive control and decision-making.
+
+These problems concern how organisms process information, generate behaviour, and coordinate cognitive activity. Contemporary neuroscience and cognitive science have made substantial progress in investigating such mechanisms through neuroimaging, computational modeling, electrophysiology, and behavioural experimentation.
+
+The **hard problem**, by contrast, concerns subjective experience itself. It asks why physical or computational processes should be accompanied by conscious feeling at all. Why should neural activity feel like anything from the inside? Why is there something it is like to see colour, experience pain, hear music, or possess a sense of self?
+
+This issue is closely related to what philosophers call the **explanatory gap**: the apparent difficulty of deriving first-person subjective experience from third-person physical description alone. A complete neuroscientific account may identify the mechanisms associated with conscious states, yet critics argue that such descriptions still appear insufficient to explain why experience possesses a qualitative or phenomenal character.
+
+Several influential thought experiments were developed to illustrate this concern. Philosophical zombies, inverted qualia, and Frank Jackson’s *Mary’s Room* thought experiment all attempt, in different ways, to challenge the assumption that functional or physical explanation alone necessarily captures subjective experience completely. Critics, however, argue that such thought experiments rely heavily on intuition and may not provide reliable foundations for scientific explanation.
+
+The distinction between the easy and hard problems has become one of the central organizing frameworks in modern consciousness studies. Some theories attempt to explain consciousness primarily in terms of cognitive access, information processing, or neural integration, whereas others attempt to address the existence and nature of phenomenal experience itself. Later chapters examine these different approaches in detail and evaluate whether contemporary theories genuinely solve, dissolve, or bypass the hard problem altogether.
 
 ## Neural Correlates of Consciousness
 
-A major scientific program seeks the **neural correlates of consciousness** (NCC): the minimal neural mechanisms sufficient for a specific conscious percept or experience [@koch2016]. This approach does not necessarily solve the hard problem, but it provides an empirical route for studying when and where consciousness appears in the brain.
+A major scientific program seeks the **neural correlates of consciousness** (NCC): the minimal neural mechanisms sufficient for a specific conscious percept or experience [@koch2016; @seth2018]. This approach does not necessarily solve the hard problem, but it provides an empirical route for studying when and where consciousness appears in the brain.
 
 NCC research commonly uses paradigms such as:
 
@@ -39,15 +77,39 @@ NCC research commonly uses paradigms such as:
 - disorders of consciousness;
 - metacognitive reporting.
 
+These paradigms are valuable because they allow researchers to compare conscious and unconscious processing under controlled conditions. Advances in neuroimaging, electrophysiology, computational neuroscience, and anesthesiology have significantly expanded the empirical study of conscious states over the past several decades.
+
+At the same time, identifying neural correlates does not necessarily explain why those neural processes should generate experience. This distinction between correlation and explanation remains central to contemporary debates.
+
+## The Contemporary State of Consciousness Research
+
+Contemporary consciousness research remains theoretically pluralistic. No single theory currently commands universal acceptance, and competing frameworks often differ not only in their proposed mechanisms but also in the phenomena they aim to explain. Some theories prioritize neural correlates and cognitive access, whereas others focus on phenomenology, information integration, embodiment, predictive modeling, or metaphysical foundations.
+
+At the same time, consciousness studies have become increasingly empirical. Questions that were once treated primarily as philosophical now intersect with experimental neuroscience, artificial intelligence, psychiatry, complexity science, anesthesiology, and computational modeling. Large-scale collaborations and adversarial theoretical comparisons have also begun to emerge as researchers attempt to evaluate competing theories more systematically.
+
+This theoretical diversity should not necessarily be viewed as a weakness. Consciousness may involve multiple interacting dimensions that require explanation at different levels, including neural, computational, phenomenological, biological, and philosophical levels.
+
 ## Why Theories Differ
 
-Theories of consciousness differ because they do not always explain the same target. Some explain conscious access, some explain subjective experience, some explain self-modeling, and others propose metaphysical foundations. A theory may be strong in one domain and weak in another.
+Theories of consciousness differ because they do not always attempt to explain the same phenomenon. Some theories focus primarily on conscious access and information availability, others focus on subjective experience and phenomenology, while still others emphasize neural mechanisms, embodiment, computational structure, or metaphysical foundations. A theory may therefore be powerful in one explanatory domain while remaining incomplete in another.
 
-For example, Global Workspace Theory is powerful for explaining reportable access and cognitive availability, while Integrated Information Theory aims to explain why consciousness is unified and structured. Higher-Order Thought theories emphasize awareness of one's own mental states, while embodied and enactive approaches emphasize organism-environment interaction.
+For example, Global Workspace Theory is influential in explaining reportable access and cognitive availability, while Integrated Information Theory attempts to explain why consciousness appears unified and structured. Higher-Order Thought theories emphasize awareness of one's own mental states, whereas embodied and enactive approaches emphasize organism-environment interaction and lived experience. Computational and predictive approaches model consciousness in terms of information processing and prediction, while philosophical approaches often focus on conceptual and metaphysical questions concerning the nature of mind itself.
+
+Figure \@ref(fig:fig-theoretical-landscape) provides a simplified conceptual overview of several major families of theories discussed throughout this book. The figure is not intended as a rigid classification system, since many theories overlap across categories or combine elements from multiple traditions. Rather, it serves as a broad intellectual map that highlights the different explanatory emphases that characterize contemporary consciousness research.
+
+```{r fig-theoretical-landscape, echo=FALSE, fig.cap="A conceptual landscape of major theoretical approaches to consciousness. Different theories emphasize different explanatory targets, including neural mechanisms, computation, information integration, embodiment, cognition, or metaphysical structure. Many contemporary debates arise because theories often attempt to explain different aspects of consciousness rather than the same phenomenon.", out.width="95%", fig.align="center"}
+knitr::include_graphics("figures/02_theoretical_landscape.png")
+```
+
+As illustrated in Figure \@ref(fig:fig-theoretical-landscape), contemporary theories can often be grouped according to their dominant explanatory priorities. Neuroscientific approaches typically focus on identifying neural mechanisms and large-scale brain dynamics associated with conscious states. Computational approaches emphasize information processing, prediction, representation, and functional organization. Informational theories focus on integration, complexity, and system structure, whereas embodied and enactive approaches emphasize organism-environment interaction and lived experience. Philosophical theories frequently address broader conceptual questions concerning subjectivity, physicalism, dualism, or the ontological status of consciousness itself.
+
+This diversity of approaches reflects one of the central challenges of consciousness studies: consciousness may not be a single problem requiring a single explanation. Instead, it may involve multiple interconnected dimensions operating across neural, cognitive, computational, phenomenological, biological, and philosophical levels simultaneously.
+
+This distinction becomes especially important when evaluating artificial intelligence and machine consciousness. A system may display intelligent behaviour, language ability, and complex information processing while still leaving unresolved whether it possesses subjective experience. Different theories therefore imply very different criteria for what would count as genuine consciousness in biological or artificial systems.
 
 ## Academic Approach Used in This Book
 
-Each theory is evaluated according to the following criteria:
+Each theory in this book is evaluated according to several recurring criteria:
 
 - explanatory target;
 - conceptual clarity;
@@ -60,4 +122,12 @@ Each theory is evaluated according to the following criteria:
 - philosophical cost;
 - unresolved explanatory gaps.
 
-The purpose of this book is not to reduce all theories to one winner. Instead, it aims to clarify the explanatory landscape.
+The purpose of this book is not to reduce all theories to one winner. Instead, it aims to clarify the explanatory landscape and examine what different theories can and cannot currently explain.
+
+## Structure of the Book
+
+The chapters that follow move from foundational conceptual problems to detailed examinations of major theoretical frameworks. Early chapters introduce the hard problem, historical developments, and foundational philosophical debates concerning mind and consciousness. Subsequent chapters examine neuroscientific, computational, informational, embodied, and metaphysical theories of consciousness in detail.
+
+Later chapters explore altered states, anesthesia, disorders of consciousness, artificial intelligence, machine consciousness, comparative evaluations of competing theories, and unresolved explanatory gaps. The final chapters consider whether consciousness can ultimately be explained scientifically and what future directions may emerge in consciousness research.
+
+Rather than treating consciousness as a single isolated problem, this book approaches consciousness studies as an evolving interdisciplinary field in which scientific, philosophical, computational, and phenomenological perspectives continue to interact, compete, and reshape one another.

@@ -2,133 +2,274 @@
 
 ## Chapter Overview
 
-Functionalism explains mental states by what they do rather than by what they are made of.
+Functionalism explains mental states in terms of what they do rather than what they are made of. According to functionalist theories, mental states are defined by their causal roles within a larger system: how they receive inputs, interact with other mental states, process information, and generate behavioural outputs.
 
-This chapter examines functionalism as a theory or family of theories of consciousness. The discussion considers historical background, conceptual assumptions, mechanisms, empirical support, philosophical significance, explanatory strengths, weaknesses, unresolved gaps, and implications for artificial intelligence and altered states of consciousness. [@block1995] [@chalmers1996]
+This chapter examines functionalism as one of the most influential approaches in contemporary philosophy of mind and cognitive science. The discussion considers its historical development, conceptual foundations, explanatory framework, empirical relevance, strengths, weaknesses, and implications for artificial intelligence and machine consciousness. Functionalism is especially important because it helped shift consciousness research away from strict biological reductionism toward computational and informational models of mind. [@putnam1967; @fodor1968; @block1995]
+
+Functionalism also plays a central role in modern debates concerning artificial intelligence, cognitive architecture, and the relationship between consciousness and computation. Many contemporary theories—including Global Workspace Theory, predictive processing, and computational neuroscience—inherit important assumptions from functionalist thinking.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
 - Define the central claims of functionalism.
-- Explain the problem of consciousness that this theory is attempting to solve.
-- Distinguish between what the theory explains well and what remains unresolved.
-- Evaluate the theory against competing explanations.
-- Identify how the theory handles subjective experience, reportability, selfhood, neural mechanisms, and empirical testability.
+- Explain how functionalism differs from identity theory and behaviourism.
+- Understand the concept of multiple realizability.
+- Distinguish major forms of functionalism.
+- Evaluate functionalism’s explanatory strengths and limitations.
+- Analyze whether functional organization alone is sufficient for consciousness.
+- Explain why functionalism became closely associated with artificial intelligence and computational models of mind.
 
 ## Historical Development
 
-The intellectual background of this theory should be understood in relation to broader debates about mind, matter, cognition, subjectivity, and scientific explanation. Consciousness research has often moved between two poles: one pole emphasizes measurable cognitive and neural mechanisms, while the other emphasizes first-person experience and the difficulty of reducing subjectivity to objective processes.
+Functionalism emerged partly as a reaction against two earlier theories of mind: behaviourism and identity theory.
 
-In its modern form, functionalism responds to dissatisfaction with purely behavioural accounts of mind. It attempts to explain why certain mental states are conscious while others remain unconscious, why experience appears unified, and how conscious states relate to brain activity, cognition, language, memory, action, and self-monitoring.
+Behaviourism attempted to explain mental states entirely in terms of observable behaviour. Although behaviourism contributed methodological rigor to psychology, critics argued that it ignored internal mental organization and subjective experience.
 
-## Core Assumptions
+Identity theory, by contrast, attempted to identify mental states directly with specific brain states. According to strict identity theory, pain simply is a particular neural process occurring in the brain. Functionalists argued that this approach was too biologically restrictive because it implied that only organisms with identical neural structures could possess mental states.
 
-Key assumptions include:
+Functionalism offered an alternative framework. Instead of identifying mental states with behaviour or with specific biological structures, functionalism defined them according to their causal-functional roles within a system.
 
-- Mental states are defined by causal roles.
-- Consciousness may be realizable in different physical systems.
-- Functional organization is more important than biological substrate.
+Major contributors to functionalism include:
 
-These assumptions shape what the theory treats as central evidence and what it may leave unexplained.
+- Hilary Putnam;
+- Jerry Fodor;
+- David Lewis;
+- David Armstrong;
+- Sydney Shoemaker;
+- Ned Block.
 
-## Conceptual Framework
+These thinkers developed several versions of functionalism ranging from machine-state functionalism to psycho-functionalism and computational functionalism. [@putnam1967; @fodor1968; @lewis1972]
 
-The theory can be interpreted as a response to several linked questions:
+## Core Functionalist Principle
 
-1. What makes a mental state conscious rather than unconscious?
-2. Is consciousness primarily a biological, informational, functional, phenomenological, or metaphysical property?
-3. Does the theory explain access consciousness, phenomenal consciousness, or both?
-4. Can the theory identify necessary and sufficient conditions for consciousness?
-5. Does it apply to infants, non-human animals, artificial systems, and altered states?
+The central claim of functionalism is that mental states are individuated by their functional organization rather than by their physical composition.
 
-A useful academic distinction is between **access consciousness** and **phenomenal consciousness**. Access consciousness concerns information that is available for reasoning, report, memory, and action. Phenomenal consciousness concerns the qualitative character of experience: what it is like to see red, feel pain, hear music, or experience oneself as a subject.
+A conscious state is therefore characterized by:
 
-## Mechanism or Explanatory Model
+- how it processes sensory input;
+- how it interacts with memory and cognition;
+- how it influences reasoning and decision-making;
+- how it contributes to behavioural output;
+- how it integrates with other mental states.
 
-The explanatory mechanism proposed by this theory should be analyzed at multiple levels:
+Under this view, consciousness depends primarily on organizational structure rather than biological substrate.
 
-- **Phenomenological level:** What kind of experience is being explained?
-- **Cognitive level:** What mental operations are involved?
-- **Computational level:** What information-processing structure is proposed?
-- **Neural level:** What brain systems or dynamics are implicated?
-- **Metaphysical level:** What does the theory assume about the relation between mind and matter?
+Functionalist theories therefore ask:
 
-This multi-level analysis prevents the theory from being judged only by one standard. A theory may be neuroscientifically useful but philosophically incomplete, or philosophically powerful but empirically difficult to test.
+> What does consciousness do?
 
-## Empirical Support
+rather than:
 
-Evidence relevant to this theory may come from:
+> What physical material produces it?
 
-- neuroimaging studies;
-- electrophysiology;
-- visual masking;
-- binocular rivalry;
-- anesthesia;
-- sleep and dreaming;
-- disorders of consciousness;
-- split-brain research;
-- attention and working memory studies;
-- metacognition and confidence judgments;
-- artificial intelligence and computational modeling.
+This distinction became foundational for computational theories of mind and later debates about artificial intelligence.
 
-A complete evaluation requires asking whether the evidence supports the theory specifically, or whether the same evidence could be explained equally well by competing theories.
+## Functional Organization
+
+Functionalism interprets consciousness as emerging from organized causal relationships among internal states, sensory inputs, memory systems, and behavioural outputs.
+
+Figure \@ref(fig:fig-functionalist-view) illustrates the general functionalist model of consciousness. The figure emphasizes that conscious systems are characterized by dynamic relations among perception, internal processing, memory, reasoning, and action rather than by any single biological substance.
+
+```{r fig-functionalist-view, echo=FALSE, fig.cap="Functionalist models define consciousness according to causal organization and information-processing relations among inputs, internal states, cognition, memory, and behavioural outputs.", out.width="92%", fig.align="center"}
+knitr::include_graphics("figures/07_functionalist_view.png")
+```
+
+As shown in Figure \@ref(fig:fig-functionalist-view), functionalist approaches interpret consciousness as a structured system of interactions rather than as a single localized entity. Perception, memory, reasoning, self-monitoring, and behavioural response are understood as components within a larger causal architecture.
+
+This framework helped establish strong connections between functionalism, cognitive science, neuroscience, and artificial intelligence.
+
+## Multiple Realizability
+
+One of the most influential arguments for functionalism is the principle of **multiple realizability**.
+
+According to this idea, the same mental state may be realized in different physical systems provided that the relevant functional organization is preserved.
+
+Pain, for example, might occur in:
+
+- human nervous systems;
+- non-human animals;
+- hypothetical alien organisms;
+- artificial computational systems.
+
+What matters is not the material itself but the functional role performed within the larger cognitive system.
+
+Multiple realizability became one of the strongest objections to strict identity theory. If mental states can exist across different substrates, then consciousness cannot simply be identical to one particular biological structure.
+
+This principle later became central to debates about machine consciousness and artificial intelligence.
+
+## Major Forms of Functionalism
+
+Functionalism developed into several distinct forms.
+
+### Machine-State Functionalism
+
+Machine-state functionalism compares the mind to a computational machine composed of inputs, internal states, and outputs.
+
+Mental states are interpreted analogously to computational states within a program.
+
+### Psycho-Functionalism
+
+Psycho-functionalism defines mental states according to scientifically informed cognitive psychology rather than ordinary language concepts.
+
+This version became closely associated with cognitive science.
+
+### Analytic Functionalism
+
+Analytic functionalism attempts to analyze mental concepts through their causal-functional relationships within ordinary language and folk psychology.
+
+### Computational Functionalism
+
+Computational functionalism interprets mental states as computational processes implemented within physical systems.
+
+This version strongly influenced artificial intelligence research and modern cognitive architectures.
+
+## Relationship to Consciousness
+
+Functionalism is especially powerful for explaining:
+
+- access consciousness;
+- reportability;
+- attention;
+- working memory;
+- decision-making;
+- cognitive integration;
+- behavioural coordination.
+
+However, critics argue that functional organization alone may not fully explain phenomenal consciousness or qualitative experience.
+
+This issue connects functionalism directly to the hard problem of consciousness discussed earlier in this book.
+
+Some functionalists argue that phenomenal experience simply is a higher-order functional organization. Others argue that subjective experience may emerge naturally once sufficiently complex functional architectures arise.
+
+Critics remain unconvinced that causal organization alone explains why experience feels like anything from the inside.
+
+## Empirical Relevance
+
+Functionalist ideas strongly influenced empirical consciousness research.
+
+Functional organization plays important roles in:
+
+- Global Workspace Theory;
+- predictive processing;
+- higher-order theories;
+- computational neuroscience;
+- attention schema theory;
+- cognitive architectures;
+- artificial neural networks.
+
+Functionalist assumptions are also widely used in experimental paradigms involving:
+
+- working memory;
+- attention;
+- reportability;
+- metacognition;
+- decision-making;
+- sensory integration.
+
+Because functionalism emphasizes organization and processing, it naturally integrates with computational modeling and artificial intelligence research.
+
+## Artificial Intelligence and Machine Consciousness
+
+Functionalism became one of the most influential philosophical foundations for artificial intelligence.
+
+If consciousness depends primarily on functional organization rather than biological material, then artificial consciousness may be possible in principle.
+
+This possibility motivated extensive debate concerning:
+
+- machine awareness;
+- cognitive architectures;
+- symbolic AI;
+- neural networks;
+- artificial general intelligence;
+- synthetic consciousness.
+
+Functionalism therefore occupies a central position in modern discussions about whether sufficiently advanced AI systems could become conscious.
+
+At the same time, critics argue that intelligent behaviour alone does not necessarily imply subjective experience.
+
+## Classic Criticisms of Functionalism
+
+Functionalism has faced several influential philosophical objections.
+
+### Absent Qualia
+
+Critics argue that a system might possess the correct functional organization while lacking subjective experience entirely.
+
+This criticism attempts to show that functional equivalence may not guarantee phenomenal consciousness.
+
+### Inverted Qualia
+
+Some philosophers argue that two systems could possess identical functional organization while differing phenomenally.
+
+For example, two individuals might process colour identically while internally experiencing different qualitative sensations.
+
+### Chinese Room Argument
+
+John Searle’s Chinese Room argument challenges the idea that symbol manipulation alone is sufficient for genuine understanding or consciousness [@searle1980].
+
+Searle argued that computational processing may simulate understanding without producing actual subjective awareness.
+
+### Block’s China Brain
+
+Ned Block proposed thought experiments suggesting that large-scale functional organization may not necessarily generate consciousness [@block1978].
+
+These arguments challenge the assumption that functional structure alone is sufficient for conscious experience.
 
 ## Strengths
 
-The major strengths of this theory include:
+Major strengths of functionalism include:
 
-- It provides a structured vocabulary for analyzing consciousness.
-- It connects consciousness to broader debates in philosophy of mind and cognitive science.
-- It clarifies at least some aspects of conscious access, awareness, reportability, or subjective experience.
-- It can be compared systematically with alternative theories.
-- It helps identify empirical predictions or conceptual boundaries.
+- strong integration with cognitive science;
+- compatibility with computational modeling;
+- explanatory flexibility across substrates;
+- compatibility with artificial intelligence research;
+- emphasis on causal organization;
+- applicability to empirical neuroscience;
+- ability to explain conscious access and reportability.
+
+Functionalism also helped consciousness research become more scientifically tractable by connecting subjective phenomena to measurable cognitive processes.
 
 ## Weaknesses
 
-The main weaknesses include:
+Major criticisms include:
 
-- It may explain cognitive access without fully explaining phenomenal experience.
-- It may rely on concepts that are difficult to operationalize.
-- It may not specify clear neural mechanisms.
-- It may not provide decisive criteria for consciousness in animals or machines.
-- It may not fully address the hard problem of consciousness.
+- difficulty explaining phenomenal consciousness;
+- insufficient treatment of qualia;
+- dependence on abstract functional descriptions;
+- uncertainty regarding genuine machine consciousness;
+- vulnerability to absent qualia objections;
+- possible confusion between intelligence and experience;
+- limited explanation of first-person subjectivity.
+
+Many critics argue that functional organization may explain cognitive access without fully explaining lived experience itself.
 
 ## Explanatory Gaps
 
-Important unresolved questions include:
+Important unresolved questions remain:
 
-- Does the theory explain why consciousness exists at all?
-- Does it explain why experience has qualitative character?
-- Does it identify a measurable marker of consciousness?
-- Does it distinguish consciousness from intelligence, attention, memory, and self-report?
-- Can it explain unconscious perception and blindsight?
-- Can it account for dream consciousness and altered states?
-- Can it distinguish simulated consciousness from genuine consciousness?
+- Why should functional organization produce subjective feeling?
+- Can two functionally identical systems differ phenomenally?
+- Is computation alone sufficient for consciousness?
+- Does embodiment matter?
+- Can consciousness exist independently of biology?
+- What distinguishes genuine consciousness from sophisticated simulation?
 
-## What the Theory Can Answer
-
-This theory is especially useful for answering questions such as:
-
-- Which cognitive or neural processes are associated with conscious awareness?
-- How does conscious information differ from unconscious information?
-- What functional role might consciousness play?
-- How can consciousness be investigated empirically?
-
-## What the Theory Cannot Yet Answer
-
-The theory is less successful at answering questions such as:
-
-- Why should the proposed mechanism produce subjective feeling?
-- What exactly makes experience first-personal?
-- How can consciousness be measured without relying on verbal report?
-- Can consciousness exist in artificial systems?
-- Is consciousness fundamental, emergent, biological, computational, or relational?
-
-## Implications for Artificial Intelligence
-
-The theory has important implications for AI consciousness. If consciousness depends primarily on functional organization or information processing, then artificial consciousness may be possible in principle. If consciousness depends on biological embodiment, neural dynamics, or fundamental physical properties, then current AI systems may lack consciousness even when they display intelligent behaviour.
+These questions continue to divide functionalists from phenomenologists, biological theorists, and non-reductionist philosophers.
 
 ## Summary
 
-Functionalism contributes an important perspective to consciousness studies, but it does not settle the field. Its value depends on whether it is being used to explain neural correlates, cognitive access, subjective experience, self-awareness, or metaphysical foundations. The comparative chapters later in this book return to these criteria systematically.
+Functionalism remains one of the most influential frameworks in consciousness studies because it shifts attention from physical substance to causal organization and information processing.
+
+The theory provides powerful explanations for:
+
+- cognition;
+- reportability;
+- attention;
+- memory access;
+- behavioural coordination;
+- computational organization.
+
+However, major debates remain concerning whether functional organization alone can explain phenomenal consciousness and subjective experience.
+
+Functionalism therefore occupies a central position between neuroscience, cognitive science, philosophy of mind, and artificial intelligence. It continues to shape contemporary debates about machine consciousness, computational cognition, and the nature of conscious systems themselves.

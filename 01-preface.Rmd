@@ -1,34 +1,114 @@
 # Preface {-}
 
-This book is intended as an academic introduction and comparative review of major theories of consciousness. It is written for readers who want more than a brief survey, but who may not yet be specialists in philosophy of mind, cognitive neuroscience, computational theory, or phenomenology.
+Consciousness remains one of the most profound and elusive problems in human inquiry. Despite extraordinary advances in neuroscience, cognitive science, artificial intelligence, psychology, and physics, there is still no consensus regarding what consciousness fundamentally is, why subjective experience exists, or how conscious awareness emerges from physical systems. Human beings can measure neural activity with remarkable precision, simulate aspects of cognition computationally, and model increasingly complex forms of intelligent behaviour, yet the existence of first-person experience — the felt quality of seeing colour, hearing music, feeling pain, remembering the past, or reflecting upon oneself — continues to resist complete explanation.
 
-The aim is not to declare one theory the final answer. Rather, the aim is to create a structured framework for asking what different theories are trying to explain, what evidence supports them, and what remains unresolved.
+The study of consciousness occupies a unique position in science and philosophy because the phenomenon under investigation is also the medium through which all investigation occurs. Every scientific observation, philosophical argument, and mathematical model is ultimately experienced consciously. Consciousness is therefore not merely another object of study among many others; it is the condition through which all knowledge is encountered and interpreted.
 
-The book is organized around a simple but demanding principle: each theory should be evaluated not only by what it explains, but also by what it cannot explain.
+Throughout history, consciousness has been approached from multiple intellectual traditions. Philosophers have debated the relationship between mind and matter, subjective experience and objective reality, selfhood and identity, and the limits of reductionism. Neuroscientists have attempted to identify the neural correlates of conscious awareness and to explain how large-scale brain dynamics relate to perception, memory, attention, and cognition. Cognitive scientists and computational theorists have explored consciousness through information processing, representation, predictive modeling, and artificial intelligence. More recently, physicists, phenomenologists, and interdisciplinary researchers have proposed radically different frameworks that challenge conventional assumptions about the nature of experience itself.
+
+Yet a central tension remains unresolved. Many theories successfully explain cognitive functions associated with consciousness — such as attention, reportability, memory access, behavioural control, and information integration — while far fewer explain why these processes should be accompanied by subjective experience at all. This distinction lies at the heart of contemporary debates concerning the so-called *hard problem* of consciousness and continues to divide scientific, philosophical, and computational approaches to the mind.
+
+The objective of this book is not to identify a definitive solution to consciousness, nor to advocate a single theoretical framework as uniquely correct. Rather, the goal is to provide a rigorous and comparative examination of the major theories of consciousness, evaluating what each theory attempts to explain, the evidence supporting it, the assumptions upon which it rests, and the limitations it faces. Each theory is examined not only in terms of its explanatory strengths, but also in terms of the questions it leaves unresolved.
+
+This book adopts an explicitly interdisciplinary perspective. Consciousness research cannot be confined to a single discipline because the phenomenon itself crosses disciplinary boundaries. Questions concerning consciousness involve neuroscience, philosophy of mind, psychology, artificial intelligence, computational theory, phenomenology, information theory, biology, and physics. Different theories emphasize different explanatory targets, and part of the challenge of consciousness studies lies in recognizing that researchers are not always attempting to explain the same phenomenon in the same way.
+
+Figure \@ref(fig:fig-interdisciplinary-map) illustrates the interdisciplinary landscape of consciousness research and highlights how different academic traditions contribute distinct concepts, methodologies, and explanatory frameworks to the study of conscious experience.
+
+```{r fig-interdisciplinary-map, echo=FALSE, fig.cap="An interdisciplinary conceptual map of consciousness research. Contemporary approaches to consciousness emerge from neuroscience, philosophy, psychology, artificial intelligence, phenomenology, physics, biology, and information theory. Each discipline emphasizes different explanatory targets, methods, and assumptions regarding the nature of conscious experience.", out.width="95%", fig.align="center"}
+knitr::include_graphics("figures/0_interdisciplinary_map_of_consciousness.png")
+```
+
+As shown in Figure \@ref(fig:fig-interdisciplinary-map), consciousness studies extend across multiple domains of inquiry, ranging from empirical neuroscience and cognitive science to phenomenology, metaphysics, computational theory, and physics. Some approaches focus primarily on neural mechanisms and cognitive functions, while others emphasize subjective experience, embodiment, information integration, or the fundamental nature of reality itself. The diversity of these perspectives reflects one of the central challenges of consciousness research: different theories often attempt to explain different dimensions of conscious experience using fundamentally different conceptual assumptions and explanatory strategies.
+
+The chapters that follow examine classical and contemporary approaches, including dualism, physicalism, functionalism, emergentism, Global Workspace Theory, Integrated Information Theory, Higher-Order Thought Theory, Predictive Processing, Recurrent Processing Theory, Attention Schema Theory, computational and Bayesian approaches, panpsychism, illusionism, embodied and enactive theories, and quantum theories of consciousness. Additional chapters explore altered states, anesthesia, disorders of consciousness, artificial intelligence, machine consciousness, and comparative evaluations of competing frameworks.
+
 
 ## Guiding Questions
 
-The following questions guide the book:
+Several foundational questions guide this book:
 
 - What is consciousness?
 - What distinguishes conscious from unconscious mental activity?
 - How are subjective experience and objective brain activity related?
-- Can consciousness be explained scientifically?
+- Can consciousness be fully explained scientifically?
+- Does explaining cognition also explain experience?
+- What are the neural correlates of consciousness?
 - Can a machine be conscious?
-- Do non-human animals have consciousness?
-- What happens to consciousness during sleep, anesthesia, coma, or altered states?
-- Which theories explain access, and which attempt to explain experience itself?
+- Do non-human animals possess consciousness?
+- What happens to consciousness during sleep, dreaming, anesthesia, coma, meditation, or psychedelic states?
+- Is consciousness emergent, computational, biological, relational, or fundamental?
+- Which theories explain conscious access, and which attempt to explain phenomenal experience itself?
 
-## Scope
+## Methodological Approach
 
-The book covers neuroscientific, philosophical, computational, informational, physical, and embodied approaches. It includes classical theories such as dualism and physicalism, contemporary neuroscientific theories such as Global Workspace Theory and Recurrent Processing Theory, formal approaches such as Integrated Information Theory, radical metaphysical proposals such as panpsychism, and skeptical views such as illusionism.
+Each theory is evaluated using several recurring criteria:
+
+- explanatory scope;
+- conceptual clarity;
+- empirical support;
+- neuroscientific plausibility;
+- computational or mathematical precision;
+- treatment of phenomenal experience;
+- explanatory power regarding the hard problem;
+- falsifiability and testability;
+- applicability to altered states, animal consciousness, and artificial intelligence;
+- metaphysical assumptions and philosophical costs.
+
+The purpose of these criteria is not to reduce all theories to a single ranking system, but to create a structured framework for comparison across diverse intellectual traditions.
+
+## Scope of the Book
+
+This book covers neuroscientific, philosophical, computational, informational, embodied, and physical approaches to consciousness. Some theories attempt to explain consciousness through large-scale neural dynamics and cognitive architecture, while others propose formal informational structures, embodied interactions, or even fundamental physical properties underlying experience.
+
+The book includes both mainstream scientific theories and more controversial or speculative approaches. These are included not because they are equally accepted, but because understanding consciousness requires engagement with the full landscape of serious theoretical proposals.
+
+Special attention is given throughout the book to the distinction between:
+
+- consciousness and intelligence;
+- consciousness and attention;
+- consciousness and self-awareness;
+- access consciousness and phenomenal consciousness;
+- neural correlates and explanatory mechanisms;
+- simulation and genuine experience.
+
+Later chapters also examine whether current theories genuinely explain subjective experience itself or instead explain only the functional and behavioural correlates associated with awareness.
+
+## Who This Book Is For
+
+This book is intended for:
+
+- graduate and advanced undergraduate students;
+- researchers in neuroscience, philosophy, psychology, and AI;
+- interdisciplinary scholars;
+- educators and seminar instructors;
+- intellectually curious readers seeking a deeper understanding of consciousness studies.
+
+Although the book assumes some familiarity with scientific and philosophical reasoning, it is written to remain accessible to motivated readers from different academic backgrounds.
+
+## What This Book Is Not
+
+This book does not claim to solve consciousness. Nor does it assume that consciousness can necessarily be reduced entirely to one explanatory framework. It does not dismiss philosophy in favour of neuroscience, nor neuroscience in favour of speculative metaphysics. Instead, the book attempts to treat competing perspectives seriously while critically evaluating their explanatory strengths and weaknesses.
 
 ## How to Use This Book
 
-Readers may use the book in three ways:
+Readers may approach the book in several ways:
 
-1. As a chapter-by-chapter introduction to individual theories.
-2. As a comparative framework for evaluating theories of consciousness.
-3. As a starting point for research, teaching, or seminar discussion.
+1. As a chapter-by-chapter introduction to individual theories of consciousness.
+2. As a comparative framework for evaluating competing theories.
+3. As a reference for interdisciplinary research and seminar discussion.
+4. As a foundation for exploring unresolved problems in neuroscience, philosophy of mind, and artificial intelligence.
 
-Each chapter includes sections on strengths, weaknesses, explanatory gaps, what the theory can answer, and what it cannot yet answer.
+Each chapter includes discussions of:
+
+- historical development;
+- conceptual foundations;
+- empirical evidence;
+- explanatory strengths;
+- major criticisms;
+- unresolved gaps;
+- implications for artificial intelligence and altered states;
+- what the theory can and cannot currently explain.
+
+The final comparative chapters synthesize the major themes of the book and evaluate whether existing theories genuinely address the deepest problems of consciousness or instead explain only selected dimensions of conscious cognition.
+
+Whether consciousness ultimately proves reducible, emergent, fundamental, embodied, relational, computational, or partially beyond current scientific explanation, the attempt to understand it continues to reshape how humanity understands mind, selfhood, intelligence, and reality itself.

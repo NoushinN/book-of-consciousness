@@ -2,133 +2,464 @@
 
 ## Chapter Overview
 
-Predictive processing treats the brain as a prediction system that minimizes prediction error through perception and action.
+Predictive Processing and Active Inference propose that the brain is fundamentally a prediction-generating system rather than a passive receiver of sensory information [@friston2010; @clark2016]. According to this framework, perception, action, attention, learning, and possibly consciousness itself emerge through continuous attempts to minimize prediction error between internal models and incoming sensory signals.
 
-This chapter examines predictive processing and active inference as a theory or family of theories of consciousness. The discussion considers historical background, conceptual assumptions, mechanisms, empirical support, philosophical significance, explanatory strengths, weaknesses, unresolved gaps, and implications for artificial intelligence and altered states of consciousness. [@friston2010] [@clark2016]
+Rather than constructing conscious experience directly from raw sensory input, predictive processing proposes that the brain continuously generates hypotheses about the causes of sensory input and updates those hypotheses when predictions fail.
+
+This chapter examines the historical development, conceptual foundations, hierarchical predictive structure, active inference mechanism, empirical support, philosophical implications, strengths, criticisms, and unresolved questions surrounding predictive processing and active inference theories of consciousness.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Define the central claims of predictive processing and active inference.
-- Explain the problem of consciousness that this theory is attempting to solve.
-- Distinguish between what the theory explains well and what remains unresolved.
-- Evaluate the theory against competing explanations.
-- Identify how the theory handles subjective experience, reportability, selfhood, neural mechanisms, and empirical testability.
+- Define the central claims of predictive processing and active inference
+- Explain prediction error minimization
+- Describe hierarchical predictive processing
+- Distinguish passive perception from predictive perception
+- Explain the relationship between perception, action, and active inference
+- Evaluate strengths and criticisms of predictive processing
+- Discuss implications for hallucinations, selfhood, artificial intelligence, and consciousness
+
+## Core Idea in One Picture
+
+Figure \@ref(fig:fig-pp) summarizes the major conceptual structure of predictive processing and active inference.
+
+```{r fig-pp, echo=FALSE, fig.cap="Predictive Processing and Active Inference. Panel A illustrates hierarchical predictive processing and prediction-error minimization. Panel B contrasts passive perception with predictive perception. Panel C illustrates the active inference loop. Panel D applies predictive processing to altered states and hallucinations. Panel E compares predictive processing with other major theories of consciousness.", out.width="100%", fig.align="center"}
+knitr::include_graphics("figures/12_predictive_processing.png")
+```
+
+As shown in Figure \@ref(fig:fig-pp), predictive processing proposes that perception arises through continuous interaction between top-down predictions and bottom-up prediction errors.
 
 ## Historical Development
 
-The intellectual background of this theory should be understood in relation to broader debates about mind, matter, cognition, subjectivity, and scientific explanation. Consciousness research has often moved between two poles: one pole emphasizes measurable cognitive and neural mechanisms, while the other emphasizes first-person experience and the difficulty of reducing subjectivity to objective processes.
+The intellectual roots of predictive processing extend across several traditions in neuroscience, cognitive science, cybernetics, Bayesian inference, and philosophy of mind.
 
-In its modern form, predictive processing and active inference responds to dissatisfaction with purely behavioural accounts of mind. It attempts to explain why certain mental states are conscious while others remain unconscious, why experience appears unified, and how conscious states relate to brain activity, cognition, language, memory, action, and self-monitoring.
+Earlier cognitive theories often treated perception as a largely bottom-up process:
 
-## Core Assumptions
+```text
+world → sensory input → brain representation
+```
 
-Key assumptions include:
+Predictive processing reverses this emphasis. According to modern predictive theories, the brain actively anticipates sensory input before the input fully arrives.
 
-- Perception is active inference rather than passive reception.
-- The brain generates predictions and updates them through errors.
-- Conscious experience may reflect controlled predictive modeling.
+Karl Friston’s Free Energy Principle played a major role in formalizing these ideas mathematically [@friston2010]. Friston proposed that biological systems maintain stability by minimizing surprise or prediction error.
 
-These assumptions shape what the theory treats as central evidence and what it may leave unexplained.
+Andy Clark later helped popularize predictive processing as a unified framework for perception, cognition, action, and consciousness [@clark2016].
 
-## Conceptual Framework
+Today, predictive processing has become one of the most influential frameworks in contemporary cognitive neuroscience.
 
-The theory can be interpreted as a response to several linked questions:
+## The Brain as a Prediction Machine
 
-1. What makes a mental state conscious rather than unconscious?
-2. Is consciousness primarily a biological, informational, functional, phenomenological, or metaphysical property?
-3. Does the theory explain access consciousness, phenomenal consciousness, or both?
-4. Can the theory identify necessary and sufficient conditions for consciousness?
-5. Does it apply to infants, non-human animals, artificial systems, and altered states?
+A central claim of predictive processing is:
 
-A useful academic distinction is between **access consciousness** and **phenomenal consciousness**. Access consciousness concerns information that is available for reasoning, report, memory, and action. Phenomenal consciousness concerns the qualitative character of experience: what it is like to see red, feel pain, hear music, or experience oneself as a subject.
+> The brain is fundamentally a prediction engine.
 
-## Mechanism or Explanatory Model
+According to this framework, the brain continuously attempts to predict:
 
-The explanatory mechanism proposed by this theory should be analyzed at multiple levels:
+- sensory input;
+- bodily states;
+- environmental events;
+- actions;
+- social interactions;
+- internal needs.
 
-- **Phenomenological level:** What kind of experience is being explained?
-- **Cognitive level:** What mental operations are involved?
-- **Computational level:** What information-processing structure is proposed?
-- **Neural level:** What brain systems or dynamics are implicated?
-- **Metaphysical level:** What does the theory assume about the relation between mind and matter?
+Incoming sensory information is compared against predictions generated by internal models.
 
-This multi-level analysis prevents the theory from being judged only by one standard. A theory may be neuroscientifically useful but philosophically incomplete, or philosophically powerful but empirically difficult to test.
+When predictions fail, the mismatch produces:
+
+- **prediction error**.
+
+The system then updates its models to reduce future error.
+
+Figure \@ref(fig:fig-pp) Panel A illustrates this hierarchical predictive structure.
+
+As shown in Panel A:
+
+- top-down signals carry predictions;
+- bottom-up signals carry prediction errors.
+
+Perception therefore emerges from continuous interaction between expectation and sensory correction.
+
+## Generative Models
+
+Predictive processing proposes that the brain constructs internal **generative models** of the world.
+
+Generative models attempt to predict:
+
+- what sensory input should occur;
+- which environmental causes likely produced the input;
+- what actions should reduce uncertainty.
+
+Perception therefore becomes a process of probabilistic inference rather than passive reception.
+
+According to predictive processing:
+
+> We do not simply see the world directly.  
+> We perceive the brain’s best current prediction of the world.
+
+This is one of the theory’s most philosophically important claims.
+
+## Prediction Error Minimization
+
+The central computational principle of predictive processing is prediction-error minimization.
+
+The brain continuously compares:
+
+- predicted sensory input,
+with:
+- actual sensory input.
+
+Differences generate prediction errors.
+
+The system then attempts to reduce these errors through:
+
+- updating beliefs;
+- reallocating attention;
+- revising expectations;
+- acting on the environment.
+
+Figure \@ref(fig:fig-pp) Panel A visually illustrates this ongoing cycle.
+
+Prediction-error minimization allows the organism to maintain adaptive models of the world despite noisy and incomplete sensory input.
+
+## Passive Perception vs Predictive Perception
+
+Predictive processing fundamentally changes how perception is understood.
+
+Traditional models often assume:
+
+```text
+world → senses → perception
+```
+
+Predictive processing instead proposes:
+
+```text
+brain predictions ↔ sensory input
+```
+
+Figure \@ref(fig:fig-pp) Panel B compares these approaches.
+
+As shown in Panel B:
+
+- traditional models emphasize passive reception;
+- predictive models emphasize active interpretation.
+
+Under predictive processing, perception becomes:
+
+- hypothesis testing,
+- probabilistic inference,
+- model correction.
+
+This helps explain why perception can be:
+
+- context-dependent;
+- expectation-driven;
+- vulnerable to illusion;
+- shaped by prior experience.
+
+## Hierarchical Processing
+
+Predictive processing proposes that the brain is organized hierarchically.
+
+Higher cortical levels generate abstract predictions about:
+
+- goals;
+- objects;
+- situations;
+- meaning;
+- context.
+
+Lower levels process:
+
+- sensory features;
+- edges;
+- tones;
+- movement;
+- raw sensory signals.
+
+Prediction errors move upward through the hierarchy, while predictions move downward.
+
+Figure \@ref(fig:fig-pp) Panel A illustrates this hierarchical exchange.
+
+This hierarchical structure allows the brain to integrate:
+
+- low-level sensation,
+- high-level interpretation,
+- memory,
+- expectation,
+- and contextual knowledge.
+
+## Active Inference
+
+Active inference extends predictive processing beyond perception alone.
+
+According to active inference:
+
+> Organisms act on the world to reduce prediction error.
+
+Instead of merely updating internal beliefs passively, organisms also modify the environment to bring sensory input into alignment with predictions.
+
+Figure \@ref(fig:fig-pp) Panel C illustrates the active inference loop.
+
+The process involves:
+
+1. generating predictions;
+2. acting on the world;
+3. sampling sensory consequences;
+4. computing prediction error;
+5. updating beliefs.
+
+This creates a continuous feedback loop linking:
+
+- perception,
+- action,
+- learning,
+- and embodiment.
+
+Active inference therefore dissolves sharp boundaries between perception and behaviour.
+
+## Consciousness and Predictive Processing
+
+A major question is whether predictive processing explains consciousness specifically or whether it primarily explains cognition more generally.
+
+Predictive processing appears especially powerful for explaining:
+
+- perception;
+- attention;
+- expectation;
+- learning;
+- uncertainty;
+- sensory integration.
+
+However, debate continues regarding whether these mechanisms fully explain:
+
+- phenomenal consciousness,
+- subjective feeling,
+- first-person awareness.
+
+Some predictive theorists propose that consciousness corresponds to:
+
+- globally coherent predictive models;
+- highly integrated error minimization;
+- precision-weighted prediction processes.
+
+Others argue that predictive processing mainly explains:
+
+- cognitive access,
+- perceptual inference,
+- behavioural adaptation,
+
+rather than phenomenal experience itself.
+
+## Hallucinations and Altered States
+
+Predictive processing has become highly influential in explaining hallucinations, dreaming, psychosis, and psychedelic states.
+
+Figure \@ref(fig:fig-pp) Panel D illustrates several altered-state interpretations.
+
+According to some predictive accounts:
+
+- hallucinations occur when top-down predictions overpower sensory constraints;
+- dreaming occurs when internally generated predictions dominate perception;
+- psychedelic states may involve altered precision weighting and weakened high-level predictions.
+
+As shown in Panel D, different conscious states may emerge from shifts in the balance between:
+
+- predictions,
+- sensory evidence,
+- precision,
+- and prediction-error weighting.
+
+This is one of predictive processing’s strongest explanatory domains.
+
+## Selfhood and Interoception
+
+Some predictive processing theorists argue that the self emerges through predictive regulation of bodily states.
+
+The brain continuously predicts:
+
+- heartbeat;
+- breathing;
+- hunger;
+- bodily position;
+- emotional states;
+- internal physiological signals.
+
+This process is called:
+
+- **interoceptive inference**.
+
+According to these approaches, the sense of embodied selfhood may arise from stable predictive models of the organism’s body and internal condition.
+
+This connects predictive processing strongly to:
+
+- embodiment;
+- emotion;
+- self-awareness;
+- affective consciousness.
+
+## Predictive Processing Compared with Other Theories
+
+Predictive processing differs from other major theories of consciousness.
+
+Figure \@ref(fig:fig-pp) Panel E compares predictive processing with:
+
+- Global Workspace Theory;
+- Integrated Information Theory;
+- Higher-Order Thought Theory.
+
+Predictive processing emphasizes:
+
+- prediction;
+- probabilistic inference;
+- hierarchical modeling;
+- prediction-error minimization.
+
+In contrast:
+
+- GWT emphasizes global broadcasting;
+- IIT emphasizes integrated information;
+- HOT emphasizes metacognitive awareness.
+
+As shown in Panel E, these theories may describe different aspects of conscious processing rather than being fully incompatible.
 
 ## Empirical Support
 
-Evidence relevant to this theory may come from:
+Research relevant to predictive processing includes:
 
-- neuroimaging studies;
-- electrophysiology;
-- visual masking;
-- binocular rivalry;
-- anesthesia;
-- sleep and dreaming;
-- disorders of consciousness;
-- split-brain research;
-- attention and working memory studies;
-- metacognition and confidence judgments;
-- artificial intelligence and computational modeling.
+- perceptual illusion studies;
+- sensory expectation experiments;
+- mismatch negativity research;
+- Bayesian perception models;
+- hallucination studies;
+- psychedelic neuroscience;
+- predictive coding in cortical hierarchies;
+- motor control and active inference studies;
+- interoceptive prediction research.
 
-A complete evaluation requires asking whether the evidence supports the theory specifically, or whether the same evidence could be explained equally well by competing theories.
+Predictive processing has become highly influential partly because it integrates findings across multiple domains of neuroscience and cognition.
 
 ## Strengths
 
-The major strengths of this theory include:
+Major strengths of predictive processing include:
 
-- It provides a structured vocabulary for analyzing consciousness.
-- It connects consciousness to broader debates in philosophy of mind and cognitive science.
-- It clarifies at least some aspects of conscious access, awareness, reportability, or subjective experience.
-- It can be compared systematically with alternative theories.
-- It helps identify empirical predictions or conceptual boundaries.
+- unified explanation of perception and action;
+- strong computational framework;
+- compatibility with Bayesian modeling;
+- integration of cognition, embodiment, and learning;
+- strong applications to hallucinations and altered states;
+- flexible explanatory scope;
+- integration with neuroscience and AI research.
 
-## Weaknesses
+The theory also explains why perception is often shaped by:
 
-The main weaknesses include:
+- expectations;
+- context;
+- memory;
+- prior beliefs.
 
-- It may explain cognitive access without fully explaining phenomenal experience.
-- It may rely on concepts that are difficult to operationalize.
-- It may not specify clear neural mechanisms.
-- It may not provide decisive criteria for consciousness in animals or machines.
-- It may not fully address the hard problem of consciousness.
+## Weaknesses and Criticisms
 
-## Explanatory Gaps
+Despite its influence, predictive processing faces several important criticisms.
 
-Important unresolved questions include:
+### Overgeneralization
 
-- Does the theory explain why consciousness exists at all?
-- Does it explain why experience has qualitative character?
-- Does it identify a measurable marker of consciousness?
-- Does it distinguish consciousness from intelligence, attention, memory, and self-report?
-- Can it explain unconscious perception and blindsight?
-- Can it account for dream consciousness and altered states?
-- Can it distinguish simulated consciousness from genuine consciousness?
+Critics argue that predictive processing may explain almost everything too easily.
 
-## What the Theory Can Answer
+Many cognitive processes can potentially be reframed as prediction-error minimization, making the theory difficult to constrain.
 
-This theory is especially useful for answering questions such as:
+### Vagueness
 
-- Which cognitive or neural processes are associated with conscious awareness?
-- How does conscious information differ from unconscious information?
-- What functional role might consciousness play?
-- How can consciousness be investigated empirically?
+Some critics argue that predictive processing sometimes functions more as a broad research framework than a precise theory of consciousness.
 
-## What the Theory Cannot Yet Answer
+### Hard Problem
 
-The theory is less successful at answering questions such as:
+Predictive processing may explain:
 
-- Why should the proposed mechanism produce subjective feeling?
-- What exactly makes experience first-personal?
-- How can consciousness be measured without relying on verbal report?
-- Can consciousness exist in artificial systems?
-- Is consciousness fundamental, emergent, biological, computational, or relational?
+- perception,
+- cognition,
+- inference,
+- adaptive behaviour,
 
-## Implications for Artificial Intelligence
+without fully explaining:
 
-The theory has important implications for AI consciousness. If consciousness depends primarily on functional organization or information processing, then artificial consciousness may be possible in principle. If consciousness depends on biological embodiment, neural dynamics, or fundamental physical properties, then current AI systems may lack consciousness even when they display intelligent behaviour.
+- why subjective experience exists at all.
+
+Critics therefore argue that predictive processing may leave the hard problem unresolved.
+
+### Empirical Underdetermination
+
+Some researchers argue that many predictive-processing findings could also be explained by competing theories.
+
+### Computational Abstraction
+
+Critics question whether mathematical predictive models correspond directly to actual neural implementation.
+
+## Artificial Intelligence Implications
+
+Predictive processing has major implications for artificial intelligence.
+
+If consciousness depends heavily on:
+
+- predictive modeling,
+- hierarchical inference,
+- adaptive error minimization,
+
+then sufficiently advanced artificial systems might eventually possess consciousness-like properties.
+
+However, predictive processing also raises difficult questions:
+
+- Is prediction alone sufficient for consciousness?
+- Does embodiment matter?
+- Must conscious systems possess biological regulation?
+- Can machine prediction generate phenomenal feeling?
+
+These remain unresolved.
+
+## Explanatory Scope
+
+Predictive processing attempts to explain:
+
+- perception;
+- attention;
+- action;
+- hallucinations;
+- learning;
+- embodiment;
+- selfhood;
+- uncertainty;
+- adaptive behaviour.
+
+However, important unresolved questions remain:
+
+- Why should predictive inference produce subjective experience?
+- Does prediction explain phenomenal consciousness or only cognition?
+- Can consciousness be reduced to probabilistic modeling?
+- How should conscious experience itself be measured?
+- Is predictive processing sufficient or only partial?
 
 ## Summary
 
-Predictive Processing and Active Inference contributes an important perspective to consciousness studies, but it does not settle the field. Its value depends on whether it is being used to explain neural correlates, cognitive access, subjective experience, self-awareness, or metaphysical foundations. The comparative chapters later in this book return to these criteria systematically.
+Predictive Processing and Active Inference propose that the brain continuously generates predictions about the world and updates those predictions through prediction-error minimization.
+
+Rather than passively receiving sensory input, the brain actively constructs perceptual hypotheses through hierarchical inference and adaptive modeling.
+
+The framework emphasizes:
+
+- generative models;
+- prediction errors;
+- hierarchical processing;
+- active inference;
+- probabilistic cognition;
+- embodiment.
+
+Predictive processing has become highly influential because it provides a unified account of:
+
+- perception,
+- action,
+- learning,
+- hallucinations,
+- and selfhood.
+
+At the same time, major philosophical questions remain regarding whether predictive processing fully explains consciousness itself or primarily explains cognition and adaptive behaviour more generally.

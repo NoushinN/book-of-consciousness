@@ -1,134 +1,157 @@
-# Materialism and Physicalism {#physicalism}
+# Physicalism and Materialist Theories of Consciousness {#physicalism}
 
-## Chapter Overview
+Physicalism is the view that everything that exists is ultimately physical in nature, including consciousness. According to physicalist approaches, conscious experience does not require non-physical substances, immaterial souls, or fundamentally separate mental realities. Instead, consciousness arises from physical systems such as brains, neural networks, biological organization, or information-processing structures.
 
-Materialism and physicalism hold that consciousness is ultimately grounded in physical reality, especially biological and neural processes.
+Physicalism is the dominant framework within contemporary neuroscience and much of cognitive science because it aligns closely with empirical research methods and the broader scientific worldview. Most modern experimental approaches to consciousness assume that subjective experience depends in some way on physical brain processes [@koch2016; @seth2021].
 
-This chapter examines materialism and physicalism as a theory or family of theories of consciousness. The discussion considers historical background, conceptual assumptions, mechanisms, empirical support, philosophical significance, explanatory strengths, weaknesses, unresolved gaps, and implications for artificial intelligence and altered states of consciousness. [@dennett1991] [@searle1992] [@koch2016]
+At the same time, physicalism remains philosophically contested. Critics argue that even complete physical descriptions may fail to explain why subjective experience exists at all or why neural activity should possess a first-person qualitative character.
 
-## Learning Objectives
+## Physicalism as a Response to Dualism
 
-After reading this chapter, the reader should be able to:
+Physicalist theories developed partly in response to problems associated with dualist explanations of mind and consciousness. Dualist theories propose that consciousness is ontologically distinct from physical matter, but critics argue that such approaches face difficulties concerning causal interaction, scientific testability, and compatibility with physics.
 
-- Define the central claims of materialism and physicalism.
-- Explain the problem of consciousness that this theory is attempting to solve.
-- Distinguish between what the theory explains well and what remains unresolved.
-- Evaluate the theory against competing explanations.
-- Identify how the theory handles subjective experience, reportability, selfhood, neural mechanisms, and empirical testability.
+Physicalism attempts to explain consciousness entirely within a naturalistic framework. Rather than treating consciousness as fundamentally separate from physical reality, physicalist approaches seek to explain subjective experience through neural activity, biological organization, computation, or information processing.
 
-## Historical Development
-
-The intellectual background of this theory should be understood in relation to broader debates about mind, matter, cognition, subjectivity, and scientific explanation. Consciousness research has often moved between two poles: one pole emphasizes measurable cognitive and neural mechanisms, while the other emphasizes first-person experience and the difficulty of reducing subjectivity to objective processes.
-
-In its modern form, materialism and physicalism responds to dissatisfaction with purely behavioural accounts of mind. It attempts to explain why certain mental states are conscious while others remain unconscious, why experience appears unified, and how conscious states relate to brain activity, cognition, language, memory, action, and self-monitoring.
+Where dualism emphasizes the apparent explanatory gap between matter and experience, physicalism assumes that consciousness must ultimately be explainable through physical mechanisms, even if the precise explanation remains incomplete.
 
 ## Core Assumptions
 
-Key assumptions include:
+Most physicalist theories share several foundational assumptions:
 
-- Everything that exists is physical or depends on the physical.
-- Consciousness should be explainable through brain activity.
-- No separate mental substance is required.
+- consciousness depends on physical systems;
+- changes in brain states alter conscious experience;
+- mental states are closely linked to neural organization;
+- consciousness can be studied scientifically;
+- subjective experience emerges from physical processes rather than existing independently of them.
 
-These assumptions shape what the theory treats as central evidence and what it may leave unexplained.
+Physicalism therefore treats consciousness as part of the natural world rather than as something outside physical explanation.
 
-## Conceptual Framework
+Figure \@ref(fig:fig-physicalism-hierarchy) illustrates a physicalist explanatory hierarchy in which consciousness emerges from increasingly complex levels of physical organization, ranging from fundamental physical processes to neural systems and subjective experience.
 
-The theory can be interpreted as a response to several linked questions:
+```{r fig-physicalism-hierarchy, echo=FALSE, fig.cap="A physicalist explanatory hierarchy in which consciousness emerges from increasingly complex levels of physical organization, ranging from fundamental physical processes to neural systems and subjective experience.", out.width="95%", fig.align="center"}
+knitr::include_graphics("figures/06_physicalism-hierarchy.png")
+```
 
-1. What makes a mental state conscious rather than unconscious?
-2. Is consciousness primarily a biological, informational, functional, phenomenological, or metaphysical property?
-3. Does the theory explain access consciousness, phenomenal consciousness, or both?
-4. Can the theory identify necessary and sufficient conditions for consciousness?
-5. Does it apply to infants, non-human animals, artificial systems, and altered states?
+As shown in Figure \@ref(fig:fig-physicalism-hierarchy), physicalist approaches generally interpret consciousness as emerging from progressively organized physical systems rather than from a separate immaterial substance. Different forms of physicalism disagree about whether consciousness can be fully reduced to lower-level physical processes, but they broadly agree that consciousness depends fundamentally on physical organization.
 
-A useful academic distinction is between **access consciousness** and **phenomenal consciousness**. Access consciousness concerns information that is available for reasoning, report, memory, and action. Phenomenal consciousness concerns the qualitative character of experience: what it is like to see red, feel pain, hear music, or experience oneself as a subject.
+## Major Forms of Physicalism
 
-## Mechanism or Explanatory Model
+Physicalism is not a single unified theory but a family of related positions concerning the relationship between consciousness and physical reality.
 
-The explanatory mechanism proposed by this theory should be analyzed at multiple levels:
+### Reductive Physicalism
 
-- **Phenomenological level:** What kind of experience is being explained?
-- **Cognitive level:** What mental operations are involved?
-- **Computational level:** What information-processing structure is proposed?
-- **Neural level:** What brain systems or dynamics are implicated?
-- **Metaphysical level:** What does the theory assume about the relation between mind and matter?
+Reductive physicalism argues that conscious states can ultimately be reduced to physical brain states or biological mechanisms. According to this view, advances in neuroscience will eventually explain consciousness entirely through physical processes.
 
-This multi-level analysis prevents the theory from being judged only by one standard. A theory may be neuroscientifically useful but philosophically incomplete, or philosophically powerful but empirically difficult to test.
+### Identity Theory
 
-## Empirical Support
+Identity theory proposes that mental states are identical to brain states [@smart1959; @place1956]. Conscious experiences are therefore not separate from neural activity but are simply particular physical states described at another explanatory level.
 
-Evidence relevant to this theory may come from:
+### Non-Reductive Physicalism
 
-- neuroimaging studies;
-- electrophysiology;
-- visual masking;
-- binocular rivalry;
-- anesthesia;
-- sleep and dreaming;
-- disorders of consciousness;
-- split-brain research;
-- attention and working memory studies;
-- metacognition and confidence judgments;
-- artificial intelligence and computational modeling.
+Non-reductive physicalism argues that consciousness depends entirely on physical systems while still possessing higher-level properties that cannot be straightforwardly reduced to lower-level neural descriptions.
 
-A complete evaluation requires asking whether the evidence supports the theory specifically, or whether the same evidence could be explained equally well by competing theories.
+### Functional Materialism
 
-## Strengths
+Functionalist forms of materialism define mental states in terms of functional or computational organization rather than specific biological substances. Consciousness depends primarily on causal structure and information processing.
 
-The major strengths of this theory include:
+### Eliminative Materialism
 
-- It provides a structured vocabulary for analyzing consciousness.
-- It connects consciousness to broader debates in philosophy of mind and cognitive science.
-- It clarifies at least some aspects of conscious access, awareness, reportability, or subjective experience.
-- It can be compared systematically with alternative theories.
-- It helps identify empirical predictions or conceptual boundaries.
+Eliminative materialism argues that ordinary concepts such as beliefs, desires, or qualia may reflect incomplete folk psychology rather than scientifically valid categories [@churchland1981]. Some eliminativists argue that future neuroscience may radically revise common intuitions concerning consciousness.
 
-## Weaknesses
+### Emergent Physicalism
 
-The main weaknesses include:
+Emergentist approaches argue that consciousness emerges from sufficiently complex physical organization while remaining entirely grounded in physical systems. Consciousness is therefore real but higher-order rather than fundamental.
 
-- It may explain cognitive access without fully explaining phenomenal experience.
-- It may rely on concepts that are difficult to operationalize.
-- It may not specify clear neural mechanisms.
-- It may not provide decisive criteria for consciousness in animals or machines.
-- It may not fully address the hard problem of consciousness.
+## Neural Dependence of Consciousness
 
-## Explanatory Gaps
+One of the strongest arguments for physicalism comes from the close relationship between conscious experience and brain activity. Brain injury, anesthesia, psychoactive substances, neurodegeneration, electrical stimulation, sleep, and coma all systematically alter consciousness.
 
-Important unresolved questions include:
+Damage to specific brain regions can affect:
 
-- Does the theory explain why consciousness exists at all?
-- Does it explain why experience has qualitative character?
-- Does it identify a measurable marker of consciousness?
-- Does it distinguish consciousness from intelligence, attention, memory, and self-report?
-- Can it explain unconscious perception and blindsight?
-- Can it account for dream consciousness and altered states?
-- Can it distinguish simulated consciousness from genuine consciousness?
+- perception;
+- memory;
+- language;
+- emotional experience;
+- self-awareness;
+- attentional control;
+- conscious reportability.
 
-## What the Theory Can Answer
+Similarly, anesthesia can dramatically reduce or eliminate conscious awareness through physical intervention in neural activity. These findings strongly suggest that consciousness depends intimately on physical brain organization.
 
-This theory is especially useful for answering questions such as:
+Neuroscientific research has therefore become central to modern consciousness studies. Brain imaging, lesion studies, electrophysiology, neural decoding, and computational neuroscience all attempt to identify the mechanisms associated with conscious states [@crick1994; @koch2016].
 
-- Which cognitive or neural processes are associated with conscious awareness?
-- How does conscious information differ from unconscious information?
-- What functional role might consciousness play?
-- How can consciousness be investigated empirically?
+## Physicalism and the Hard Problem
 
-## What the Theory Cannot Yet Answer
+Physicalist theories differ substantially in how they approach the hard problem of consciousness.
 
-The theory is less successful at answering questions such as:
+Some physicalists argue that the hard problem represents a genuine but ultimately solvable scientific challenge. Others argue that the hard problem results from conceptual confusion or misleading intuitions concerning subjective experience.
 
-- Why should the proposed mechanism produce subjective feeling?
-- What exactly makes experience first-personal?
-- How can consciousness be measured without relying on verbal report?
-- Can consciousness exist in artificial systems?
-- Is consciousness fundamental, emergent, biological, computational, or relational?
+Several common physicalist responses include:
 
-## Implications for Artificial Intelligence
+- consciousness will eventually be explained through neuroscience;
+- phenomenal experience reflects higher-order representation;
+- qualia are reducible to functional organization;
+- introspection misrepresents the structure of experience;
+- the explanatory gap reflects cognitive limitations rather than metaphysical reality.
 
-The theory has important implications for AI consciousness. If consciousness depends primarily on functional organization or information processing, then artificial consciousness may be possible in principle. If consciousness depends on biological embodiment, neural dynamics, or fundamental physical properties, then current AI systems may lack consciousness even when they display intelligent behaviour.
+Critics argue, however, that even complete physical descriptions may fail to explain why physical processes should produce subjective experience at all.
 
-## Summary
+## Strengths of Physicalism
 
-Materialism and Physicalism contributes an important perspective to consciousness studies, but it does not settle the field. Its value depends on whether it is being used to explain neural correlates, cognitive access, subjective experience, self-awareness, or metaphysical foundations. The comparative chapters later in this book return to these criteria systematically.
+Physicalist theories possess several major strengths:
+
+- compatibility with contemporary science;
+- strong integration with neuroscience;
+- empirical testability;
+- explanatory continuity with biology and physics;
+- compatibility with evolutionary theory;
+- ability to generate experimentally tractable models.
+
+Physicalism also avoids many difficulties associated with non-physical explanations, including problems of causal interaction between mind and matter.
+
+## Weaknesses and Criticisms
+
+Despite its scientific influence, physicalism faces major philosophical criticisms.
+
+### The Explanatory Gap
+
+Critics argue that physical explanations may describe brain function without explaining subjective experience itself. Explaining neural activity does not necessarily explain why experience feels like anything from the inside.
+
+### The Knowledge Argument
+
+Frank Jackson’s *Mary’s Room* thought experiment argues that complete physical knowledge may still fail to capture subjective experience fully [@jackson1982].
+
+### Multiple Realizability
+
+Some philosophers argue that mental states may be realizable in multiple physical systems, making strict identity between mental states and particular neural states difficult to maintain.
+
+### Qualia Critiques
+
+Critics argue that qualitative experience possesses features that resist reduction to purely structural or functional descriptions.
+
+### Consciousness and Meaning
+
+Some critics argue that physicalist accounts struggle to explain intentionality, meaning, selfhood, or lived experience fully.
+
+## Major Thinkers and Influences
+
+Important contributors to physicalist and materialist theories include:
+
+- J. J. C. Smart;
+- U. T. Place;
+- Patricia Churchland;
+- Paul Churchland;
+- Francis Crick;
+- Christof Koch;
+- Daniel Dennett;
+- David Armstrong.
+
+These thinkers differ substantially in their specific interpretations of consciousness, but they broadly share commitment to explaining mind within a physical framework.
+
+## Evaluation
+
+Physicalism remains the dominant framework within contemporary scientific consciousness research because of its strong compatibility with neuroscience, biology, and empirical methodology. It has produced highly productive research programs concerning neural correlates of consciousness, computational modeling, anesthesia, perception, attention, and cognitive integration.
+
+However, physicalism remains philosophically controversial because many critics argue that physical explanations still appear insufficient to explain subjective experience itself. The central challenge is whether consciousness can truly be reduced to physical organization or whether subjective experience reveals explanatory limitations within physicalist models.
+
+The continuing debate between physicalist and non-physicalist theories therefore remains one of the defining tensions in contemporary consciousness studies.
