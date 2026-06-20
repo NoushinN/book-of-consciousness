@@ -2,234 +2,129 @@
 
 ## Chapter Overview
 
-Consciousness research contains a remarkably diverse set of theories attempting to explain:
+Consciousness research contains a remarkably diverse set of theories. These theories attempt to explain subjective experience, awareness, cognition, selfhood, neural integration, perception, embodiment, artificial intelligence, altered states, and the relationship between mind and matter.
 
-- subjective experience;
-- awareness;
-- cognition;
-- selfhood;
-- neural integration;
-- perception;
-- embodiment;
-- and the relationship between mind and matter.
+Importantly, these theories do not always compete directly with one another. Some theories focus mainly on neural mechanisms of conscious access. Others focus on phenomenology, self-modeling, embodiment, information integration, computational architecture, metaphysics, or the foundational status of consciousness itself.
 
-Importantly, these theories do not always compete directly with one another. Many theories target different aspects or levels of consciousness rather than attempting to explain the exact same phenomenon.
+For example, Global Workspace Theory primarily explains conscious access and reportability [@baars1988; @dehaene2011]. Integrated Information Theory focuses on intrinsic causal integration and the structure of experience [@tononi2004; @oizumi2014]. Predictive Processing emphasizes inference, prediction, and error minimization [@friston2010; @clark2013]. Panpsychism and T-Consciousness address deeper consciousness-first questions about whether consciousness is fundamental rather than produced by matter alone [@goff2017; @goff2019; @taheri2020; @taheri2023].
 
-Some theories primarily address:
+This chapter compares the major theories of consciousness across shared dimensions and explanatory criteria. The goal is not to rank theories simplistically, but to identify what each theory explains well, where each faces unresolved challenges, how theories overlap or diverge, and where future integration may become possible.
 
-- the neural mechanisms of conscious access;
-while others focus on:
-- phenomenology;
-- self-modeling;
-- embodiment;
-- information integration;
-- or the metaphysical origin of experience itself.
+## How to Read This Chapter
 
-This chapter compares the major theories of consciousness across shared dimensions and explanatory criteria. The goal is not to rank theories simplistically, but to identify:
+This chapter is comparative rather than argumentative. It does not claim that one theory has already won the debate. Instead, it organizes the theoretical landscape so that the strengths and limitations of each approach can be seen more clearly.
 
-- what each theory explains well;
-- where each faces unresolved challenges;
-- how theories overlap or diverge;
-- and where future integration may become possible.
+As you read this chapter, keep three points in mind.
+
+First, different theories often explain different targets. A theory of conscious access is not necessarily a theory of phenomenal experience. A theory of neural mechanism is not necessarily a metaphysical theory of consciousness.
+
+Second, some theories may be complementary. For example, Predictive Processing may explain perceptual inference, Global Workspace Theory may explain cognitive access, embodied theories may explain situated experience, and Higher-Order theories may explain reflective awareness.
+
+Third, every theory has tradeoffs. Some theories are empirically productive but philosophically incomplete. Others address the hard problem directly but are difficult to test experimentally.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Compare major theories of consciousness across multiple dimensions
-- Distinguish empirical from metaphysical approaches
-- Explain how theories differ in explanatory targets
-- Analyze how theories approach the hard problem
-- Compare implications for AI and altered states
-- Identify strengths and limitations of major frameworks
-- Understand why no current consensus exists
-- Evaluate possibilities for theoretical integration
+* Compare major theories of consciousness across multiple dimensions.
+* Distinguish empirical, computational, phenomenological, and metaphysical approaches.
+* Explain how theories differ in their explanatory targets.
+* Analyze how different theories approach the hard problem.
+* Compare implications for artificial intelligence and altered states.
+* Identify strengths and limitations of major frameworks.
+* Understand why no current consensus exists.
+* Evaluate possibilities for theoretical integration.
+* Explain where T-Consciousness fits within the broader consciousness-first landscape.
 
 ## Core Idea in One Picture
 
-Figure \@ref(fig:fig-comparison) summarizes the multidimensional landscape of major consciousness theories.
+Figure @ref(fig:fig-comparison) summarizes the multidimensional landscape of major consciousness theories.
 
 ```{r fig-comparison, echo=FALSE, fig.cap="Comparative landscape of consciousness theories. Panel 1 groups theories by major explanatory orientation. Panel 2 compares theories across multiple dimensions using radar-style analysis. Panel 3 illustrates levels of explanation targeted by different theories. Panel 4 compares approaches to the hard problem. Panel 5 summarizes implications for AI consciousness. Panel 6 contrasts empirical and philosophical orientations. Panel 7 illustrates possible future integration across levels of explanation.", out.width="100%", fig.align="center"}
 knitr::include_graphics("figures/23_comparison.png")
 ```
 
-As shown in Figure \@ref(fig:fig-comparison), consciousness theories differ not only in their conclusions, but also in:
+As Figure @ref(fig:fig-comparison) illustrates, consciousness theories differ not only in their conclusions, but also in their explanatory targets, philosophical assumptions, levels of analysis, empirical methods, and definitions of consciousness itself.
 
-- explanatory targets;
-- philosophical assumptions;
-- levels of analysis;
-- empirical methods;
-- and definitions of consciousness itself.
+This is one reason consciousness research remains difficult. Researchers may appear to disagree about one problem while actually focusing on different aspects of consciousness.
 
 ## Why Theories Differ
 
 One of the most important insights in consciousness research is that disagreements between theories often arise because they attempt to explain different aspects of consciousness.
 
-For example:
+Global Workspace Theory focuses primarily on conscious access, broadcasting, and reportability. Integrated Information Theory focuses on intrinsic integration and the structure of experience. Higher-Order theories emphasize reflective awareness and metacognition. Predictive Processing emphasizes hierarchical inference and prediction. Recurrent Processing Theory emphasizes feedback loops and perceptual stabilization. Attention Schema Theory emphasizes the brain’s model of attention. Panpsychism addresses the metaphysical origin of experience. Illusionism questions whether phenomenal consciousness exists in the traditional sense [@dennett1991; @frankish2016].
 
-- Global Workspace Theory focuses primarily on conscious access and reportability;
-- Integrated Information Theory focuses on phenomenological integration;
-- Higher-Order theories emphasize introspective awareness;
-- Predictive Processing emphasizes hierarchical inference;
-- Panpsychism addresses the metaphysical origin of experience;
-- Illusionism questions whether phenomenal consciousness exists in the traditional sense.
+This means that theories differ not only because they disagree, but because they often prioritize different explananda. The word *consciousness* may refer to several related but distinct phenomena: wakefulness, awareness, reportability, phenomenal feeling, selfhood, integration, attention, embodiment, or metaphysical subjectivity.
 
-Figure \@ref(fig:fig-comparison) Panel 1 illustrates these broad theoretical groupings.
-
-Thus many theories differ not simply because they disagree, but because they prioritize different explananda.
+A comparative matrix is therefore useful because it prevents false equivalence. It helps show which theories are answering which questions.
 
 ## Major Families of Theories
 
 ### Philosophical and Metaphysical Theories
 
-Figure \@ref(fig:fig-comparison) Panel 1 groups several theories within philosophical and metaphysical approaches.
+Philosophical and metaphysical theories address the nature of consciousness and its place in reality. These include dualism, physicalism, panpsychism, illusionism, and consciousness-first frameworks such as T-Consciousness.
 
-These include:
+Dualism emphasizes the distinction between mind and matter. Physicalism attempts to explain consciousness within the physical world. Panpsychism treats consciousness or proto-consciousness as a fundamental aspect of reality [@goff2017]. Illusionism argues that phenomenal consciousness, as traditionally conceived, may be an introspective illusion [@frankish2016]. T-Consciousness treats consciousness as foundational and non-material rather than as a product of neural or computational processes [@taheri2020; @taheri2023].
 
-- dualism;
-- physicalism;
-- panpsychism;
-- and illusionism.
-
-These theories primarily address:
-
-- the nature of mind;
-- the relationship between consciousness and matter;
-- and the metaphysical foundations of experience.
-
-They often engage directly with the hard problem of consciousness.
+These theories often engage most directly with the hard problem of consciousness.
 
 ### Computational and Information-Processing Theories
 
-Computational approaches include:
+Computational and information-processing theories explain mind in terms of representation, computation, inference, information transformation, and cognitive architecture.
 
-- computationalism;
-- predictive processing;
-- Bayesian brain theories.
+This family includes computationalism, functionalism, Predictive Processing, Bayesian brain theories, and some interpretations of Global Workspace Theory [@putnam1967; @fodor1975; @turing1950; @friston2010; @clark2016].
 
-These theories emphasize:
-
-- information processing;
-- inference;
-- prediction;
-- computation;
-- and cognitive architecture.
-
-They are often strongly connected to AI research.
+These theories are especially important for artificial intelligence because they often suggest that consciousness may depend on organization rather than biological substrate alone.
 
 ### Neuroscientific Theories
 
-Neuroscientific approaches include:
+Neuroscientific theories attempt to identify the brain mechanisms associated with conscious experience or conscious access.
 
-- Global Workspace Theory (GWT);
-- Recurrent Processing Theory (RPT);
-- Higher-Order Thought (HOT);
-- Attention Schema Theory (AST).
+This family includes Global Workspace Theory, Recurrent Processing Theory, Higher-Order Thought Theory, and Attention Schema Theory. These theories focus on neural broadcasting, recurrent feedback, metacognition, attention, and self-modeling [@baars1988; @dehaene2011; @lamme2006; @rosenthal2005; @lau2011; @graziano2013].
 
-These theories attempt to identify:
+Their strength is empirical relevance. Their limitation is that they may explain neural mechanisms without fully resolving why those mechanisms are accompanied by subjective experience.
 
-- neural mechanisms;
-- large-scale dynamics;
-- attentional coordination;
-- and cognitive accessibility.
+### Informational and Formal Theories
 
-### Informational Theories
+Integrated Information Theory occupies a unique position. It combines phenomenological starting points, formal mathematical structure, and claims about intrinsic causal integration [@tononi2004; @oizumi2014].
 
-Integrated Information Theory (IIT) occupies a somewhat unique position because it combines:
-
-- formal mathematical structure;
-- phenomenological assumptions;
-- and informational integration.
+IIT attempts to explain consciousness in terms of how much integrated information a system generates. It is both scientific and philosophical. It offers a formal framework, but its implications and measurement challenges remain controversial.
 
 ### Embodied and Enactive Theories
 
-Embodied and enactive approaches emphasize:
+Embodied and enactive theories emphasize bodily interaction, organism-environment coupling, sensorimotor engagement, interoception, emotion, and lived experience [@varela1991; @thompson2007; @seth2021].
 
-- bodily interaction;
-- organism-environment coupling;
-- sensorimotor engagement;
-- and lived experience.
-
-These theories challenge purely brain-centered accounts of consciousness.
+These theories challenge purely brain-centered and computational accounts. They argue that consciousness cannot be fully understood by studying neural activity or internal representation alone. Consciousness belongs to living, acting, embodied organisms situated in environments.
 
 ### Speculative Physical Theories
 
-Quantum theories explore possible relationships between consciousness and:
+Quantum theories explore possible relationships between consciousness and non-classical physical processes, such as quantum coherence, state reduction, or fundamental physics [@penrose1989; @hameroff2014].
 
-- quantum coherence;
-- microphysical processes;
-- or fundamental physics.
-
-These approaches remain controversial and empirically uncertain.
+These approaches remain controversial and empirically uncertain. Their importance lies in how they challenge the assumption that classical neural computation is necessarily sufficient for consciousness.
 
 ## Different Levels of Explanation
 
-Figure \@ref(fig:fig-comparison) Panel 3 illustrates that theories often operate at different explanatory levels.
-
-These levels include:
+Theories of consciousness operate at different explanatory levels. Recognizing these levels helps explain why theories may sometimes complement rather than contradict one another.
 
 ### Metaphysical Level
 
-Questions such as:
-
-- What is consciousness fundamentally?
-- Is consciousness reducible?
-- Is consciousness fundamental to reality?
-
-are addressed by:
-
-- dualism;
-- panpsychism;
-- physicalism;
-- and quantum theories.
+At the metaphysical level, theories ask what consciousness is fundamentally. Is consciousness reducible to physical processes? Is it fundamental? Is it an illusion? Is it non-material? This level is addressed by dualism, physicalism, panpsychism, illusionism, quantum theories, and T-Consciousness.
 
 ### Computational Level
 
-Questions concerning:
-
-- computation;
-- representation;
-- inference;
-- and information processing
-
-are emphasized by:
-
-- predictive processing;
-- Bayesian brain theories;
-- computationalism.
+At the computational level, theories ask how information is represented, processed, transformed, integrated, and used. Computationalism, functionalism, Predictive Processing, and Bayesian brain theories operate strongly at this level.
 
 ### Neural Level
 
-Questions concerning:
-
-- neural mechanisms;
-- connectivity;
-- recurrence;
-- and broadcasting
-
-are emphasized by:
-
-- GWT;
-- RPT;
-- HOT;
-- AST.
+At the neural level, theories ask which brain mechanisms support consciousness. Global Workspace Theory, Recurrent Processing Theory, Higher-Order Thought Theory, and Attention Schema Theory focus strongly on neural dynamics, attention, recurrence, access, and self-monitoring.
 
 ### Phenomenological Level
 
-Questions concerning:
+At the phenomenological level, theories ask how consciousness is lived and structured from the first-person perspective. Embodied approaches, IIT, panpsychism, and consciousness-first theories often emphasize this level.
 
-- lived experience;
-- subjective feeling;
-- and selfhood
+### Ethical and Artificial-Systems Level
 
-are emphasized by:
-
-- IIT;
-- embodied approaches;
-- phenomenology;
-- panpsychism.
-
-This helps explain why theories may sometimes complement rather than directly contradict one another.
+At the ethical and AI level, theories ask whether non-human animals, artificial systems, or altered-state patients may be conscious. This level is increasingly important because consciousness theories now influence AI ethics, clinical care, and moral status debates [@butlin2023].
 
 ## Comparative Matrix
 
@@ -253,27 +148,31 @@ comparison <- data.frame(
     "Computationalism",
     "Bayesian Brain",
     "Panpsychism",
+    "Cosmopsychism",
+    "T-Consciousness",
     "Quantum Theories",
     "Illusionism",
     "Embodied/Enactive"
   ),
   Main_Target = c(
     "Mind-body distinction",
-    "Physical basis",
+    "Physical basis of consciousness",
     "Functional organization",
     "Complexity-based emergence",
-    "Conscious access",
+    "Conscious access and broadcasting",
     "Integrated experience",
     "Metacognitive awareness",
-    "Perceptual inference",
+    "Perceptual inference and prediction",
     "Feedback-based perception",
     "Model of attention",
     "Computational mind",
     "Probabilistic inference",
     "Fundamental consciousness",
-    "Physical foundations",
+    "Universal consciousness",
+    "Foundational non-material consciousness",
+    "Physical foundations of consciousness",
     "Illusion of qualia",
-    "Embodied experience"
+    "Embodied lived experience"
   ),
   Strength = c(
     "Takes subjectivity seriously",
@@ -289,9 +188,11 @@ comparison <- data.frame(
     "Connects mind and AI",
     "Handles uncertainty",
     "Addresses hard problem directly",
+    "Avoids micro-combination problem",
+    "Centers consciousness as primary",
     "Explores physical limits",
     "Dissolves hard problem",
-    "Connects mind, body, world"
+    "Connects mind, body, and world"
   ),
   Major_Gap = c(
     "Interaction problem",
@@ -304,9 +205,11 @@ comparison <- data.frame(
     "Experience not fully explained",
     "Limited beyond perception",
     "May explain belief, not experience",
-    "Simulation vs experience",
+    "Simulation versus experience",
     "Phenomenology not central",
     "Combination problem",
+    "Decombination problem",
+    "Limited mainstream scientific integration",
     "Limited evidence",
     "May deny what it explains",
     "Neural specificity"
@@ -324,8 +227,10 @@ comparison <- data.frame(
     "Requires attention schema",
     "Potentially possible",
     "Possible with inference architecture",
-    "Depends on fundamental properties",
-    "Unknown",
+    "Depends on experiential organization",
+    "Depends on relation to whole-consciousness",
+    "Not reducible to computation alone",
+    "Unknown; may require quantum processes",
     "May focus on self-representation",
     "Requires embodiment"
   )
@@ -336,229 +241,166 @@ kable(comparison, caption = "Comparative matrix of major consciousness theories.
 
 ## Comparative Criteria
 
-Figure \@ref(fig:fig-comparison) Panel 2 compares theories across multiple dimensions.
+The comparison in this chapter uses several criteria.
 
-The primary comparative criteria used throughout this book include:
+The first criterion is explanatory target. Some theories explain conscious access, while others explain phenomenology, metaphysics, selfhood, embodiment, or artificial consciousness.
 
-- explanatory target;
-- empirical support;
-- testability;
-- neural plausibility;
-- mathematical precision;
-- account of subjective experience;
-- treatment of selfhood;
-- ability to address the hard problem;
-- applicability to non-human animals;
-- applicability to artificial systems;
-- treatment of altered states;
-- philosophical cost.
+The second criterion is empirical support. Some theories are closely tied to experimental neuroscience. Others are primarily philosophical or metaphysical.
 
-Importantly:
+The third criterion is testability. A theory becomes scientifically stronger when it generates clear predictions.
 
-> no theory scores maximally across all dimensions simultaneously.
+The fourth criterion is neural plausibility. Theories that propose mechanisms should be consistent with known brain organization.
+
+The fifth criterion is treatment of subjective experience. Some theories address phenomenal consciousness directly. Others focus more on reportability or information processing.
+
+The sixth criterion is treatment of the hard problem. Some theories attempt to solve it, some reinterpret it, and some dissolve it.
+
+The seventh criterion is applicability beyond humans. A theory should clarify whether animals, infants, patients with disorders of consciousness, or artificial systems could be conscious.
+
+No theory scores maximally across all criteria. Each theory explains some dimensions well and faces unresolved difficulties elsewhere.
 
 ## Theories and the Hard Problem
 
-One of the largest differences between theories concerns how they approach the hard problem of consciousness.
-
-Figure \@ref(fig:fig-comparison) Panel 4 illustrates this spectrum.
+One of the largest differences between theories concerns how they approach the hard problem.
 
 ### Directly Addressing the Hard Problem
 
-Theories such as:
-
-- panpsychism;
-- IIT;
-- dualism;
-
-attempt to directly explain why subjective experience exists.
+Dualism, panpsychism, cosmopsychism, IIT, and T-Consciousness attempt to address subjective experience directly. They do not treat consciousness merely as reportability or information access. Panpsychism and cosmopsychism treat consciousness as fundamental or cosmic in scope. T-Consciousness treats consciousness as foundational and non-material [@taheri2020; @taheri2023].
 
 ### Reinterpreting the Hard Problem
 
-Theories such as:
+Predictive Processing, Higher-Order theories, Attention Schema Theory, and some computational approaches reinterpret consciousness in terms of inference, self-modeling, metacognition, or information access [@friston2010; @rosenthal2005; @graziano2013].
 
-- predictive processing;
-- HOT;
-- AST;
-
-often reinterpret consciousness in terms of:
-
-- cognition;
-- self-modeling;
-- or information access.
+These theories may not solve the hard problem directly, but they explain why consciousness has the structure it does.
 
 ### Dissolving the Hard Problem
 
-Illusionism attempts to dissolve the hard problem by arguing that phenomenal consciousness may itself be an introspective illusion.
+Illusionism attempts to dissolve the hard problem by arguing that phenomenal consciousness, as traditionally conceived, may be an introspective illusion [@frankish2016].
+
+Rather than asking why qualia exist, illusionism asks why humans believe in qualia.
 
 ### Focusing on Mechanisms
 
-Theories such as:
+Global Workspace Theory, Recurrent Processing Theory, computationalism, and many neuroscientific models focus mainly on mechanisms. They explain access, broadcasting, recurrence, cognition, and reportability. Their strength is empirical relevance. Their weakness is that they may leave phenomenal consciousness underexplained.
 
-- GWT;
-- RPT;
-- computationalism;
+## Empirical and Philosophical Orientation
 
-primarily focus on functional or neural mechanisms rather than metaphysical explanation.
+Theories differ in how strongly they lean toward empirical science or philosophical interpretation.
 
-## Empirical vs Philosophical Orientation
+Global Workspace Theory, Recurrent Processing Theory, Predictive Processing, Higher-Order theories, and Attention Schema Theory are closely connected to neuroscience and cognitive science.
 
-Figure \@ref(fig:fig-comparison) Panel 6 compares theories according to empirical versus philosophical orientation.
+Integrated Information Theory is both formal and philosophical. It proposes a mathematical structure but also begins from phenomenological axioms.
 
-Some theories emphasize:
+Panpsychism, cosmopsychism, illusionism, and T-Consciousness are more strongly philosophical or metaphysical, though they may still engage with scientific debates.
 
-- experimental neuroscience;
-- cognitive architecture;
-- computational modeling;
-- and measurable neural dynamics.
+Quantum theories sit in a difficult position. They appeal to physical science, but their application to consciousness remains speculative.
 
-Others focus more strongly on:
+Embodied and enactive theories bridge phenomenology, biology, cognitive science, and philosophy.
 
-- metaphysical interpretation;
-- phenomenology;
-- and philosophical analysis.
-
-Importantly:
-
-> no theory is purely empirical or purely philosophical.
-
-Most theories contain both:
-
-- scientific assumptions;
-and:
-- philosophical commitments.
+No theory is purely empirical or purely philosophical. Even the most empirical theories contain assumptions about what consciousness is. Even the most philosophical theories must eventually confront empirical evidence.
 
 ## AI Consciousness Implications
 
-Figure \@ref(fig:fig-comparison) Panel 5 compares implications for AI consciousness.
+Theories differ sharply in their implications for artificial intelligence.
 
-Some theories are relatively permissive concerning conscious AI.
+Functionalism, computationalism, Global Workspace Theory, Higher-Order theories, Attention Schema Theory, and some versions of Predictive Processing are relatively open to AI consciousness. They emphasize organization, access, self-modeling, inference, and architecture.
 
-These include:
+Biological naturalism, embodied theories, and some interpretations of IIT are more cautious. They ask whether artificial systems possess the right causal powers, bodily regulation, intrinsic integration, or organism-environment interaction.
 
-- functionalism;
-- computationalism;
-- predictive processing;
-- GWT.
+Panpsychism leaves open the possibility that artificial systems may possess some degree of experience, depending on intrinsic organization or experiential structure. T-Consciousness frames the question differently. It does not treat consciousness as produced by computation alone. Instead, it asks how artificial systems relate to a foundational consciousness field or reality.
 
-Other theories are more cautious or restrictive.
+Illusionism may be relatively permissive because it focuses on self-modeling and the representation of consciousness rather than irreducible qualia.
 
-These include:
-
-- biological naturalism;
-- embodied approaches;
-- some interpretations of IIT;
-- and certain quantum theories.
-
-This reflects deeper disagreements concerning whether consciousness depends primarily on:
-
-- computation;
-- embodiment;
-- biological substrate;
-- causal integration;
-- or self-modeling.
+The result is clear: whether AI can be conscious depends strongly on which theory of consciousness is adopted [@butlin2023].
 
 ## Altered States and Disorders of Consciousness
 
-Theories also differ in how effectively they explain:
+Theories also differ in how they explain anesthesia, dreaming, psychedelic states, meditation, and disorders of consciousness.
 
-- anesthesia;
-- dreaming;
-- psychedelic states;
-- meditation;
-- and disorders of consciousness.
+Global Workspace Theory predicts that anesthesia disrupts global broadcasting and cognitive access.
 
-For example:
+Integrated Information Theory predicts reduced integrated causal structure and lower complexity.
 
-- GWT predicts breakdown of global broadcasting under anesthesia;
-- IIT predicts reduced informational integration;
-- predictive processing emphasizes altered priors and precision weighting;
-- HOT emphasizes disruption of metacognitive access.
+Recurrent Processing Theory predicts disruption of recurrent feedback loops.
 
-Altered states therefore provide important empirical tests for consciousness theories.
+Predictive Processing emphasizes altered priors, prediction errors, and precision weighting.
+
+Higher-Order theories emphasize disruption of metacognition and self-monitoring.
+
+Embodied theories emphasize changes in bodily regulation, interoception, and organism-environment interaction.
+
+T-Consciousness may interpret altered states differently, not merely as neural disruptions, but as changes in relation to or manifestation of consciousness. However, this interpretation should be presented carefully as part of a consciousness-first framework rather than mainstream clinical neuroscience.
+
+Altered states are important because they test whether a theory can explain not only ordinary waking consciousness, but also partial, altered, disrupted, or internally generated experience.
 
 ## Philosophical Costs and Tradeoffs
 
 Every theory faces tradeoffs.
 
-### Dualism
+Dualism preserves subjectivity strongly, but faces the interaction problem.
 
-- preserves subjective experience strongly;
-- but faces the interaction problem.
+Physicalism aligns closely with science, but faces the explanatory gap.
 
-### Physicalism
+Functionalism and computationalism are flexible and AI-relevant, but struggle with qualia and subjective feeling.
 
-- aligns closely with science;
-- but faces the explanatory gap.
+Emergentism captures complexity, but often leaves the emergence mechanism vague.
 
-### IIT
+Global Workspace Theory explains access and reportability well, but may underexplain phenomenology.
 
-- provides formal structure;
-- but faces controversial implications and measurement challenges.
+Integrated Information Theory gives a formal account of integration, but faces measurement challenges and controversial implications.
 
-### Panpsychism
+Higher-Order theories explain reflective awareness, but face questions about non-human, infant, and non-reflective consciousness.
 
-- addresses the hard problem directly;
-- but faces the combination problem.
+Predictive Processing provides a powerful unifying framework, but prediction alone may not explain subjectivity.
 
-### Illusionism
+Recurrent Processing Theory is strong for perceptual awareness, but may be limited beyond sensory consciousness.
 
-- avoids metaphysical complexity;
-- but may appear to deny the reality it attempts to explain.
+Attention Schema Theory gives a clear model of awareness representation, but may explain belief in awareness more than experience itself.
 
-### Embodied Theories
+Panpsychism addresses the hard problem directly, but faces the combination problem.
 
-- integrate body and environment effectively;
-- but sometimes lack neural specificity.
+Cosmopsychism avoids micro-combination but faces the decombination problem.
 
-These tradeoffs illustrate why consensus remains difficult.
+T-Consciousness places consciousness at the foundation, but requires careful articulation and stronger connection to mainstream scientific methods.
+
+Quantum theories explore physical foundations, but lack strong empirical support.
+
+Illusionism is naturalistic and parsimonious, but may seem to deny the very phenomenon it seeks to explain.
+
+Embodied and enactive theories connect mind, body, and world, but sometimes lack neural specificity.
+
+These tradeoffs explain why no single theory currently dominates the field.
 
 ## Toward Integration
 
-Figure \@ref(fig:fig-comparison) Panel 7 illustrates a possible multi-level integrative framework.
+Future progress may require integration across levels rather than the victory of one theory over all others.
 
-Future progress may require integrating:
+A mature theory of consciousness may need several components. It may need neuroscience to explain mechanisms, computation to explain information processing, phenomenology to clarify lived experience, embodiment to situate consciousness in life and action, and metaphysics to address the hard problem.
 
-- neuroscience;
-- computation;
-- embodiment;
-- phenomenology;
-- self-modeling;
-- information integration;
-- and philosophical analysis.
+For example, Global Workspace Theory may explain conscious access. Recurrent Processing Theory may explain early perceptual awareness. Predictive Processing may explain inference and perceptual construction. Higher-Order theories may explain metacognitive awareness. Attention Schema Theory may explain awareness modeling. Embodied theories may explain lived bodily experience. IIT may explain integration. Panpsychism and T-Consciousness may force deeper reconsideration of whether consciousness is derivative or foundational.
 
-Some theories may ultimately prove complementary rather than mutually exclusive.
+This does not mean all theories can simply be combined without conflict. Some make incompatible claims. Illusionism and panpsychism, for example, disagree sharply about whether phenomenal consciousness is real or fundamental. Computationalism and T-Consciousness differ strongly on whether consciousness can be produced by information processing alone.
 
-For example:
-
-- GWT may explain conscious access;
-- IIT may address integration;
-- predictive processing may explain inference;
-- embodied theories may explain situated experience;
-- and phenomenology may clarify lived structure.
-
-A mature science of consciousness may therefore require:
-
-> theoretical pluralism and cross-level integration.
+Nevertheless, partial integration may be possible. Consciousness may require explanation across multiple dimensions rather than from a single level alone.
 
 ## Main Comparative Conclusion
 
 No existing theory currently explains all dimensions of consciousness simultaneously.
 
-Some theories are:
+Some theories are empirically productive but philosophically incomplete. Others address metaphysical questions directly but remain difficult to test experimentally. Some explain access but not phenomenal experience. Others explain subjectivity but not mechanisms. Some are AI-friendly. Others are biologically or metaphysically restrictive.
 
-- empirically productive but philosophically incomplete;
-while others:
-- address metaphysical questions directly but remain difficult to test experimentally.
-
-Consciousness may ultimately require explanation across multiple interacting dimensions including:
-
-- neural dynamics;
-- computation;
-- embodiment;
-- phenomenology;
-- selfhood;
-- information integration;
-- and physical foundations.
+Consciousness may ultimately require explanation across multiple interacting dimensions, including neural dynamics, computation, embodiment, phenomenology, selfhood, information integration, altered states, artificial systems, and physical or metaphysical foundations.
 
 The diversity of theories therefore reflects not only disagreement, but also the extraordinary complexity of consciousness itself.
+
+## Chapter Summary
+
+This chapter compared major theories of consciousness across multiple dimensions. The central conclusion is that consciousness theories often differ because they explain different targets.
+
+Some theories focus on conscious access, such as Global Workspace Theory. Some focus on integration, such as Integrated Information Theory. Some focus on metacognition, such as Higher-Order theories. Some focus on prediction, such as Predictive Processing and Bayesian brain theories. Some focus on feedback, such as Recurrent Processing Theory. Some focus on self-modeling, such as Attention Schema Theory and illusionism. Some focus on embodiment, such as embodied and enactive theories. Some focus on metaphysical foundations, such as dualism, panpsychism, cosmopsychism, and T-Consciousness.
+
+No theory currently explains everything. Each has strengths and limitations. Theories also differ in their implications for artificial intelligence, altered states, animal consciousness, and the hard problem.
+
+The most promising future direction may involve multi-level integration. A complete account of consciousness may need to combine neural mechanisms, computational architecture, bodily life, phenomenological structure, self-modeling, and philosophical analysis.
+
+The central lesson is that consciousness is too complex to be captured by a single simple comparison. A comparative matrix helps clarify the landscape, but the deeper challenge is to understand how these different levels of explanation relate to one another.

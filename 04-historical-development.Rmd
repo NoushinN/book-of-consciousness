@@ -2,604 +2,184 @@
 
 ## Chapter Overview
 
-The historical development of consciousness research reflects changing assumptions about:
+The history of consciousness research is also a history of changing assumptions about mind, science, subjectivity, and explanation. Across different periods, consciousness has been understood as a property of the soul, a feature of rational thought, a stream of experience, a subject of introspection, a problem avoided by behaviourism, a form of information processing, a neural phenomenon, and, more recently, a question involving artificial intelligence, embodiment, and complex systems.
 
-- what consciousness is;
-- what counts as scientific explanation;
-- how subjective experience should be studied;
-- and whether consciousness can be reduced to physical mechanisms.
+This history is not a simple movement from error to truth. Earlier debates continue to shape contemporary theories. Questions about the relation between mind and body, the reliability of introspection, the role of behaviour, the nature of representation, and the limits of physical explanation remain central to consciousness studies today.
 
-Across different historical periods, consciousness has been treated alternately as:
+Modern discussions of the hard problem, neural correlates of consciousness, artificial intelligence, embodied cognition, and phenomenology all inherit ideas from earlier traditions. Understanding this historical development therefore helps explain why contemporary consciousness studies remains diverse, interdisciplinary, and theoretically unsettled.
 
-- a metaphysical problem;
-- a psychological phenomenon;
-- a behavioural illusion;
-- a computational process;
-- an informational structure;
-- and a biological property of complex neural systems.
-
-Understanding this historical progression is important because contemporary theories inherit many of the conceptual tensions, methodological assumptions, and unresolved debates that emerged during earlier periods.
-
-Modern discussions concerning:
-
-- subjective experience;
-- neural mechanisms;
-- information processing;
-- embodiment;
-- artificial intelligence;
-- and the hard problem
-
-are deeply connected to this broader intellectual history.
+This chapter traces the development of consciousness research from classical philosophy to contemporary neuroscience and artificial intelligence. It shows how the field has repeatedly shifted its explanatory focus: from soul and metaphysics, to experience and introspection, to observable behaviour, to cognition and computation, to neural mechanisms, and finally to interdisciplinary theories of consciousness.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Describe major historical phases in consciousness research
-- Explain how explanatory targets changed over time
-- Compare philosophical, psychological, and neuroscientific approaches
-- Explain why behaviourism marginalized consciousness research
-- Describe the impact of the cognitive revolution
-- Explain how neuroscience transformed consciousness studies
-- Understand why contemporary theories remain diverse and interdisciplinary
+* Describe major historical phases in consciousness research.
+* Explain how the study of consciousness moved from philosophy to psychology, neuroscience, and cognitive science.
+* Explain why behaviourism marginalized consciousness as a scientific topic.
+* Describe the importance of the cognitive revolution.
+* Explain how neuroscience transformed consciousness research.
+* Understand why contemporary theories remain diverse and interdisciplinary.
+* Recognize how historical debates continue to shape current theories of consciousness.
 
 ## Historical Evolution of Consciousness Research
 
-Figure \@ref(fig:fig-history-timeline) presents a simplified intellectual timeline of major developments in consciousness research.
+Figure @ref(fig:fig-history-timeline) presents a simplified timeline of major developments in consciousness research.
 
-```{r fig-history-timeline, echo=FALSE, fig.cap="Historical timeline of major developments in consciousness research. Theories evolved across philosophical, psychological, behavioural, computational, neuroscientific, and AI-centered paradigms. Importantly, many earlier ideas continue to influence contemporary debates.", out.width="100%", fig.align="center"}
+```{r fig-history-timeline, echo=FALSE, fig.cap="Historical timeline of major developments in consciousness research. Theories evolved across philosophical, psychological, behavioural, computational, neuroscientific, and AI-centered paradigms. Importantly, many earlier ideas continue to influence contemporary debates.", out.width="100%", fig.align="center"} id="dno6wl"
 knitr::include_graphics("figures/02_historical_timeline.png")
 ```
 
-As illustrated in Figure \@ref(fig:fig-history-timeline), the history of consciousness research is not a simple linear replacement of old theories with new ones. Instead, ideas often:
+As Figure @ref(fig:fig-history-timeline) suggests, the history of consciousness research is not a linear replacement of old ideas by new ones. Instead, concepts are revised, rejected, revived, and integrated across time. Philosophical debates about subjectivity continue within neuroscience. Introspection, once criticized as unscientific, reappears in phenomenology and neurophenomenology. Computational models influence theories of cognition and artificial intelligence, while embodied approaches challenge the idea that consciousness can be explained by internal computation alone.
 
-- evolve;
-- reappear;
-- integrate;
-- and influence later frameworks across time.
-
-The field therefore developed through shifting explanatory paradigms rather than straightforward scientific succession.
+The field developed through a series of changing questions. Classical philosophy asked how mind relates to soul, reason, and reality. Early modern philosophy asked how subjective thought relates to matter. Nineteenth-century psychology attempted to study experience scientifically through introspection. Behaviourism rejected introspection and focused on observable behaviour. The cognitive revolution reintroduced internal mental processes. Neuroscience later transformed consciousness into an empirical research program. Contemporary theories now combine philosophy, neuroscience, computation, embodiment, phenomenology, and artificial intelligence.
 
 ## Changing Questions Across History
 
-Different historical periods emphasized different explanatory questions concerning consciousness.
+Different historical periods did not merely give different answers to the same question. They often asked different questions altogether.
 
-Some periods focused primarily on:
+Classical and early modern philosophers asked whether the mind is material or immaterial, how knowledge arises from experience, and whether the self is a stable subject of thought. Early psychologists asked whether conscious experience could be analyzed scientifically. Behaviourists asked how behaviour could be predicted and controlled without appealing to private mental states. Cognitive scientists asked how internal representations and information processing make perception, memory, language, and reasoning possible. Neuroscientists asked which brain mechanisms are associated with conscious awareness. Contemporary theorists ask how consciousness relates to neural dynamics, integrated information, global access, self-modeling, embodiment, and artificial intelligence.
 
-- soul and metaphysics;
-- the relation between mind and matter;
-- or the foundations of knowledge.
+This shifting landscape is important because many disagreements in consciousness studies arise from different explanatory targets. A theory designed to explain reportability may not explain subjective experience. A theory designed to describe lived experience may not easily generate experimental predictions. A theory designed for neuroscience may not settle metaphysical questions. The history of the field helps explain why these differences persist.
 
-Others emphasized:
+## Classical and Early Modern Philosophy
 
-- behaviour;
-- cognition;
-- neural mechanisms;
-- information processing;
-- embodiment;
-- or computational modeling.
+The earliest systematic discussions of consciousness were not framed in modern scientific terms. Ancient and early modern philosophers approached the mind through questions of soul, reason, perception, selfhood, knowledge, and reality. Plato and Aristotle both treated the soul as central to life and cognition, although they understood its relation to the body differently [@platoRepublic; @aristotleDeAnima]. These early debates helped establish the long-standing question of whether mind should be understood as separable from the body or as the organizing principle of living beings.
 
-As shown in Figure \@ref(fig:fig-history-timeline), consciousness research evolved not only because of new discoveries, but also because researchers changed their assumptions concerning what required explanation.
+In early modern philosophy, René Descartes gave one of the most influential formulations of the mind-body problem. Descartes argued that mind and matter are fundamentally different kinds of substance: mind is characterized by thought, while matter is characterized by extension [@descartes1641]. Although Cartesian substance dualism is not widely accepted in contemporary neuroscience, the problem Descartes made famous remains central. How can subjective thought and experience be related to the physical body?
 
-For example:
+Empiricist philosophers shifted attention toward sensation, perception, and experience. John Locke emphasized the role of experience in the formation of ideas [@locke1689]. David Hume analyzed the self in terms of changing perceptions rather than as a simple, permanent substance [@hume1739]. These traditions helped shape later psychological interest in experience, association, memory, and introspection.
 
-- classical philosophy emphasized metaphysical questions;
-- behaviourism emphasized observable behaviour;
-- cognitive science emphasized internal representation;
-- neuroscience emphasized neural mechanisms;
-- and modern AI research increasingly emphasizes computation, prediction, and self-modeling.
+Immanuel Kant added another important dimension by arguing that the mind does not passively receive the world but actively structures experience through forms of intuition and categories of understanding [@kant1781]. Many contemporary ideas about perception as active construction, prediction, and organization echo themes that were already present in Kantian philosophy, even though they are now developed through cognitive science and neuroscience.
 
-This shifting landscape remains central to contemporary debates.
+Classical and early modern philosophy therefore established several problems that remain central today: the mind-body problem, the nature of subjectivity, the structure of experience, the relation between perception and reality, and the possibility of explaining consciousness within a naturalistic framework.
 
-## Classical Philosophy
+## Introspection and Early Scientific Psychology
 
-Ancient and early modern philosophy approached consciousness through questions concerning:
+During the nineteenth century, psychology began to emerge as a distinct scientific discipline. Early psychologists attempted to study consciousness directly through controlled introspection. Rather than treating consciousness only as a metaphysical problem, they sought to analyze experience experimentally.
 
-- soul;
-- perception;
-- selfhood;
-- rationality;
-- intentionality;
-- and subjective awareness.
+Wilhelm Wundt played a central role in establishing experimental psychology as a scientific field [@wundt1874]. In Wundt’s laboratory tradition, trained observers reported features of experience under controlled conditions. The aim was not casual self-reflection, but disciplined observation of conscious processes.
 
-As shown in Figure \@ref(fig:fig-history-timeline), early philosophical approaches treated consciousness primarily as a metaphysical and epistemological problem.
+Edward Titchener later developed structuralism, which attempted to analyze conscious experience into basic elements such as sensations, images, and feelings [@titchener1898]. Structuralists hoped that consciousness could be studied by decomposing experience into its fundamental components.
 
-Philosophers debated whether the mind could be understood entirely through material processes or whether consciousness reflected something fundamentally distinct from the physical world.
+William James offered a different approach. Rather than treating consciousness as a collection of isolated elements, James described it as a continuous “stream of consciousness” [@james1890]. This idea remains influential because it emphasizes the dynamic, flowing, selective, and personally situated character of experience.
 
-### Descartes and Dualism
+Despite its importance, introspectionist psychology faced major criticisms. Introspective reports varied across observers, were difficult to verify independently, and often lacked the reliability expected in experimental science. Critics argued that private experience could not provide a stable foundation for objective psychology.
 
-René Descartes is especially associated with mind-body dualism, the view that:
+Even so, introspection did not disappear completely. Its concerns reappeared later in phenomenology, first-person methods, and neurophenomenology. The early introspectionists showed that consciousness could be approached systematically, even if their methods were limited.
 
-```text
-mind and matter are fundamentally different kinds of substance.
-```
+## Behaviourism and the Rejection of Consciousness
 
-Descartes argued that conscious thought possessed qualities irreducible to physical extension or mechanical processes.
+In the early twentieth century, behaviourism emerged partly as a reaction against introspection. Behaviourists argued that psychology should focus on observable behaviour rather than private mental states. John B. Watson’s behaviourist manifesto rejected consciousness as a central object of scientific psychology and called for psychology to become a science of behaviour [@watson1913].
 
-Although contemporary neuroscience rarely accepts Cartesian substance dualism, the broader:
+Behaviourism emphasized stimulus-response relationships, conditioning, learning, reinforcement, and prediction. Ivan Pavlov’s work on classical conditioning, Edward Thorndike’s work on learning, and B. F. Skinner’s work on operant conditioning strongly shaped this approach [@pavlov1927; @thorndike1911; @skinner1953].
 
-- mind-body problem;
-- explanatory gap;
-- and problem of subjectivity
+The behaviourist turn greatly increased methodological discipline in psychology. It emphasized operational definitions, measurable behaviour, experimental control, and quantitative analysis. These contributions had lasting value.
 
-remain central to consciousness research.
+However, behaviourism also marginalized consciousness. Because subjective experience could not be directly observed, it was often treated as scientifically unnecessary or inaccessible. Internal mental states were either ignored or reinterpreted in behavioural terms.
 
-### Empiricism and Experience
+Over time, this exclusion became increasingly difficult to sustain. Behaviourism struggled to explain language, reasoning, planning, mental imagery, creativity, and flexible problem-solving. It also had difficulty accounting for the apparent role of internal representation in perception and cognition. These limitations helped prepare the way for the cognitive revolution.
 
-Empiricists such as:
+## The Cognitive Revolution
 
-- John Locke;
-- George Berkeley;
-- and David Hume
+The cognitive revolution of the mid-twentieth century reintroduced internal mental processes into scientific psychology. Researchers began to study attention, memory, language, perception, reasoning, problem-solving, and mental representation using experimental and computational methods.
 
-emphasized experience and perception as foundations of knowledge.
+Several developments contributed to this shift. Computer science provided models of information processing. Cybernetics introduced feedback and control systems. Linguistics challenged behaviourist accounts of language. Information theory gave researchers new ways to think about communication, coding, and signal processing. Together, these fields helped reshape the study of mind.
 
-These traditions helped establish later interest in:
+Noam Chomsky’s critique of Skinner’s account of language was especially influential [@chomsky1959]. Chomsky argued that behaviourist learning theory could not adequately explain the structure, creativity, and productivity of language. This critique helped strengthen the idea that internal cognitive structures must be part of psychological explanation.
 
-- sensation;
-- phenomenology;
-- perception;
-- and introspection.
+The cognitive revolution did not immediately solve the problem of consciousness. Many early cognitive models focused on information processing while avoiding subjective experience. Nevertheless, the cognitive revolution made it scientifically acceptable again to discuss internal mental states. It also created the intellectual foundation for contemporary theories such as Global Workspace Theory, computationalism, predictive processing, and higher-order theories.
 
-### Kant and Cognitive Structure
+The mind was increasingly understood as an information-processing system. This shift opened new ways to study consciousness, but it also introduced a new question: is consciousness itself a form of computation, or does computation explain only some of the functions associated with consciousness?
 
-Immanuel Kant argued that consciousness actively structures experience through:
+## Neuroscience and the Search for Neural Correlates
 
-- categories;
-- spatial and temporal organization;
-- and cognitive forms.
+Late twentieth-century neuroscience transformed consciousness research. New technologies made it possible to study the brain in ways earlier researchers could not. Functional magnetic resonance imaging, electroencephalography, intracranial recording, lesion studies, neural stimulation, and computational neuroscience allowed researchers to investigate the neural conditions associated with conscious perception, attention, wakefulness, and altered states.
 
-Many modern theories involving:
+The search for the neural correlates of consciousness became a major scientific program. Neural correlates of consciousness, or NCCs, are usually understood as the minimal neural mechanisms associated with specific conscious experiences [@crick1990; @koch2016]. Researchers investigated consciousness using paradigms such as visual masking, binocular rivalry, inattentional blindness, sleep and dreaming, anesthesia, coma, disorders of consciousness, metacognition, meditation, and psychedelic states [@dehaene2011; @seth2018].
 
-- predictive processing;
-- cognitive architecture;
-- and active perception
+This empirical turn greatly advanced consciousness studies. It became possible to ask which neural systems are active when a stimulus is consciously perceived, how conscious and unconscious processing differ, how anesthesia disrupts awareness, and how brain injury affects consciousness.
 
-echo themes already present in Kantian philosophy.
+However, the neuroscience of consciousness also revealed a key limitation. Identifying neural correlates is not the same as fully explaining subjective experience. Neural correlates may show when consciousness occurs, which mechanisms participate, and how conscious states change. They do not automatically explain why subjective experience exists. This distinction helped renew interest in philosophical questions such as the explanatory gap and the hard problem.
 
-Thus many contemporary debates concerning:
+## The Emergence of the Hard Problem
 
-- subjectivity;
-- selfhood;
-- perception;
-- and phenomenal structure
+By the late twentieth century, consciousness research increasingly distinguished between explaining cognitive functions and explaining subjective experience itself. Thomas Nagel argued that consciousness has an essentially subjective character and that objective science may not fully capture what experience is like from the first-person point of view [@nagel1974]. Frank Jackson’s Mary’s Room thought experiment challenged the idea that complete physical knowledge necessarily includes knowledge of subjective experience [@jackson1982]. Joseph Levine described the apparent gap between physical explanation and phenomenal experience as the explanatory gap [@levine1983].
 
-can be traced back to classical philosophical traditions.
+David Chalmers later formalized these concerns by distinguishing the easy problems of consciousness from the hard problem [@chalmers1995; @chalmers1996]. The easy problems concern functions such as attention, memory access, reportability, and behavioural control. The hard problem asks why physical or computational processes should be accompanied by subjective experience at all.
 
-## Empiricism and Introspection
+This distinction became one of the central organizing debates in contemporary consciousness studies. Some theorists argue that the hard problem reveals a deep limitation in physicalist explanation. Others argue that it reflects confusion, intuition, or incomplete science. Regardless of one’s position, the hard problem forced consciousness researchers to clarify what exactly their theories aim to explain.
 
-During the nineteenth and early twentieth centuries, early psychology attempted to study consciousness scientifically through introspection.
+## Contemporary Theories of Consciousness
 
-Figure \@ref(fig:fig-history-timeline) identifies this period as a major shift toward systematic psychological investigation of experience.
+As neuroscience, cognitive science, philosophy, and artificial intelligence developed, consciousness studies diversified into multiple theoretical traditions.
 
-Researchers attempted to analyze:
-
-- sensations;
-- feelings;
-- thoughts;
-- images;
-- and perceptual experiences
-
-from the first-person perspective.
-
-### Wundt and Experimental Psychology
-
-Wilhelm Wundt helped establish experimental psychology as a scientific discipline.
-
-Researchers attempted to study consciousness under controlled laboratory conditions using structured introspective reports.
-
-### Titchener and Structuralism
-
-Edward Titchener attempted to decompose conscious experience into:
-
-- fundamental sensory elements;
-- basic feelings;
-- and simple mental structures.
-
-Introspectionist approaches treated consciousness as:
-
-> a legitimate scientific object of investigation.
-
-### Limitations of Introspection
-
-However, introspection faced major criticisms.
-
-Reports often:
-
-- varied substantially between observers;
-- lacked standardization;
-- and appeared difficult to verify objectively.
-
-Critics argued that subjective reports lacked sufficient:
-
-- reliability;
-- precision;
-- and experimental rigor.
-
-Despite these limitations, introspection established several enduring themes that remain central to consciousness studies:
-
-- first-person experience;
-- phenomenal character;
-- subjectivity;
-- and introspective awareness.
-
-Importantly, modern phenomenology and neurophenomenology partially revive some introspective traditions in more rigorous forms.
-
-## Behaviourism
-
-In the early twentieth century, behaviourism emerged partly as a reaction against the perceived subjectivity and methodological unreliability of introspectionist psychology.
-
-Figure \@ref(fig:fig-history-timeline) illustrates how behaviourism temporarily displaced consciousness from mainstream scientific psychology.
-
-Thinkers such as:
-
-- John B. Watson;
-- Ivan Pavlov;
-- Edward Thorndike;
-- and B. F. Skinner
-
-argued that psychology should focus exclusively on:
-
-- observable behaviour;
-- conditioning;
-- learning;
-- and stimulus-response relationships.
-
-### Why Consciousness Disappeared
-
-Behaviourism treated internal mental states as scientifically problematic because they could not be:
-
-- directly observed;
-- objectively measured;
-- or publicly verified.
-
-As a result, consciousness was often excluded from scientific explanation altogether.
-
-Research instead emphasized:
-
-- behavioural prediction;
-- conditioning;
-- reinforcement;
-- and measurable outputs.
-
-### Contributions of Behaviourism
-
-Behaviourism substantially increased:
-
-- experimental rigor;
-- operational definition;
-- quantitative measurement;
-- and methodological discipline.
-
-These contributions profoundly influenced scientific psychology.
-
-### Limitations of Behaviourism
-
-However, critics increasingly argued that behaviourism failed to explain:
-
-- meaning;
-- perception;
-- language;
-- reasoning;
-- internal representation;
-- and subjective awareness.
-
-The exclusion of consciousness eventually became increasingly difficult to sustain, particularly as researchers confronted complex cognition and language processing.
-
-## Cognitive Revolution
-
-The cognitive revolution of the mid-twentieth century reintroduced internal mental processes into scientific psychology.
-
-As shown in Figure \@ref(fig:fig-history-timeline), this period marked a major shift toward information-processing models of the mind.
-
-### Return of Internal Representation
-
-Researchers increasingly studied:
-
-- attention;
-- memory;
-- perception;
-- reasoning;
-- problem-solving;
-- and language.
-
-The cognitive revolution reopened the possibility that internal mental states could be studied scientifically without abandoning experimental rigor.
-
-### Information Processing and Computation
-
-Developments in:
-
-- computer science;
-- cybernetics;
-- linguistics;
-- artificial intelligence;
-- and information theory
-
-strongly influenced this transition.
-
-Researchers increasingly viewed the brain as:
-
-```text
-an information-processing system
-```
-
-capable of:
-
-- representation;
-- computation;
-- prediction;
-- memory storage;
-- and decision-making.
-
-### Chomsky and Critiques of Behaviourism
-
-Noam Chomsky strongly criticized behaviourism, particularly its inability to explain language acquisition and internal cognitive structure adequately.
-
-These critiques helped accelerate the emergence of cognitive science as an interdisciplinary field integrating:
-
-- psychology;
-- neuroscience;
-- philosophy;
-- linguistics;
-- and computation.
-
-Although many early cognitive models still treated consciousness indirectly, the cognitive revolution established the foundations for modern scientific consciousness research.
-
-## Neuroscience and Neural Correlates
-
-Advances in neuroscience transformed consciousness research from a largely philosophical problem into an experimentally tractable scientific domain.
-
-Figure \@ref(fig:fig-history-timeline) shows the emergence of modern neuroscientific approaches during the late twentieth century.
-
-### Technological Transformation
-
-Technologies such as:
-
-- functional magnetic resonance imaging (fMRI);
-- electroencephalography (EEG);
-- intracranial recording;
-- lesion analysis;
-- and neural stimulation
-
-enabled researchers to investigate conscious awareness empirically.
-
-### Expanding Experimental Domains
-
-Researchers began studying how consciousness changes across:
-
-- sleep and dreaming;
-- anesthesia;
-- coma and vegetative states;
-- perceptual masking;
-- binocular rivalry;
-- attention;
-- metacognition;
-- psychedelic states;
-- and meditation.
-
-### Neural Correlates of Consciousness
-
-The search for the **neural correlates of consciousness (NCC)** became a major scientific program [@koch2016; @seth2018].
-
-NCC research attempts to identify:
-
-> the minimal neural mechanisms associated with specific conscious experiences.
-
-### Limits of Correlation
-
-Importantly, however:
-
-```text
-neural correlation
-≠
-complete explanation
-```
-
-Neural correlates may explain:
-
-- when consciousness occurs;
-- how conscious states change;
-- and which mechanisms participate,
-
-without fully explaining:
-
-- why subjective experience exists at all.
-
-This distinction later contributed to increasing interest in the hard problem of consciousness.
-
-## Emergence of the Hard Problem
-
-Late twentieth-century debates increasingly distinguished between:
-
-- explaining cognitive functions;
-and:
-- explaining subjective experience itself.
-
-David Chalmers later formalized this distinction through the concepts of:
-
-- easy problems;
-and:
-- the hard problem of consciousness.
-
-As shown in Figure \@ref(fig:fig-history-timeline), this period marked a major conceptual shift in consciousness studies.
-
-The hard problem asks:
-
-> Why should physical or computational processes produce subjective experience at all?
-
-This distinction strongly influenced subsequent theoretical development.
-
-## Contemporary Theories
-
-As experimental methods expanded and interdisciplinary research intensified, consciousness studies diversified into multiple theoretical traditions.
-
-Figure \@ref(fig:fig-theoretical-landscape-history) summarizes several major contemporary theoretical families.
-
-```{r fig-theoretical-landscape-history, echo=FALSE, fig.cap="Major contemporary theoretical approaches in consciousness research. Different theories emphasize neural mechanisms, computation, information structure, embodiment, or metaphysical interpretation.", out.width="94%", fig.align="center"}
+```{r fig-theoretical-landscape-history, echo=FALSE, fig.cap="Major contemporary theoretical approaches in consciousness research. Different theories emphasize neural mechanisms, computation, information structure, embodiment, or metaphysical interpretation.", out.width="94%", fig.align="center"} id="je99s2"
 knitr::include_graphics("figures/05_theoretical_landscape.png")
 ```
 
-As illustrated in Figure \@ref(fig:fig-theoretical-landscape-history), contemporary theories differ not only in proposed mechanisms, but also in:
+Figure @ref(fig:fig-theoretical-landscape-history) summarizes several major contemporary theoretical families. These theories differ not only in their proposed mechanisms, but also in their definitions of consciousness and explanatory targets.
 
-- explanatory targets;
-- assumptions;
-- and definitions of consciousness itself.
+Global Workspace Theory explains consciousness in terms of global availability or broadcasting of information across cognitive systems [@baars1988; @dehaene2011]. Integrated Information Theory explains consciousness through integrated informational structure and intrinsic causal organization [@tononi2004; @oizumi2014]. Higher-Order theories argue that a mental state becomes conscious when the subject has an appropriate higher-order representation of that state [@rosenthal2005; @lau2011]. Recurrent Processing Theory emphasizes recurrent neural activity as central to conscious perception [@lamme2006]. Attention Schema Theory explains consciousness in terms of the brain’s model of attention [@graziano2013].
 
-### Major Contemporary Approaches
+Predictive Processing and the Bayesian brain framework understand perception and cognition in terms of prediction, inference, and error correction [@friston2010; @clark2013]. Embodied and enactive approaches argue that consciousness cannot be understood apart from bodily action, affect, and organism-environment interaction [@varela1991; @thompson2007]. Panpsychist theories argue that consciousness or proto-consciousness may be a fundamental feature of reality [@goff2017]. Illusionist theories argue that phenomenal consciousness, as traditionally conceived, may be a cognitive illusion [@frankish2016].
 
-Contemporary theoretical families include:
+This theoretical diversity reflects the complexity of consciousness itself. Some theories primarily explain access, attention, and reportability. Others aim at phenomenal experience, embodiment, selfhood, or metaphysical foundations. The result is not one unified theory, but a pluralistic field with multiple competing and overlapping explanatory frameworks.
 
-- Global Workspace Theory;
-- Integrated Information Theory;
-- Higher-Order theories;
-- Predictive Processing;
-- Recurrent Processing Theory;
-- Attention Schema Theory;
-- computational theories;
-- embodied and enactive theories;
-- panpsychism;
-- illusionism;
-- and quantum theories.
+### Consciousness-First and T-Consciousness Frameworks
 
-### Different Explanatory Targets
+A further contemporary development involves consciousness-first frameworks, which treat consciousness not as a late product of biological or neural complexity, but as a more fundamental aspect of reality. These approaches differ from standard physicalist, functionalist, and neurobiological theories because they do not begin with matter, computation, or neural activity as the primary explanatory foundation.
 
-Some theories primarily explain:
+Taheri’s T-Consciousness theory can be placed within this broader consciousness-first landscape. In this view, consciousness is not produced by the brain in the ordinary materialist sense. Rather, consciousness is treated as a non-material and foundational reality through which life, mind, and organization become manifested. This makes T-Consciousness different from theories that explain consciousness primarily through neural mechanisms, information processing, or biological evolution [@taheri2020; @taheri2023].
 
-- conscious access;
-- reportability;
-- attention;
-- or information integration.
+Historically, T-Consciousness is best understood as part of a recent expansion of consciousness studies beyond standard neuroscience and cognitive science. It shares some broad concerns with panpsychism, cosmopsychism, and other consciousness-first theories, but it also differs from them in its emphasis on non-material consciousness fields and the idea that life is revealed or manifested through consciousness rather than generated solely by material processes.
 
-Others attempt to explain:
-
-- phenomenal experience;
-- subjectivity;
-- embodiment;
-- or metaphysical foundations directly.
-
-This diversity partly reflects the possibility that consciousness may require explanation across multiple levels simultaneously.
+Because T-Consciousness is not yet part of the mainstream scientific consensus, it should be presented carefully as an emerging or alternative framework rather than as an established scientific theory. Its importance in the history of consciousness research lies in how it illustrates a wider contemporary movement: the attempt to reconsider whether consciousness may be foundational rather than derivative.
 
 ## Artificial Intelligence and Machine Consciousness
 
-Recent developments in artificial intelligence represent the newest phase in the evolving history of consciousness research shown in Figure \@ref(fig:fig-history-timeline).
+Artificial intelligence represents one of the newest phases in the history of consciousness research. As AI systems become more capable of language use, pattern recognition, planning, and adaptive behaviour, researchers increasingly ask whether such systems could ever be conscious.
 
-Large-scale neural networks, generative AI systems, predictive architectures, and increasingly sophisticated computational models have intensified debates concerning:
+The question is partly theoretical. If consciousness depends primarily on functional organization, information processing, or self-modeling, then artificial consciousness may be possible in principle. Functionalist and computational theories are often more open to this possibility [@putnam1967; @fodor1975; @dehaene2017].
 
-- machine consciousness;
-- artificial self-modeling;
-- intelligence;
-- agency;
-- and subjective awareness.
+However, biological and embodied approaches are more cautious. They argue that current AI systems may simulate intelligent behaviour without possessing subjective experience. From this perspective, consciousness may require bodily regulation, affect, homeostasis, biological needs, or active engagement with an environment [@varela1991; @thompson2007; @seth2021].
 
-### Functionalist and Computational Views
+Machine consciousness also raises ethical questions. If an artificial system could become conscious, then issues of moral status, artificial suffering, autonomy, rights, and responsibility would become important. If artificial systems are not conscious, then there remains a risk of anthropomorphism: mistakenly attributing experience to systems that merely produce convincing outputs [@butlin2023].
 
-Some theories suggest that consciousness may depend primarily on:
-
-- organization;
-- information processing;
-- and computational structure,
-
-rather than biological substrate.
-
-### Biological and Embodied Objections
-
-Other theories argue that current AI systems merely simulate intelligent behaviour without possessing genuine subjective experience.
-
-Embodied and biological approaches emphasize:
-
-- bodily regulation;
-- affect;
-- homeostasis;
-- and organism-environment interaction.
-
-### Ethical Questions
-
-Machine consciousness debates also raise major ethical and philosophical questions concerning:
-
-- moral status;
-- personhood;
-- artificial suffering;
-- autonomy;
-- and anthropomorphism.
-
-These debates increasingly connect consciousness research with broader social and technological issues.
+AI therefore brings old questions into a new context. The mind-body problem becomes the mind-machine problem. The question of subjective experience becomes the question of whether computation can feel like anything from the inside.
 
 ## Contemporary Interdisciplinary Research
 
-Modern consciousness studies are highly interdisciplinary.
+Modern consciousness studies is highly interdisciplinary. It draws from neuroscience, cognitive science, philosophy of mind, psychology, artificial intelligence, phenomenology, psychiatry, biology, physics, information theory, and complexity science.
 
-Contemporary research integrates:
+This interdisciplinarity is not accidental. Consciousness appears to involve multiple explanatory levels. Neural mechanisms are important, but they do not by themselves settle questions about subjective experience. Computational models are useful, but they may not fully capture embodiment, affect, or lived experience. Phenomenology describes experience, but it must still be related to brain, body, and world. Philosophical analysis clarifies concepts, but it must remain connected to empirical findings.
 
-- neuroscience;
-- cognitive science;
-- philosophy of mind;
-- psychology;
-- artificial intelligence;
-- information theory;
-- phenomenology;
-- biology;
-- psychiatry;
-- and physics.
-
-Figure \@ref(fig:fig-history-timeline) illustrates how the field gradually expanded from relatively isolated philosophical inquiry into a broad interdisciplinary research domain.
-
-This interdisciplinarity reflects the possibility that consciousness may not be fully explainable at a single level of analysis.
-
-Neural mechanisms, computation, embodiment, information structure, phenomenology, and environmental interaction may all contribute important explanatory dimensions.
+Contemporary consciousness research therefore increasingly combines methods. Researchers compare theories through experiments, study altered states, investigate disorders of consciousness, model neural dynamics, analyze subjective reports, and examine artificial systems. The field remains open because no single approach has yet explained consciousness completely.
 
 ## Current State of the Field
 
-The contemporary field remains theoretically pluralistic.
+The contemporary field remains theoretically pluralistic. There is no universally accepted theory of consciousness, no single agreed definition, and no consensus about whether consciousness can be fully reduced to physical, functional, computational, or informational processes.
 
-There is currently:
+This lack of consensus is sometimes seen as a weakness, but it may also reflect the complexity of the subject. Consciousness includes wakefulness, awareness, attention, selfhood, reportability, metacognition, embodiment, affect, and phenomenal experience. Different theories may explain different dimensions of this larger problem.
 
-- no universally accepted theory of consciousness;
-- no agreed definition of consciousness;
-- and no consensus concerning the ultimate explanatory framework.
+The history of consciousness research shows that progress often occurs through conceptual refinement as much as through empirical discovery. Behaviourism improved scientific rigor but marginalized experience. Cognitive science restored internal mental processes but often treated consciousness indirectly. Neuroscience made consciousness experimentally tractable but did not eliminate philosophical questions. AI introduced new questions about computation, agency, and moral status.
 
-However, this diversity is not necessarily a weakness.
-
-Different theories may explain different aspects of consciousness including:
-
-- wakefulness;
-- perceptual awareness;
-- selfhood;
-- metacognition;
-- attention;
-- cognitive integration;
-- embodiment;
-- and phenomenal character.
-
-The contemporary diversity of theories therefore reflects the possibility that consciousness involves:
-
-> multiple interacting explanatory levels rather than a single reducible mechanism.
+The field therefore remains scientifically productive and philosophically open-ended.
 
 ## Main Historical Conclusion
 
-The historical evolution of consciousness research reveals not a simple linear progression toward a final solution, but an expanding and increasingly interdisciplinary attempt to understand one of the deepest problems in science and philosophy.
+The historical development of consciousness research reveals an expanding attempt to understand one of the deepest problems in science and philosophy. The field has moved from metaphysical reflection to introspective psychology, from behaviourism to cognitive science, from neuroscience to artificial intelligence, and from single-discipline approaches to interdisciplinary theory.
 
-As illustrated throughout Figure \@ref(fig:fig-history-timeline), theories evolved alongside:
+This history does not show a simple path toward one final theory. Instead, it shows that consciousness repeatedly exceeds the boundaries of any single framework. Philosophical questions persist within neuroscience. First-person experience returns after behaviourist exclusion. Computation raises new versions of old mind-body problems. Embodiment challenges purely internal models of mind. Artificial intelligence forces renewed attention to the difference between intelligence and experience.
 
-- new technologies;
-- changing philosophical assumptions;
-- advances in neuroscience;
-- developments in computation;
-- and emerging questions concerning AI and embodiment.
+Modern consciousness science increasingly recognizes that consciousness may require explanation across neural, computational, phenomenological, embodied, biological, and philosophical levels. The field remains unsettled not because it has failed to progress, but because its central question is unusually deep: how does subjective experience fit into the natural world?
 
-The history of consciousness research therefore demonstrates that progress often occurs not through replacement of earlier ideas alone, but through:
+## Chapter Summary
 
-- reinterpretation;
-- integration;
-- conceptual refinement;
-- and expansion across explanatory levels.
+The history of consciousness research shows how the field has changed across major intellectual periods. Classical and early modern philosophers framed consciousness through questions of soul, mind, matter, perception, and selfhood. Early psychologists attempted to study experience through introspection, while behaviourists later rejected consciousness as a scientific object and focused on observable behaviour.
 
-Modern consciousness science increasingly recognizes that understanding consciousness may require integration across:
+The cognitive revolution reintroduced internal mental processes and information-processing models. Neuroscience then transformed consciousness into an empirical research program through the study of neural correlates, altered states, anesthesia, sleep, and disorders of consciousness.
 
-- neuroscience;
-- phenomenology;
-- computation;
-- embodiment;
-- philosophy;
-- and artificial intelligence.
+Contemporary consciousness studies is now interdisciplinary. It includes theories based on global access, integrated information, higher-order representation, recurrent processing, prediction, attention modeling, embodiment, panpsychism, illusionism, and artificial intelligence.
 
-The field therefore remains both scientifically productive and philosophically open-ended.
+The central historical lesson is that consciousness research has never been only one kind of inquiry. It is philosophical, psychological, neuroscientific, computational, phenomenological, biological, and ethical. Its history explains why the field remains pluralistic today.

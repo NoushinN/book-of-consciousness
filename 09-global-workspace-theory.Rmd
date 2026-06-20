@@ -2,615 +2,236 @@
 
 ## Chapter Overview
 
-Global Workspace Theory (GWT) is one of the most influential scientific theories of consciousness in contemporary cognitive neuroscience. The theory proposes that consciousness occurs when information becomes globally available to multiple cognitive systems simultaneously.
+Global Workspace Theory, often abbreviated as GWT, is one of the most influential scientific theories of consciousness in contemporary cognitive science and cognitive neuroscience. The central idea is that information becomes conscious when it is made globally available to multiple cognitive systems at once.
 
-According to GWT, the brain contains many specialized unconscious processors operating in parallel. Most processing remains local, automatic, and inaccessible to awareness. Consciousness arises when selected information gains access to a global workspace and becomes broadly broadcast across the system [@baars1988; @dehaene2011; @dehaene2014].
+According to GWT, the brain contains many specialized unconscious processors operating in parallel. These systems process perception, memory, emotion, language, motor control, and decision-making. Most of this processing remains local, automatic, and unconscious. Consciousness occurs when selected information enters a global workspace and is broadcast widely across the system [@baars1988; @baars1997].
 
-Rather than treating consciousness as a mysterious substance or purely subjective entity, GWT interprets conscious awareness primarily as a functional and informational process associated with:
+This broadcasting allows information to become available for reasoning, working memory, verbal report, planning, self-monitoring, and flexible behaviour. In this sense, GWT treats consciousness primarily as a form of global cognitive access. It does not explain consciousness as a separate substance or as a mysterious inner object. Instead, it explains consciousness as a functional architecture that allows information to be shared across otherwise specialized systems.
 
-- global accessibility;
-- reportability;
-- flexible reasoning;
-- working memory;
-- attentional coordination;
-- decision-making;
-- and behavioural control.
+The theory became especially influential because it connected philosophy of mind, cognitive psychology, neuroscience, artificial intelligence, and computational modeling within a single framework. Later work by Stanislas Dehaene and colleagues developed GWT into the Global Neuronal Workspace model, linking conscious access to large-scale cortical activation, recurrent processing, and neural ignition [@dehaene2011; @dehaene2014].
 
-The theory became especially influential because it connected:
+At the same time, GWT remains controversial. Critics argue that global broadcasting may explain access consciousness, reportability, and cognitive coordination without fully explaining phenomenal consciousness, qualia, or subjective experience itself. This makes GWT one of the clearest examples of a scientifically powerful theory that still faces philosophical questions about the hard problem of consciousness [@block1995; @chalmers1995; @chalmers1996].
 
-- philosophy of mind;
-- cognitive science;
-- neuroscience;
-- experimental psychology;
-- and computational modeling
-
-within a unified explanatory framework.
-
-At the same time, GWT remains controversial because critics argue that global broadcasting may explain:
-
-- access;
-- reportability;
-- and cognitive coordination
-
-without fully explaining:
-
-- phenomenal consciousness;
-- qualia;
-- and subjective experience itself.
-
-This chapter examines the historical development, conceptual foundations, cognitive architecture, neural interpretation, empirical evidence, strengths, criticisms, unresolved problems, and implications of Global Workspace Theory for neuroscience and artificial intelligence.
+This chapter explains the historical development, core architecture, neural interpretation, empirical support, strengths, limitations, and implications of Global Workspace Theory for artificial intelligence and consciousness studies.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Define the central claims of Global Workspace Theory
-- Explain the concept of global broadcasting
-- Distinguish conscious from unconscious processing in GWT
-- Describe Baars’ theatre metaphor
-- Explain the Global Neuronal Workspace model and neural ignition
-- Distinguish access consciousness from phenomenal consciousness
-- Analyze experimental evidence related to GWT
-- Evaluate the strengths and criticisms of the theory
-- Explain the implications of GWT for artificial intelligence
+* Define the central claim of Global Workspace Theory.
+* Explain the concept of global broadcasting.
+* Distinguish conscious processing from unconscious processing in GWT.
+* Describe Baars’ theatre metaphor.
+* Explain the Global Neuronal Workspace model and neural ignition.
+* Distinguish access consciousness from phenomenal consciousness.
+* Evaluate experimental evidence related to GWT.
+* Analyze major strengths and criticisms of the theory.
+* Explain the implications of GWT for artificial intelligence and machine consciousness.
 
-## Why Global Workspace Theory Became Influential
+## The Core Idea of Global Workspace Theory
 
-Global Workspace Theory became highly influential because it provided one of the first comprehensive frameworks connecting:
+The core claim of Global Workspace Theory is that consciousness depends on global availability. Information becomes conscious when it is selected, amplified, and made available to many cognitive systems at once.
 
-- conscious access;
-- cognitive architecture;
-- working memory;
-- attention;
-- neuroscience;
-- reportability;
-- and experimental psychology.
+Most information processing in the brain remains unconscious. Visual systems can process shapes and motion. Language systems can prepare words. Emotional systems can evaluate significance. Motor systems can prepare actions. Memory systems can retrieve associations. Much of this happens without conscious awareness.
 
-Unlike purely philosophical theories, GWT generated experimentally testable predictions concerning:
-
-- masking;
-- attentional blink;
-- reportability;
-- large-scale neural activation;
-- and conscious access.
-
-This made GWT especially attractive within cognitive neuroscience and consciousness science.
-
-The theory also helped explain several important observations:
-
-- most processing remains unconscious;
-- consciousness is highly selective;
-- attention is capacity-limited;
-- conscious information becomes flexible and globally accessible;
-- and conscious awareness supports coordinated cognition.
-
-As a result, GWT became one of the foundational theories in modern consciousness research.
-
-## Historical Development
-
-Global Workspace Theory was originally proposed by Bernard Baars as a cognitive architecture for explaining conscious access and coordination among multiple mental systems [@baars1988].
-
-Baars argued that the brain resembles a system containing numerous specialized unconscious processors operating simultaneously and independently. Consciousness arises when selected information enters a global workspace, allowing the information to become broadly accessible to many systems at once.
-
-The theory emerged partly in response to limitations in:
-
-- behaviourism;
-- and early computational psychology.
-
-Behaviourist approaches largely ignored subjective awareness, while early cognitive science often modeled cognition without adequately explaining why certain information becomes conscious.
-
-Later developments by Stanislas Dehaene and colleagues transformed GWT into a more explicitly neuroscientific framework called the **Global Neuronal Workspace Theory** [@dehaene2011; @dehaene2014].
-
-This extension linked conscious access to:
-
-- large-scale cortical integration;
-- frontoparietal activation;
-- neural amplification;
-- recurrent processing;
-- and global broadcasting dynamics.
-
-## Core Idea of Global Broadcasting
-
-The defining claim of GWT is that consciousness depends on:
-
-```text
-global availability
-```
-
-Most processing in the brain remains unconscious and localized. Visual systems, memory systems, emotional systems, language systems, and motor systems can all operate independently without conscious awareness.
-
-However, when certain information gains access to the global workspace, it becomes widely broadcast across many cognitive systems simultaneously.
-
-This allows the information to:
-
-- enter working memory;
-- guide reasoning and planning;
-- support verbal report;
-- influence decision-making;
-- coordinate behaviour;
-- become available for self-monitoring;
-- and interact with many other cognitive systems.
-
-Figure \@ref(fig:fig-gwt) illustrates the architecture of Global Workspace Theory, including unconscious parallel processing, competition for access, global broadcasting, neural ignition, and the distinction between access consciousness and phenomenal consciousness.
+GWT proposes that consciousness occurs when selected information crosses a threshold and enters a global workspace. Once in the workspace, that information is broadcast widely. It can then influence reasoning, attention, memory, report, planning, and action.
 
 ```{r fig-gwt, echo=FALSE, fig.cap="Global Workspace Theory proposes that consciousness occurs when selected information becomes globally broadcast across multiple cognitive systems. The figure illustrates unconscious parallel processing, competition for access, neural ignition, global broadcasting, access consciousness, and the distinction between cognitive accessibility and phenomenal experience.", out.width="100%", fig.align="center"}
 knitr::include_graphics("figures/09_GWT_theory.png")
 ```
 
-As shown in Figure \@ref(fig:fig-gwt), many unconscious systems compete simultaneously for limited workspace access. Only a small subset of information becomes globally available at any given moment, helping explain the selective and capacity-limited nature of conscious awareness.
+Figure @ref(fig:fig-gwt) illustrates the architecture of Global Workspace Theory. Many unconscious systems process information in parallel. These systems compete for access to a limited global workspace. When selected information gains sufficient strength, it becomes globally broadcast and available to multiple systems.
 
-Importantly, Figure \@ref(fig:fig-gwt) also highlights one of the central criticisms of GWT:
+The figure also highlights one of the central debates surrounding GWT. Global broadcasting may explain cognitive access very well, but critics ask whether access is the same as subjective experience. This distinction between access consciousness and phenomenal consciousness is central to evaluating the theory [@block1995].
 
-```text
-global broadcasting
-≠
-automatic explanation of subjective experience
-```
+## Why Global Workspace Theory Became Influential
 
-Many researchers therefore interpret GWT primarily as a theory of:
+Global Workspace Theory became influential because it offered a clear and testable model of conscious access. Earlier philosophical debates often focused on whether consciousness could be reduced to physical processes, whether qualia were irreducible, or whether consciousness required a non-physical mind. GWT shifted the focus toward cognitive architecture: how does information become available to the whole system?
 
-```text
-access consciousness
-```
+This approach helped explain several important features of consciousness. Consciousness is selective. Only a small amount of information is conscious at any moment. Consciousness is capacity-limited. We cannot consciously process everything at once. Conscious information is flexible. Once information becomes conscious, it can be used for reasoning, memory, speech, planning, and voluntary action.
 
-rather than a complete theory of phenomenal consciousness.
+GWT also explained why unconscious processing can be sophisticated. A stimulus can be processed unconsciously, influence behaviour, prime later responses, or activate local neural pathways without becoming globally available. Consciousness, on this view, is not required for all information processing. It is required when information must be integrated, shared, and used flexibly across the whole cognitive system.
+
+This made GWT especially attractive within cognitive science and neuroscience because it generated experimentally testable predictions about masking, attentional blink, reportability, working memory, and large-scale neural activation [@dehaene2006; @dehaene2011].
+
+## Historical Development
+
+Global Workspace Theory was originally developed by Bernard Baars as a cognitive architecture for explaining conscious access [@baars1988]. Baars proposed that the mind contains many specialized unconscious processors. These processors operate in parallel, but their information is not automatically available to the whole system. Consciousness occurs when selected contents enter a global workspace and become widely available.
+
+Baars’ model was important because it treated consciousness as functionally useful rather than mysterious or passive. Consciousness allows information to be shared among specialized systems that otherwise operate independently. It therefore supports flexible coordination among perception, memory, language, action, and self-monitoring.
+
+Later, Dehaene and colleagues developed the Global Neuronal Workspace model, which connected Baars’ cognitive architecture to specific neural mechanisms [@dehaene2011; @dehaene2014]. This model proposed that conscious access depends on large-scale cortical broadcasting, especially involving long-range connections and frontoparietal networks.
+
+The Global Neuronal Workspace model introduced the idea of **neural ignition**. A stimulus may initially produce local unconscious processing. If the stimulus receives sufficient attention or strength, neural activity may suddenly amplify and spread across a larger network. This transition from local processing to widespread broadcasting is interpreted as the neural signature of conscious access [@dehaene2011].
 
 ## Baars’ Theatre Metaphor
 
-Baars famously described the global workspace using a theatre metaphor.
+Baars famously described consciousness using a theatre metaphor [@baars1988]. In this metaphor, the stage represents conscious contents. The spotlight represents attention. The audience represents specialized cognitive systems that receive information from the workspace. Backstage processes represent unconscious activity.
 
-In this analogy:
+The metaphor is useful because it captures the selectivity of consciousness. Only a small part of mental activity appears on the conscious stage at a given time. Much more is happening backstage. Perception, memory, emotion, language, and motor preparation may all proceed unconsciously until some content becomes important enough to enter the spotlight.
 
-- the spotlight of attention illuminates selected information;
-- conscious contents appear on the stage;
-- the audience represents multiple cognitive systems receiving the information;
-- backstage processes represent unconscious processing occurring outside awareness.
+The theatre metaphor also emphasizes that consciousness is not isolated. Conscious contents are broadcast to many systems, just as a performance on a stage is visible to an audience. Once information becomes conscious, it can influence many different parts of cognition.
 
-Most cognitive processing remains backstage and unconscious. Consciousness represents only a very small subset of information temporarily occupying the spotlight.
-
-The metaphor emphasizes several important ideas:
-
-- consciousness is selective;
-- conscious contents are globally accessible;
-- most mental activity remains unconscious;
-- attention influences conscious access;
-- and workspace capacity is limited.
-
-Although simplified, the theatre metaphor remains one of the most influential pedagogical models in consciousness studies.
+Like all metaphors, the theatre model has limits. It may make consciousness sound too centralized or passive. Contemporary versions of GWT usually describe the workspace as a dynamic network rather than a literal stage. Nevertheless, the metaphor remains a helpful way to introduce the theory.
 
 ## Conscious and Unconscious Processing
 
-A major contribution of GWT is its distinction between conscious and unconscious information processing.
+A major contribution of GWT is its account of the difference between conscious and unconscious processing. The theory does not deny unconscious cognition. In fact, it emphasizes that most cognition is unconscious.
 
-According to the theory:
+Unconscious processing is typically local, specialized, automatic, and unavailable for report. Examples include subliminal perception, automatic motor routines, priming, unattended stimuli, and some forms of blindsight-related processing. These processes may influence behaviour without becoming conscious.
 
-## Unconscious Processing
+Conscious processing, by contrast, involves global availability. When information becomes conscious, it can enter working memory, guide reasoning, support verbal report, influence planning, coordinate action, and become available for self-monitoring.
 
-Unconscious processes are typically:
+This distinction helps explain why unconscious and conscious processes can both be intelligent in different ways. Unconscious systems may be fast, specialized, and efficient. Conscious processing is slower and capacity-limited, but it allows flexible coordination across multiple systems.
 
-- local;
-- modular;
-- automatic;
-- isolated;
-- inaccessible to report;
-- relatively inflexible.
+In GWT, consciousness is therefore not simply the presence of information. It is the global availability of information.
 
-Examples include:
+## Competition for Workspace Access
 
-- subliminal perception;
-- automatic motor routines;
-- unattended stimuli;
-- priming effects;
-- blindsight-related processing.
+GWT proposes that many unconscious systems compete for access to the global workspace. Sensory signals, memories, emotions, goals, motivations, expectations, and attentional processes can all influence what becomes conscious.
 
-Importantly, GWT proposes that:
+This competition helps explain why consciousness is selective. At any moment, the brain processes far more information than can enter awareness. Only some contents gain enough priority, strength, relevance, or attentional support to become globally available.
 
-```text
-most cognition remains unconscious
-```
+For example, a faint visual stimulus may be processed unconsciously if it is masked or unattended. The same stimulus may become conscious if it is stronger, task-relevant, emotionally significant, or supported by attention. GWT explains this transition in terms of selection, amplification, and broadcasting.
 
-Most ongoing brain activity never enters the global workspace.
-
-## Conscious Processing
-
-Conscious processing involves information that is:
-
-- globally available;
-- integrated across systems;
-- reportable;
-- flexible;
-- accessible to working memory;
-- usable for reasoning and planning;
-- available for self-monitoring.
-
-Consciousness therefore functions less like a passive observer and more like a coordination system enabling large-scale cognitive integration.
-
-## Competition for Access
-
-Global Workspace Theory emphasizes that many unconscious systems compete simultaneously for conscious access.
-
-Sensory signals, memories, emotions, goals, motivations, and attentional processes all compete for limited workspace capacity.
-
-Only some information gains sufficient amplification to enter consciousness.
-
-This helps explain why:
-
-- attention is selective;
-- consciousness is limited in capacity;
-- some stimuli remain unconscious despite processing;
-- conscious awareness changes dynamically over time.
-
-According to GWT, consciousness therefore represents:
-
-```text
-selective global broadcasting
-```
-
-rather than continuous awareness of all ongoing brain activity.
+This model also explains why conscious contents change dynamically. The workspace is not permanently occupied by one content. Different contents compete over time, producing the shifting stream of conscious awareness.
 
 ## Neural Ignition and the Global Neuronal Workspace
 
-Stanislas Dehaene and colleagues proposed a neuroscientific extension of GWT called the **Global Neuronal Workspace Theory** [@dehaene2011; @dehaene2014].
+The Global Neuronal Workspace model gives GWT a neuroscientific interpretation. According to this model, conscious perception occurs when information undergoes large-scale amplification and broadcasting across distributed cortical networks [@dehaene2011; @dehaene2014].
 
-This model proposes that conscious perception occurs when information undergoes:
+Before ignition, processing remains local and may stay unconscious. A stimulus may activate sensory regions without becoming reportable. After ignition, neural activity becomes more widespread, involving recurrent processing, long-range communication, and coordinated activity across cortical systems.
 
-- large-scale amplification;
-- recurrent processing;
-- synchronization;
-- and widespread cortical broadcasting.
+Experimental studies of masking and conscious perception have been used to support this model. In some experiments, consciously perceived stimuli are associated with later, stronger, and more widespread neural activity than stimuli processed unconsciously [@sergent2004; @delcul2007]. These findings are often interpreted as evidence for a transition from local processing to global access.
 
-This transition is often described as:
-
-```text
-neural ignition
-```
-
-Before ignition:
-
-- processing remains local;
-- activity is fragmented;
-- information may remain unconscious.
-
-After ignition:
-
-- activity becomes widespread;
-- cortical systems synchronize;
-- information becomes globally accessible;
-- conscious report becomes possible.
-
-As illustrated in Figure \@ref(fig:fig-gwt), neural ignition represents a transition from local unconscious processing to globally coordinated conscious access.
-
-The theory therefore links consciousness to:
-
-- large-scale integration;
-- recurrent activation;
-- and widespread cortical coordination
-
-rather than isolated sensory activity alone.
+Neural ignition is therefore not simply increased brain activity. It refers to a specific kind of large-scale transition in which information becomes available to a broad network. In GWT, this transition is central to conscious access.
 
 ## Attention and Consciousness
 
-GWT is closely associated with attention, but the two concepts are not identical.
+GWT is closely related to attention, but attention and consciousness are not identical. Attention selects and prioritizes information for processing. Consciousness involves information becoming globally available.
 
-Attention refers to selective prioritization of information processing, whereas consciousness refers to globally available information accessible to multiple systems.
+In many cases, attention helps information enter consciousness. A stimulus that is attended is more likely to gain access to the workspace. However, the relation is not perfect. Some attended information may remain unconscious, and some conscious experiences may occur without deliberate attention.
 
-Some attended information may remain unconscious, while some conscious experiences may occur with relatively little deliberate attention.
+This distinction remains an active area of debate. Some theories treat attention as central to consciousness, while others argue that consciousness and attention can dissociate. GWT typically gives attention an important role in selecting information for global broadcasting, but it does not reduce consciousness entirely to attention.
 
-This distinction remains an active area of research and debate within cognitive neuroscience.
+## Access Consciousness and Phenomenal Consciousness
 
-## Access Consciousness vs Phenomenal Consciousness
+One of the most important debates surrounding GWT concerns the distinction between access consciousness and phenomenal consciousness [@block1995].
 
-One of the most important debates surrounding GWT concerns the distinction between:
+Access consciousness refers to information being available for reasoning, report, memory, decision-making, and action. GWT is especially strong as a theory of access consciousness. It explains how information becomes available across the cognitive system and why conscious information is flexible, reportable, and useful for control.
 
-- access consciousness;
-and:
-- phenomenal consciousness.
+Phenomenal consciousness refers to subjective experience itself: what it is like to see red, feel pain, hear music, or experience oneself as a subject. Critics argue that GWT may explain access without fully explaining phenomenology. Broadcasting information across the brain may explain why a person can report an experience, but why should broadcasting feel like anything?
 
-GWT appears especially strong at explaining:
-
-- reportability;
-- working memory;
-- cognitive access;
-- behavioural coordination;
-- flexible reasoning;
-- and global information availability.
-
-However, critics argue that explaining access does not necessarily explain:
-
-- subjective feeling;
-- qualia;
-- or phenomenal experience itself.
-
-As highlighted in Figure \@ref(fig:fig-gwt), many researchers therefore interpret GWT primarily as:
-
-```text
-a theory of access consciousness
-```
-
-rather than a complete solution to the hard problem.
-
-This remains one of the central philosophical debates surrounding the theory.
+This is the hard problem in the context of GWT. The theory explains how information becomes globally usable, but it remains debated whether global usability is sufficient for subjective experience [@chalmers1995; @chalmers1996].
 
 ## Experimental Evidence
 
-Global Workspace Theory has been investigated using numerous experimental paradigms, including:
+Global Workspace Theory has been investigated through many experimental paradigms, including visual masking, attentional blink, binocular rivalry, inattentional blindness, working memory tasks, sleep and dreaming, anesthesia, disorders of consciousness, EEG, MEG, and functional neuroimaging.
 
-- visual masking;
-- attentional blink;
-- binocular rivalry;
-- inattentional blindness;
-- anesthesia;
-- sleep and dreaming;
-- disorders of consciousness;
-- split-brain studies;
-- working memory experiments;
-- EEG and MEG studies;
-- functional neuroimaging.
+One important line of evidence comes from visual masking. A stimulus presented briefly and then masked may be processed unconsciously. If the same stimulus becomes conscious, it is often associated with stronger and more widespread neural activity. GWT interprets this difference as evidence for global broadcasting [@dehaene2006; @sergent2004; @delcul2007].
 
-Several findings are often interpreted as supporting GWT:
+Another line of evidence comes from attentional blink studies. When two targets appear close together in time, the second may fail to reach awareness if processing resources are occupied. GWT explains this in terms of limited workspace capacity and competition for access.
 
-- sudden large-scale neural activation associated with conscious perception;
-- widespread cortical broadcasting;
-- late-stage integration effects;
-- neural ignition dynamics;
-- correlations between reportability and frontoparietal activation;
-- recurrent large-scale synchronization.
+Research on anesthesia and disorders of consciousness also fits naturally with GWT. Loss of consciousness may involve disruption of long-range communication and global integration. Recovery of consciousness may involve restoration of large-scale coordination [@laureys2005; @owen2006; @koch2016].
 
-The theory has become especially influential because it generated experimentally testable predictions.
+Overall, GWT has been influential because it generates empirical predictions. It connects conscious access with measurable changes in neural activity, especially large-scale activation and integration.
 
 ## No-Report Paradigms
 
-A major modern debate concerns whether GWT confuses consciousness itself with:
+A major contemporary debate concerns whether GWT confuses consciousness with reportability. Many experiments require participants to report whether they saw a stimulus. But reporting requires attention, decision-making, memory, and motor response. These processes may add neural activity that is not part of consciousness itself.
 
-- reporting;
-- behavioural response;
-- or metacognitive access.
+No-report paradigms attempt to separate conscious experience from explicit behavioural report [@tsuchiya2015]. For example, researchers may use eye movements, pupil responses, or other indirect measures to infer conscious perception without asking for a direct report.
 
-Recent:
+Some no-report studies suggest that frontoparietal activation may reflect reporting, decision-making, or task demands rather than consciousness itself. This challenges strong versions of GWT that identify consciousness closely with frontoparietal broadcasting.
 
-```text
-no-report paradigms
-```
-
-attempt to separate conscious experience from explicit behavioural reporting demands.
-
-Some findings suggest that certain frontoparietal activations may reflect reporting requirements rather than consciousness itself.
-
-This debate remains highly important within contemporary consciousness science.
+Supporters of GWT respond that conscious access and reportability are deeply connected, even if report-related activity must be distinguished from consciousness itself. The debate remains important because it affects how neural evidence for GWT should be interpreted.
 
 ## Relation to Other Theories
 
-GWT overlaps with several other theories discussed in this book.
+GWT overlaps with several major theories discussed elsewhere in this book, but it also differs from them in important ways.
 
 ### Relation to Functionalism
 
-GWT strongly reflects functionalist principles because it explains consciousness in terms of:
-
-- information access;
-- broadcasting;
-- cognitive coordination;
-- and functional integration.
+GWT strongly reflects functionalist principles. It explains consciousness in terms of information access, broadcasting, cognitive coordination, and functional integration. Consciousness is defined less by what it is made of and more by what it allows the system to do.
 
 ### Relation to Recurrent Processing Theory
 
-Both GWT and recurrent processing models emphasize large-scale neural coordination, although recurrent theories often place less emphasis on reportability and frontoparietal broadcasting.
+Both GWT and Recurrent Processing Theory emphasize the importance of recurrent neural activity. However, Recurrent Processing Theory often argues that local recurrent processing may be sufficient for conscious perception, whereas GWT emphasizes global broadcasting and large-scale access [@lamme2006].
 
 ### Relation to Integrated Information Theory
 
-Unlike Integrated Information Theory, GWT emphasizes:
-
-- cognitive access;
-- reportability;
-- and global broadcasting
-
-more than intrinsic phenomenological structure or integrated causal architecture.
+Integrated Information Theory focuses on intrinsic causal structure and the degree to which a system integrates information [@tononi2004; @oizumi2014]. GWT, by contrast, focuses on cognitive access and global availability. IIT is often more directly concerned with phenomenal structure, while GWT is strongest as a theory of access.
 
 ### Relation to Predictive Processing
 
-Predictive processing theories sometimes interpret conscious access as involving large-scale updating and hierarchical coordination similar to global broadcasting.
+Predictive Processing explains perception and cognition in terms of hierarchical prediction and error correction [@friston2010; @clark2013]. Some interpretations connect conscious access with large-scale updating, precision weighting, and coordination across levels. This can overlap with GWT, although the theories use different explanatory frameworks.
+
+### Relation to Higher-Order and Attention Schema Theories
+
+Higher-Order theories emphasize that a mental state becomes conscious when it is represented by a higher-order state [@rosenthal2005; @lau2011]. Attention Schema Theory argues that consciousness arises from the brain’s model of attention [@graziano2013]. GWT differs by focusing on global broadcasting rather than higher-order representation or attention modeling, although all three theories explain consciousness partly through cognitive access and system-level organization.
+
+### Relation to Consciousness-First Theories
+
+GWT differs sharply from consciousness-first theories such as panpsychism, cosmopsychism, idealism, or Taheri’s T-Consciousness. GWT begins with cognitive architecture and explains consciousness through information access and neural broadcasting. Consciousness-first theories begin from the idea that consciousness is fundamental or prior to physical organization. These theories will be discussed later in the book.
 
 ## Strengths of Global Workspace Theory
 
-Global Workspace Theory possesses several major strengths.
+Global Workspace Theory has several major strengths. First, it provides a clear cognitive architecture. It explains how specialized unconscious systems can coordinate through a shared workspace.
 
-### Strong Connection to Experimental Neuroscience
+Second, it has strong empirical relevance. GWT connects directly to masking, attentional blink, working memory, reportability, neuroimaging, EEG, anesthesia, and disorders of consciousness.
 
-The theory aligns naturally with:
+Third, it explains access consciousness very well. It accounts for why conscious information is reportable, flexible, memorable, and available for reasoning and planning.
 
-- cognitive neuroscience;
-- neuroimaging;
-- EEG research;
-- working memory studies;
-- and experimental psychology.
+Fourth, GWT is compatible with computational modeling and artificial intelligence. Its architecture can be implemented in models involving competition, selection, broadcasting, and system-wide availability.
 
-### Clear Cognitive Architecture
-
-GWT provides one of the clearest large-scale functional architectures for conscious cognition.
-
-### Strong Explanatory Power for Access
-
-The theory effectively explains:
-
-- reportability;
-- attentional selection;
-- cognitive flexibility;
-- working memory;
-- and coordinated reasoning.
-
-### Testable Predictions
-
-GWT generated experimentally tractable predictions involving:
-
-- ignition;
-- broadcasting;
-- masking;
-- and attentional limitation.
-
-### Applicability to Disorders and Anesthesia
-
-The theory provides useful frameworks for understanding:
-
-- anesthesia;
-- coma;
-- disorders of consciousness;
-- sleep;
-- and altered states.
+Finally, GWT helps explain why consciousness is selective and capacity-limited. The workspace cannot broadcast everything at once. Consciousness therefore involves competition and prioritization.
 
 ## Weaknesses and Criticisms
 
-Despite its influence, GWT faces several important criticisms.
+The most common criticism of GWT is that it may explain access consciousness better than phenomenal consciousness. Global broadcasting explains why information becomes reportable and usable, but it may not explain why information is experienced.
 
-## Access vs Phenomenology
+This criticism connects GWT to the hard problem. Even if neural ignition explains conscious access, critics ask why global availability should produce subjective feeling [@chalmers1995; @chalmers1996].
 
-The most common criticism is that GWT explains:
+A second criticism concerns the role of frontoparietal activity. Some researchers argue that frontoparietal activation may reflect report, task demands, attention, or decision-making rather than consciousness itself. No-report paradigms have intensified this debate [@tsuchiya2015].
 
-```text
-access consciousness
-```
+A third criticism is the overflow argument. Some philosophers argue that conscious experience may contain more detail than can be accessed, reported, or stored in working memory. If consciousness overflows access, then GWT may underestimate the richness of phenomenology.
 
-better than:
+A fourth criticism concerns capacity limitations. GWT emphasizes a limited workspace, but conscious experience often appears continuous, rich, and world-involving. Critics argue that the model may fit reportable contents better than the full structure of lived experience.
 
-```text
-phenomenal consciousness
-```
+## Global Workspace Theory and Artificial Intelligence
 
-Critics argue that broadcasting may explain cognitive accessibility without explaining why subjective experience exists.
+GWT has important implications for artificial intelligence and machine consciousness. If consciousness depends on global broadcasting, then artificial systems might become conscious if they possess a sufficiently integrated workspace architecture.
 
-## The Hard Problem
+In such a system, specialized modules would process information in parallel. Selected information would enter a central or distributed workspace. That information would then become available for planning, memory, self-monitoring, language, decision-making, and action. This resembles some cognitive architectures in artificial intelligence.
 
-Even if global broadcasting explains cognitive integration, critics argue that GWT still does not explain:
+However, GWT does not automatically imply that current AI systems are conscious. A system may process language, retrieve information, and generate intelligent outputs without having unified subjective experience. Critics argue that current systems may lack embodiment, affect, biological regulation, autonomous agency, or phenomenal perspective [@butlin2023; @seth2021].
 
-- why experience feels like anything;
-- why global availability should generate qualia;
-- or why subjective awareness exists at all.
-
-## Frontoparietal Debate
-
-Some researchers argue that frontoparietal activation may reflect:
-
-- reporting demands;
-- attention;
-- or task performance
-
-rather than consciousness itself.
-
-This debate remains central within contemporary neuroscience.
-
-## Overflow Criticism
-
-Some philosophers argue that conscious experience may exceed what can be cognitively accessed or verbally reported.
-
-According to the:
-
-```text
-overflow argument
-```
-
-individuals may consciously experience more information than the workspace can broadcast.
-
-This criticism challenges the identification of consciousness with cognitive access alone.
-
-## Capacity Limitations
-
-GWT strongly emphasizes selective access and limited workspace capacity. Critics argue that some forms of consciousness may be richer and more continuous than the model suggests.
-
-## Implications for Artificial Intelligence
-
-Global Workspace Theory has important implications for artificial intelligence and machine consciousness.
-
-If consciousness depends primarily on:
-
-- global integration;
-- broadcasting;
-- recurrent coordination;
-- and flexible cognitive access,
-
-then artificial systems possessing sufficiently advanced workspace architectures might potentially achieve some form of consciousness.
-
-As illustrated conceptually in Figure \@ref(fig:fig-gwt), GWT naturally supports the possibility of machine consciousness if appropriate functional architecture exists.
-
-This possibility has motivated research into:
-
-- cognitive architectures;
-- integrated AI systems;
-- attention-based models;
-- multi-agent coordination systems;
-- large-scale information integration.
-
-However, many researchers argue that current AI systems still lack essential properties such as:
-
-- genuine phenomenology;
-- biological embodiment;
-- unified selfhood;
-- affective integration;
-- autonomous subjective perspective.
-
-Whether global broadcasting alone is sufficient for consciousness therefore remains unresolved.
+From a GWT perspective, the key question is whether an artificial system has genuine global availability and flexible integration, not merely input-output performance. From a phenomenological or consciousness-first perspective, the question is deeper: whether such availability is enough for experience.
 
 ## Open Questions
 
-Several important unresolved questions remain:
+Several important questions remain unresolved for Global Workspace Theory. Is global broadcasting sufficient for subjective experience, or only for reportability and access? Can consciousness exist without report? Are frontoparietal networks necessary for consciousness, or mainly for task performance? Does neural ignition mark consciousness itself or the cognitive consequences of consciousness? Can artificial systems instantiate a genuine global workspace? How should GWT explain the qualitative character of experience?
 
-- Why should broadcasting produce subjective experience?
-- Is global availability sufficient for phenomenology?
-- Can consciousness exist without reportability?
-- Are frontoparietal networks necessary for consciousness?
-- Could artificial systems genuinely possess conscious experience?
-- Does ignition explain awareness or merely cognitive access?
-- How should no-report paradigms be interpreted?
+These questions show why GWT remains both powerful and incomplete. It is one of the best-developed theories of conscious access, but its relation to phenomenal consciousness remains debated.
 
-These questions remain central to ongoing consciousness research.
+## Evaluation
 
-## Comparative Evaluation
+Global Workspace Theory is one of the most influential and experimentally productive theories in consciousness science. It connects cognitive architecture, neuroscience, reportability, working memory, attention, and computational modeling in a coherent framework.
 
-Global Workspace Theory remains one of the most influential and experimentally productive theories in consciousness science because it connects:
+Its greatest strength is its explanation of conscious access. GWT explains how information becomes globally available, why conscious contents are reportable, why attention matters, why consciousness is capacity-limited, and why conscious information supports flexible reasoning and action.
 
-- cognition;
-- neuroscience;
-- reportability;
-- working memory;
-- neural integration;
-- and computational architecture
+Its greatest weakness is that global access may not be the same as subjective experience. The theory may explain what consciousness does within cognition without fully explaining why consciousness feels like anything from the inside.
 
-within a unified framework.
+For this reason, GWT is best understood as a powerful theory of access consciousness and cognitive coordination. Whether it is also a complete theory of phenomenal consciousness remains unresolved.
 
-As illustrated throughout Figure \@ref(fig:fig-gwt), GWT interprets consciousness primarily as:
+## Chapter Summary
 
-```text
-globally accessible information
-```
+Global Workspace Theory proposes that consciousness occurs when selected information becomes globally available to multiple cognitive systems. Most brain processing remains unconscious, local, automatic, and specialized. Consciousness arises when information enters a global workspace and is broadcast widely across the system.
 
-broadcast across multiple cognitive systems.
+Baars developed GWT as a cognitive architecture, using the theatre metaphor to explain conscious access. Dehaene and colleagues later developed the Global Neuronal Workspace model, linking conscious access to neural ignition, recurrent processing, and large-scale cortical broadcasting.
 
-The theory is especially powerful for explaining:
+GWT is especially strong in explaining access consciousness, reportability, working memory, attentional selection, flexible reasoning, and cognitive coordination. It has generated testable predictions and influenced experimental research on masking, attentional blink, neuroimaging, anesthesia, and disorders of consciousness.
 
-- conscious access;
-- reportability;
-- cognitive coordination;
-- flexible reasoning;
-- attentional selection;
-- and working memory integration.
+The major criticism is that GWT may not fully explain phenomenal consciousness. Global broadcasting may explain how information becomes usable and reportable, but it remains debated whether this explains subjective experience itself.
 
-At the same time, whether global broadcasting fully explains:
-
-- phenomenal consciousness;
-- qualia;
-- and subjective experience itself
-
-remains deeply contested.
-
-Global Workspace Theory therefore remains both:
-
-- scientifically influential;
-and:
-- philosophically incomplete.
-
-Its impact on neuroscience, cognitive science, artificial intelligence, and modern consciousness research has been enormous, yet the relationship between:
-
-```text
-global access
-→
-subjective experience
-```
-
-remains one of the central unresolved questions in consciousness studies.
+The central unresolved question is whether consciousness is identical with global access, or whether global access is only one functional condition associated with conscious experience.

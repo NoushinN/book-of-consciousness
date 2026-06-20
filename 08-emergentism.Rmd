@@ -2,613 +2,203 @@
 
 ## Chapter Overview
 
-Emergentism proposes that consciousness arises from organized complexity. According to emergentist theories, conscious experience is not present within isolated neurons or elementary physical components individually, but emerges from large-scale patterns of:
+Emergentism proposes that consciousness arises from organized complexity. According to emergentist theories, conscious experience is not present in isolated neurons, molecules, or elementary physical components individually. Instead, consciousness emerges from large-scale patterns of interaction, integration, coordination, and dynamic system-wide organization.
 
-- interaction;
-- integration;
-- organization;
-- coordination;
-- and dynamic system-wide activity.
+Emergentism attempts to occupy a middle position between strict reductionism and substance dualism. Strict reductionism tries to explain consciousness entirely in terms of lower-level physical components. Substance dualism treats consciousness as fundamentally separate from the physical world. Emergentism rejects both extremes. It argues that consciousness depends on physical systems, but that higher-level organization may possess explanatory significance that cannot be understood by examining isolated parts alone.
 
-Emergentist approaches attempt to bridge the gap between:
+This perspective became increasingly influential as neuroscience shifted from studying isolated brain regions toward network dynamics, recurrent processing, large-scale integration, synchronization, and complex systems organization. Rather than searching for a single “consciousness location,” emergentist approaches ask how distributed neural systems interact to produce unified conscious experience.
 
-- strict reductionism;
-and:
-- substance dualism.
+At the same time, emergentism remains controversial. Critics argue that saying consciousness “emerges” may simply rename the mystery rather than explain it. The central unresolved question is therefore not only whether consciousness emerges from complexity, but why organized complexity should generate subjective experience at all [@chalmers1995; @levine1983].
 
-Rather than treating consciousness as either:
-
-- reducible to isolated physical components;
-or:
-- fundamentally separate from the physical world,
-
-emergentism argues that consciousness is a higher-level property arising from sufficiently organized systems.
-
-This perspective became increasingly influential as neuroscience shifted from studying isolated brain regions toward:
-
-- network dynamics;
-- large-scale integration;
-- synchronization;
-- recurrent processing;
-- and complex systems organization.
-
-Emergentism therefore occupies an important middle position within consciousness studies:
-
-- consciousness depends on physical systems;
-but:
-- higher-order organization may possess genuine explanatory significance beyond isolated components alone.
-
-At the same time, emergentism remains controversial because critics argue that saying consciousness “emerges” may simply redescribe the mystery rather than explain it fully.
-
-The central unresolved question therefore becomes:
-
-> Why should organized complexity produce subjective experience at all?
+This chapter explains the core idea of emergence, distinguishes weak and strong emergence, examines the relation between emergence and neuroscience, evaluates emergentist approaches to artificial intelligence, and considers whether emergentism can address the hard problem of consciousness.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Define the central claims of emergentism
-- Distinguish weak and strong emergence
-- Explain how emergentism differs from reductionism and dualism
-- Describe the relationship between complexity and consciousness
-- Explain why network organization became important in neuroscience
-- Analyze emergentist interpretations of AI consciousness
-- Evaluate strengths and criticisms of emergentist theories
-- Understand the relationship between emergence and the hard problem
+* Define the central claim of emergentism.
+* Distinguish weak emergence from strong emergence.
+* Explain how emergentism differs from reductionism, dualism, and consciousness-first theories.
+* Describe the relationship between complexity, integration, and consciousness.
+* Explain why network organization became important in neuroscience.
+* Evaluate emergentist interpretations of artificial intelligence and machine consciousness.
+* Analyze the strengths and limitations of emergentist theories.
+* Understand how emergence relates to the hard problem of consciousness.
 
 ## Why Emergence Became Appealing
 
-Many researchers found both strict reductionism and substance dualism unsatisfactory.
+Emergentism became appealing because many researchers found both strict reductionism and substance dualism unsatisfactory. Strict reductionism seemed too narrow because conscious experience appears to involve large-scale integration, unity, selfhood, and dynamic organization rather than isolated physical components alone. Substance dualism, by contrast, introduced difficulties concerning mind-body interaction, scientific testability, and integration with neuroscience.
 
-Strict reductionism appeared unable to explain:
+Emergentism offered a middle path. It preserved scientific naturalism by treating consciousness as dependent on physical systems, but it also emphasized that higher-level organization matters. A brain is not merely a collection of neurons. It is a dynamically organized system whose parts interact across multiple scales. The emergentist claim is that consciousness may arise from this organization rather than from any isolated component.
 
-- unified conscious experience;
-- large-scale coordination;
-- subjective awareness;
-- and integrated cognition
-
-purely in terms of isolated physical components.
-
-Dualism, by contrast, introduced major difficulties concerning:
-
-- mind–body interaction;
-- scientific testability;
-- causal explanation;
-- and integration with neuroscience.
-
-Emergentism became attractive because it offered a middle position:
-
-- consciousness depends on physical systems;
-but:
-- higher-level organization may possess genuinely important explanatory properties.
-
-This allowed researchers to preserve:
-
-- scientific naturalism;
-while:
-- recognizing the importance of large-scale organization, integration, and dynamic interaction.
-
-As neuroscience increasingly emphasized:
-
-- distributed processing;
-- recurrent connectivity;
-- network integration;
-- and large-scale synchronization,
-
-emergentist ideas became increasingly influential.
+This idea fits naturally with modern neuroscience. Consciousness research increasingly studies distributed networks, recurrent processing, global coordination, synchronization, and integration across brain regions. These developments strengthened the appeal of emergentist thinking because they suggest that consciousness may depend on system-wide organization rather than localized activity alone [@koch2016; @seth2021].
 
 ## Historical Development
 
-Emergentist ideas developed partly in response to dissatisfaction with both:
+Emergentist ideas developed in response to the limits of purely reductionist explanation. John Stuart Mill argued that some properties of wholes may not be straightforwardly predictable from the properties of their parts [@mill1843]. George Henry Lewes later helped popularize the language of emergence, distinguishing resultant effects from emergent effects [@lewes1875].
 
-- reductionism;
-- and dualism.
+In the early twentieth century, philosophers such as Samuel Alexander and C. D. Broad developed more systematic emergentist accounts of nature [@alexander1920; @broad1925]. They argued that reality may contain levels of organization in which new properties appear at higher levels. These higher-level properties depend on lower-level processes but are not always reducible to them in a simple way.
 
-Early emergentist thinkers argued that nature contains organizational levels whose properties cannot be fully understood by analyzing isolated components alone.
+In the twentieth century, emergentist thinking also appeared in neuroscience and systems theory. Roger Sperry argued that mental and conscious processes may have higher-level causal significance within brain organization [@sperry1969; @sperry1980]. John Searle later defended a biological naturalist view in which consciousness is caused by brain processes but exists as a higher-level biological feature [@searle1992].
 
-Important historical contributors include:
+Emergentism later intersected with systems theory, complexity science, cybernetics, network neuroscience, dynamical systems theory, artificial intelligence, and information theory. These fields all emphasize organized interaction rather than isolated components. This made emergentism increasingly relevant to contemporary consciousness research.
 
-- George Henry Lewes;
-- Samuel Alexander;
-- C. D. Broad;
-- Roger Sperry;
-- John Searle.
+## The Core Idea of Emergence
 
-[@broad1925; @alexander1920]
+An emergent property is a property that arises from organized interactions among simpler components but is not present in the components individually. Examples of emergence appear throughout nature. Wetness arises from the collective behaviour of water molecules. A hurricane arises from atmospheric dynamics. An ant colony displays collective behaviour not found in a single ant. Life arises from biochemical organization. Flocking patterns arise from the interaction of individual birds.
 
-Emergentist thinking later intersected with:
+Emergentists argue that consciousness may arise in a similar way. Individual neurons are not conscious by themselves. Local circuits may process information without producing full conscious experience. However, sufficiently organized neural systems may generate unified awareness through large-scale coordination and integration.
 
-- systems theory;
-- complexity science;
-- network neuroscience;
-- information theory;
-- cybernetics;
-- dynamical systems theory;
-- and artificial intelligence.
-
-Unlike dualism, emergentism usually rejects the existence of a separate immaterial substance.
-
-Unlike strict reductionism, however, it argues that higher-level organizational structure may possess explanatory importance beyond isolated lower-level components.
-
-## Core Idea of Emergence
-
-Emergent properties are properties that arise from organized interactions among simpler components but are not present in the components individually.
-
-Examples of emergence appear throughout nature:
-
-- wetness emerges from water molecules;
-- hurricanes emerge from atmospheric dynamics;
-- colony behaviour emerges from interacting ants;
-- life emerges from biochemical organization;
-- flocking patterns emerge from collective bird interactions.
-
-Emergentists argue that consciousness may arise similarly.
-
-Individual neurons are not themselves conscious, but sufficiently integrated neural systems may generate unified subjective experience.
-
-Figure \@ref(fig:fig-emergence-levels) illustrates the central emergentist framework.
-
-```{r fig-emergence-levels, echo=FALSE, fig.cap="Emergentist theories propose that consciousness arises from increasing complexity, interaction, integration, and large-scale neural organization. The figure distinguishes weak and strong emergence and illustrates how emergent properties arise from organized systems rather than isolated components alone. The highlighted transition between large-scale neural integration and conscious experience represents one of the central unresolved explanatory problems in consciousness studies.", out.width="100%", fig.align="center"}
+```{r fig-emergence-levels, echo=FALSE, fig.cap="Emergentist theories propose that consciousness arises from increasing complexity, interaction, integration, and large-scale neural organization. The figure distinguishes weak and strong emergence and illustrates how emergent properties arise from organized systems rather than isolated components alone. The highlighted transition between large-scale neural integration and conscious experience represents one of the central unresolved explanatory problems in consciousness studies.", out.width="100%", fig.align="center"} id="wt55po"
 knitr::include_graphics("figures/08_emergentism_view.png")
 ```
 
-As illustrated in Figure \@ref(fig:fig-emergence-levels), emergentist theories emphasize that consciousness is not localized to:
+Figure @ref(fig:fig-emergence-levels) illustrates the central emergentist framework. Consciousness is not treated as a property of a single neuron or isolated brain region. It is understood as a higher-level phenomenon arising from distributed processing, recurrent interaction, network integration, and large-scale dynamic organization.
 
-- a single neuron;
-- isolated brain region;
-- or elementary physical component.
-
-Instead, conscious experience is interpreted as a higher-level phenomenon arising from:
-
-- coordinated interaction;
-- distributed processing;
-- network integration;
-- and large-scale dynamic organization.
-
-Importantly, Figure \@ref(fig:fig-emergence-levels) also highlights one of the major unresolved debates:
-
-```text
-complexity
-≠
-automatic explanation of experience
-```
-
-Even if consciousness emerges from organized systems, critics argue that emergentism must still explain:
-
-> why organized complexity should generate subjective experience at all.
+The figure also highlights the central challenge. Complexity does not automatically explain experience. Even if consciousness emerges from organized systems, one must still explain why certain forms of organization are accompanied by subjective awareness.
 
 ## Emergence Across Levels of Organization
 
-Emergentist theories often interpret consciousness as arising progressively across multiple organizational levels.
+Emergentism interprets consciousness as arising across multiple levels of organization. At the lowest relevant level, individual neurons process signals. At a higher level, local circuits coordinate information. At a still higher level, distributed brain networks integrate perception, memory, attention, emotion, and action. Conscious experience may emerge only when these systems achieve a sufficient level of coordinated organization.
 
-As shown in Figure \@ref(fig:fig-emergence-levels):
+This perspective shifts attention away from locating a single consciousness-producing component. Instead, it asks how many components interact to generate a higher-level property. The relevant question is not “Which neuron is conscious?” but “What kind of organized system can support conscious experience?”
 
-1. Individual neurons process signals but are not conscious individually.
-2. Local neural circuits coordinate information processing.
-3. Large-scale distributed networks integrate information dynamically.
-4. Conscious experience emerges from sufficiently organized global interaction.
-
-This perspective emphasizes that consciousness depends not merely on:
-
-- neural quantity;
-but:
-- organizational structure;
-- coordination;
-- integration;
-- and dynamic interaction.
-
-Emergentism therefore attempts to explain consciousness not by locating a single:
-
-```text
-"consciousness neuron"
-```
-
-but by understanding how large-scale systems generate novel organizational properties.
+This approach fits naturally with network neuroscience. The brain is not a simple input-output device. It is a dynamic system involving feedback, recurrent loops, oscillations, synchronization, modular specialization, and global integration. Emergentism interprets consciousness as a property of this organized activity rather than a property of isolated parts.
 
 ## Weak and Strong Emergence
 
-A major distinction within emergentism concerns the nature of emergence itself.
+A major distinction within emergentism is the difference between weak emergence and strong emergence.
 
-Figure \@ref(fig:fig-emergence-levels) contrasts weak and strong emergence directly.
+### Weak Emergence
 
-## Weak Emergence
+Weak emergence occurs when a higher-level property arises from lower-level interactions but remains fully dependent on and explainable by those interactions. The property may be difficult to predict without simulation or system-level analysis, but it does not require new non-physical forces or irreducible causal powers.
 
-Weak emergence proposes that consciousness arises from complex physical interactions while remaining fully grounded in lower-level physical processes.
+Most scientific uses of emergence are forms of weak emergence. A flocking pattern, for example, emerges from the interaction of individual birds following simple rules. The pattern is real and higher-level, but it remains grounded in the behaviour of the birds.
 
-According to weak emergence:
+Applied to consciousness, weak emergence suggests that conscious experience arises from complex neural organization. Consciousness appears only at higher levels of organization, but it remains fully dependent on physical systems. This view is generally compatible with physicalism, neuroscience, computational modeling, and cognitive science [@bedau1997; @holland1998].
 
-- higher-level properties depend entirely on lower-level mechanisms;
-- consciousness is emergent because it appears only at large scales of organization;
-- and conscious states remain theoretically explainable through physical systems.
+### Strong Emergence
 
-Weak emergence is generally compatible with:
+Strong emergence claims that higher-level properties are not fully reducible to lower-level physical processes, even in principle. On this view, consciousness may introduce genuinely novel features or causal powers that cannot be completely derived from lower-level physical descriptions.
 
-- physicalism;
-- neuroscience;
-- computational modeling;
-- and contemporary cognitive science.
+Strong emergence is more controversial. It appears to offer a deeper response to the hard problem because it allows consciousness to be genuinely novel. However, it also raises difficult questions. If conscious states have new causal powers, how do these powers fit with the causal closure of the physical world? If they are not derivable from physical processes, how can they be integrated into science?
 
-Most scientifically oriented emergentist theories adopt weak emergence.
-
-## Strong Emergence
-
-Strong emergence argues that consciousness introduces genuinely novel properties that cannot be completely reduced to lower-level physical explanations even in principle.
-
-According to strong emergence:
-
-- consciousness may possess irreducible causal powers;
-- subjective experience may represent fundamentally new features of reality;
-- and higher-level properties may not be fully derivable from physical descriptions alone.
-
-As illustrated in Figure \@ref(fig:fig-emergence-levels), strong emergence remains significantly more controversial because critics argue that it may conflict with:
-
-- physical closure;
-- scientific reduction;
-- and standard causal explanation.
+For this reason, strong emergence is sometimes seen as close to property dualism. It avoids a separate mental substance, but it may still treat consciousness as irreducible in a way that challenges standard physical explanation [@kim1999; @kim2005].
 
 ## Consciousness and Complex Systems
 
-Emergentist theories frequently emphasize:
+Emergentist theories often interpret consciousness as a dynamic process rather than a static object. Consciousness depends on distributed processing, recurrent connectivity, integration, synchronization, self-organization, and large-scale coordination.
 
-- distributed processing;
-- synchronization;
-- recurrent connectivity;
-- global integration;
-- dynamic interaction;
-- self-organization;
-- network complexity;
-- and large-scale coordination.
+Modern neuroscience increasingly studies consciousness using tools from network science and dynamical systems theory. Researchers investigate connectivity, global integration, complexity measures, recurrent activity, and state transitions across sleep, anesthesia, wakefulness, and altered states [@kelso1995; @koch2016; @seth2021].
 
-From this perspective, consciousness is not a static object but a dynamic process arising from coordinated activity across interacting systems.
+This shift supports emergentist thinking because it suggests that consciousness may depend on organized dynamics across the brain. A single region may be important, but conscious experience appears to involve relations among regions, patterns of communication, and system-level organization.
 
-Modern neuroscience increasingly studies consciousness using:
-
-- connectomics;
-- network neuroscience;
-- dynamical systems theory;
-- complexity measures;
-- recurrent neural activity;
-- and global integration models.
-
-This shift strengthened emergentist approaches substantially.
-
-Rather than searching for a single localized mechanism, emergentists argue that consciousness depends on:
-
-```text
-system-wide organization.
-```
+However, the complexity of a system alone is not enough. Many systems are complex without obviously being conscious. Weather systems, economies, and computer networks may display complex dynamics, but it is not clear that they have subjective experience. Emergentism must therefore identify what kind of complexity matters for consciousness.
 
 ## Emergence and Neural Integration
 
-Emergentist theories strongly emphasize integration across distributed neural systems.
+Many contemporary theories of consciousness emphasize integration. Conscious experience appears unified: perceptions, bodily feelings, emotions, memories, and thoughts are usually experienced as belonging to a single subject. Emergentism interprets this unity as a higher-level property of integrated neural organization.
 
-As shown conceptually in Figure \@ref(fig:fig-emergence-levels), isolated neurons alone may be insufficient for consciousness because consciousness appears to require:
+This idea overlaps with several major theories. Global Workspace Theory emphasizes global broadcasting of information across cognitive systems [@baars1988; @dehaene2011]. Integrated Information Theory emphasizes the intrinsic causal integration of information [@tononi2004; @oizumi2014]. Recurrent Processing Theory emphasizes recurrent interactions within neural systems [@lamme2006]. Predictive Processing emphasizes hierarchical prediction, error correction, and active inference across multiple levels of the nervous system [@friston2010; @clark2013].
 
-- large-scale coordination;
-- integration across regions;
-- recurrent interaction;
-- and dynamic synchronization.
-
-This aligns naturally with several contemporary theories including:
-
-- Global Workspace Theory;
-- Integrated Information Theory;
-- recurrent processing models;
-- predictive processing;
-- and network neuroscience.
-
-Emergentism therefore overlaps substantially with modern integration-based approaches to consciousness.
-
-## Relation to Other Theories
-
-Emergentism overlaps with several major theories discussed elsewhere in this book.
-
-### Relation to Physicalism
-
-Like physicalism, emergentism treats consciousness as dependent on physical systems.
-
-However, emergentism emphasizes that higher-level organization may possess explanatory importance beyond isolated physical components alone.
-
-### Relation to Functionalism
-
-Like functionalism, emergentism emphasizes:
-
-- organization;
-- interaction;
-- and system dynamics.
-
-However, emergentism often places greater emphasis on:
-
-- biological complexity;
-- dynamical interaction;
-- and large-scale organization.
-
-### Relation to Information Theories
-
-Emergentism overlaps naturally with theories emphasizing:
-
-- integration;
-- complexity;
-- information structure;
-- and causal organization.
-
-### Relation to Dualism
-
-Unlike dualism, emergentism usually rejects the existence of a separate immaterial mental substance.
-
-Consciousness remains fundamentally dependent on physical systems even if higher-order organization introduces novel explanatory challenges.
+Emergentism is not identical to any of these theories. Rather, it provides a broader framework in which such theories can be understood. They all suggest, in different ways, that consciousness depends on organized interaction rather than isolated physical components.
 
 ## Downward Causation
 
-Some emergentist theories propose that higher-level conscious states may exert causal influence on lower-level neural activity.
+Some emergentist theories propose that higher-level states can influence lower-level processes. This idea is called downward causation. For example, a conscious intention, goal, emotional state, or attentional focus may shape neural activity, bodily movement, and behaviour.
 
-This idea is called:
+Supporters argue that higher-level states can be causally relevant without violating physicalism. For example, the shape of a wheel explains its rolling even though the wheel is made of lower-level physical parts. Similarly, a high-level brain state may explain behaviour even though it is physically realized by neural activity.
 
-```text
-downward causation
-```
+Critics argue that downward causation is difficult to make precise. If every lower-level physical event already has a sufficient physical cause, then it is unclear what additional causal work the higher-level state performs. This concern is closely related to debates about mental causation in philosophy of mind [@kim1999; @kim2005].
 
-For example:
-
-- intentions;
-- emotional states;
-- goals;
-- and conscious decisions
-
-may shape lower-level neural processing and behaviour.
-
-Supporters argue that higher-level organizational states can possess genuine explanatory significance even within physical systems.
-
-Critics argue that downward causation risks conflicting with:
-
-- physical closure;
-- standard causal explanation;
-- and reductionist neuroscience.
-
-This remains one of the major philosophical debates within emergentism.
+The issue remains unresolved. Emergentism needs downward causation to explain why higher-level organization matters, but it must avoid treating higher-level properties as mysterious forces outside physical causation.
 
 ## Empirical Relevance
 
-Evidence relevant to emergentist theories includes:
+Emergentism is relevant to several areas of empirical consciousness research. Anesthesia research suggests that loss of consciousness may involve disruption of large-scale integration and communication across brain networks. Disorders of consciousness show that wakefulness, responsiveness, and awareness can dissociate depending on neural organization. Split-brain studies suggest that the unity of consciousness depends on patterns of neural connectivity. Psychedelic states show that changes in brain dynamics can produce profound changes in experience.
 
-- large-scale neural integration;
-- recurrent cortical activity;
-- synchronization;
-- global broadcasting;
-- network connectivity;
-- complexity measures;
-- anesthesia research;
-- split-brain studies;
-- disorders of consciousness;
-- and altered states.
+These cases support the idea that consciousness depends on system-level organization rather than isolated activity. Consciousness is not simply a matter of whether neurons are active. It depends on how neural activity is coordinated, integrated, and made available across systems [@laureys2005; @owen2006; @koch2016; @seth2021].
 
-Modern neuroscience increasingly studies consciousness through:
-
-- network-level dynamics;
-rather than:
-- isolated localization alone.
-
-This shift substantially strengthened interest in emergentist frameworks.
-
-Research involving:
-
-- anesthesia;
-- coma;
-- minimally conscious states;
-- and psychedelic states
-
-also suggests that changes in large-scale integration and organization may strongly influence conscious awareness.
+However, empirical evidence does not automatically prove emergentism. Many physicalist, functionalist, and information-based theories can also interpret these findings. Emergentism functions best as a broad framework for understanding why organization and complexity matter, rather than as a single precise empirical theory.
 
 ## Emergentism and Artificial Intelligence
 
-Emergentism has major implications for machine consciousness.
+Emergentism has important implications for artificial intelligence and machine consciousness. If consciousness arises from sufficient complexity, integration, and dynamic organization, then artificial systems might become conscious if they instantiate the right kind of organization.
 
-If consciousness depends primarily on:
+This possibility depends on what kind of emergence one accepts. A weak emergentist may argue that consciousness could arise in any sufficiently organized physical system, whether biological or artificial. A more biologically oriented emergentist may argue that consciousness depends on living systems, embodiment, affect, homeostasis, or organism-environment interaction [@varela1991; @thompson2007; @seth2021].
 
-- sufficient complexity;
-- integration;
-- dynamic organization;
-- and coordinated interaction,
+Current AI systems raise this issue sharply. Large-scale artificial systems may display complex behaviour, language ability, pattern recognition, and adaptive responses. Yet it remains unclear whether they possess unified subjective experience. Complexity alone is not enough. An emergentist theory must specify which forms of organization are relevant to consciousness [@butlin2023].
 
-then advanced artificial systems may eventually develop forms of consciousness under appropriate conditions.
+Emergentism therefore makes artificial consciousness possible in principle, but it does not imply that current AI systems are conscious. The unresolved question is what threshold or organization would be sufficient for experience.
 
-As illustrated conceptually in Figure \@ref(fig:fig-emergence-levels), emergentist theories often imply that consciousness depends more on:
+## Relation to Other Theories
 
-```text
-organizational complexity
-```
+Emergentism overlaps with several theories discussed elsewhere in this book, but it should not be confused with them.
 
-than on individual components alone.
+### Relation to Physicalism
 
-However, emergentists disagree concerning what kinds of systems might qualify:
+Emergentism is usually compatible with physicalism. Like physicalism, it treats consciousness as dependent on physical systems. However, emergentism emphasizes that higher-level organization may have explanatory importance beyond isolated lower-level components.
 
-- purely computational systems;
-- embodied agents;
-- biologically inspired neural systems;
-- globally integrated architectures;
-- or self-modeling networks.
+### Relation to Functionalism
 
-Some emergentists argue that current AI systems remain non-conscious because they lack:
+Emergentism overlaps with functionalism because both emphasize organization and system-level relations. Functionalism focuses on causal roles and information-processing functions. Emergentism focuses more broadly on how novel higher-level properties arise from organized complexity.
 
-- embodiment;
-- unified selfhood;
-- biological regulation;
-- phenomenological integration;
-- or dynamic autonomous organization.
+### Relation to Dualism
+
+Emergentism differs from substance dualism because it does not posit a separate immaterial mind. Consciousness remains dependent on physical systems. However, strong emergence can move closer to property dualism if it treats consciousness as irreducible in principle.
+
+### Relation to Consciousness-First Theories
+
+Emergentism differs from consciousness-first theories such as panpsychism, cosmopsychism, idealism, or Taheri’s T-Consciousness. Emergentism usually begins with physical organization and asks how consciousness arises from it. Consciousness-first theories reverse the direction of explanation by treating consciousness as fundamental or prior to material organization. These approaches will be discussed later in the book.
 
 ## Strengths of Emergentism
 
-Emergentism possesses several major strengths.
+Emergentism has several major strengths. First, it fits naturally with complexity science, systems theory, neuroscience, and network dynamics. It recognizes that many important properties of living systems arise from organization rather than isolated parts.
 
-### Connection to Complexity Science
+Second, emergentism provides a middle position between strict reductionism and dualism. It avoids treating consciousness as a separate immaterial substance while also resisting overly simple reductions to individual neurons or physical components.
 
-Emergentism aligns naturally with:
+Third, it aligns with modern neuroscience. Consciousness research increasingly emphasizes large-scale integration, recurrent processing, brain connectivity, and dynamic coordination.
 
-- systems theory;
-- complexity science;
-- neuroscience;
-- and network dynamics.
+Fourth, emergentism is flexible. It can potentially apply to biological organisms, artificial systems, distributed networks, and complex adaptive systems.
 
-### Middle Position Between Reductionism and Dualism
-
-Emergentism avoids both:
-
-- strict reductionism;
-and:
-- substance dualism.
-
-### Compatibility with Modern Neuroscience
-
-Large-scale integration and network organization play increasingly important roles in contemporary consciousness research.
-
-### Flexible Applicability
-
-Emergentist principles can potentially apply to:
-
-- biological systems;
-- artificial systems;
-- distributed cognition;
-- and complex adaptive networks.
-
-### Explanatory Intuition
-
-Emergence already appears throughout nature in many domains including:
-
-- biology;
-- chemistry;
-- meteorology;
-- ecology;
-- and social systems.
-
-This makes emergentism intuitively attractive to many researchers.
+Finally, emergentism captures an important intuition: many real properties in nature appear only at higher levels of organization. Consciousness may be one such property.
 
 ## Weaknesses and Criticisms
 
-Despite its strengths, emergentism faces several major criticisms.
+Emergentism faces several major criticisms. The most important is explanatory vagueness. Saying that consciousness “emerges” does not by itself explain how or why it emerges. Without a detailed mechanism, emergence can become a label rather than an explanation.
 
-## Explanatory Vagueness
+A second problem is the emergence gap. Even if complexity explains integration, coordination, and cognition, it may not explain subjective experience. This is the hard problem in emergentist form: why should complex organization feel like anything from the inside? [@chalmers1995; @chalmers1996]
 
-Critics argue that saying consciousness:
+A third problem concerns thresholds. Emergentist theories often struggle to identify when consciousness appears. How much complexity is enough? What kind of integration is required? Can consciousness be measured quantitatively? Does a simple animal have consciousness? Could an artificial system have it?
 
-```text
-"emerges"
-```
+Strong emergence faces an additional problem. If consciousness has irreducible causal powers, then those powers must be reconciled with physical causation. Critics argue that strong emergence risks becoming a form of disguised dualism [@kim1999].
 
-may simply rename the phenomenon rather than explain it.
-
-The theory must still explain:
-
-- how;
-and:
-- why
-
-subjective experience arises from complexity.
-
-## The Emergence Gap
-
-As highlighted conceptually in Figure \@ref(fig:fig-emergence-levels), increasing complexity alone may not automatically explain phenomenal experience.
-
-Critics therefore argue that emergentism may relocate the hard problem without solving it.
-
-## Lack of Precise Thresholds
-
-Emergentist theories often struggle to identify exactly when consciousness appears as complexity increases.
-
-Questions remain concerning:
-
-- thresholds;
-- measurement;
-- quantification;
-- and sufficient organizational conditions.
-
-## The Hard Problem
-
-Even if emergence explains:
-
-- integration;
-- cognition;
-- coordination;
-- and behaviour,
-
-critics argue that it may still fail to explain:
-
-- subjective feeling;
-- qualia;
-- and first-person awareness.
-
-## Strong Emergence and Physical Closure
-
-Strong emergence may conflict with assumptions concerning:
-
-- physical closure;
-- reduction;
-- and standard scientific explanation.
-
-## The Combination Problem
-
-If consciousness emerges from non-conscious parts, critics ask:
-
-> how does unified subjective experience become possible?
+Finally, emergentism faces the combination problem in a different form. If consciousness emerges from non-conscious parts, how does unified subjective experience arise? What binds distributed processes into one conscious perspective?
 
 ## Open Questions
 
-Important unresolved questions remain for emergentist theories:
+Several questions remain unresolved for emergentist theories. Why should complexity generate experience? What kind of organization is sufficient for consciousness? Is emergence weak, strong, or something between the two? Can emergence be measured scientifically? Does emergentism explain phenomenal consciousness or only cognitive integration? Could artificial systems become conscious through emergent organization? How does emergentism address the unity of consciousness?
 
-- Why should complexity generate experience?
-- What exact organizational threshold is sufficient?
-- Can emergence be measured quantitatively?
-- Does emergence explain phenomenal consciousness or only cognition?
-- Could non-biological systems become genuinely conscious?
-- Is emergence merely descriptive or genuinely explanatory?
+These questions show why emergentism remains both attractive and incomplete. It provides a powerful framework for thinking about organization and complexity, but it must still explain why some organized systems are conscious.
 
-These questions remain central to ongoing consciousness research.
+## Evaluation
 
-## Comparative Evaluation
+Emergentism is one of the most important frameworks for connecting consciousness research with neuroscience, complexity science, systems theory, artificial intelligence, and network dynamics. It explains why consciousness may depend on large-scale organization rather than isolated components. It also offers a scientifically attractive middle position between reductionism and dualism.
 
-Emergentism remains one of the most influential frameworks for connecting consciousness research with:
+Its greatest strength is its emphasis on organization. The brain is not simply a collection of neurons. It is a living, dynamic, self-organizing system. Consciousness may depend on the coordinated activity of this system as a whole.
 
-- neuroscience;
-- complexity science;
-- systems theory;
-- AI;
-- and network dynamics.
+Its greatest weakness is that emergence can remain too vague. Unless emergentism explains which forms of organization produce experience and why they do so, it risks redescribing the hard problem rather than solving it.
 
-As illustrated throughout Figure \@ref(fig:fig-emergence-levels), emergentist theories interpret consciousness as arising from:
+Emergentism therefore remains scientifically influential and philosophically incomplete. It is likely to remain central to consciousness studies because any adequate theory of consciousness must explain how neural, biological, informational, and dynamic organization contribute to subjective experience.
 
-- increasing organization;
-- integration;
-- interaction;
-- and large-scale coordination.
+## Chapter Summary
 
-Emergentism therefore provides a scientifically attractive middle position between:
+Emergentism proposes that consciousness arises from organized complexity. It rejects both strict reductionism and substance dualism. Consciousness is physically dependent, but it may require higher-level organization, integration, and dynamic interaction.
 
-- reductionism;
-and:
-- dualism.
+Weak emergence treats consciousness as fully grounded in physical processes, even if it appears only at higher levels of complexity. Strong emergence treats consciousness as involving novel or irreducible properties that may not be fully derivable from lower-level physical descriptions.
 
-It explains why consciousness may depend on:
+Emergentism is strongly connected to network neuroscience, complexity science, recurrent processing, global integration, and systems theory. It overlaps with theories such as Global Workspace Theory, Integrated Information Theory, Recurrent Processing Theory, and Predictive Processing.
 
-- distributed organization;
-- integration;
-- and dynamic interaction
+The major strength of emergentism is that it recognizes the importance of large-scale organization. Its major weakness is that it may not fully explain why organized complexity gives rise to subjective experience.
 
-while preserving continuity with physical systems.
-
-At the same time, whether emergence genuinely explains subjective experience or merely redescribes the phenomenon remains one of the central unresolved debates in consciousness studies.
-
-Emergentism therefore remains both:
-
-- scientifically influential;
-and:
-- philosophically incomplete.
-
-Its importance within modern neuroscience, complexity science, and AI research continues to grow, yet the fundamental explanatory relationship between:
-
-```text
-complexity
-→
-subjective experience
-```
-
-remains deeply contested.
+The central unresolved question is whether emergence genuinely explains consciousness or simply names the point at which physical organization becomes difficult to reduce.

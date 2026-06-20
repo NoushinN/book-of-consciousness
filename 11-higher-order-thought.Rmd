@@ -2,665 +2,232 @@
 
 ## Chapter Overview
 
-Higher-Order Thought (HOT) theories propose that a mental state becomes conscious only when it becomes the object of a suitable higher-order representation—an awareness *of* that state [@rosenthal2005; @lau2006].
+Higher-Order Thought Theory, often abbreviated as HOT, proposes that a mental state becomes conscious when it becomes the object of a suitable higher-order representation. In other words, consciousness requires not only having a mental state, but also some form of awareness of being in that state [@rosenthal2005; @lau2006].
 
-According to HOT theory:
+According to HOT theory, first-order perceptual and cognitive processes can occur unconsciously. A person may process visual information, respond to stimuli, prepare actions, or show behavioural sensitivity without having conscious awareness of those states. Consciousness arises when the system represents itself as being in a particular mental state.
 
-- first-order perceptual and cognitive processes can occur unconsciously;
-- consciousness arises when the system becomes aware of being in those states;
-- and conscious experience therefore depends fundamentally on meta-representation and self-monitoring.
+HOT theories therefore place metacognition, introspection, self-monitoring, and awareness of mental states at the center of consciousness research. The theory is especially important because it offers a clear explanation of why some mental processing is conscious while other processing remains unconscious.
 
-HOT theories place:
+Unlike Global Workspace Theory, which emphasizes global broadcasting, or Integrated Information Theory, which emphasizes intrinsic causal integration, HOT theory emphasizes higher-order representation. A mental state becomes conscious not merely because it carries information, but because the subject is in some sense aware of having that state [@baars1988; @tononi2004; @oizumi2014].
 
-- metacognition;
-- introspection;
-- reflective awareness;
-- and awareness-of-awareness
+At the same time, HOT theory remains controversial. Critics argue that higher-order representation may explain introspection, self-monitoring, and reflective access without fully explaining phenomenal consciousness itself. The central question is whether awareness of a mental state is sufficient to explain what it feels like to have that state [@block1995; @chalmers1995; @chalmers1996].
 
-at the center of consciousness research.
-
-Unlike theories emphasizing:
-
-- global broadcasting;
-- integrated information;
-- recurrent processing;
-- or predictive inference,
-
-HOT theories argue that consciousness depends primarily on whether a mental state becomes represented by a higher-order monitoring system.
-
-The theory became especially influential because it explains several important phenomena naturally, including:
-
-- unconscious perception;
-- blindsight;
-- subliminal processing;
-- introspection;
-- confidence judgments;
-- and metacognitive awareness.
-
-At the same time, HOT remains controversial because critics argue that higher-order representation may explain:
-
-- cognitive access;
-- reflective awareness;
-- and self-monitoring
-
-without fully explaining:
-
-- phenomenal feeling;
-- qualia;
-- or subjective experience itself.
-
-This chapter examines the conceptual foundations, representational structure, neuroscientific implications, strengths, criticisms, and philosophical consequences of Higher-Order Thought Theory.
+This chapter explains the conceptual foundations of HOT theory, the distinction between first-order and higher-order states, its account of unconscious processing and blindsight, its relationship to metacognition and neuroscience, and its strengths and criticisms.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Define the central claims of Higher-Order Thought Theory
-- Distinguish first-order from higher-order mental states
-- Explain how higher-order representation produces conscious awareness
-- Understand HOT’s interpretation of unconscious perception
-- Analyze HOT explanations of blindsight and metacognition
-- Compare HOT with Global Workspace Theory and IIT
-- Evaluate strengths and criticisms of HOT theory
-- Explain HOT’s implications for AI and machine consciousness
+* Define the central claim of Higher-Order Thought Theory.
+* Distinguish first-order mental states from higher-order mental states.
+* Explain how higher-order representation is proposed to produce conscious awareness.
+* Describe HOT interpretations of unconscious perception and blindsight.
+* Explain the relationship between HOT theory, metacognition, and introspection.
+* Compare HOT with Global Workspace Theory, Integrated Information Theory, and Recurrent Processing Theory.
+* Evaluate major strengths and criticisms of HOT theory.
+* Explain HOT’s implications for artificial intelligence and machine consciousness.
 
 ## Why HOT Theory Became Influential
 
-Higher-Order Thought theories became influential because they offered a compelling explanation for one of the most important observations in consciousness research:
+Higher-Order Thought Theory became influential because it offers a direct explanation for a central fact about the mind: not all mental processing is conscious. The brain can process information, guide behaviour, prepare actions, and evaluate stimuli without conscious awareness. HOT theory explains this by distinguishing between having a mental state and being aware of having that mental state.
 
-```text
-not all mental processing is conscious.
-```
+This distinction is important because unconscious processing can be sophisticated. Subliminal stimuli can influence behaviour. Emotional reactions may occur before conscious recognition. Motor preparation can begin before reflective awareness. Some patients can respond to visual stimuli without reporting conscious vision. HOT theory argues that these cases involve first-order processing without appropriate higher-order awareness.
 
-The brain appears capable of processing large amounts of information unconsciously, including:
+The theory also became influential because it connects consciousness with metacognition. Human beings do not merely perceive the world; they can also reflect on their own perceptions, judge their confidence, notice uncertainty, and report what they are experiencing. HOT theory treats this capacity for higher-order awareness as central to consciousness [@rosenthal2005; @fleming2014].
 
-- visual perception;
-- emotional evaluation;
-- language processing;
-- motor preparation;
-- and decision-related activity.
-
-HOT theory explains this by proposing that:
-
-> mental states become conscious only when the system becomes aware of having those states.
-
-This framework naturally explains why:
-
-- unconscious processing can still influence behaviour;
-- some perceptual states remain unconscious;
-- introspection varies across situations;
-- and metacognitive confidence differs between tasks.
-
-The theory also became important because it connects consciousness directly with:
-
-- self-awareness;
-- reflective cognition;
-- and metacognitive monitoring.
-
-As a result, HOT strongly influenced both:
-
-- philosophy of mind;
-and:
-- cognitive neuroscience.
+This made HOT theory important in both philosophy of mind and cognitive neuroscience. It offers a framework for studying introspection, confidence, self-monitoring, and the neural systems that support awareness of mental states.
 
 ## Historical Development
 
-Although ideas involving self-awareness and reflective consciousness appear throughout the history of philosophy, the modern form of HOT theory was developed most prominently by David Rosenthal [@rosenthal2005].
+Ideas about reflective awareness have a long history in philosophy, but the modern form of HOT theory was developed most prominently by David Rosenthal [@rosenthal2005]. Rosenthal argued that a mental state becomes conscious when one has an appropriate higher-order thought about being in that mental state.
 
-Rosenthal argued that:
+Other higher-order approaches were developed by philosophers such as Peter Carruthers, William Lycan, and Rocco Gennaro, who emphasized different forms of higher-order representation and self-monitoring [@lycan1996; @gennaro1996; @carruthers2000]. These approaches differ in detail, but they share the idea that consciousness depends on a representational relation between a higher-order state and a lower-order mental state.
 
-> a mental state becomes conscious when one has a higher-order thought about being in that mental state.
+HOT theory emerged partly as an alternative to theories that identify consciousness with first-order perception, behaviour, or information processing alone. Behaviourism had avoided inner mental states, while early cognitive models often emphasized computation without clearly explaining why some states become conscious. HOT theory proposed that consciousness depends specifically on meta-representational structure.
 
-This approach shifted attention away from:
+Later developments connected HOT theory with empirical research on metacognition, confidence judgments, introspective accuracy, and prefrontal cortical function [@lau2006; @lau2011; @fleming2014]. This helped make HOT theory relevant not only to philosophy, but also to experimental psychology and neuroscience.
 
-- external behaviour;
-- simple sensory processing;
-- or information access alone
+## The Core Idea of Higher-Order Representation
 
-and toward:
+The defining claim of HOT theory is that consciousness depends on awareness of mental states. A first-order mental state represents something in the world, the body, or thought. A higher-order state represents the subject as being in that first-order state.
 
-- awareness of mental states themselves.
+For example, a first-order visual state may represent a red apple. According to HOT theory, that visual state becomes conscious when there is a suitable higher-order representation of oneself as seeing the red apple. Without that higher-order representation, the first-order visual processing may still occur, but it remains unconscious.
 
-HOT theories emerged partly in response to limitations in:
-
-- behaviourism;
-- early functionalism;
-- and purely input-output models of cognition.
-
-Researchers increasingly recognized that sophisticated processing could occur without conscious awareness.
-
-HOT theory attempted to explain this distinction systematically.
-
-Later developments connected HOT to:
-
-- metacognition;
-- confidence judgments;
-- introspection research;
-- self-monitoring;
-- and prefrontal cortical function.
-
-## Core Idea of Higher-Order Representation
-
-The defining claim of HOT theory is that consciousness depends on:
-
-```text
-awareness of mental states
-```
-
-rather than on first-order processing alone.
-
-A first-order mental state may represent:
-
-- a visual object;
-- bodily sensation;
-- memory;
-- sound;
-- emotion;
-- or thought.
-
-However, according to HOT theory:
-
-> the state becomes conscious only when the system represents itself as being in that state.
-
-Figure \@ref(fig:fig-hot) summarizes the central architecture of HOT theory.
-
-```{r fig-hot, echo=FALSE, fig.cap="Higher-Order Thought Theory (HOT). Panel A contrasts unconscious first-order processing with conscious higher-order awareness. Panel B illustrates layered representational structure. Panel C compares HOT with Global Workspace Theory and Integrated Information Theory. Panel D illustrates HOT interpretations of blindsight and unconscious perception.", out.width="100%", fig.align="center"}
+```{r fig-hot, echo=FALSE, fig.cap="Higher-Order Thought Theory (HOT). Panel A contrasts unconscious first-order processing with conscious higher-order awareness. Panel B illustrates layered representational structure. Panel C compares HOT with Global Workspace Theory and Integrated Information Theory. Panel D illustrates HOT interpretations of blindsight and unconscious perception.", out.width="100%", fig.align="center"} id="q21rtk"
 knitr::include_graphics("figures/11_higher_order_theory.png")
 ```
 
-As illustrated in Figure \@ref(fig:fig-hot), HOT theory distinguishes sharply between:
+Figure @ref(fig:fig-hot) summarizes the basic architecture of HOT theory. Panel A shows the distinction between unconscious first-order processing and conscious higher-order awareness. Panel B illustrates the layered structure of representation. Panel C compares HOT with other theories, and Panel D shows how HOT interprets blindsight and unconscious perception.
 
-- unconscious first-order processing;
-and:
-- conscious higher-order awareness.
-
-Importantly, the figure also highlights one of HOT’s central claims:
-
-```text
-processing alone
-≠
-conscious awareness
-```
-
-Consciousness depends specifically on whether the system becomes aware of being in a particular mental state.
+The key idea is that processing alone is not enough for consciousness. A state becomes conscious only when the system represents itself as being in that state.
 
 ## First-Order Mental States
 
-First-order states directly represent:
+First-order mental states represent objects, events, bodily conditions, emotions, memories, or thoughts. Seeing a colour, hearing a sound, feeling bodily discomfort, remembering a face, or detecting movement can all involve first-order representation.
 
-- objects;
-- sensations;
-- events;
-- bodily conditions;
-- or environmental stimuli.
+HOT theory does not deny the importance of these states. First-order states provide the content that may become conscious. However, HOT theory argues that first-order representation alone is not sufficient for consciousness. A state can represent the world without the subject being consciously aware of that representation.
 
-Examples include:
+This claim helps explain unconscious perception. A visual system may process shape, motion, or location without producing conscious visual experience. Similarly, emotional or bodily systems may evaluate significance without the person clearly knowing what they are feeling.
 
-- seeing red;
-- hearing music;
-- feeling pain;
-- smelling coffee;
-- remembering a face.
-
-These states process information about the world or the body.
-
-Importantly, HOT theory argues that first-order states alone may remain unconscious.
-
-Figure \@ref(fig:fig-hot) Panel A illustrates this distinction between:
-
-- first-order processing;
-and:
-- conscious awareness.
-
-As shown in Panel A, information processing may occur without consciousness if higher-order representation does not occur.
+In HOT theory, first-order states are necessary for many conscious experiences, but they become conscious only when represented by an appropriate higher-order state.
 
 ## Higher-Order Thoughts
 
-Higher-order thoughts are mental states directed toward other mental states.
+Higher-order thoughts are mental states directed toward other mental states. A higher-order thought might represent “I am seeing red,” “I am feeling pain,” “I am hearing music,” or “I am thinking about this problem.”
 
-Examples include:
+The higher-order state does not need to be explicit or verbally formulated. It does not always have to appear as an inner sentence. Many HOT theorists treat higher-order awareness as a form of implicit representation or monitoring. The important point is that the system represents itself as being in a mental state.
 
-- “I am seeing red”;
-- “I am feeling pain”;
-- “I am hearing music”;
-- “I am thinking about mathematics.”
+This produces a layered architecture:
 
-According to HOT theory:
+1. An external or internal condition affects the system.
+2. A first-order state represents that condition.
+3. A higher-order state represents the subject as being in the first-order state.
+4. The first-order state becomes conscious.
 
-```text
-consciousness arises
-when mental states become represented
-by higher-order awareness.
-```
-
-This creates a layered architecture of representation.
-
-Figure \@ref(fig:fig-hot) Panel B illustrates this hierarchical structure schematically.
-
-The representational sequence can be summarized as:
-
-1. External stimulus
-2. First-order representation
-3. Higher-order representation
-4. Conscious awareness
-
-HOT therefore interprets consciousness fundamentally as:
-
-```text
-meta-representation.
-```
+HOT theory therefore interprets consciousness as meta-representation. A mental state becomes conscious when it is appropriately represented by another mental state.
 
 ## Metacognition and Reflective Awareness
 
-HOT theory strongly emphasizes metacognition: the ability to monitor and evaluate one’s own mental states.
+HOT theory is closely connected to metacognition. Metacognition is the ability to monitor, evaluate, and regulate one’s own mental states. It includes introspection, confidence judgments, uncertainty monitoring, error awareness, reflective thought, and self-evaluation [@fleming2014].
 
-Processes associated with metacognition include:
+For example, when a person says, “I am not sure whether I saw the object,” they are making a metacognitive judgment. When someone feels confident about a memory or notices that they are confused, they are monitoring their own mental states.
 
-- introspection;
-- confidence judgments;
-- uncertainty monitoring;
-- reflective thought;
-- self-evaluation;
-- awareness of error;
-- self-monitoring.
+HOT theory treats this kind of self-monitoring as central to consciousness. Conscious experience is not merely information processing. It involves a system’s awareness of its own informational or perceptual states.
 
-Because HOT theory connects consciousness with awareness-of-awareness, it naturally overlaps with research involving:
+This metacognitive emphasis distinguishes HOT from theories focused mainly on integration, broadcasting, or recurrent sensory processing. HOT asks not only whether information is processed, but whether the system is aware of processing it.
 
-- introspective accuracy;
-- confidence ratings;
-- prefrontal monitoring systems;
-- and reflective cognition.
+## Conscious and Unconscious Processing
 
-This metacognitive emphasis distinguishes HOT from theories focusing primarily on:
+One of HOT theory’s greatest strengths is its explanation of unconscious processing. According to HOT theory, many mental states remain unconscious because they are not represented at the higher-order level.
 
-- integration;
-- global access;
-- or sensory processing alone.
+This account applies naturally to subliminal perception, masked stimuli, implicit learning, automatic processing, unconscious priming, and some forms of inattentional blindness. In each case, information may influence cognition or behaviour without becoming conscious.
 
-## Conscious vs Unconscious Processing
+HOT theory therefore separates information processing from conscious awareness. A state can be active, meaningful, and behaviourally influential without being conscious. Consciousness requires the additional step of higher-order representation.
 
-One of HOT theory’s greatest strengths is its explanation of unconscious processing.
-
-HOT theory proposes that:
-
-```text
-many mental states remain unconscious
-because they are not represented
-at the higher-order level.
-```
-
-This helps explain phenomena such as:
-
-- subliminal perception;
-- implicit learning;
-- masked perception;
-- automatic processing;
-- inattentional blindness;
-- and unconscious priming.
-
-Importantly, HOT theory therefore separates:
-
-```text
-information processing
-from
-conscious awareness.
-```
-
-This distinction became highly influential in both neuroscience and cognitive psychology.
+This makes HOT especially useful for explaining cases where behaviour suggests processing but subjective report denies awareness. The theory can say that first-order processing occurred, but higher-order awareness did not.
 
 ## HOT and Blindsight
 
-Blindsight is often considered one of the strongest empirical cases supporting HOT theory.
+Blindsight is one of the most important cases discussed in relation to HOT theory. Patients with blindsight have damage to primary visual cortex and report that they cannot consciously see stimuli in part of their visual field. Yet in some cases, they can guess the location, movement, or features of stimuli at above-chance levels [@weiskrantz1986].
 
-Patients with blindsight can sometimes:
+HOT theory interprets blindsight as a dissociation between first-order visual processing and higher-order awareness. The patient’s visual system may process some information about the stimulus, allowing correct guessing or behavioural response. However, the patient lacks higher-order awareness of seeing the stimulus. Therefore, there is no conscious visual experience.
 
-- detect visual stimuli;
-- localize objects;
-- or respond correctly to visual information
+This interpretation fits naturally with the HOT framework. It explains how visual information can influence behaviour without becoming conscious. It also supports the idea that consciousness requires more than sensory processing alone.
 
-despite reporting:
-
-```text
-no conscious visual experience.
-```
-
-According to HOT theory:
-
-- first-order visual processing remains partially intact;
-- higher-order awareness of the visual state is absent;
-- therefore conscious visual experience does not occur.
-
-Figure \@ref(fig:fig-hot) Panel D illustrates this interpretation.
-
-As shown in Panel D, behavioural processing may occur without subjective awareness when higher-order representation fails to emerge.
-
-HOT theory therefore explains how:
-
-```text
-intelligent behaviour
-can occur without consciousness.
-```
-
-## HOT Compared with Other Theories
-
-HOT differs significantly from several major theories discussed elsewhere in this book.
-
-Figure \@ref(fig:fig-hot) Panel C compares HOT with Global Workspace Theory and Integrated Information Theory.
-
-## HOT Theory
-
-HOT proposes:
-
-```text
-Consciousness = awareness of mental states
-```
-
-The theory emphasizes:
-
-- metacognition;
-- self-monitoring;
-- reflective awareness;
-- and higher-order representation.
-
-## Global Workspace Theory
-
-Global Workspace Theory proposes:
-
-```text
-Consciousness = globally broadcast information
-```
-
-The emphasis is on:
-
-- cognitive access;
-- reportability;
-- information sharing;
-- and large-scale coordination.
-
-## Integrated Information Theory
-
-Integrated Information Theory proposes:
-
-```text
-Consciousness = integrated irreducible information
-```
-
-The emphasis is on:
-
-- phenomenological unity;
-- causal integration;
-- and intrinsic structure.
-
-As illustrated in Figure \@ref(fig:fig-hot), different theories identify very different mechanisms as central to consciousness.
+Blindsight remains debated, but it continues to be an important example for theories that distinguish unconscious processing from conscious awareness.
 
 ## Neural Basis of HOT Theory
 
-Many HOT theorists associate higher-order awareness with prefrontal cortical systems involved in:
+Many HOT theorists associate higher-order awareness with brain systems involved in metacognition, self-monitoring, executive control, and introspective judgment. Prefrontal cortical regions are often discussed because of their role in confidence, report, monitoring, and cognitive control [@lau2006; @lau2011].
 
-- self-monitoring;
-- executive control;
-- metacognition;
-- introspection;
-- reflective judgment;
-- and confidence evaluation.
+Research relevant to HOT includes studies of introspective accuracy, confidence judgments, perceptual decision-making, prefrontal cortex activity, error monitoring, and conscious report. These areas connect HOT theory with cognitive neuroscience and experimental psychology.
 
-Research relevant to HOT includes:
+However, the neural basis of HOT remains controversial. Some researchers argue that prefrontal activity may reflect report, task demands, attention, or decision-making rather than consciousness itself. Others argue that conscious experience can occur even when explicit metacognition is weak or absent.
 
-- prefrontal cortex studies;
-- metacognitive confidence judgments;
-- introspective accuracy experiments;
-- conscious report paradigms;
-- disorders of self-awareness;
-- and higher-order monitoring research.
+This debate is closely related to broader no-report debates in consciousness science. If consciousness can occur without reflective report or metacognitive judgment, then HOT theory may need to distinguish between basic consciousness and explicit introspection.
 
-However, the exact neural basis of higher-order awareness remains controversial.
+## HOT Compared with Other Theories
 
-Critics argue that some conscious experiences may persist even when:
+HOT theory differs from several major theories discussed elsewhere in this book.
 
-- prefrontal involvement is reduced;
-- reflective access is impaired;
-- or explicit metacognitive monitoring is absent.
+### Relation to Global Workspace Theory
 
-This debate remains central within contemporary consciousness science.
+Global Workspace Theory explains consciousness in terms of global broadcasting and cognitive access [@baars1988; @dehaene2011]. A state becomes conscious when it is made widely available to multiple systems.
+
+HOT theory instead emphasizes higher-order representation. A state becomes conscious when the system represents itself as being in that state. The two theories can overlap, because global broadcasting may support higher-order monitoring. However, they identify different mechanisms as central.
+
+### Relation to Integrated Information Theory
+
+Integrated Information Theory explains consciousness in terms of intrinsic integrated causal structure [@tononi2004; @oizumi2014]. IIT begins from phenomenological unity and asks what kind of physical system can support integrated experience.
+
+HOT theory begins from the distinction between conscious and unconscious mental states. It asks what makes a mental state conscious. Its answer is higher-order awareness rather than integrated information.
+
+### Relation to Recurrent Processing Theory
+
+Recurrent Processing Theory argues that recurrent neural activity, especially within sensory systems, is central to conscious perception [@lamme2006]. HOT theory is more metacognitive. It argues that first-order sensory processing, even recurrent processing, may not be sufficient unless the system has suitable higher-order awareness.
+
+### Relation to Predictive Processing
+
+Predictive Processing explains perception and cognition in terms of hierarchical prediction, error correction, and generative modeling [@friston2010; @clark2013]. HOT theory can be interpreted within this framework if higher-order states are understood as higher-level models of lower-level mental states. However, HOT specifically emphasizes awareness of mental states rather than prediction alone.
+
+### Relation to Attention Schema Theory
+
+Attention Schema Theory explains consciousness as the brain’s simplified model of attention [@graziano2013]. Like HOT, it emphasizes internal modeling. However, HOT focuses on higher-order representation of mental states, while Attention Schema Theory focuses specifically on the brain’s model of attention.
+
+### Relation to Consciousness-First Theories
+
+HOT differs from consciousness-first theories such as panpsychism, cosmopsychism, idealism, or Taheri’s T-Consciousness. HOT treats consciousness as arising from representational and metacognitive architecture. Consciousness-first theories treat consciousness as fundamental or prior to material and cognitive organization. These theories will be discussed later in the book.
 
 ## HOT and the Hard Problem
 
-HOT theory primarily attempts to explain:
+HOT theory explains what makes a mental state conscious rather than unconscious. It explains why first-order processing can occur without awareness and why metacognitive representation matters for introspection and report.
 
-- what makes mental states conscious;
-- why some states remain unconscious;
-- and how reflective awareness occurs.
+However, critics argue that HOT may not fully solve the hard problem. Even if a higher-order representation makes a mental state conscious, why should higher-order awareness produce subjective feeling? Why should representing oneself as seeing red make there be something it is like to see red?
 
-However, critics argue that HOT may not fully solve the hard problem itself.
+This criticism parallels objections to functionalism and Global Workspace Theory. HOT may explain awareness of experience more successfully than it explains the existence of experience itself. It may show how mental states become available to introspection, but it may not explain why those states have phenomenal character [@chalmers1995; @chalmers1996].
 
-Even if higher-order representation explains:
-
-- awareness of mental states;
-- introspection;
-- and conscious access,
-
-critics still ask:
-
-> Why should higher-order awareness produce subjective feeling at all?
-
-As highlighted conceptually throughout Figure \@ref(fig:fig-hot), HOT may therefore explain:
-
-```text
-awareness of experience
-```
-
-more successfully than:
-
-```text
-why experience feels like anything.
-```
-
-This remains one of the central philosophical criticisms of HOT theory.
-
-## Relation to Conscious Access
-
-Many researchers interpret HOT primarily as a theory of:
-
-```text
-access consciousness
-```
-
-rather than a complete theory of phenomenal consciousness.
-
-The theory is especially powerful for explaining:
-
-- introspection;
-- reportability;
-- confidence;
-- reflective cognition;
-- self-awareness;
-- and metacognitive access.
-
-However, critics argue that phenomenal consciousness may occur even without explicit higher-order reflection.
-
-This issue remains deeply contested.
+HOT theorists may respond that a state’s being conscious just is its being represented in the right higher-order way. Critics reply that this still leaves open why such representation is accompanied by feeling. This remains one of the central philosophical debates around the theory.
 
 ## Strengths of HOT Theory
 
-HOT possesses several major strengths.
+HOT theory has several major strengths. First, it gives a clear explanation of unconscious processing. It explains how perception, memory, emotion, and action can occur without conscious awareness.
 
-## Strong Explanation of Unconscious Processing
+Second, HOT provides a strong account of metacognition. It connects consciousness with introspection, confidence, self-monitoring, and reflective awareness.
 
-HOT naturally explains why sophisticated processing may occur unconsciously.
+Third, HOT offers a natural interpretation of blindsight. It explains how visual processing can guide behaviour while conscious visual awareness is absent.
 
-## Strong Account of Metacognition
+Fourth, the theory has a clear representational architecture. It distinguishes first-order content from higher-order awareness, making the structure of the theory conceptually precise.
 
-The theory aligns closely with:
-
-- introspection;
-- confidence judgments;
-- and self-monitoring research.
-
-## Compatibility with Blindsight
-
-HOT provides a clear interpretation of blindsight and unconscious perception.
-
-## Clear Representational Architecture
-
-The theory offers a conceptually elegant layered representational structure.
-
-## Strong Philosophical Clarity
-
-HOT clearly distinguishes:
-
-- perception;
-- cognition;
-- awareness;
-- and reflective representation.
-
-## Integration with Cognitive Neuroscience
-
-HOT connects naturally with research involving:
-
-- prefrontal cortex;
-- executive monitoring;
-- and metacognitive processing.
+Fifth, HOT connects philosophy with neuroscience. It encourages empirical research on prefrontal monitoring, confidence judgments, introspective accuracy, and metacognitive control.
 
 ## Weaknesses and Criticisms
 
-Despite its strengths, HOT faces several important criticisms.
+HOT theory faces several important criticisms. One is the infinite regress problem. If a mental state becomes conscious only when represented by a higher-order state, does the higher-order state also need to be represented by another higher-order state? If so, the theory appears to generate an infinite regress.
 
-## Infinite Regress Problem
+HOT theorists typically respond that the higher-order state itself does not need to be conscious in order to make the first-order state conscious. The higher-order state can remain unconscious while still performing its representational role.
 
-Critics ask:
+A second criticism is the misrepresentation problem. A higher-order state might misrepresent the first-order state. For example, a person might seem to be aware of an experience that does not exist, or might misidentify what they are experiencing. This raises difficult questions about hallucination, illusion, and false awareness.
 
-> If consciousness requires awareness of mental states, does awareness itself require further awareness?
+A related issue is the empty HOT problem. Could a higher-order thought occur without any suitable first-order state? If so, would the person have a conscious experience with no underlying first-order content? HOT theorists differ in how they respond to this problem.
 
-This appears to risk infinite regress.
+Another major criticism concerns phenomenology. Critics argue that HOT may explain awareness of mental states without explaining the felt character of those states. In other words, the theory may explain introspective access rather than phenomenal consciousness.
 
-HOT theorists generally respond that higher-order states themselves need not become conscious.
-
-## Misrepresentation Problem
-
-HOT allows the possibility that higher-order awareness could incorrectly represent nonexistent first-order states.
-
-This raises difficult questions concerning:
-
-- hallucination;
-- false awareness;
-- and representational error.
-
-## Empty HOT Problem
-
-Some philosophers ask whether higher-order awareness could occur without genuine first-order content.
-
-This creates conceptual difficulties concerning what exactly is being represented.
-
-## Phenomenology Problem
-
-Critics argue that HOT may explain:
-
-- awareness *of* mental states
-
-without fully explaining:
-
-- phenomenal feeling itself.
-
-Thus HOT may relocate rather than solve the hard problem.
-
-## Animal and Infant Consciousness
-
-HOT theories may imply that sophisticated higher-order monitoring is necessary for consciousness.
-
-Critics therefore question whether:
-
-- infants;
-- non-human animals;
-- or simple organisms
-
-possess sufficient metacognitive architecture for conscious awareness.
-
-This remains controversial.
+Finally, HOT may have difficulty with animal and infant consciousness. If sophisticated higher-order representation is necessary for consciousness, then beings with limited metacognitive capacity may appear less conscious or non-conscious. Critics argue that this conclusion may be too restrictive.
 
 ## HOT and Artificial Intelligence
 
-HOT theory has major implications for machine consciousness.
+HOT theory has important implications for artificial intelligence and machine consciousness. From a HOT perspective, intelligent behaviour alone is not sufficient for consciousness. A system would need some form of self-monitoring or meta-representation. It would need to represent its own internal states, not merely process external inputs.
 
-According to HOT approaches, genuine consciousness would likely require:
+This suggests that artificial consciousness would require architectures capable of introspective monitoring, confidence estimation, internal state representation, and perhaps self-modeling. A system that generates language or solves problems without awareness of its own mental states would not be conscious in the HOT sense.
 
-- self-monitoring;
-- meta-representation;
-- introspective architecture;
-- awareness of internal states;
-- reflective cognition.
+This makes HOT relevant to recent discussions of AI consciousness. Some proposed indicators of machine consciousness include metacognitive monitoring, agency, self-modeling, and global availability [@butlin2023]. HOT contributes to these debates by emphasizing that consciousness may require a system to represent its own representational states.
 
-Intelligent behaviour alone would be insufficient.
-
-This creates an important distinction between:
-
-- intelligence;
-- computation;
-- and conscious self-awareness.
-
-As illustrated conceptually in Figure \@ref(fig:fig-hot), HOT therefore contributes significantly to debates concerning:
-
-- machine consciousness;
-- AI self-modeling;
-- reflective architectures;
-- and synthetic metacognition.
+However, the same philosophical challenge remains. Even if an artificial system developed higher-order representations, would this generate subjective experience, or only a functional model of self-monitoring? HOT gives a clear criterion, but whether that criterion is sufficient for phenomenology remains debated.
 
 ## Open Questions
 
-Several important unresolved questions remain:
+Several questions remain unresolved for HOT theory. Is higher-order awareness always necessary for consciousness? Can phenomenal consciousness occur without reflection? Are animals and infants conscious if they lack sophisticated metacognition? What neural systems support higher-order awareness? Can higher-order states misrepresent or create conscious experience? Could artificial systems develop genuine meta-representation? Does HOT explain subjective feeling or mainly introspective access?
 
-- Is higher-order awareness always necessary for consciousness?
-- Can phenomenal consciousness occur without reflection?
-- Why should higher-order representation generate subjective feeling?
-- Are animals conscious without sophisticated metacognition?
-- What neural systems generate higher-order awareness?
-- Can artificial systems develop genuine meta-representation?
-- Does HOT explain phenomenology or only access?
+These questions show why HOT remains both influential and contested. It provides a powerful theory of conscious access and self-monitoring, but its relation to phenomenal consciousness remains debated.
 
-These questions remain central to ongoing consciousness research.
+## Evaluation
 
-## Comparative Evaluation
+Higher-Order Thought Theory is one of the most important metacognitive theories of consciousness. It explains consciousness in terms of awareness of mental states rather than first-order processing alone.
 
-Higher-Order Thought Theory remains one of the most influential metacognitive theories of consciousness because it explains conscious awareness primarily in terms of:
+Its greatest strength is its explanation of the difference between conscious and unconscious processing. HOT naturally explains subliminal perception, blindsight, introspection, confidence judgments, and metacognitive awareness. It also provides a clear representational architecture that connects philosophy with neuroscience.
 
-- self-monitoring;
-- reflective cognition;
-- and awareness of mental states.
+Its greatest weakness is that higher-order representation may not fully explain phenomenal experience. Critics argue that HOT may explain how a state becomes available to introspection without explaining why it feels like anything.
 
-As illustrated throughout Figure \@ref(fig:fig-hot), HOT sharply distinguishes between:
+For this reason, HOT is best understood as a powerful theory of metacognitive consciousness and reflective access. Whether it provides a complete theory of phenomenal consciousness remains unresolved.
 
-- unconscious information processing;
-and:
-- conscious awareness.
+## Chapter Summary
 
-The theory is especially powerful for explaining:
+Higher-Order Thought Theory proposes that a mental state becomes conscious when it is represented by a suitable higher-order state. First-order states represent the world, body, or thought. Higher-order states represent the subject as being in those first-order states.
 
-- introspection;
-- metacognition;
-- confidence judgments;
-- blindsight;
-- unconscious perception;
-- and reflective access.
+HOT theory explains why much mental processing remains unconscious. A perceptual or cognitive state may influence behaviour without conscious awareness if it lacks higher-order representation. This makes HOT especially useful for explaining subliminal perception, blindsight, metacognition, confidence judgments, and introspection.
 
-At the same time, whether higher-order representation fully explains:
+The theory differs from Global Workspace Theory, which emphasizes global broadcasting, and from Integrated Information Theory, which emphasizes intrinsic integrated causal structure. HOT emphasizes awareness of mental states.
 
-- phenomenal consciousness;
-- qualia;
-- and subjective experience itself
+Its strengths include conceptual clarity, a strong account of unconscious processing, and close links to metacognitive research. Its weaknesses include the infinite regress problem, misrepresentation problem, empty HOT problem, and difficulty explaining phenomenal consciousness itself.
 
-remains deeply contested.
-
-Higher-Order Thought Theory therefore remains both:
-
-- conceptually elegant;
-and:
-- philosophically controversial.
-
-Its influence across philosophy of mind, cognitive neuroscience, metacognition research, and AI consciousness studies continues to be substantial, yet the relationship between:
-
-```text
-higher-order awareness
-→
-subjective experience
-```
-
-remains one of the major unresolved questions in consciousness studies.
+The central unresolved question is whether higher-order representation is sufficient for subjective experience, or whether it explains only reflective awareness and introspective access.

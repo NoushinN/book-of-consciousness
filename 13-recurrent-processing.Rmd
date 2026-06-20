@@ -2,713 +2,257 @@
 
 ## Chapter Overview
 
-Recurrent Processing Theory (RPT) proposes that consciousness depends not merely on sensory activation, but on recurrent or re-entrant feedback interactions within cortical systems [@lamme2006]. According to this framework, information may pass rapidly through the brain unconsciously during an initial feedforward sweep, while conscious perception emerges only when neural activity becomes recursively integrated through feedback loops between cortical areas.
+Recurrent Processing Theory, often abbreviated as RPT, proposes that consciousness depends not merely on sensory activation, but on recurrent or re-entrant feedback interactions within cortical systems. According to this theory, sensory information may pass rapidly through the brain during an initial feedforward sweep without becoming conscious. Conscious perception emerges only when neural activity becomes recursively integrated through feedback loops between cortical areas [@lamme2006; @lamme2010].
 
-RPT became especially influential because it challenged theories identifying consciousness too closely with:
+RPT became influential because it challenged theories that identify consciousness too closely with reportability, working memory, executive access, language, or global broadcasting. Recurrent processing theorists argue that phenomenal consciousness may emerge earlier than full cognitive access. In other words, a person may have a conscious perceptual experience before that experience becomes available for verbal report, reasoning, or deliberate decision-making.
 
-- reportability;
-- executive access;
-- working memory;
-- language;
-- or global broadcasting.
+This makes RPT especially important in debates about the distinction between phenomenal consciousness and access consciousness. Phenomenal consciousness refers to subjective experience itself: what it is like to see, hear, feel, or perceive. Access consciousness refers to information being available for report, reasoning, memory, and action [@block1995]. RPT suggests that local recurrent sensory loops may already support phenomenal awareness, while global access may occur later.
 
-Instead, recurrent processing theorists argue that:
+The theory has been especially influential in visual neuroscience, masking experiments, temporal dynamics research, no-report debates, and discussions of phenomenal overflow. It is also important because it offers a biologically grounded theory of consciousness based on real cortical architecture rather than abstract computation alone.
 
-```text
-phenomenal consciousness
-may emerge earlier
-than full cognitive access.
-```
+At the same time, RPT remains controversial. Critics argue that recurrent processing may be necessary for conscious perception, but not sufficient to explain the full range of consciousness, including self-awareness, unified cognition, metacognition, and subjective feeling itself. Like many other theories, RPT must still address the hard problem: why should recurrent neural interaction be accompanied by experience at all? [@chalmers1995; @chalmers1996]
 
-According to this view:
-
-- conscious experience may begin locally within recurrent sensory loops;
-- global reportability may occur later;
-- and sophisticated cognition may not be necessary for phenomenal awareness itself.
-
-RPT is therefore highly important both scientifically and philosophically because it attempts to distinguish:
-
-- phenomenal experience;
-from:
-- cognitive accessibility.
-
-The theory became especially influential within:
-
-- visual neuroscience;
-- perceptual awareness research;
-- masking experiments;
-- temporal dynamics studies;
-- and debates concerning phenomenal overflow.
-
-This chapter examines the historical development, conceptual foundations, neural mechanisms, empirical evidence, philosophical implications, strengths, criticisms, and unresolved questions associated with Recurrent Processing Theory.
+This chapter explains the core claims of Recurrent Processing Theory, distinguishes feedforward from recurrent processing, examines masking and perceptual awareness, compares RPT with Global Workspace Theory and other approaches, and evaluates its strengths, limitations, and implications for artificial intelligence.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Define recurrent processing and distinguish it from feedforward processing
-- Explain the central claims of Recurrent Processing Theory
-- Describe the role of cortical feedback loops in conscious perception
-- Analyze visual masking and unconscious perception within the RPT framework
-- Distinguish phenomenal consciousness from access consciousness
-- Explain the temporal unfolding of conscious processing
-- Compare RPT with Global Workspace Theory
-- Evaluate strengths and criticisms of recurrent processing theory
-- Discuss implications for AI and machine consciousness
+* Define recurrent processing and distinguish it from feedforward processing.
+* Explain the central claims of Recurrent Processing Theory.
+* Describe the role of cortical feedback loops in conscious perception.
+* Analyze visual masking and unconscious perception within the RPT framework.
+* Distinguish phenomenal consciousness from access consciousness.
+* Explain the temporal unfolding of conscious processing.
+* Compare RPT with Global Workspace Theory and related theories.
+* Evaluate the strengths and limitations of Recurrent Processing Theory.
+* Discuss implications for artificial intelligence and machine consciousness.
 
 ## Why Recurrent Processing Theory Became Influential
 
-Recurrent Processing Theory became influential because it offered a biologically grounded explanation for a major puzzle in consciousness research:
+Recurrent Processing Theory became influential because it offered a biologically grounded answer to a central puzzle in consciousness research: why does some neural processing remain unconscious while other processing becomes consciously experienced?
 
-```text
-Why does some neural processing remain unconscious
-while other processing becomes consciously experienced?
-```
+Many theories emphasize cognitive access, reportability, executive function, or global broadcasting. These features are clearly important for deliberate thought and communication. However, RPT argues that they may occur after phenomenal experience has already begun. Conscious perception, on this view, may not require full reportability or executive access. It may require recurrent interaction within sensory cortex.
 
-Earlier theories often emphasized:
+This proposal was important because it separated conscious experience from the ability to report that experience. A visual stimulus may be experienced before it becomes available for verbal report, working memory, or deliberate reasoning. This distinction made RPT central to debates about whether consciousness is richer than cognitive access [@block2007].
 
-- cognitive access;
-- reportability;
-- executive function;
-- or global broadcasting.
-
-RPT instead emphasized:
-
-```text
-local recurrent sensory processing.
-```
-
-Victor Lamme and related theorists argued that conscious experience may arise directly from recursive cortical interactions occurring within sensory systems themselves.
-
-This proposal was important because it suggested:
-
-- consciousness may emerge earlier than reportability;
-- phenomenal awareness may exceed cognitive access;
-- and local sensory loops may already support conscious experience.
-
-RPT therefore became central to debates concerning:
-
-- phenomenal consciousness;
-- access consciousness;
-- overflow arguments;
-- and the richness of perceptual experience.
-
-The theory also aligned strongly with modern neuroscience because the cortex contains extensive:
-
-- recurrent connectivity;
-- feedback signaling;
-- and re-entrant neural loops.
+RPT also fit well with neuroscience. The cortex is not a simple feedforward machine. It contains extensive feedback connections, recurrent loops, and re-entrant interactions between lower and higher areas. These anatomical features make recurrent processing a plausible candidate mechanism for conscious perception.
 
 ## Core Idea in One Picture
 
-Figure \@ref(fig:fig-rpt) summarizes the major conceptual structure of Recurrent Processing Theory.
+Figure @ref(fig:fig-rpt) summarizes the major conceptual structure of Recurrent Processing Theory.
 
-```{r fig-rpt, echo=FALSE, fig.cap="Recurrent Processing Theory (RPT). Panel A contrasts feedforward and recurrent processing. Panel B illustrates visual masking and interrupted recurrence. Panel C shows the temporal unfolding of conscious processing. Panel D distinguishes phenomenal consciousness from access consciousness. Panel E compares recurrent processing theory with Global Workspace Theory.", out.width="100%", fig.align="center"}
+```{r fig-rpt, echo=FALSE, fig.cap="Recurrent Processing Theory (RPT). Panel A contrasts feedforward and recurrent processing. Panel B illustrates visual masking and interrupted recurrence. Panel C shows the temporal unfolding of conscious processing. Panel D distinguishes phenomenal consciousness from access consciousness. Panel E compares recurrent processing theory with Global Workspace Theory.", out.width="100%", fig.align="center"} 
 knitr::include_graphics("figures/13_recurrent_processing.png")
 ```
 
-As illustrated in Figure \@ref(fig:fig-rpt):
+As Figure @ref(fig:fig-rpt) illustrates, feedforward processing may support rapid unconscious discrimination, but recurrent cortical loops stabilize perceptual representations and allow conscious awareness to emerge. The figure also highlights one of RPT’s central philosophical claims: conscious experience may occur locally before global cognitive access.
 
-- feedforward processing alone may remain unconscious;
-- recurrent cortical loops stabilize perceptual representations;
-- conscious awareness unfolds dynamically over time;
-- and phenomenal consciousness may emerge before global reportability.
-
-Importantly, Figure \@ref(fig:fig-rpt) also highlights one of RPT’s central philosophical claims:
-
-```text
-conscious experience
-may occur locally
-before global cognitive access.
-```
-
-This distinguishes RPT sharply from theories emphasizing:
-
-- executive access;
-- working memory;
-- or large-scale broadcasting as necessary conditions for consciousness.
+This makes RPT different from theories that treat consciousness as dependent on executive access, verbal report, or large-scale broadcasting. RPT does not deny that those processes are important. Rather, it argues that they may belong to a later stage of conscious access rather than to the origin of phenomenal experience itself.
 
 ## Historical Development
 
-The origins of recurrent processing theory emerged from broader debates concerning the relationship between:
+The origins of Recurrent Processing Theory lie in debates about the temporal and neural structure of perception. Earlier models often treated perception as a largely feedforward process. Sensory input entered the system, moved through cortical hierarchies, and eventually produced recognition, action, or report.
 
-- sensation;
-- perception;
-- cognition;
-- neural activity;
-- and conscious awareness.
+However, anatomical and physiological research showed that cortical processing involves extensive feedback. Visual processing, for example, does not simply move from the retina to primary visual cortex and then upward to higher visual areas. Higher cortical areas send signals back to lower areas. These recurrent interactions help refine, stabilize, and contextualize perception.
 
-Earlier neuroscience often interpreted perception primarily as:
+Victor Lamme developed one of the most influential versions of RPT, arguing that recurrent processing within sensory cortex is central to conscious perception [@lamme2006]. According to Lamme, an initial feedforward sweep may support unconscious processing, rapid categorization, and behavioural response. Consciousness arises when this activity becomes recurrently integrated.
 
-```text
-sensory input → cortical processing → behavioural response
-```
+This positioned RPT partly against Global Workspace Theory, which emphasizes global broadcasting and cognitive access [@baars1988; @dehaene2011]. RPT argues that phenomenal consciousness may appear earlier than the global availability required for report.
 
-This approach emphasized largely feedforward information flow through cortical hierarchies.
+## Feedforward and Recurrent Processing
 
-However, anatomical and physiological research increasingly revealed that the cortex contains massive recurrent connectivity. Neural activity repeatedly loops between:
+A central distinction in RPT is the difference between feedforward processing and recurrent processing.
 
-- lower sensory cortex;
-- higher cortical areas;
-- associative regions;
-- and thalamo-cortical systems.
-
-Victor Lamme argued that these recurrent interactions may be central to conscious perception [@lamme2006].
-
-Importantly, Lamme proposed that:
+Feedforward processing is the rapid movement of information through a neural hierarchy. In vision, this can be simplified as:
 
 ```text
-recurrent sensory processing
-may already generate phenomenal awareness
-before global reportability occurs.
+retina → V1 → V2 → V4 → higher visual cortex
 ```
 
-This positioned RPT partly in opposition to theories proposing that consciousness requires:
+This feedforward sweep is fast and efficient. It can support rapid categorization, priming, automatic response, and partial sensory discrimination. However, according to RPT, feedforward processing alone is usually not sufficient for conscious visual experience.
 
-- widespread broadcasting;
-- language;
-- executive cognition;
-- or metacognitive access.
+Recurrent processing involves feedback loops between cortical areas. Information does not only move upward. It also loops backward and sideways through the system. Higher areas influence lower areas, lower areas continue updating higher areas, and perception becomes stabilized through recursive interaction.
 
-## Feedforward vs Recurrent Processing
-
-A central distinction in recurrent processing theory is the difference between:
-
-- feedforward processing;
-and:
-- recurrent processing.
-
-Figure \@ref(fig:fig-rpt) Panel A illustrates this distinction.
-
-## Feedforward Processing
-
-Feedforward processing involves rapid one-way propagation of information through cortical hierarchies.
-
-For example:
-
-```text
-retina → V1 → V2 → V4 → higher cortex
-```
-
-According to RPT, feedforward sweeps may support:
-
-- rapid categorization;
-- behavioural priming;
-- automatic responses;
-- unconscious discrimination;
-- and partial sensory processing
-
-without conscious awareness.
-
-Feedforward activity is:
-
-- fast;
-- transient;
-- and relatively unstable.
-
-## Recurrent Processing
-
-Recurrent processing involves recursive feedback interactions between cortical areas.
-
-As illustrated in Figure \@ref(fig:fig-rpt) Panel A:
-
-- information loops backward and forward;
-- sensory representations become stabilized;
-- contextual integration occurs;
-- recursive interaction strengthens perceptual coherence.
-
-According to RPT:
-
-```text
-conscious perception emerges
-when neural activity becomes recurrently integrated.
-```
-
-This recursive interaction allows sensory representations to become:
-
-- sustained;
-- coherent;
-- integrated;
-- and phenomenally experienced.
+According to RPT, conscious perception emerges when neural activity becomes recurrently integrated. This recurrence allows sensory representations to become sustained, coherent, context-sensitive, and phenomenally experienced.
 
 ## The Core Claim of RPT
 
-The central claim of recurrent processing theory can be summarized as follows:
+The central claim of Recurrent Processing Theory is that conscious awareness depends on recurrent cortical feedback rather than feedforward activation alone. This means that unconscious processing can occur rapidly and automatically, while conscious perception requires recursive neural integration.
 
-> Conscious awareness depends on recurrent cortical feedback rather than feedforward activation alone.
+The theory therefore explains why a stimulus can influence behaviour without being consciously seen. A masked stimulus may activate early visual cortex and even affect later responses. But if recurrent processing is interrupted, the stimulus may not become consciously experienced.
 
-This means:
-
-- unconscious processing may occur rapidly and automatically;
-- conscious perception requires recursive cortical integration.
-
-RPT therefore attempts to explain why:
-
-- some neural activity remains unconscious;
-while:
-- other activity becomes phenomenally experienced.
-
-Importantly, the theory emphasizes that:
+This gives RPT a clear explanatory structure:
 
 ```text
-consciousness unfolds dynamically over time.
+feedforward sweep → unconscious processing
+recurrent integration → conscious perception
 ```
 
-Conscious awareness is therefore not instantaneous but emerges through recursive interaction.
+The theory also emphasizes that consciousness unfolds over time. Conscious awareness is not an instantaneous result of sensory input. It emerges dynamically as neural activity loops through cortical networks.
 
 ## Temporal Dynamics of Consciousness
 
-One of RPT’s most important contributions is its emphasis on temporal dynamics.
+One of RPT’s most important contributions is its focus on temporal dynamics. Conscious perception is treated as a process that develops across time rather than as a single momentary event.
 
-Figure \@ref(fig:fig-rpt) Panel C illustrates the temporal unfolding of conscious processing.
+During the early feedforward sweep, roughly within the first 100 milliseconds, sensory information moves rapidly through cortical pathways. This may support unconscious categorization, priming, and fast behavioural response.
 
-### Early Feedforward Sweep (~0–100 ms)
+During the next stage, recurrent interactions begin to occur. Feedback loops between cortical areas refine and stabilize the representation. Context, attention, memory, and higher-level expectations may begin influencing perception. RPT suggests that phenomenal awareness may emerge during this recurrent stage.
 
-Rapid sensory activation propagates upward through cortical hierarchies.
+Later, information may become available for report, working memory, decision-making, and broader cognitive access. This later stage may involve more widespread networks, including frontoparietal systems, but RPT does not treat this later access as necessary for the initial emergence of phenomenal experience.
 
-This stage may support:
-
-- unconscious categorization;
-- behavioural priming;
-- rapid discrimination;
-- automatic reactions.
-
-### Recurrent Integration (~100–250 ms)
-
-Feedback loops emerge between cortical regions.
-
-During this stage:
-
-- contextual refinement occurs;
-- perceptual stabilization increases;
-- recursive integration strengthens;
-- phenomenal awareness may begin emerging.
-
-### Stable Conscious Awareness (~250 ms and beyond)
-
-Sustained recurrent activity becomes associated with stable conscious experience and eventual cognitive access.
-
-As illustrated in Figure \@ref(fig:fig-rpt) Panel C:
-
-```text
-consciousness is temporally extended,
-not instantaneous.
-```
-
-This temporal emphasis strongly distinguishes RPT from simpler stimulus-response models.
+This temporal account is important because it allows RPT to distinguish between perceptual experience and later cognitive use of that experience.
 
 ## Visual Masking
 
-Visual masking experiments provide some of the strongest empirical support for recurrent processing theory.
+Visual masking provides one of the strongest experimental contexts for RPT. In masking experiments, a target stimulus is presented briefly and then followed by another stimulus, called a mask. The mask can prevent conscious awareness of the original target, even though some processing of the target still occurs.
 
-In masking experiments:
+RPT explains masking by arguing that the target may produce an initial feedforward sweep, but the mask interrupts recurrent processing. Without recurrent stabilization, the target does not become consciously perceived.
 
-1. a stimulus briefly appears;
-2. a masking stimulus rapidly follows;
-3. conscious awareness of the original stimulus often disappears.
+This explains why masked stimuli can still produce priming or influence behaviour. Feedforward processing may occur, but conscious experience fails to emerge because recurrent loops are disrupted.
 
-Importantly:
-
-- early sensory activation may still occur;
-- behavioural priming may still occur;
-- unconscious discrimination may remain possible.
-
-Figure \@ref(fig:fig-rpt) Panel B illustrates this process.
-
-According to RPT:
-
-- feedforward activation initially occurs;
-- masking interrupts recurrent feedback;
-- conscious stabilization fails to emerge.
-
-Thus:
-
-```text
-feedforward processing
-without recurrence
-may remain unconscious.
-```
-
-Masking studies therefore strongly support the claim that recurrent processing may be necessary for conscious perception.
+Visual masking therefore supports the idea that sensory activation alone is not enough for consciousness. The timing and recurrence of neural activity matter [@breitmeyer1984; @lamme2006].
 
 ## Binocular Rivalry and Perceptual Competition
 
-Binocular rivalry studies also support recurrent processing approaches.
+Binocular rivalry also supports recurrent approaches to consciousness. In binocular rivalry, different images are presented to each eye. Instead of experiencing both images equally, conscious perception alternates between them.
 
-In binocular rivalry:
+RPT interprets this alternation as evidence that conscious perception depends on dynamic stabilization within recurrent networks. Competing interpretations are not simply registered passively. They are stabilized, suppressed, and replaced through ongoing neural interaction.
 
-- different images are presented simultaneously to each eye;
-- conscious perception alternates between competing interpretations.
+This supports a general recurrent view of perception. Conscious awareness is not merely the arrival of sensory input. It is the result of dynamic neural stabilization over time.
 
-RPT interprets this as evidence that conscious perception depends on:
+## Phenomenal and Access Consciousness
 
-- recursive stabilization;
-- recurrent competition;
-- and dynamic cortical integration.
+RPT is philosophically important because it strongly distinguishes phenomenal consciousness from access consciousness.
 
-Conscious awareness therefore reflects:
+Phenomenal consciousness refers to subjective experience itself. It is the felt character of seeing a colour, hearing a sound, or perceiving a scene. Access consciousness refers to information being available for reasoning, report, memory, and deliberate control [@block1995].
 
-```text
-ongoing recurrent stabilization
-within sensory systems.
-```
+RPT suggests that local recurrent sensory loops may already support phenomenal consciousness. Global access, reportability, and executive control may occur later. This means that a person may experience more than they can report or remember.
 
-rather than passive sensory input alone.
-
-## Phenomenal Consciousness vs Access Consciousness
-
-One of RPT’s most philosophically important contributions is its distinction between:
-
-- phenomenal consciousness;
-and:
-- access consciousness.
-
-Figure \@ref(fig:fig-rpt) Panel D illustrates this distinction.
-
-## Phenomenal Consciousness
-
-Phenomenal consciousness refers to:
-
-- subjective feeling;
-- qualitative experience;
-- “what it is like.”
-
-According to RPT:
-
-```text
-local recurrent sensory loops
-may already support phenomenal awareness.
-```
-
-## Access Consciousness
-
-Access consciousness refers to information becoming available for:
-
-- report;
-- reasoning;
-- working memory;
-- decision-making;
-- executive cognition.
-
-RPT proposes that:
-
-- phenomenal awareness may arise earlier;
-- global access may emerge later.
-
-As illustrated in Figure \@ref(fig:fig-rpt) Panel D:
-
-```text
-experience
-may exceed
-reportability.
-```
-
-This is one of the central philosophical claims of recurrent processing theory.
+This idea challenges theories that identify consciousness with reportability or global broadcasting. RPT argues that report is not the same as experience. Report requires additional cognitive systems, while experience may begin in recurrent sensory processing.
 
 ## Phenomenal Overflow
 
-RPT became closely associated with debates concerning:
+RPT is closely connected to debates about phenomenal overflow. The overflow argument claims that conscious experience may contain more detail than can be accessed, reported, or stored in working memory [@block2007].
 
-```text
-phenomenal overflow.
-```
+For example, a person may seem to experience a rich visual scene even though they can report only a small part of it. If this is correct, then phenomenal consciousness exceeds access consciousness.
 
-Some experiments suggest individuals consciously experience richer visual scenes than they can explicitly:
+RPT supports this idea by proposing that recurrent sensory processing can generate phenomenal awareness before information enters working memory or global broadcast. On this view, experience may be richer than report.
 
-- report;
-- remember;
-- or cognitively access.
-
-According to overflow arguments:
-
-```text
-phenomenal consciousness
-may exceed access consciousness.
-```
-
-This directly challenges theories equating consciousness with:
-
-- reportability;
-- working memory;
-- or global broadcasting.
-
-RPT therefore supports the possibility that:
-
-- experience may be richer than cognition;
-- conscious phenomenology may overflow executive access.
-
-This debate remains central within consciousness studies.
+Critics of overflow argue that apparent richness may be an illusion produced by gist perception, expectation, or rapid access to environmental information. This debate remains unresolved, but it is central to the difference between RPT and access-based theories.
 
 ## Recurrent Processing and Global Workspace Theory
 
-RPT is often contrasted directly with Global Workspace Theory (GWT).
+RPT is often contrasted with Global Workspace Theory. GWT proposes that consciousness requires global broadcasting across cognitive systems [@baars1988; @dehaene2011; @dehaene2014]. Information becomes conscious when it is made available for report, working memory, reasoning, and flexible control.
 
-Figure \@ref(fig:fig-rpt) Panel E compares the two frameworks.
+RPT argues that this may describe access consciousness rather than phenomenal consciousness. According to RPT, local recurrent processing may be sufficient for perceptual experience, while global broadcasting supports later report and cognitive use.
 
-## Recurrent Processing Theory
+The two theories may not be completely incompatible. They may describe different stages or dimensions of consciousness. RPT may explain early phenomenal perception, while GWT may explain later access, reportability, and cognitive control.
 
-RPT proposes:
+However, the disagreement remains significant. GWT tends to place consciousness at the level of global availability. RPT places the origin of phenomenal experience earlier, within recurrent sensory processing.
 
-```text
-local recurrent sensory processing
-may already generate phenomenal consciousness.
-```
+## Relation to Other Theories
 
-The emphasis is on:
+RPT overlaps with several other theories discussed in this book.
 
-- local cortical recurrence;
-- sensory feedback loops;
-- temporal stabilization;
-- early phenomenal awareness.
+### Relation to Integrated Information Theory
 
-## Global Workspace Theory
+Integrated Information Theory emphasizes integrated causal structure and irreducibility [@tononi2004; @oizumi2014]. RPT also emphasizes integration, but more specifically through recurrent cortical loops. IIT is broader and more formal, while RPT is more closely tied to sensory neuroscience and temporal processing.
 
-GWT proposes:
+### Relation to Higher-Order Thought Theory
 
-```text
-consciousness requires
-global broadcasting
-across cognitive systems.
-```
+Higher-Order Thought Theory argues that a mental state becomes conscious when it is represented by a suitable higher-order state [@rosenthal2005; @lau2011]. RPT is less metacognitive. It suggests that consciousness may arise within recurrent sensory systems before higher-order reflection or introspection.
 
-The emphasis is on:
+### Relation to Predictive Processing
 
-- reportability;
-- working memory;
-- executive access;
-- global integration.
+Predictive Processing emphasizes hierarchical prediction and error correction [@friston2010; @clark2013]. RPT overlaps with this framework because predictive processing also depends on recurrent exchange between cortical levels. However, RPT focuses specifically on recurrence as a condition for conscious perception, while Predictive Processing interprets recurrence in terms of prediction-error minimization.
 
-As illustrated in Figure \@ref(fig:fig-rpt) Panel E:
+### Relation to Attention Schema Theory
 
-- RPT emphasizes early phenomenal awareness;
-- GWT emphasizes later cognitive accessibility.
+Attention Schema Theory explains consciousness through the brain’s model of attention [@graziano2013]. RPT differs by emphasizing recurrent sensory stabilization rather than an internal model of attention. Both theories, however, challenge simple feedforward accounts of consciousness.
 
-Some researchers argue these theories may describe:
+### Relation to Consciousness-First Theories
 
-- different stages;
-or:
-- different dimensions of consciousness
-
-rather than being fully incompatible.
+RPT differs from consciousness-first theories such as panpsychism, cosmopsychism, idealism, or Taheri’s T-Consciousness. RPT begins with neural mechanisms and asks how recurrent processing supports consciousness. Consciousness-first theories begin from the idea that consciousness is fundamental or prior to physical organization. These approaches will be discussed later in the book.
 
 ## Dreaming, Anesthesia, and Altered States
 
-RPT has also been applied to:
+RPT can also be applied to dreaming, anesthesia, and altered states. Dreaming may involve internally generated recurrent activity that produces conscious experience without ordinary external sensory input. Anesthesia may disrupt the recurrent interactions required for conscious stabilization. Disorders of consciousness may involve partial preservation or disruption of recurrent cortical dynamics.
 
-- dreaming;
-- anesthesia;
-- altered states;
-- disorders of consciousness.
+These applications show that RPT is not limited to ordinary visual perception. It can be used to think about how conscious states appear, disappear, and transform depending on recurrent neural organization [@koch2016; @seth2021; @laureys2005; @owen2006].
 
-According to recurrent approaches:
-
-- conscious states depend on intact recurrent cortical interaction;
-- unconscious states involve disrupted or weakened recurrence.
-
-Changes in recurrent dynamics may therefore help explain transitions between:
-
-- conscious awareness;
-- unconsciousness;
-- and altered experiential states.
+However, applying RPT beyond perception raises additional questions. Consciousness includes emotion, selfhood, bodily feeling, thought, and imagination. The theory must explain whether all these forms of consciousness depend on similar recurrent mechanisms or whether visual consciousness is a special case.
 
 ## Neural Basis of Recurrent Processing
 
-Recurrent processing is associated with:
+Recurrent processing is associated with cortical feedback loops, re-entrant signaling, thalamo-cortical interactions, and reciprocal connections between lower and higher cortical areas. These recurrent circuits are especially well studied in the visual system, but recurrent connectivity is widespread throughout the brain.
 
-- cortical feedback loops;
-- thalamo-cortical interaction;
-- re-entrant signaling;
-- sensory integration networks;
-- recurrent cortical hierarchies.
+The challenge is determining which recurrent interactions are sufficient for consciousness. Not all recurrence appears conscious. Many feedback loops regulate movement, bodily function, or unconscious processing without producing reportable experience.
 
-Extensive recurrent connectivity exists throughout:
+RPT therefore needs a principled account of conscious recurrence. Is recurrence in sensory cortex enough? Does it require certain timing? Does it require attention? Does it need integration across multiple levels? Does it need connection to memory or self-modeling?
 
-- visual cortex;
-- associative cortex;
-- higher-order sensory systems.
-
-However, a major unresolved question remains:
-
-> Which recurrent interactions are sufficient for consciousness?
-
-Not all recurrent activity appears consciously experienced.
-
-This remains a central challenge for the theory.
+These questions remain open and are central to evaluating the theory.
 
 ## Recurrent Processing and Artificial Intelligence
 
-RPT has important implications for artificial intelligence and machine consciousness.
+RPT has important implications for artificial intelligence and machine consciousness. If consciousness depends on recurrent processing, then purely feedforward artificial architectures may remain non-conscious even if they perform sophisticated tasks.
 
-If consciousness depends on:
+From an RPT perspective, a conscious artificial system might require recursive feedback, dynamic temporal integration, re-entrant processing, and stable internal representations. Recurrent neural networks, self-monitoring systems, and architectures with feedback loops may therefore be more relevant to machine consciousness than purely feedforward models.
 
-- recursive feedback;
-- dynamic recurrence;
-- re-entrant processing;
-- temporal integration,
+However, recurrence alone is not enough. Many artificial systems contain feedback without being plausibly conscious. RPT must specify what kind of recurrence matters. Does the system need embodiment, sensory grounding, self-modeling, affective regulation, or global access? These questions overlap with broader debates about AI consciousness [@butlin2023].
 
-then purely feedforward AI architectures may remain unconscious despite advanced behavioural performance.
-
-This raises important questions concerning:
-
-- large language models;
-- transformer architectures;
-- recurrent neural networks;
-- recursive self-monitoring;
-- and synthetic phenomenology.
-
-RPT suggests that conscious AI systems might require:
-
-- recursive architectures;
-- dynamic feedback integration;
-- temporally extended recurrent loops.
-
-However, whether recurrence alone is sufficient for genuine subjective experience remains unresolved.
+RPT therefore suggests that recurrence may be an important condition for machine consciousness, but it does not provide a complete criterion by itself.
 
 ## Strengths of Recurrent Processing Theory
 
-RPT possesses several major strengths.
+RPT has several major strengths. First, it is strongly grounded in neuroscience. The cortex contains extensive recurrent connectivity, and RPT builds directly on this biological architecture.
 
-### Strong Neuroscientific Grounding
+Second, it explains why feedforward processing can remain unconscious. This makes it useful for understanding masking, priming, and unconscious perception.
 
-The theory aligns naturally with known cortical anatomy and recurrent connectivity.
+Third, RPT emphasizes temporal dynamics. It treats consciousness as something that unfolds through recursive interaction over time, rather than as an instantaneous response to stimulation.
 
-### Strong Empirical Support
+Fourth, it offers an important philosophical distinction between phenomenal consciousness and access consciousness. It challenges theories that identify consciousness too closely with reportability.
 
-Masking studies and temporal dynamics research strongly support recurrent processing approaches.
-
-### Clear Distinction Between Conscious and Unconscious Processing
-
-RPT explains how:
-
-- behavioural processing;
-- neural activation;
-- and conscious experience
-
-may dissociate.
-
-### Important Philosophical Contribution
-
-The theory strongly distinguishes:
-
-- phenomenal consciousness;
-from:
-- access consciousness.
-
-### Temporal Dynamics
-
-RPT emphasizes that consciousness unfolds dynamically through recursive interaction over time.
-
-### Biologically Plausible Mechanisms
-
-The theory remains closely tied to real cortical organization rather than purely abstract computation.
+Fifth, RPT provides a biologically plausible account of perceptual consciousness. It is especially strong in visual neuroscience, where recurrent processing can be studied experimentally.
 
 ## Weaknesses and Criticisms
 
-Despite its strengths, recurrent processing theory faces several important criticisms.
+RPT also faces several criticisms. The first is whether local recurrence is sufficient for consciousness. Critics argue that consciousness may require more than recurrent sensory processing. It may also require attention, memory, selfhood, metacognition, global integration, or bodily regulation.
 
-## Is Local Recurrence Enough?
+A second criticism concerns the hard problem. Even if recurrence is correlated with conscious perception, why should recurrent neural interaction feel like anything? RPT may identify an important mechanism without fully explaining subjective experience [@chalmers1995; @chalmers1996].
 
-Critics argue that local sensory recurrence may not fully explain:
+A third criticism concerns thresholds. RPT does not always specify how much recurrence is necessary, which loops matter, or when recurrent activity becomes conscious.
 
-- self-awareness;
-- unified cognition;
-- reasoning;
-- metacognition;
-- or reportability.
+A fourth criticism concerns excessive localism. Some researchers argue that full conscious cognition requires large-scale coordination across the brain, not only local sensory loops. From this perspective, RPT may explain early perceptual awareness but not the full structure of conscious experience.
 
-## The Hard Problem
-
-Even if recurrence correlates with consciousness, critics still ask:
-
-> Why should recursive neural interaction produce subjective feeling at all?
-
-Thus RPT may explain mechanisms without fully solving the hard problem.
-
-## Border Problem
-
-The theory does not specify a precise threshold for:
-
-- how much recurrence is necessary;
-- which loops are sufficient;
-- or what kinds of recurrent interaction generate consciousness.
-
-## Excessive Localism
-
-Some researchers argue that:
-
-- global integration;
-- executive access;
-- and widespread coordination
-
-still appear necessary for fully conscious cognition.
-
-## Neural Ambiguity
-
-Recurrent loops exist throughout the brain.
-
-Critics therefore ask:
-
-> Why do only some recurrent interactions appear consciously experienced?
-
-This remains unresolved.
+Finally, recurrent loops are widespread in the brain. RPT must explain why some recurrent interactions produce consciousness while others do not.
 
 ## Open Questions
 
-Several major unresolved questions remain:
+Several important questions remain unresolved. Why should recurrence generate experience? Is local recurrence sufficient for consciousness? Can phenomenal consciousness occur without global access? What distinguishes conscious recurrence from unconscious recurrence? Are recurrent loops necessary for all conscious states? How does RPT explain selfhood, emotion, and thought? Can artificial recurrent systems become conscious?
 
-- Why should recurrence generate experience?
-- Is local recurrence sufficient for consciousness?
-- Can phenomenal consciousness occur without global access?
-- What distinguishes conscious from unconscious recurrence?
-- How does selfhood emerge?
-- Are recurrent loops necessary for all conscious states?
-- Can artificial recurrent systems become conscious?
+These questions show why RPT remains influential but incomplete. It offers a strong account of perceptual awareness, but it must still explain how recurrent processing relates to broader conscious life.
 
-These questions remain central within contemporary consciousness science.
+## Evaluation
 
-## Comparative Evaluation
+Recurrent Processing Theory is one of the most influential biologically grounded theories of consciousness. It explains conscious perception through recursive cortical interaction, temporal stabilization, and recurrent sensory integration.
 
-Recurrent Processing Theory remains one of the most influential biologically grounded theories of consciousness because it explains conscious perception primarily through:
+Its greatest strength is its account of perceptual consciousness. RPT explains why initial feedforward activation may remain unconscious and why recurrent processing may be necessary for stable conscious perception. It also provides a powerful distinction between phenomenal consciousness and access consciousness.
 
-- recursive cortical interaction;
-- temporal stabilization;
-- and recurrent sensory integration.
+Its greatest limitation is that it may not fully explain all forms of consciousness. Local recurrent processing may explain visual awareness, but consciousness also includes selfhood, emotion, bodily feeling, memory, imagination, and reflective thought. RPT must either extend its recurrent framework to these domains or accept that it explains only part of consciousness.
 
-As illustrated throughout Figure \@ref(fig:fig-rpt), the theory sharply distinguishes between:
+RPT is therefore best understood as a strong theory of perceptual consciousness and phenomenal awareness, especially in vision. Whether it provides a complete theory of consciousness remains unresolved.
 
-- unconscious feedforward processing;
-and:
-- conscious recurrent integration.
+## Chapter Summary
 
-RPT is especially powerful for explaining:
+Recurrent Processing Theory proposes that consciousness depends on recurrent or re-entrant neural processing. An initial feedforward sweep may support unconscious processing, but conscious perception requires feedback loops that stabilize and integrate neural representations.
 
-- visual awareness;
-- masking effects;
-- phenomenal overflow;
-- unconscious perception;
-- temporal dynamics;
-- and the distinction between phenomenal and access consciousness.
+RPT is especially important in visual neuroscience and masking research. Masked stimuli may be processed unconsciously because masking interrupts recurrent processing before conscious awareness can emerge.
 
-At the same time, whether recurrent processing fully explains:
+The theory strongly distinguishes phenomenal consciousness from access consciousness. It suggests that perceptual experience may arise locally within recurrent sensory loops before information becomes globally available for report or reasoning.
 
-- subjective experience;
-- qualia;
-- and unified selfhood
+RPT differs from Global Workspace Theory, which emphasizes global broadcasting, and from Higher-Order Thought Theory, which emphasizes metacognitive awareness. It overlaps with Integrated Information Theory and Predictive Processing because all emphasize integration or recurrent interaction in some form.
 
-remains deeply contested.
+Its strengths include biological plausibility, strong relevance to visual perception, and a clear explanation of unconscious processing. Its weaknesses include uncertainty about whether local recurrence is sufficient, how recurrence explains subjective feeling, and how the theory applies to selfhood, emotion, and artificial intelligence.
 
-Recurrent Processing Theory therefore remains both:
-
-- neuroscientifically influential;
-and:
-- philosophically incomplete.
-
-Its impact across visual neuroscience, temporal dynamics research, masking experiments, and debates concerning phenomenal consciousness has been substantial, yet the relationship between:
-
-```text
-recurrent cortical interaction
-→
-subjective experience
-```
-
-remains one of the major unresolved questions in consciousness studies.
+The central unresolved question is whether recurrent processing explains consciousness itself or identifies one important neural condition for conscious perception.

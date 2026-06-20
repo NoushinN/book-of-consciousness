@@ -2,800 +2,316 @@
 
 ## Chapter Overview
 
-Computationalism proposes that mental processes, including consciousness, can be understood in terms of computation and information processing. According to this framework, minds are not defined primarily by biological material alone, but by organized systems capable of:
+Computationalism is the view that mental processes, including perception, reasoning, memory, decision-making, and possibly consciousness, can be understood in terms of computation and information processing. According to this framework, minds are not defined primarily by biological material alone. They are understood as organized systems that represent information, transform internal states, generate predictions, solve problems, and control behaviour.
 
-- representing information;
-- transforming internal states;
-- processing symbols or patterns;
-- generating predictions;
-- and controlling behaviour.
+Computationalism became one of the most influential frameworks in cognitive science, artificial intelligence, cognitive psychology, philosophy of mind, and consciousness research during the twentieth century. It helped shift the study of mind away from behaviour alone and toward internal processing, representation, symbolic manipulation, and computational architecture [@turing1950; @newell1976; @fodor1975].
 
-Computationalism became one of the most influential frameworks in:
+A central claim of computationalism is that mental processes may depend more on functional organization than on a specific biological substrate. This principle is closely related to substrate independence: the idea that the same mental or cognitive process could, in principle, be realized in different physical systems if the right computational organization were present [@putnam1967; @chalmers1996].
 
-- cognitive science;
-- artificial intelligence;
-- philosophy of mind;
-- cognitive psychology;
-- and consciousness research
+Computationalism therefore became foundational to debates about artificial intelligence, machine consciousness, simulation, representation, artificial minds, and the possibility of non-biological consciousness. If mind is computational, then a sufficiently organized artificial system might be capable of cognition or even consciousness.
 
-during the twentieth century [@turing1950; @dennett1991; @chalmers1996].
+At the same time, computationalism remains deeply controversial. Critics argue that computation alone may not generate meaning, understanding, subjectivity, or phenomenal experience. A system might manipulate symbols, process information, or produce intelligent behaviour without there being anything it is like to be that system [@searle1980; @chalmers1995; @chalmers1996].
 
-A central claim of computationalism is that consciousness may depend more on:
-
-```text
-functional organization
-```
-
-than on:
-
-```text
-specific biological substrate.
-```
-
-This principle, often called:
-
-```text
-substrate independence,
-```
-
-implies that conscious systems could potentially exist in non-biological forms if the appropriate computational organization were realized.
-
-Computationalism therefore became foundational to debates concerning:
-
-- artificial intelligence;
-- machine consciousness;
-- simulation;
-- representation;
-- and artificial minds.
-
-At the same time, computationalism remains controversial because critics argue that:
-
-- computation alone may not generate meaning;
-- syntax may not produce semantics;
-- and information processing may not fully explain subjective experience.
-
-This chapter examines the conceptual foundations, historical development, computational mechanisms, philosophical implications, empirical relevance, strengths, criticisms, and unresolved questions associated with computational approaches to consciousness.
+This chapter examines the historical development, conceptual foundations, major forms, philosophical implications, strengths, criticisms, and unresolved questions associated with computational theories of mind and consciousness.
 
 ## Learning Objectives
 
 After reading this chapter, the reader should be able to:
 
-- Define the core claims of computationalism
-- Explain the concept of computation in theories of mind
-- Describe substrate independence and functional organization
-- Distinguish symbolic and connectionist computational approaches
-- Explain how computationalism relates to artificial intelligence
-- Analyze the Chinese Room argument
-- Compare computationalism with biological naturalism
-- Evaluate strengths and criticisms of computational theories of consciousness
-- Discuss whether computation alone is sufficient for consciousness
+* Define the core claim of computationalism.
+* Explain the concept of computation in theories of mind.
+* Describe substrate independence and functional organization.
+* Distinguish symbolic and connectionist computational approaches.
+* Explain how computationalism relates to artificial intelligence.
+* Analyze the Chinese Room argument.
+* Compare computationalism with biological naturalism and embodied cognition.
+* Evaluate strengths and criticisms of computational theories of consciousness.
+* Discuss whether computation alone is sufficient for consciousness.
 
 ## Why Computationalism Became Influential
 
-Computationalism became influential because it offered a rigorous framework for explaining cognition scientifically.
+Computationalism became influential because it offered a rigorous framework for explaining cognition scientifically. Behaviourism had focused primarily on observable behaviour, stimulus-response relations, and external action. Although behaviourism introduced important methodological discipline, many researchers argued that it could not adequately explain memory, planning, reasoning, language, creativity, imagination, and flexible problem-solving.
 
-Earlier behaviourist theories attempted to explain intelligence primarily through:
+The cognitive revolution changed this picture. Researchers began to treat the mind as an information-processing system. Instead of avoiding internal states, cognitive science attempted to model them. Perception, memory, reasoning, and language could be studied as structured processes involving representation, storage, transformation, and control [@newell1976; @fodor1975].
 
-- observable behaviour;
-- stimulus-response relationships;
-- and external actions.
+This shift was strongly influenced by developments in computer science, cybernetics, information theory, symbolic logic, and artificial intelligence. Alan Turing’s work on computation and machine intelligence was especially important because it showed that machines could, in principle, perform complex rule-governed operations [@turing1950]. Information theory and cybernetics also helped researchers think about communication, control, feedback, and information processing in formal terms [@shannon1948; @wiener1948].
 
-However, many researchers became dissatisfied with purely behavioural approaches because they failed to explain:
-
-- internal representation;
-- memory;
-- reasoning;
-- planning;
-- language;
-- and subjective cognition.
-
-The cognitive revolution reintroduced internal mental processing into scientific psychology.
-
-Minds increasingly came to be viewed as:
-
-```text
-information-processing systems.
-```
-
-This perspective aligned naturally with developments in:
-
-- computer science;
-- cybernetics;
-- information theory;
-- symbolic logic;
-- and artificial intelligence.
-
-Alan Turing’s foundational work on computation and machine intelligence strongly influenced this transition [@turing1950].
-
-Computationalism later became deeply connected to:
-
-- symbolic AI;
-- cognitive architectures;
-- neural networks;
-- machine learning;
-- and computational neuroscience.
-
-The framework became especially influential because it suggested that:
-
-```text
-intelligence and possibly consciousness
-might be computationally realizable
-in multiple physical substrates.
-```
-
-This idea transformed modern discussions concerning artificial consciousness.
+Computationalism became powerful because it offered a bridge between mind and mechanism. It suggested that cognition could be studied scientifically without reducing it immediately to biology or ignoring internal mental structure.
 
 ## Core Idea in One Picture
 
-Figure \@ref(fig:fig-computationalism) summarizes the major conceptual structure of computationalism.
+Figure @ref(fig:fig-computationalism) summarizes the major conceptual structure of computationalism.
 
-```{r fig-computationalism, echo=FALSE, fig.cap="Computationalism and consciousness. Panel A compares biological and artificial systems implementing similar computational organization. Panel B illustrates levels of computational processing. Panel C presents the classical information-processing model of computation. Panel D compares computationalism with biological naturalism. Panel E illustrates Searle’s Chinese Room argument. Panel F shows the relationship between computational sophistication and artificial consciousness debates.", out.width="100%", fig.align="center"} id="j13v5u"
+```{r fig-computationalism, echo=FALSE, fig.cap="Computationalism and consciousness. Panel A compares biological and artificial systems implementing similar computational organization. Panel B illustrates levels of computational processing. Panel C presents the classical information-processing model of computation. Panel D compares computationalism with biological naturalism. Panel E illustrates Searle’s Chinese Room argument. Panel F shows the relationship between computational sophistication and artificial consciousness debates.", out.width="100%", fig.align="center"}
 knitr::include_graphics("figures/15_computationalism.png")
 ```
 
-As illustrated in Figure \@ref(fig:fig-computationalism), computationalism proposes that consciousness may depend primarily on:
+As Figure @ref(fig:fig-computationalism) illustrates, computationalism proposes that mind may depend on information processing, representational structure, functional organization, and computational dynamics rather than on biological material alone. This is why computationalism is closely connected to artificial intelligence and machine consciousness.
 
-- information processing;
-- representational structure;
-- functional organization;
-- and computational dynamics
-
-rather than on biological material alone.
-
-The figure also highlights several central tensions within computationalism:
-
-```text id="h6y8f9"
-computation
-≠
-automatic understanding
-```
-
-and:
-
-```text id="o1n8z3"
-simulation
-≠
-guaranteed consciousness
-```
-
-These tensions remain central to contemporary debates concerning AI and machine consciousness.
+The figure also highlights two central tensions. First, computation does not automatically imply understanding. Second, simulation does not automatically imply consciousness. These tensions remain central to contemporary debates about artificial minds.
 
 ## Historical Development
 
-Computationalism emerged alongside major developments in:
+Computationalism developed alongside major twentieth-century advances in computer science, logic, cybernetics, information theory, cognitive psychology, and artificial intelligence. Early digital computers showed that machines could perform complex formal operations by following rules. This inspired the question of whether human cognition might also be understood computationally.
 
-- computer science;
-- cybernetics;
-- information theory;
-- cognitive psychology;
-- and artificial intelligence.
+The McCulloch-Pitts model of neural activity helped show how neural systems could be described in logical and computational terms [@mcculloch1943]. Turing’s work then provided a general framework for thinking about computation and machine intelligence [@turing1950]. Shannon’s information theory offered a formal account of information transmission [@shannon1948], while Wiener’s cybernetics emphasized feedback, control, and communication in machines and organisms [@wiener1948].
 
-Early digital computers demonstrated that complex logical operations could be implemented mechanically through formal symbolic manipulation.
+During the cognitive revolution, researchers increasingly modeled mental processes as internal computations. Newell and Simon developed influential accounts of physical symbol systems, arguing that symbolic manipulation could explain intelligent behaviour [@newell1976]. Fodor’s computational theory of mind treated cognition as involving mental representations and rule-governed operations over those representations [@fodor1975].
 
-This inspired many researchers to ask:
-
-> Could minds themselves operate computationally?
-
-The cognitive revolution increasingly interpreted cognition as involving:
-
-- information processing;
-- representation;
-- memory storage;
-- symbolic manipulation;
-- and rule-governed transformation.
-
-Computationalism later became closely associated with:
-
-- functionalism;
-- symbolic AI;
-- connectionism;
-- machine learning;
-- and computational neuroscience.
-
-Today, computational frameworks remain deeply embedded in modern theories of:
-
-- cognition;
-- perception;
-- predictive processing;
-- decision-making;
-- and artificial intelligence.
+Later, connectionist approaches challenged purely symbolic models by emphasizing distributed neural networks, parallel processing, and learning through pattern adjustment [@rumelhart1986]. More recent machine-learning systems and neural networks continue this computational tradition, although often in non-symbolic forms.
 
 ## What Is Computation?
 
-In computational theories of mind, computation refers to rule-governed information processing involving:
+In theories of mind, computation usually refers to rule-governed information processing. A computational system receives input, transforms internal states according to some structure or process, and produces output.
 
-- representations;
-- transformations;
-- algorithms;
-- symbolic manipulation;
-- and causal organization.
+The classical model can be represented simply:
 
-Figure \@ref(fig:fig-computationalism) Panel C illustrates the classical computational model.
-
-As shown in Panel C:
-
-```text id="pc9wfi"
+```text
 input → processing → output
 ```
 
-Computational systems receive information, apply transformations, and generate outputs.
+Applied to mind, this means that sensory information enters the system, internal representations are transformed, and behaviour or cognition results. For example, a visual system may receive light patterns, construct representations of objects, compare them with memory, and guide action.
 
-According to computationalism, minds function similarly:
+Computation does not have to mean conscious reasoning or explicit calculation. Many computational processes are automatic, unconscious, distributed, and probabilistic. Modern computationalism includes symbolic computation, neural network processing, predictive modeling, Bayesian inference, and dynamical systems approaches.
 
-- sensory information enters cognitive systems;
-- internal representations are processed;
-- decisions and behaviours emerge.
-
-Computation therefore provides a framework for explaining:
-
-- cognition;
-- reasoning;
-- memory;
-- learning;
-- and intelligent behaviour.
+The key idea is that mental processes can be explained by organized transformations of information.
 
 ## Functional Organization
 
-A central idea in computationalism is that mental states depend primarily on:
+A central idea in computationalism is functional organization. According to this view, what matters for mentality is not only what a system is made of, but how it is organized and what processes it implements.
 
-```text id="s3x5ig"
-functional organization.
-```
+This idea overlaps strongly with functionalism. Functionalism defines mental states by their causal roles rather than by their material composition [@putnam1967]. Computationalism adds that these causal roles may be understood as computational or information-processing roles.
 
-According to this view:
+For example, a memory system is not defined only by the biological tissue that implements it. It is defined by what it does: storing information, retrieving it, updating it, and using it to guide behaviour. A computationalist asks how these functions can be modeled as information-processing operations.
 
-> What matters is not the material itself, but the pattern of causal and informational organization implemented by the system.
-
-Figure \@ref(fig:fig-computationalism) Panel A illustrates this principle.
-
-As shown in Panel A:
-
-- biological brains and artificial systems may differ physically;
-- yet potentially share computational structure.
-
-This principle strongly influenced debates concerning:
-
-- machine consciousness;
-- artificial minds;
-- cognitive simulation;
-- and substrate independence.
+This focus on organization makes computationalism flexible. It allows researchers to compare biological brains, artificial systems, animal cognition, machine learning models, and possible non-human minds in terms of shared computational structure.
 
 ## Substrate Independence
 
-Substrate independence is one of computationalism’s defining principles.
+Substrate independence is one of the most important ideas associated with computationalism. It is the claim that the same computation can, in principle, be implemented in different physical substrates.
 
-According to substrate independence:
+A simple calculation can be performed by a human with pencil and paper, a mechanical calculator, a digital computer, or a neural network. The physical systems differ, but the computational structure may be similar.
 
-> The same computation could, in principle, be implemented in multiple physical substrates.
+Applied to mind, substrate independence suggests that mental processes may not require carbon-based biological tissue specifically. If the right computational organization were realized in a different physical system, that system might possess cognition or perhaps consciousness [@chalmers1996].
 
-This means consciousness may not require:
-
-- neurons specifically;
-- carbon-based biology specifically;
-- or human brains specifically.
-
-Instead, consciousness may depend on:
-
-- causal organization;
-- computational architecture;
-- representational structure;
-- and information dynamics.
-
-Figure \@ref(fig:fig-computationalism) Panel A visually illustrates this idea.
-
-Substrate independence became one of the strongest philosophical motivations for artificial consciousness research.
+This idea is central to artificial intelligence and machine consciousness. If consciousness depends on computational organization, then artificial systems could be conscious in principle. However, substrate independence is controversial. Critics argue that consciousness may depend on biological features that computation alone does not capture.
 
 ## Representation and Information Processing
 
-Computational systems are often described as manipulating internal representations.
+Computationalism usually treats cognition as involving representations. These representations may encode sensory states, objects, goals, beliefs, bodily conditions, environmental structure, or internal models.
 
-These representations may encode:
+A computational system does not merely react to stimuli. It transforms representations. It stores information, compares alternatives, updates internal states, makes predictions, and selects actions.
 
-- sensory states;
-- objects;
-- goals;
-- beliefs;
-- body states;
-- environmental structure;
-- or internal models.
+This representational view helps explain many cognitive capacities. Memory can be understood as stored information. Reasoning can be understood as transformation of representations. Perception can be understood as constructing models from sensory input. Planning can be understood as simulating possible future states.
 
-Figure \@ref(fig:fig-computationalism) Panel B illustrates multiple levels of computational processing.
-
-As shown in Panel B, cognition may involve layered processing including:
-
-1. sensory input;
-2. representation;
-3. transformation;
-4. integration;
-5. decision-making;
-6. behavioural output.
-
-Computationalism therefore attempts to explain how information becomes:
-
-- stored;
-- transformed;
-- integrated;
-- behaviourally accessible;
-- and cognitively meaningful.
-
-## Symbolic and Connectionist Approaches
-
-Computationalism includes several different computational paradigms.
+However, representation also raises philosophical problems. What gives a representation meaning? How does a symbol or neural pattern come to be about something? This problem of intentionality becomes one of the major challenges for computationalism.
 
 ## Symbolic Computationalism
 
-Early computational theories emphasized symbolic manipulation.
+Early computationalism often took a symbolic form. Symbolic computationalism proposes that cognition operates through formal rules applied to symbols. A mind is understood somewhat like a language-like system in which internal symbols are manipulated according to computational rules [@fodor1975].
 
-According to symbolic approaches:
+Symbolic approaches were influential in classical artificial intelligence. They supported systems that used explicit rules, logic, planning, problem-solving, and symbolic representations.
 
-- cognition operates through formal rules;
-- symbolic representations are manipulated algorithmically;
-- reasoning resembles logical computation.
+The strength of symbolic computationalism is clarity. Rules and representations can be explicitly specified. This makes symbolic models useful for logic, language, planning, and structured reasoning.
 
-This approach strongly influenced classical AI systems.
+The weakness is that symbolic systems can be brittle. They may struggle with context, perception, ambiguity, learning, emotion, embodiment, and flexible adaptation. This led many researchers to explore connectionist alternatives.
 
 ## Connectionism
 
-Later connectionist approaches emphasized:
+Connectionism explains cognition through networks of simple processing units. Instead of manipulating explicit symbols according to fixed rules, connectionist systems learn distributed patterns through changes in network weights.
 
-- distributed neural networks;
-- parallel processing;
-- emergent representations;
-- learning through network dynamics.
+This approach was influenced by neural organization and became central to modern machine learning. Neural networks can learn patterns, classify inputs, generate outputs, and adapt through training [@rumelhart1986].
 
-Modern deep learning systems largely follow connectionist principles.
+Connectionism has several strengths. It handles ambiguity, pattern recognition, learning, and generalization more naturally than many symbolic systems. It also resembles aspects of biological neural processing more closely than classical symbolic AI.
 
-Connectionist approaches became increasingly influential because they more closely resemble:
+However, connectionism raises its own questions. Distributed representations can be difficult to interpret. Neural networks may perform well without clear symbolic understanding. They may generate outputs without grounding, meaning, or subjective experience.
 
-- neural processing;
-- learning;
-- and adaptive pattern recognition.
-
-Both symbolic and connectionist approaches remain important within computational theories of mind.
+Computationalism therefore includes both symbolic and connectionist approaches, but neither automatically solves the problem of consciousness.
 
 ## Computationalism and Artificial Intelligence
 
-Computationalism became one of the foundational philosophical frameworks underlying modern AI research.
+Computationalism is one of the main philosophical foundations of artificial intelligence. If cognition is computation, then artificial systems can in principle instantiate cognitive processes. This possibility has shaped AI research since Turing’s famous question of whether machines can think [@turing1950].
 
-According to computationalist approaches:
+The strongest version of computationalism suggests that a sufficiently advanced information-processing system could become conscious if it implemented the right computational organization. This view supports the possibility of artificial consciousness.
 
-```text id="i9t9d6"
-sufficiently advanced information-processing systems
-might potentially become conscious.
-```
+However, the weaker version claims only that computation can model or simulate aspects of cognition. A computer may simulate reasoning, language, vision, or attention without necessarily having subjective experience.
 
-Figure \@ref(fig:fig-computationalism) Panel F illustrates this continuum.
+This distinction is crucial. A system may behave intelligently, generate language, solve problems, or imitate human conversation without being conscious. Computational sophistication does not automatically settle the question of phenomenal experience [@butlin2023].
 
-As shown in Panel F:
-
-```text id="6epf5x"
-simple programs
-→ machine learning systems
-→ advanced AI
-→ possible conscious AI
-```
-
-This raises major philosophical questions:
-
-- Could machines become conscious?
-- Is intelligence sufficient for consciousness?
-- Can computation alone generate experience?
-- Would artificial consciousness resemble human consciousness?
-
-Modern large language models and neural networks have dramatically renewed these debates.
+Computationalism therefore makes machine consciousness possible in principle, but it does not prove that current AI systems are conscious.
 
 ## Computationalism and Functionalism
 
-Computationalism is closely related to functionalism.
+Computationalism is closely related to functionalism. Functionalism argues that mental states are defined by causal roles rather than physical substance. Computationalism often interprets those causal roles as computational roles.
 
-Functionalism proposes that mental states are defined primarily by:
+For example, pain may be understood functionally as a state caused by damage, associated with distress, connected to learning and avoidance, and capable of guiding behaviour. A computationalist may then ask how such a state is represented, processed, integrated, and used by the system.
 
-- causal role;
-- functional organization;
-- behavioural relations;
+Both functionalism and computationalism emphasize organization over material. However, computationalism is more specific because it explains organization in terms of information processing, representation, algorithms, or computational dynamics.
 
-rather than by physical composition alone.
+The two frameworks therefore overlap deeply, but they are not identical. One can be a functionalist without thinking all mental processes are best understood as computation. One can also use computational models without claiming that computation alone is sufficient for consciousness.
 
-For example:
+## Syntax and Semantics
 
-- pain is defined not by biological tissue itself,
-but by:
-- the functional role pain plays within cognition and behaviour.
+One of the central debates in computationalism concerns the relation between syntax and semantics.
 
-This functional emphasis strongly overlaps with computational approaches.
+Syntax refers to formal structure and rule-governed manipulation. A computer can manipulate symbols according to rules without knowing what those symbols mean. Semantics refers to meaning, understanding, reference, and intentionality.
 
-Both frameworks therefore emphasize:
+Critics argue that computation is fundamentally syntactic. It processes symbols or patterns according to formal rules. But consciousness and understanding seem to involve meaning. A person does not merely manipulate words; they understand them. A conscious experience is not merely a data structure; it means something to a subject.
 
-```text id="5p80sv"
-organization over material.
-```
-
-## Syntax vs Semantics
-
-One of the central debates surrounding computationalism concerns the relationship between:
-
-- syntax;
-and:
-- semantics.
-
-## Syntax
-
-Syntax refers to formal rule-governed symbol manipulation.
-
-Computers excel at syntax.
-
-## Semantics
-
-Semantics refers to:
-
-- meaning;
-- understanding;
-- interpretation;
-- intentionality.
-
-Critics argue that computation may manipulate symbols correctly without generating genuine understanding.
-
-This distinction became central to criticisms of strong AI and computational theories of consciousness.
+This challenge raises a major question: how can computation generate semantics? Some computationalists argue that meaning emerges from the system’s causal relations, embodiment, learning, and interaction with the world. Critics argue that formal computation alone is not enough.
 
 ## The Chinese Room Argument
 
-One of the most influential criticisms of computationalism is John Searle’s:
+John Searle’s Chinese Room argument is one of the most influential criticisms of strong computationalism [@searle1980]. The thought experiment imagines a person inside a room who does not understand Chinese. The person follows a rulebook for manipulating Chinese symbols and produces correct responses. From the outside, the room appears to understand Chinese. But the person inside does not understand the language.
 
-```text id="6q1c7q"
-Chinese Room argument.
-```
+Searle’s conclusion is that syntax is not sufficient for semantics. Formal symbol manipulation may produce correct behaviour without genuine understanding. If this is right, then computation alone may not be enough for consciousness or meaning.
 
-Figure \@ref(fig:fig-computationalism) Panel E illustrates this thought experiment.
+Computationalists have offered several responses. The systems reply argues that the person does not understand Chinese, but the whole system does. The robot reply argues that grounding symbols in perception and action may generate understanding. The brain simulator reply argues that the right causal organization could produce genuine mentality.
 
-In the Chinese Room scenario:
+The debate remains unresolved. The Chinese Room continues to challenge the claim that computation alone is sufficient for understanding.
 
-- a person follows formal symbol-manipulation rules;
-- produces correct Chinese responses;
-- yet does not actually understand Chinese.
+## Computationalism and Biological Naturalism
 
-Searle argued that:
+Computationalism is often contrasted with biological naturalism. Biological naturalism, associated with Searle, argues that consciousness is a biological feature of brains and depends on the causal powers of living neural systems [@searle1980].
 
-> Syntax alone may be insufficient for genuine understanding or consciousness.
+From a biological naturalist perspective, simulating consciousness is not the same as producing consciousness. A computer simulation of digestion does not digest food. A simulation of a storm does not make anything wet. Similarly, a simulation of consciousness may not be conscious.
 
-According to this criticism:
+Computationalists respond that the analogy may be misleading. Digestion depends on specific biochemical processes, but cognition may depend on information-processing organization. If mental processes are computational, then implementing the right computation may be enough.
 
-- computation may manipulate symbols correctly;
-without generating:
-- meaning;
-- understanding;
-- or subjective experience.
-
-The Chinese Room remains one of the most important objections to strong computationalism.
-
-## Computationalism vs Biological Naturalism
-
-Computationalism is often contrasted directly with:
-
-```text id="h1mggu"
-biological naturalism.
-```
-
-Figure \@ref(fig:fig-computationalism) Panel D compares these positions.
-
-## Computationalism
-
-Computationalism emphasizes:
-
-- information processing;
-- causal organization;
-- representation;
-- substrate independence.
-
-## Biological Naturalism
-
-Biological naturalism argues that consciousness depends fundamentally on:
-
-- biological organization;
-- neural chemistry;
-- living systems;
-- and specific biological mechanisms.
-
-According to this view:
-
-```text id="nn3s7y"
-simulating consciousness
-may not produce
-genuine consciousness itself.
-```
-
-This disagreement remains one of the most important debates in philosophy of mind and AI consciousness research.
+This debate remains central to AI consciousness. Is consciousness substrate-independent, or does it depend on specific biological mechanisms? Computationalism answers in favour of organization. Biological naturalism answers in favour of biology.
 
 ## Embodiment Critiques
 
-Embodied cognition theorists criticize purely computational approaches.
+Embodied cognition theorists criticize purely computational accounts of mind. They argue that cognition is not merely internal symbol manipulation or abstract information processing. It depends on bodily action, perception-action loops, environmental interaction, affect, and lived experience [@varela1991; @thompson2007].
 
-According to embodied theories:
+From this perspective, a disembodied computer program may lack important features of mind. It may process information without bodily needs, sensorimotor grounding, vulnerability, emotion, or practical engagement with the world.
 
-- cognition depends fundamentally on bodily interaction;
-- perception-action loops matter centrally;
-- environmental embedding is essential;
-- abstract computation alone may be insufficient.
+Embodiment critiques are especially relevant to consciousness. Conscious experience is often bodily and situated. Pain, emotion, hunger, movement, touch, and selfhood are not abstract computations alone. They are lived experiences of an organism embedded in an environment.
 
-These approaches argue:
+Computationalists can respond by broadening the theory. They may argue that embodiment itself can be modeled computationally, or that the relevant computation includes body-world interaction. The debate then becomes whether computation can fully capture embodiment or whether embodiment reveals limits in computational explanation.
 
-> Minds are not merely disembodied information processors.
+## Simulation and Instantiation
 
-Embodiment critiques became increasingly influential partly because many computational models appeared overly abstracted from:
+A major unresolved issue concerns the distinction between simulating consciousness and instantiating consciousness. A simulation represents or imitates a process. An instantiation actually realizes the process.
 
-- bodily experience;
-- environmental interaction;
-- affect;
-- and lived phenomenology.
+A computer can simulate a hurricane without producing real wind and rain. It can simulate digestion without digesting food. The question is whether consciousness is more like weather and digestion, or more like calculation.
 
-## Simulation vs Genuine Consciousness
+If consciousness depends on physical-biological processes, simulation may not be enough. If consciousness depends on computational organization, then the right simulation may be an instantiation.
 
-A major unresolved issue concerns whether computational systems:
+This issue is especially important in artificial intelligence. A machine may simulate conversation, emotion, self-report, or attention without having subjective experience. The central question is whether the system merely imitates conscious behaviour or genuinely realizes the processes sufficient for consciousness.
 
-- genuinely possess consciousness,
-or merely:
-- simulate conscious behaviour.
-
-Critics argue that:
-
-- behavioural imitation;
-- linguistic fluency;
-- intelligent output;
-- and computational sophistication
-
-may not guarantee subjective experience.
-
-This distinction is especially important in debates concerning:
-
-- advanced AI systems;
-- machine consciousness;
-- artificial suffering;
-- and synthetic minds.
-
-As emphasized conceptually throughout Figure \@ref(fig:fig-computationalism):
-
-```text id="2vex6k"
-simulation
-may not equal
-instantiation.
-```
-
-This remains one of the deepest unresolved problems in artificial consciousness research.
+Computationalism must explain why the right computation would be genuine consciousness rather than only a model of consciousness.
 
 ## Computational Neuroscience
 
-Computationalism strongly influenced computational neuroscience.
+Computationalism has strongly influenced neuroscience. Modern neuroscience often describes the brain in terms of coding, representation, prediction, integration, decision-making, and information processing.
 
-Modern neuroscience increasingly studies the brain as a system involving:
+Many contemporary theories of consciousness contain computational elements. Global Workspace Theory explains consciousness through information broadcasting and cognitive access [@baars1988; @dehaene2011]. Predictive Processing explains perception through generative models and prediction-error minimization [@friston2010; @clark2013]. Attention Schema Theory explains awareness through internal modeling of attention [@graziano2013]. Recurrent Processing Theory emphasizes recurrent neural dynamics that can be modeled computationally [@lamme2006].
 
-- coding;
-- representation;
-- prediction;
-- integration;
-- computation;
-- and information processing.
+This does not mean all these theories are computationalist in the same way. Some emphasize biological embodiment, others emphasize access, prediction, recurrence, or self-modeling. But computational concepts are deeply embedded in contemporary consciousness science.
 
-Many contemporary theories of consciousness — including:
+The challenge is whether computational descriptions explain consciousness itself or only the mechanisms associated with cognition and behaviour.
 
-- predictive processing;
-- global workspace theory;
-- recurrent processing theory;
-- and attention schema theory —
+## Relation to Other Theories
 
-contain strong computational components.
+Computationalism overlaps with several theories discussed elsewhere in this book.
 
-However, critics argue that computational description alone may still fail to explain:
+### Relation to Physicalism
 
-- phenomenal feeling;
-- subjective awareness;
-- and qualia.
+Computationalism is usually compatible with physicalism because computations must be physically implemented. However, computationalism emphasizes abstract organization rather than specific biological material.
+
+### Relation to Functionalism
+
+Functionalism and computationalism are closely connected. Functionalism defines mental states by causal role, while computationalism often interprets those roles as information-processing operations [@putnam1967; @fodor1975].
+
+### Relation to Global Workspace Theory
+
+Global Workspace Theory can be interpreted computationally because it explains consciousness through information access, broadcasting, working memory, and cognitive coordination [@baars1988; @dehaene2011].
+
+### Relation to Predictive Processing
+
+Predictive Processing is strongly computational because it explains perception and action through prediction, probabilistic inference, and error minimization [@friston2010; @clark2013].
+
+### Relation to Biological and Embodied Theories
+
+Biological and embodied theories challenge abstract computationalism by emphasizing living systems, bodily regulation, affect, and organism-environment interaction [@varela1991; @thompson2007; @seth2021].
+
+### Relation to Consciousness-First Theories
+
+Computationalism differs from consciousness-first theories such as panpsychism, cosmopsychism, idealism, or Taheri’s T-Consciousness. Computationalism treats consciousness as potentially arising from information-processing organization. Consciousness-first theories treat consciousness as fundamental or prior to computational and physical organization. These approaches will be discussed later in the book.
 
 ## Strengths of Computationalism
 
-Computationalism possesses several major strengths.
+Computationalism has several major strengths. First, it provides a formal and precise framework for modeling cognition. It allows researchers to build simulations, algorithms, architectures, and testable models.
 
-### Strong Explanatory Structure
+Second, it connects philosophy of mind with cognitive science, neuroscience, artificial intelligence, psychology, linguistics, and machine learning. Few frameworks have been as influential across so many fields.
 
-The framework provides formal and computationally precise models of cognition.
+Third, computationalism explains many cognitive processes naturally. Memory, reasoning, language, planning, perception, attention, and decision-making can all be modeled as information-processing systems.
 
-### Integration with AI and Cognitive Science
+Fourth, it allows serious investigation of artificial minds. If cognition depends on organization rather than biological material alone, then non-biological systems may be cognitively significant.
 
-Computationalism strongly connects:
-
-- neuroscience;
-- psychology;
-- AI;
-- philosophy;
-- and cognitive science.
-
-### Substrate Flexibility
-
-The theory allows exploration of:
-
-- machine consciousness;
-- artificial minds;
-- and non-biological cognition.
-
-### Testable Models
-
-Computational frameworks often generate:
-
-- simulations;
-- algorithms;
-- formal predictions;
-- and experimentally testable architectures.
-
-### Representation and Information Processing
-
-Computationalism explains many cognitive processes naturally in terms of:
-
-- information transformation;
-- memory;
-- reasoning;
-- and representation.
+Fifth, computationalism encourages clarity. It forces theories to specify mechanisms, representations, transformations, and architectures rather than relying only on intuition.
 
 ## Weaknesses and Criticisms
 
-Despite its influence, computationalism faces major criticisms.
+Computationalism also faces major criticisms. The most important is the hard problem. Even if computation explains cognition, behaviour, reasoning, and access, why should computation produce subjective experience? [@chalmers1995; @chalmers1996]
 
-## The Hard Problem
+A second criticism is the syntax-semantics problem. Computation may manipulate formal structures without genuine meaning. The Chinese Room argument captures this concern [@searle1980].
 
-Critics argue that computational description alone may not explain:
+A third criticism is the simulation problem. Simulating consciousness may not be the same as instantiating consciousness.
 
-- why subjective experience exists;
-- why consciousness feels like anything.
+A fourth criticism is biological dependence. Some theorists argue that consciousness depends on living neural systems, bodily regulation, affect, and biological history in ways that abstract computation may miss.
 
-## Syntax Without Meaning
+A fifth criticism is over-abstraction. Computational models may become detached from phenomenology, lived experience, embodiment, and first-person subjectivity.
 
-Computation may manipulate symbols without genuine understanding.
+Finally, computationalism faces the problem of sufficiency. Computation may be necessary for many forms of cognition, but is it sufficient for consciousness? This remains deeply contested.
 
-## Simulation Problem
+## Computationalism and the Hard Problem
 
-Simulating consciousness may not produce consciousness itself.
+Computationalism is often more successful at explaining cognition than phenomenal consciousness. It can explain how systems store information, transform representations, solve problems, generate behaviour, and monitor internal states. It may also explain reportability, attention, memory, and reasoning.
 
-## Biological Dependence
+However, critics ask why any of this should be accompanied by experience. A system could process information, make decisions, and produce fluent language while lacking subjective awareness. This is the computational version of the hard problem.
 
-Some researchers argue consciousness depends fundamentally on:
+Computationalists may respond that consciousness is identical to the right kind of computational organization. Critics reply that this assertion does not explain why computation feels like anything from the inside.
 
-- biology;
-- embodiment;
-- neural chemistry;
-- affect;
-- and evolutionary history.
-
-## Over-Abstraction
-
-Computational models may become detached from:
-
-- phenomenology;
-- lived experience;
-- embodiment;
-- and biological detail.
-
-## Computational Sufficiency
-
-A central unresolved question remains:
-
-> Is computation alone sufficient for consciousness?
-
-This remains deeply contested.
-
-## Relation to the Hard Problem
-
-Computationalism is often more successful at explaining:
-
-- cognition;
-- behaviour;
-- reportability;
-- reasoning;
-- and information access
-
-than explaining:
-
-- phenomenal consciousness itself.
-
-Even if computation explains:
-
-- attention;
-- memory;
-- learning;
-- intelligent behaviour;
-- and self-monitoring,
-
-critics still ask:
-
-> Why should computation produce subjective feeling at all?
-
-As highlighted conceptually throughout Figure \@ref(fig:fig-computationalism):
-
-```text id="7b37h9"
-computation
-→ intelligence
-does not automatically imply:
-→ subjective experience
-```
-
-This remains one of the central philosophical challenges facing computational theories of consciousness.
+This issue remains central to artificial consciousness. The question is not only whether machines can behave intelligently, but whether computation can generate subjectivity.
 
 ## Implications for Artificial Consciousness
 
-Computationalism has enormous implications for future AI systems.
+Computationalism has enormous implications for future AI systems. If consciousness depends primarily on computational organization, then sufficiently advanced artificial systems might become conscious.
 
-If consciousness depends primarily on computational organization, then:
+This possibility raises scientific, philosophical, ethical, and legal questions. How could machine consciousness be detected? Could artificial systems suffer? Would conscious machines have moral status? What responsibilities would humans have toward them?
 
-- sufficiently advanced artificial systems
-might potentially:
-- become conscious.
+At present, there is no scientific consensus that current AI systems are conscious. Many systems can generate language, recognize patterns, and solve tasks, but these abilities do not by themselves establish subjective experience [@butlin2023].
 
-This possibility raises major scientific, philosophical, ethical, and legal questions concerning:
-
-- machine awareness;
-- AI rights;
-- artificial suffering;
-- moral status;
-- consciousness detection;
-- and synthetic phenomenology.
-
-At present, however, no scientific consensus exists regarding whether current AI systems possess genuine consciousness.
+Computationalism keeps the possibility of artificial consciousness open, but it must be supplemented by a theory of what kind of computation is sufficient for experience.
 
 ## Open Questions
 
-Several major unresolved questions remain:
+Several major questions remain unresolved. Can computation alone generate experience? Is consciousness substrate-independent? Can machines genuinely feel? Does embodiment matter fundamentally? Is simulation equivalent to consciousness? What distinguishes syntax from understanding? How should artificial consciousness be measured? What kinds of computational architecture, if any, are sufficient for phenomenal experience?
 
-- Can computation alone generate experience?
-- Is consciousness substrate-independent?
-- Can machines genuinely feel?
-- Does embodiment matter fundamentally?
-- Is simulation equivalent to consciousness?
-- What distinguishes syntax from understanding?
-- How should artificial consciousness be measured?
+These questions show why computationalism remains both foundational and controversial. It has transformed the study of mind, but it has not settled the problem of consciousness.
 
-These questions remain central within contemporary consciousness research.
+## Evaluation
 
-## Comparative Evaluation
+Computationalism is one of the most important frameworks in cognitive science and artificial intelligence. It explains mind in terms of information processing, representation, functional organization, and computational dynamics.
 
-Computationalism remains one of the most influential frameworks in cognitive science and AI because it explains minds primarily in terms of:
+Its greatest strength is its scientific and formal power. It allows cognition to be modeled, simulated, tested, and compared across biological and artificial systems. It also provides the conceptual foundation for serious discussion of artificial minds.
 
-- information processing;
-- representation;
-- functional organization;
-- and computational dynamics.
+Its greatest weakness is that computation may explain intelligent processing more easily than subjective experience. The framework can explain how a system behaves, reasons, learns, predicts, and reports. It remains much harder to explain why computation should produce phenomenal consciousness.
 
-As illustrated throughout Figure \@ref(fig:fig-computationalism), computationalism strongly emphasizes:
+Computationalism is therefore best understood as a powerful theory of cognition and artificial intelligence, and a possible but contested theory of consciousness. Whether computation alone is sufficient for subjective experience remains one of the central unresolved questions in consciousness studies.
 
-```text id="c9gmf9"
-organization over biological material.
-```
+## Chapter Summary
 
-The framework is especially powerful for explaining:
+Computationalism proposes that mental processes can be understood in terms of computation and information processing. Minds are systems that represent information, transform internal states, generate predictions, solve problems, and control behaviour.
 
-- cognition;
-- reasoning;
-- memory;
-- representation;
-- intelligent behaviour;
-- and artificial intelligence.
+The framework developed from computer science, cybernetics, information theory, cognitive psychology, and artificial intelligence. It became central to the cognitive revolution and remains deeply influential in contemporary neuroscience and AI.
 
-At the same time, whether computation fully explains:
+Computationalism is closely related to functionalism and substrate independence. It suggests that cognition, and perhaps consciousness, may depend more on organization than on biological material alone.
 
-- phenomenal consciousness;
-- semantics;
-- subjective feeling;
-- and genuine understanding
+Major forms include symbolic computationalism and connectionism. Symbolic approaches emphasize rule-governed manipulation of representations. Connectionist approaches emphasize distributed neural networks and learning through pattern adjustment.
 
-remains deeply contested.
+The theory’s strengths include formal precision, scientific productivity, connection to AI, and strong explanations of cognition. Its weaknesses include the hard problem, the syntax-semantics problem, the Chinese Room argument, embodiment critiques, and uncertainty about whether simulation equals consciousness.
 
-Computationalism therefore remains both:
-
-- scientifically foundational;
-and:
-- philosophically controversial.
-
-Its influence across AI, cognitive science, neuroscience, philosophy of mind, and machine consciousness research has been enormous, yet the relationship between:
-
-```text id="rxv7b0"
-computation
-→
-subjective experience
-```
-
-remains one of the major unresolved questions in consciousness studies.
+The central unresolved question is whether computation is sufficient for subjective experience, or whether consciousness requires something beyond information processing alone.

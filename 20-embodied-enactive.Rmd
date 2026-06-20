@@ -2,22 +2,13 @@
 
 ## Chapter Overview
 
-Embodied and enactive theories argue that consciousness does not arise from the brain alone but from dynamic interaction between brain, body, and environment [@varela1991; @thompson2007; @clark2016].
+Embodied and enactive theories argue that consciousness does not arise from the brain alone, but from dynamic interaction between brain, body, and environment. These approaches challenge the idea that consciousness can be fully explained as internal information processing isolated inside the head. Instead, they emphasize bodily engagement, sensorimotor activity, environmental interaction, lived experience, and active participation in the world [@varela1991; @thompson2007; @clark2016].
 
-Unlike traditional brain-centered models that treat cognition as internal information processing, embodied and enactive approaches emphasize:
+According to embodied and enactive approaches, conscious experience is not merely something the brain constructs while passively receiving sensory input. Consciousness emerges through an organism’s active relation to its world. Perception depends on movement, action, bodily regulation, and environmental engagement. The body is not just a container for the brain. It is part of the system through which experience becomes possible.
 
-- bodily engagement;
-- sensorimotor activity;
-- environmental interaction;
-- lived experience;
-- and active participation in the world.
+These theories developed partly as a critique of overly abstract computational models of mind. Traditional cognitive science often treated cognition as a sequence of input, internal processing, and output. Embodied and enactive theories argue that this model neglects the way organisms act, move, feel, regulate themselves, and inhabit meaningful environments [@dreyfus1972; @dreyfus1992].
 
-According to these approaches:
-
-> Consciousness is not merely something happening inside the head.  
-> Conscious experience emerges through ongoing organism-environment interaction.
-
-Embodied and enactive theories therefore challenge the idea that consciousness can be fully understood by studying neural activity in isolation.
+Embodied approaches emphasize the role of bodily structure, physiology, movement, interoception, emotion, and sensorimotor capacities. Enactive approaches go further by arguing that perception and cognition are enacted through active organism-environment coupling. Consciousness is not simply in the brain or in the world, but in the dynamic relation between organism and world [@maturana1980; @noe2004; @diPaolo2017].
 
 This chapter examines the historical development, conceptual foundations, phenomenological assumptions, sensorimotor mechanisms, empirical relevance, strengths, criticisms, and unresolved questions associated with embodied and enactive approaches to consciousness.
 
@@ -25,520 +16,304 @@ This chapter examines the historical development, conceptual foundations, phenom
 
 After reading this chapter, the reader should be able to:
 
-- Define the central claims of embodied and enactive consciousness
-- Distinguish embodied cognition from enactivism
-- Explain the role of sensorimotor engagement in perception
-- Describe organism-environment coupling
-- Explain the role of bodily awareness and interoception
-- Analyze implications for artificial intelligence and selfhood
-- Compare embodied approaches with computational theories
-- Evaluate the strengths and criticisms of embodied consciousness theories
+* Define the central claims of embodied and enactive consciousness.
+* Distinguish embodied cognition from enactivism.
+* Explain the role of sensorimotor engagement in perception.
+* Describe organism-environment coupling.
+* Explain the role of bodily awareness, emotion, and interoception.
+* Analyze implications for artificial intelligence and selfhood.
+* Compare embodied approaches with computational and predictive theories.
+* Evaluate the strengths and criticisms of embodied and enactive theories.
+* Explain how embodied theories differ from consciousness-first frameworks such as T-Consciousness.
 
 ## Core Idea in One Picture
 
-Figure \@ref(fig:fig-embodied) summarizes the major conceptual structure of embodied and enactive consciousness.
+Figure @ref(fig:fig-embodied) summarizes the major conceptual structure of embodied and enactive consciousness.
 
 ```{r fig-embodied, echo=FALSE, fig.cap="Embodied and enactive consciousness. Panel 1 contrasts brain-centered and embodied models of consciousness. Panel 2 illustrates the sensorimotor loop. Panel 3 shows organism-environment coupling. Panel 4 explores bodily influences on experience. Panel 5 compares computational and embodied cognition. Panel 6 presents extended mind and cognitive scaffolding. Panel 7 illustrates embodied selfhood.", out.width="100%", fig.align="center"}
 knitr::include_graphics("figures/20_embodied.png")
 ```
 
-As shown in Figure \@ref(fig:fig-embodied), embodied and enactive theories propose that consciousness emerges through active engagement between organisms and their environments rather than through isolated internal computation alone.
+As Figure @ref(fig:fig-embodied) illustrates, embodied and enactive theories propose that consciousness emerges through active engagement between organisms and their environments. The conscious subject is not a detached observer receiving information from the outside world. The subject is a living body acting within a meaningful environment.
+
+This framework shifts the study of consciousness away from isolated neural mechanisms alone and toward a broader system involving brain, body, action, and world.
+
+## Why Embodied and Enactive Theories Became Influential
+
+Embodied and enactive theories became influential because many researchers found traditional computational models too narrow. Classical cognitive science often described the mind as if it were a disembodied computer: sensory input enters the system, internal representations are processed, and behavioural output is produced.
+
+This model was useful for explaining some aspects of cognition, but it seemed incomplete. It did not fully capture bodily feeling, skilled action, emotion, practical engagement, social interaction, environmental context, or lived experience. Human beings do not encounter the world as detached information processors. They encounter it as embodied agents with needs, capacities, habits, emotions, and histories.
+
+Embodied theories therefore argued that cognition is shaped by the body. The structure of the body, the possibilities for movement, sensory capacities, posture, and physiological regulation all influence perception and consciousness.
+
+Enactive theories added that cognition is not merely shaped by the body but enacted through activity. Organisms make sense of the world by acting within it. Perception is not passive reception. It is active exploration [@varela1991; @noe2004].
+
+This made embodied and enactive theories especially important for consciousness studies because conscious experience is always lived from a bodily perspective.
 
 ## Historical Development
 
-Embodied and enactive approaches emerged partly in response to dissatisfaction with:
+Embodied and enactive approaches developed from several intellectual traditions, including phenomenology, ecological psychology, cybernetics, biology, dynamical systems theory, robotics, and cognitive science.
 
-- Cartesian mind-body separation;
-- purely computational models of cognition;
-- symbolic AI approaches;
-- and passive input-processing theories of perception.
+Phenomenology was especially important. Maurice Merleau-Ponty argued that perception is fundamentally embodied and that the body is not merely an object in the world, but the lived basis through which the world is experienced [@merleauPonty1945]. This challenged views that treated consciousness as detached inner observation.
 
-Traditional cognitive science often treated the mind as:
+Ecological psychology also influenced embodied theories. James Gibson argued that perception is directly related to action possibilities, or affordances, in the environment [@gibson1979]. A chair is not merely a set of visual features. It is something that affords sitting. A path affords walking. A handle affords grasping.
+
+Enactivism developed through the work of Humberto Maturana, Francisco Varela, Evan Thompson, Eleanor Rosch, and later theorists. Varela, Thompson, and Rosch argued that mind emerges through embodied action and that cognition should be understood as enacted through organism-environment coupling [@maturana1980; @varela1991; @thompson2007].
+
+These approaches also emerged as critiques of symbolic artificial intelligence and disembodied computationalism. Hubert Dreyfus argued that human intelligence depends on embodied skill, practical familiarity, and situated know-how that cannot be fully captured by abstract symbol manipulation [@dreyfus1972; @dreyfus1992].
+
+## Embodied and Enactive Approaches
+
+Although embodied and enactive theories are often discussed together, they are not identical.
+
+Embodied cognition emphasizes the role of the body in shaping mind and consciousness. Bodily structure, movement, posture, perception, action, interoception, and physiology all influence cognition. The body constrains what can be perceived, what can be done, and how the world appears.
+
+Enactivism goes further. It argues that cognition and consciousness arise through active engagement with the world. Perception is not something that happens to an organism. It is something the organism does. Seeing, touching, hearing, and moving are part of an active process of sense-making.
+
+The difference can be summarized this way:
 
 ```text
-input → internal processing → output
+embodied cognition:
+the body shapes consciousness
+
+enactivism:
+consciousness is enacted through organism-world interaction
 ```
 
-Embodied theories argued that this framework neglects:
-
-- bodily structure;
-- movement;
-- environmental interaction;
-- emotion;
-- and lived experience.
-
-Modern embodied and enactive theories were strongly influenced by:
-
-- phenomenology;
-- ecological psychology;
-- dynamical systems theory;
-- neuroscience;
-- and cognitive science.
-
-Important contributors include:
-
-- Maurice Merleau-Ponty;
-- Francisco Varela;
-- Evan Thompson;
-- Eleanor Rosch;
-- Alva Noë;
-- and others associated with enactivism and embodied cognition.
-
-## Embodied vs Enactive Approaches
-
-Although often grouped together, embodied and enactive theories are not identical.
-
-### Embodied Approaches
-
-Embodied theories emphasize:
-
-- bodily structure;
-- physiology;
-- movement;
-- posture;
-- interoception;
-- and bodily constraints.
-
-According to embodied cognition:
-
-> The body fundamentally shapes conscious experience.
-
-### Enactive Approaches
-
-Enactive theories go further.
-
-They propose that consciousness emerges through:
-
-- active engagement;
-- sensorimotor interaction;
-- environmental exploration;
-- and reciprocal organism-world coupling.
-
-According to enactivism:
-
-> Perception is not passively received.  
-> Perception is enacted through interaction.
-
-Figure \@ref(fig:fig-embodied) Panel 1 illustrates this contrast between traditional brain-centered models and embodied-enactive frameworks.
+Both approaches reject the idea that consciousness can be fully understood by studying the brain in isolation. The brain is essential, but it functions as part of a living embodied system.
 
 ## Phenomenology and the Lived Body
 
-Embodied theories were strongly influenced by phenomenology.
+Embodied theories are strongly influenced by phenomenology. Phenomenology emphasizes first-person experience, lived embodiment, intentionality, situated perception, and the way the world appears to a subject.
 
-Phenomenological traditions emphasize:
+Merleau-Ponty’s idea of the lived body is central [@merleauPonty1945]. We do not merely own bodies as external objects. We experience the world through the body. The body is the point of view from which the world is encountered.
 
-- first-person experience;
-- lived embodiment;
-- bodily intentionality;
-- and situated perception.
+For example, a cup appears as something graspable. A staircase appears as something climbable. A doorway appears as something passable. These meanings depend on bodily capacities. A world is not experienced as a neutral collection of data, but as a field of possible action.
 
-Maurice Merleau-Ponty argued that:
-
-> We do not merely have bodies — we experience the world through them.
-
-According to phenomenology:
-
-- consciousness is always embodied;
-- perception is situated;
-- and selfhood emerges through lived bodily experience.
-
-This perspective rejects the idea of a detached observing mind separated from bodily existence.
+This phenomenological perspective is important for consciousness because it shows that experience is always situated. Consciousness is not a detached inner screen. It is embodied engagement with a world.
 
 ## Sensorimotor Engagement
 
-A foundational claim of enactive consciousness theories is that perception depends on sensorimotor engagement.
+A foundational claim of enactive theories is that perception depends on sensorimotor engagement. The organism perceives by acting, moving, exploring, and adjusting to the environment.
 
-Figure \@ref(fig:fig-embodied) Panel 2 illustrates the sensorimotor loop.
-
-As shown in Panel 2:
-
-1. action changes the environment;
-2. environmental changes generate sensory feedback;
-3. sensory feedback updates perception;
-4. new actions follow.
-
-According to this framework:
+The sensorimotor loop can be summarized as:
 
 ```text
-perception ↔ action
+action → sensory change → perceptual updating → further action
 ```
 
-rather than:
+For example, vision is not simply the passive reception of images. Eye movements, head movements, bodily posture, and exploratory action all shape what is seen. Touch is even more obviously active. To perceive an object by touch, one must move, press, explore, and respond.
 
-```text
-passive sensory input → internal representation
-```
+According to sensorimotor theories, conscious perception depends on mastery of sensorimotor relations: the organism implicitly understands how sensory input changes as it moves [@noe2004].
 
-Enactive theorists therefore argue that conscious perception depends fundamentally on:
+This gives perception a practical and active character. The world is not simply represented internally. It is encountered through skillful engagement.
 
-- movement;
-- exploration;
-- bodily interaction;
-- and active environmental engagement.
+## Organism-Environment Coupling
 
-## Organism–Environment Coupling
+Embodied and enactive theories emphasize organism-environment coupling. Organisms and environments continuously influence one another. The organism acts on the world, the world responds, and the organism adjusts.
 
-Embodied and enactive theories emphasize reciprocal interaction between organism and environment.
+This coupling makes consciousness relational and dynamic. Experience does not occur in an isolated brain. It occurs in the ongoing relation between a living system and its surroundings.
 
-Figure \@ref(fig:fig-embodied) Panel 3 illustrates this coupling.
+For example, walking through a forest involves vision, balance, movement, memory, touch, sound, emotion, and environmental affordances. The experience cannot be fully understood by studying neural activity alone. It also depends on bodily movement, terrain, light, sound, temperature, and practical goals.
 
-According to this framework:
-
-- organisms shape environments;
-- environments shape organisms;
-- experience emerges through continuous interaction.
-
-Consciousness is therefore treated as:
-
-- relational;
-- dynamic;
-- situated;
-- and action-dependent.
-
-This perspective differs sharply from theories treating consciousness as purely internal neural representation.
+This does not mean the brain is unimportant. It means that brain activity must be understood within the larger loop of embodied action.
 
 ## Bodily Influences on Conscious Experience
 
-Embodied theories emphasize that bodily states shape conscious experience at multiple levels.
+Embodied theories emphasize that bodily states shape conscious experience at many levels. Posture can influence mood. Facial expression can influence emotional experience. Bodily tension can shape anxiety. Hunger, fatigue, pain, and breathing can change how the world feels.
 
-Figure \@ref(fig:fig-embodied) Panel 4 illustrates these bodily influences.
+Conscious experience is therefore not purely cognitive. It is affective, physiological, and bodily. What a person experiences depends partly on the condition of the body.
 
-Examples include:
+This is especially clear in emotion. Emotions are not merely thoughts about situations. They involve bodily readiness, autonomic regulation, facial expression, hormonal changes, visceral sensation, and action tendencies [@barrett2017].
 
-- posture influencing emotion;
-- interoception shaping self-awareness;
-- bodily tension affecting mood;
-- facial expression altering emotional perception;
-- movement shaping spatial cognition.
-
-Embodied approaches therefore argue that:
-
-> Conscious experience is deeply constrained and structured by bodily organization.
-
-This includes:
-
-- proprioception;
-- interoception;
-- autonomic regulation;
-- and emotional physiology.
+Embodied approaches therefore challenge theories that treat consciousness as abstract representation alone. Experience is lived through a body with needs, vulnerabilities, and capacities.
 
 ## Interoception and Selfhood
 
-Modern embodied theories increasingly emphasize **interoception**.
+Interoception refers to the sensing of internal bodily states such as heartbeat, breathing, hunger, pain, temperature, fatigue, and visceral sensation. Modern embodied theories increasingly treat interoception as central to consciousness and selfhood.
 
-Interoception refers to awareness of internal bodily states such as:
+The sense of being a self may depend partly on ongoing regulation of the living body. The brain continuously monitors and predicts bodily states, helping maintain physiological stability. Conscious feeling may arise from this ongoing regulation of the organism [@seth2013; @seth2021].
 
-- heartbeat;
-- breathing;
-- hunger;
-- pain;
-- fatigue;
-- and visceral sensation.
+This connects embodied theory with affective neuroscience and Predictive Processing. A person’s experience of self is not only a narrative or cognitive model. It is also a felt bodily presence.
 
-Some researchers argue that:
+Anxiety, for example, may involve predictive interpretation of bodily signals. A racing heart may be experienced as danger. Calm breathing may change emotional experience. In this way, interoception shapes both emotion and self-awareness.
 
-- bodily self-awareness;
-- emotional feeling;
-- and sense of self
-
-depend heavily on interoceptive processes.
-
-Figure \@ref(fig:fig-embodied) Panel 7 illustrates embodied selfhood.
-
-According to embodied approaches:
-
-> The self may emerge through ongoing bodily regulation and interaction rather than through abstract internal representation alone.
+Embodied selfhood therefore begins not with abstract thought, but with bodily regulation and lived feeling.
 
 ## Anti-Representationism
 
-Many enactive theorists criticize strong representational models of cognition.
+Many enactive theorists criticize strong representational models of cognition. Traditional cognitive science often assumes that the brain builds internal representations of the world and then uses those representations to guide behaviour.
 
-Traditional cognitive science often assumes:
+Some enactive approaches argue that this picture is too detached. Cognition is not always a matter of constructing inner models. Sometimes organisms respond directly to affordances in the environment through skilled action. Understanding emerges through engagement rather than internal representation alone [@chemero2009; @hutto2013].
 
-- the brain builds internal models of the world;
-- cognition operates primarily through symbolic representations.
+This view is sometimes called anti-representationalism or non-representational cognition. It does not necessarily deny that the brain processes information. Rather, it challenges the idea that cognition always requires detailed internal world-models.
 
-Some enactive approaches instead argue that:
+Not all embodied theorists reject representation completely. Some argue for a moderate position: representation exists, but it is action-oriented, body-dependent, and environmentally embedded.
 
-- cognition is action-oriented;
-- understanding emerges through engagement;
-- perception depends on practical interaction rather than detached representation.
+## Computational and Embodied Cognition
 
-This perspective is sometimes called:
+Embodied theories are often contrasted with classical computational theories. Computationalism explains cognition in terms of information processing, internal representation, symbolic manipulation, or computational dynamics. Embodied cognition emphasizes bodily engagement, sensorimotor coupling, and environmental embedding.
 
-- anti-representationalism;
-or:
-- non-representational cognition.
+The contrast can be summarized as:
 
-However, not all embodied theorists reject representation entirely.
+```text
+classical computational model:
+input → internal processing → output
 
-## Computational vs Embodied Cognition
+embodied-enactive model:
+brain ↔ body ↔ environment
+```
 
-Figure \@ref(fig:fig-embodied) Panel 5 compares classical computational models with embodied cognition.
+Embodied theorists argue that intelligence and consciousness cannot be fully understood as disembodied computation. A system’s body affects what it can perceive, what actions are possible, what matters to it, and how it experiences the world.
 
-Traditional computational theories emphasize:
-
-- symbolic processing;
-- internal representations;
-- passive information input;
-- and isolated neural computation.
-
-Embodied theories instead emphasize:
-
-- situated interaction;
-- bodily engagement;
-- sensorimotor coupling;
-- environmental embedding;
-- and dynamic feedback.
-
-This distinction became especially important in debates concerning:
-
-- robotics;
-- AI;
-- cognitive science;
-- and artificial consciousness.
+However, embodied and computational approaches need not be completely opposed. Some contemporary theories combine computation with embodiment. Predictive Processing and Active Inference, for example, explain perception and action through predictive models while also emphasizing bodily regulation and active engagement [@friston2010; @clark2013; @clark2016].
 
 ## Extended Mind and Cognitive Scaffolding
 
-Some embodied approaches connect with the **extended mind** hypothesis.
+Some embodied approaches connect with the extended mind hypothesis. According to this view, cognition may extend beyond the biological brain into tools, technologies, environments, symbols, and social systems [@clark1998; @chalmers1998].
 
-Figure \@ref(fig:fig-embodied) Panel 6 illustrates this idea.
+For example, a notebook can function as external memory. A map can guide spatial reasoning. A smartphone can extend memory, communication, and navigation. Language and writing can structure thought across individuals and generations.
 
-According to extended mind theories:
+The extended mind hypothesis does not claim that every tool is literally part of consciousness. Rather, it argues that cognitive processes may sometimes include external supports when those supports are reliably integrated into action and thought.
 
-- cognition may extend beyond the biological brain into:
-  - tools;
-  - technologies;
-  - environments;
-  - symbols;
-  - and social systems.
-
-Examples include:
-
-- notebooks;
-- smartphones;
-- maps;
-- language;
-- collaborative cognition;
-- internet-based memory systems.
-
-This perspective proposes that conscious cognition may depend partly on external cognitive scaffolding.
+This idea is important for consciousness because it challenges the boundary between mind and world. If cognition can extend into the environment, then consciousness may also depend partly on external scaffolding, social interaction, and cultural tools.
 
 ## Emotion and Embodied Consciousness
 
-Embodied approaches strongly emphasize emotion.
+Emotion is central to embodied consciousness. Emotions are not merely internal judgments or abstract evaluations. They involve bodily regulation, action readiness, autonomic change, facial expression, interoception, and social context.
 
-According to these theories:
+Embodied approaches therefore interpret emotion as a whole-organism process. Fear prepares the body for danger. Anger organizes action. Sadness changes posture, energy, and social orientation. Joy alters movement, expression, and engagement.
 
-- emotions are not merely internal thoughts;
-- emotions involve bodily regulation and action readiness.
+This view helps explain why emotions feel bodily. Affective consciousness is not only about representing emotional concepts. It is about living through bodily patterns of regulation and readiness.
 
-Conscious feeling may therefore depend partly on:
-
-- autonomic processes;
-- hormonal regulation;
-- bodily feedback;
-- and interoceptive signaling.
-
-This connects embodied theories to modern affective neuroscience.
+This also connects embodied theories to selfhood. The self is not only a thinking subject. It is a feeling, moving, vulnerable organism situated in the world.
 
 ## Social Embodiment
 
-Some enactive approaches emphasize social interaction.
+Some enactive approaches emphasize that consciousness is socially shaped. Human experience develops through interaction with others. Infants learn attention, emotion, language, gesture, and selfhood through embodied social engagement.
 
-According to these theories:
+The concept of participatory sense-making describes how meaning can emerge through social interaction rather than inside isolated individuals alone [@diPaolo2017]. A conversation, dance, shared task, or emotional exchange involves coordinated activity between people.
 
-- consciousness develops partly through interaction with others;
-- social engagement shapes selfhood;
-- communication and culture influence conscious experience.
-
-This perspective is sometimes called:
-
-- participatory sense-making;
-or:
-- socially enacted cognition.
-
-Consciousness therefore becomes:
-
-- relational;
-- interactive;
-- and socially embedded.
+This view suggests that consciousness is not only embodied but also relational. Social interaction shapes self-awareness, emotion, identity, and meaning. Consciousness develops within interpersonal and cultural worlds.
 
 ## Embodied Consciousness and Artificial Intelligence
 
-Embodied theories have important implications for AI consciousness.
+Embodied theories have important implications for artificial intelligence and machine consciousness. If consciousness depends fundamentally on bodily interaction, sensorimotor engagement, environmental embedding, and lived regulation, then purely disembodied computational systems may lack essential ingredients for genuine consciousness.
 
-If consciousness depends fundamentally on:
+From this perspective, intelligence alone is not enough. A language model, planning system, or symbolic processor may perform sophisticated tasks without being a living embodied agent. It may lack bodily needs, sensorimotor grounding, affective regulation, vulnerability, and practical engagement with the world.
 
-- bodily interaction;
-- sensorimotor engagement;
-- environmental embedding;
-- and lived embodiment,
+Some theorists therefore argue that genuine artificial consciousness may require robotic embodiment, active environmental exploration, sensorimotor learning, and adaptive regulation. A conscious artificial system might need not only information processing but also a body through which the world matters to it.
 
-then purely disembodied computational systems may lack essential ingredients for genuine consciousness.
-
-Figure \@ref(fig:fig-embodied) Panel 5 illustrates this distinction.
-
-According to embodied approaches:
-
-```text
-intelligence alone ≠ consciousness
-```
-
-Some theorists therefore argue that genuine artificial consciousness may require:
-
-- robotic embodiment;
-- active environmental engagement;
-- sensorimotor learning;
-- and adaptive bodily interaction.
+However, this remains debated. Some computationalists argue that embodiment can be simulated or functionally implemented. Embodied theorists reply that simulation may not be equivalent to lived embodiment. Recent discussions of AI consciousness therefore treat embodiment as a major but contested criterion [@butlin2023].
 
 ## Dreaming and Altered States
 
-Embodied theories face important questions concerning dreams and altered states.
+Embodied and enactive theories face an important challenge from dreams and altered states. If consciousness depends heavily on active environmental interaction, how can dream consciousness occur when ordinary sensorimotor engagement is reduced?
 
-If consciousness depends heavily on environmental interaction:
+One response is that dreaming still depends on the body. The sleeping brain remains embedded in a living organism with bodily rhythms, interoceptive signals, posture, breathing, and emotional regulation. Dream experience may draw on internalized sensorimotor patterns and bodily models.
 
-- how should dream consciousness be explained?
-- how does internally generated experience occur during sensory isolation?
+Another response is that enactive theories should not claim that current external interaction is always necessary for every conscious state. Rather, they can argue that the capacities enabling dream consciousness were formed through embodied life and continue to depend on bodily organization.
 
-Some theorists argue that:
-
-- dreams rely on internalized sensorimotor models;
-- bodily organization remains important even during sleep.
-
-However, this remains an ongoing area of debate.
+This issue remains an important debate. Dreaming shows that consciousness can become internally generated, but it does not necessarily show that embodiment is irrelevant.
 
 ## Relation to Predictive Processing
 
-Some modern predictive-processing theories integrate embodiment through **active inference**.
+Predictive Processing and Active Inference increasingly overlap with embodied and enactive theories. Predictive Processing explains perception through hierarchical prediction and prediction-error minimization. Active Inference adds that organisms act on the world to reduce uncertainty [@friston2010; @clark2013].
 
-According to active inference models:
+This creates a bridge between brain-based prediction and embodied action. Perception is not passive reception. It is shaped by movement, bodily regulation, and active sampling of the environment.
 
-- organisms minimize prediction error through action;
-- bodily movement helps shape perception;
-- cognition depends on active environmental engagement.
+However, some enactive theorists argue that Predictive Processing can remain too brain-centered if it treats the body and world mainly as sources of sensory data. A fully enactive approach emphasizes that the organism and environment form a coupled system, not just a brain receiving input.
 
-This creates important overlaps between:
+The relationship between Predictive Processing and enactivism is therefore productive but contested. Both reject passive perception, but they differ in how strongly they emphasize internal models.
 
-- predictive processing;
-- Bayesian approaches;
-- and embodied cognition.
+## Relation to Other Theories
+
+Embodied and enactive theories differ from several other theories discussed in this book.
+
+### Relation to Computationalism
+
+Computationalism emphasizes information processing and functional organization. Embodied theories argue that cognition cannot be fully understood without bodily and environmental context.
+
+### Relation to Global Workspace Theory
+
+Global Workspace Theory emphasizes global broadcasting and cognitive access. Embodied theories ask how globally available contents are shaped by bodily action, affect, and situated engagement.
+
+### Relation to Integrated Information Theory
+
+Integrated Information Theory emphasizes intrinsic causal integration. Embodied theories emphasize organism-world interaction and lived bodily experience.
+
+### Relation to Higher-Order Thought Theory
+
+Higher-Order theories emphasize awareness of mental states. Embodied theories emphasize bodily self-awareness, sensorimotor skill, and lived experience before reflective thought.
+
+### Relation to Panpsychism and T-Consciousness
+
+Embodied and enactive theories differ from consciousness-first frameworks such as panpsychism and Taheri’s T-Consciousness. Embodied theories begin with living organisms, bodily regulation, and environmental engagement. Consciousness-first theories treat consciousness as fundamental or prior to biological organization [@taheri2020; @taheri2023]. The two approaches may both criticize reductive computationalism, but they do so in different ways. Embodied theories emphasize lived biological interaction, while T-Consciousness emphasizes foundational non-material consciousness.
 
 ## Strengths of Embodied and Enactive Theories
 
-Major strengths include:
+Embodied and enactive theories have several major strengths. First, they integrate body and environment into the study of consciousness. They avoid treating the brain as an isolated computer.
 
-- integration of body and environment;
-- strong phenomenological grounding;
-- emphasis on lived experience;
-- explanation of situated cognition;
-- compatibility with robotics and ecological psychology;
-- strong treatment of sensorimotor interaction;
-- integration of emotion and interoception.
+Second, they are strongly grounded in phenomenology. They take seriously the lived body, first-person experience, situated perception, and practical engagement.
 
-Embodied approaches also provide powerful critiques of overly abstract computational models.
+Third, they explain why perception is action-oriented. The world appears in terms of affordances, possibilities, and bodily relevance.
+
+Fourth, they connect consciousness with emotion, interoception, bodily regulation, and selfhood.
+
+Fifth, they are important for robotics and artificial intelligence because they show why disembodied computation may be insufficient for genuine cognition or consciousness.
+
+Sixth, they provide a powerful critique of overly abstract theories that neglect lived experience.
 
 ## Weaknesses and Criticisms
 
-Despite their strengths, embodied and enactive theories face major criticisms.
+Embodied and enactive theories also face criticisms. One concern is lack of precise mechanism. Some embodied theories are philosophically rich but difficult to operationalize experimentally.
 
-### Lack of Precise Mechanism
+A second concern is that representation may still matter. Critics argue that internal neural representations are necessary for memory, imagination, planning, dreaming, counterfactual reasoning, and abstract thought.
 
-Some embodied theories remain conceptually broad and difficult to operationalize experimentally.
+A third criticism is that the hard problem remains. Embodied interaction may explain perception, action, and situated behaviour, but why should bodily engagement feel like anything? [@chalmers1995; @chalmers1996]
 
-### Representation May Still Matter
+A fourth criticism concerns dream consciousness. If consciousness depends on active environmental interaction, internally generated dreams require special explanation.
 
-Critics argue that internal neural representations may still play essential roles in cognition.
+A fifth criticism concerns minimal consciousness. Can paralyzed individuals, isolated brains, or minimally embodied systems still be conscious? If so, embodiment may be important but not strictly necessary in the strongest sense.
 
-### Hard Problem Remains
-
-Embodied interaction may explain:
-
-- cognition;
-- behaviour;
-- and environmental engagement,
-
-without fully explaining:
-
-- subjective feeling itself.
-
-### Dreaming Problem
-
-If consciousness requires active environmental interaction:
-
-> How should dreams and internally generated experiences be explained?
-
-### Minimal Consciousness
-
-Critics ask whether:
-
-- isolated brains;
-- paralyzed individuals;
-- or minimally embodied systems
-
-could still possess consciousness.
+These criticisms do not eliminate embodied theories, but they show that embodiment alone may not be a complete explanation of consciousness.
 
 ## Relation to the Hard Problem
 
-Embodied and enactive theories shift attention away from isolated internal mechanisms toward:
+Embodied and enactive theories shift the hard problem away from isolated brain mechanisms and toward lived organism-world interaction. They argue that consciousness cannot be understood by looking only at neural computation. It must be understood as embodied, affective, situated, and active.
 
-- lived experience;
-- bodily engagement;
-- and organism-environment interaction.
+This shift is important. It makes consciousness less abstract and reconnects it with life, action, emotion, and environment. It also explains why conscious experience has practical meaning for an organism.
 
-However, critics argue that important questions remain:
+However, critics argue that the hard problem remains. Even if consciousness depends on embodied interaction, why should embodied interaction generate subjective experience? Why should sensorimotor coupling feel like anything?
 
-- Why should embodied interaction generate subjective experience?
-- Why should sensorimotor engagement feel like anything?
-- How does bodily coupling produce phenomenology?
+Embodied and enactive theories therefore enrich the problem of consciousness rather than simply solving it. They show that consciousness is not merely in the head, but they must still explain why embodied life is experienced from the inside.
 
-Thus embodied approaches may enrich the study of consciousness without fully resolving the hard problem itself.
+## Open Questions
 
-## Explanatory Scope
+Several questions remain unresolved. Can embodiment fully explain consciousness? Is representation still necessary? Can disembodied systems become conscious? How should dream consciousness be explained? What neural mechanisms are essential? Can embodiment be measured quantitatively? How does social interaction shape consciousness? How does lived bodily experience relate to phenomenal consciousness? Can artificial systems become conscious without biological bodies?
 
-Embodied and enactive theories attempt to explain:
+These questions show why embodied and enactive theories remain influential and debated. They provide an important corrective to brain-centered theories, but they must be integrated with neuroscience, phenomenology, and empirical research.
 
-- perception;
-- selfhood;
-- bodily awareness;
-- environmental engagement;
-- emotion;
-- sensorimotor cognition;
-- and situated experience.
+## Evaluation
 
-However, unresolved questions remain:
+Embodied and enactive theories are among the most important alternatives to purely brain-centered and computational accounts of consciousness. They argue that consciousness arises through dynamic interaction between brain, body, and environment.
 
-- Can embodiment fully explain consciousness?
-- Is representation still necessary?
-- Can disembodied systems become conscious?
-- How should dream consciousness be explained?
-- What neural mechanisms are essential?
-- Can embodiment be measured quantitatively?
+Their greatest strength is that they take lived experience seriously. Consciousness is not simply information processing. It is the experience of a living body acting in a meaningful world.
 
-## Summary
+Their greatest limitation is that embodiment may not fully explain subjective experience by itself. The theories need clearer mechanisms linking bodily interaction, neural dynamics, and phenomenology. They also need to explain dreams, imagination, abstract thought, and consciousness in conditions of reduced bodily action.
 
-Embodied and enactive theories propose that consciousness emerges through dynamic interaction between brain, body, and environment.
+Embodied and enactive theories are therefore best understood as essential frameworks for understanding the conditions and structure of conscious life. They may not solve the hard problem alone, but they show that any adequate theory of consciousness must include the body, action, emotion, and environment.
 
-These approaches reject purely brain-centered models and emphasize:
+## Chapter Summary
 
-- bodily engagement;
-- sensorimotor interaction;
-- organism-environment coupling;
-- interoception;
-- emotion;
-- and lived experience.
+Embodied and enactive theories propose that consciousness emerges through dynamic interaction between brain, body, and environment. They reject the idea that consciousness can be fully explained by isolated internal computation.
 
-Embodied approaches have become highly influential in:
+Embodied cognition emphasizes the role of bodily structure, movement, physiology, emotion, and interoception. Enactivism emphasizes active sense-making through organism-environment coupling.
 
-- phenomenology;
-- cognitive science;
-- robotics;
-- neuroscience;
-- and artificial intelligence research.
+These theories were influenced by phenomenology, ecological psychology, dynamical systems theory, and critiques of classical computationalism. Major themes include the lived body, sensorimotor engagement, affordances, interoception, social embodiment, and extended cognition.
 
-At the same time, major philosophical and empirical questions remain concerning:
+Embodied and enactive theories have important implications for artificial intelligence. They suggest that genuine machine consciousness may require more than disembodied computation. It may require sensorimotor grounding, environmental engagement, and adaptive bodily regulation.
 
-- neural mechanisms;
-- dream consciousness;
-- representation;
-- and the hard problem of consciousness.
+The theories’ strengths include their attention to lived experience, bodily feeling, emotion, action, and situated cognition. Their weaknesses include lack of precise mechanisms, debates about representation, the problem of dreams, and the continuing hard problem.
+
+The central unresolved question is whether embodied interaction fully explains consciousness, or whether it identifies essential conditions that must be combined with neural, cognitive, and phenomenological theories.

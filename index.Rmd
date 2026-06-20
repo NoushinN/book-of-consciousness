@@ -1,42 +1,68 @@
 ---
-title: "Theories of Consciousness: Neuroscientific, Philosophical, Computational, and Physical Perspectives"
-author: "Noushin Nabavi"
-date: "`r Sys.Date()`"
+
+title: "Theories of Consciousness: Neuroscientific, Philosophical, Computational, Embodied, Physical, and Consciousness-First Perspectives"
+author: "Noushin Nabavi, PhD"
+date: "2026"
 site: bookdown::bookdown_site
 documentclass: book
 classoption: oneside
 output:
-  bookdown::gitbook:
-    split_by: chapter
+bookdown::gitbook:
+split_by: chapter
 bibliography: references.bib
 biblio-style: apalike
 link-citations: yes
-description: "An academic bookdown project comparing major theories of consciousness."
----
+description: "An academic bookdown project comparing major theories of consciousness across neuroscience, philosophy, cognitive science, artificial intelligence, embodiment, phenomenology, physics, and consciousness-first frameworks."
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Epigraph {-}
+
+> *Between neuron and meaning, computation and feeling, matter and mind, consciousness remains the question that joins the sciences to philosophy.*
 
 # About this Book {-}
 
-This book introduces, explains, and critically evaluates major theories of consciousness. It is designed for an academic audience and is organized around the central question: *How, if at all, can consciousness be explained scientifically, philosophically, computationally, or physically?*
+This book introduces, explains, and critically evaluates major theories of consciousness. It is designed for an academic audience and is organized around the central question: *How, if at all, can consciousness be explained scientifically, philosophically, computationally, physically, phenomenologically, or through consciousness-first frameworks?*
 
-The book dedicates one major chapter to each theory or family of theories. Each theory is evaluated in relation to its historical development, core assumptions, explanatory framework, empirical support, strengths, weaknesses, unresolved gaps, and its ability to address central problems such as subjective experience, reportability, selfhood, attention, neural correlates, altered states, animal consciousness, and artificial intelligence.
+The book dedicates major chapters to individual theories or families of theories. Each chapter examines historical development, core assumptions, explanatory framework, empirical support, strengths, weaknesses, unresolved gaps, and the theory’s ability to address central problems such as subjective experience, reportability, selfhood, attention, neural correlates, altered states, animal consciousness, and artificial intelligence.
 
-The book also includes comparative chapters that examine how the theories relate to one another and which problems they can or cannot solve.
+The book also includes comparative and integrative chapters that examine how the theories relate to one another, which problems they clarify, which problems remain unresolved, and whether consciousness can ultimately be scientifically explained.
 
-## How to Render
+In addition to mainstream neuroscientific, computational, philosophical, and physical theories, the book also discusses consciousness-first frameworks, including panpsychism, cosmopsychism, and Taheri’s T-Consciousness, as part of the broader debate about whether consciousness is produced by matter, emerges from complexity, or is foundational to reality.
 
-In RStudio, run:
+## Scope of the Book
 
-```r
-bookdown::render_book("index.Rmd", "bookdown::gitbook")
-```
+The book covers topics including:
 
-For PDF output, install TinyTeX if needed:
+* The hard problem of consciousness
+* Historical development of consciousness research
+* Dualism, physicalism, functionalism, and emergentism
+* Global Workspace Theory
+* Integrated Information Theory
+* Higher-Order Thought Theory
+* Predictive Processing and Bayesian brain theories
+* Recurrent Processing Theory
+* Attention Schema Theory
+* Computationalism
+* Panpsychism, cosmopsychism, and consciousness-first frameworks
+* Quantum theories of consciousness
+* Illusionism
+* Embodied and enactive consciousness
+* Anesthesia, disorders of consciousness, and altered states
+* Artificial intelligence and machine consciousness
+* Comparative evaluation of consciousness theories
+* Scientific explanation and the limits of current theories
+* Future directions in consciousness research
 
-```r
-tinytex::install_tinytex()
-bookdown::render_book("index.Rmd", "bookdown::pdf_book")
-```
 
 ## Suggested Citation Style
 
-The default bibliography uses an author-date academic style. You may replace it with APA 7, Chicago Author-Date, or another CSL style if desired.
+The default bibliography uses an author-date academic style through `references.bib` and `apalike`. This can be replaced with APA 7, Chicago Author-Date, or another CSL style if desired.
+
+## Notes for Readers {-}
+
+This book is a developing academic project. Theories of consciousness remain actively debated, and no single framework currently explains all dimensions of consciousness. The aim of this book is therefore not to present one final answer, but to provide a structured, comparative, and interdisciplinary guide to the major approaches, their contributions, and their unresolved challenges.
+
+## Citation
+
+If referencing this project, please cite: Nabavi, N. *Theories of Consciousness: Neuroscientific, Philosophical, Computational, and Physical Perspectives*. [DOI](https://doi.org/10.5281/zenodo.20763456)
+
